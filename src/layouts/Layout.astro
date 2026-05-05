@@ -1,0 +1,76 @@
+---
+import { getCategories, slugify, formatStars, allRepos } from '../lib/repos';
+
+export interface Props {
+  title: string;
+  description?: string;
+}
+
+const { title, description = 'A curated collection of starred GitHub repositories' } = Astro.props;
+
+const categories = getCategories();
+const totalStars = allRepos.reduce((sum, r) => sum + r.stars, 0);
+---
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content={description} />
+    <title>{title} | Awesome Stars</title>
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+  </head>
+  <body class="bg-white text-slate-900 min-h-screen flex flex-col">
+    <!-- Header -->
+    <header class="bg-slate-900 text-white shadow-lg">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="flex items-center justify-between py-4">
+          <a href="/" class="flex items-center gap-3 hover:opacity-80 transition-opacity">
+            <span class="text-2xl">⭐</span>
+            <div>
+              <div class="text-xl font-bold tracking-tight">Awesome Stars</div>
+              <div class="text-slate-400 text-xs">
+                {allRepos.length} repos · {formatStars(totalStars)} total stars
+              </div>
+            </div>
+          </a>
+          <div class="text-slate-400 text-sm hidden sm:block">
+            {categories.size} categories
+          </div>
+        </div>
+
+        <!-- Category nav -->
+        <nav class="pb-3 overflow-x-auto">
+          <ul class="flex gap-1 min-w-max">
+            {Array.from(categories.values()).map((cat) => (
+              <li>
+                <a
+                  href={`/${cat.slug}/`}
+                  class="text-xs px-3 py-1.5 rounded-full text-slate-300 hover:text-white hover:bg-slate-700 transition-colors whitespace-nowrap block"
+                >
+                  {cat.name}
+                </a>
+              </li>
+            ))}
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Main content -->
+    <main class="flex-1 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 w-full">
+      <slot />
+    </main>
+
+    <!-- Footer -->
+    <footer class="border-t border-slate-200 bg-slate-50">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6 text-center text-slate-500 text-sm">
+        <p>
+          {allRepos.length} curated repositories across {categories.size} categories ·
+          Built with <a href="https://astro.build" class="text-slate-700 hover:underline">Astro</a>
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>

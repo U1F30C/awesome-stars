@@ -1,0 +1,72 @@
+---
+import Layout from '../layouts/Layout.astro';
+import { getCategories, formatStars, allRepos, categoryColor, getTopLanguages } from '../lib/repos';
+
+const categories = getCategories();
+const totalStars = allRepos.reduce((sum, r) => sum + r.stars, 0);
+---
+
+<Layout title="Home" description="A curated collection of starred GitHub repositories">
+  <!-- Hero -->
+  <section class="text-center py-12 border-b border-slate-100 mb-10">
+    <h1 class="text-4xl font-bold text-slate-900 mb-3">Awesome Stars</h1>
+    <p class="text-slate-500 text-lg mb-8">A curated collection of starred GitHub repositories</p>
+
+    <div class="flex justify-center gap-10 flex-wrap">
+      <div class="text-center">
+        <div class="text-3xl font-bold text-slate-900">{allRepos.length.toLocaleString()}</div>
+        <div class="text-slate-500 text-sm mt-1">Repositories</div>
+      </div>
+      <div class="text-center">
+        <div class="text-3xl font-bold text-slate-900">⭐ {formatStars(totalStars)}</div>
+        <div class="text-slate-500 text-sm mt-1">Total Stars</div>
+      </div>
+      <div class="text-center">
+        <div class="text-3xl font-bold text-slate-900">{categories.size}</div>
+        <div class="text-slate-500 text-sm mt-1">Categories</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Category grid -->
+  <section>
+    <h2 class="text-xl font-semibold text-slate-700 mb-6">Browse by Category</h2>
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4">
+      {Array.from(categories.values()).map((cat) => {
+        const color = categoryColor(cat.name);
+        const topLangs = getTopLanguages(cat.repos);
+        return (
+          <a
+            href={`/${cat.slug}/`}
+            class={`block rounded-xl overflow-hidden border ${color.border} hover:shadow-md transition-shadow group`}
+          >
+            <div class={`${color.header} px-4 py-3`}>
+              <h3 class="text-white font-semibold text-sm leading-snug">{cat.name}</h3>
+            </div>
+            <div class="bg-white px-4 py-3">
+              <div class="text-2xl font-bold text-slate-900 mb-1">{cat.repos.length}</div>
+              <div class="text-slate-500 text-xs mb-3">repositories</div>
+
+              {topLangs.length > 0 && (
+                <div class="flex flex-wrap gap-1">
+                  {topLangs.map((lang) => (
+                    <span class={`text-xs px-2 py-0.5 rounded-full ${color.badge}`}>{lang}</span>
+                  ))}
+                </div>
+              )}
+
+              <div class="mt-3 flex flex-wrap gap-1">
+                {Array.from(cat.subcategories.values()).map((sub) => (
+                  <span class="text-xs text-slate-400">
+                    {sub.name}
+                    <span class="text-slate-300 ml-0.5">({sub.repos.length})</span>
+                  </span>
+                ))}
+              </div>
+            </div>
+          </a>
+        );
+      })}
+    </div>
+  </section>
+</Layout>
