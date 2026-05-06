@@ -1,6 +1,7 @@
 ---
 import Layout from '../layouts/Layout.astro';
 import { getCategories, formatStars, allRepos, categoryColor, getTopLanguages } from '../lib/repos';
+import { href } from '../lib/url';
 
 const categories = getCategories();
 const totalStars = allRepos.reduce((sum, r) => sum + r.stars, 0);
@@ -37,7 +38,7 @@ const totalStars = allRepos.reduce((sum, r) => sum + r.stars, 0);
         const topLangs = getTopLanguages(cat.repos);
         return (
           <a
-            href={`/${cat.slug}/`}
+            href={href(`/${cat.slug}/`)}
             class={`block rounded-xl overflow-hidden border ${color.border} hover:shadow-md transition-shadow group`}
           >
             <div class={`${color.header} px-4 py-3`}>

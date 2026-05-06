@@ -1,5 +1,6 @@
 ---
 import { getCategories, slugify, formatStars, allRepos } from '../lib/repos';
+import { href } from '../lib/url';
 
 export interface Props {
   title: string;
@@ -26,7 +27,7 @@ const totalStars = allRepos.reduce((sum, r) => sum + r.stars, 0);
     <header class="bg-slate-900 text-white shadow-lg">
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="flex items-center justify-between py-4">
-          <a href="/" class="flex items-center gap-3 hover:opacity-80 transition-opacity">
+          <a href={href('/')} class="flex items-center gap-3 hover:opacity-80 transition-opacity">
             <span class="text-2xl">⭐</span>
             <div>
               <div class="text-xl font-bold tracking-tight">Awesome Stars</div>
@@ -46,7 +47,7 @@ const totalStars = allRepos.reduce((sum, r) => sum + r.stars, 0);
             {Array.from(categories.values()).map((cat) => (
               <li>
                 <a
-                  href={`/${cat.slug}/`}
+                  href={href(`/${cat.slug}/`)}
                   class="text-xs px-3 py-1.5 rounded-full text-slate-300 hover:text-white hover:bg-slate-700 transition-colors whitespace-nowrap block"
                 >
                   {cat.name}
