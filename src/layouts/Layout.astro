@@ -1,6 +1,7 @@
 ---
 import { getCategories, slugify, formatStars, allRepos } from '../lib/repos';
 import { href } from '../lib/url';
+import Search from '../components/Search.astro';
 
 export interface Props {
   title: string;
@@ -36,9 +37,7 @@ const totalStars = allRepos.reduce((sum, r) => sum + r.stars, 0);
               </div>
             </div>
           </a>
-          <div class="text-slate-400 text-sm hidden sm:block">
-            {categories.size} categories
-          </div>
+          <Search />
         </div>
 
         <!-- Category nav -->

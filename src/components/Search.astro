@@ -1,0 +1,252 @@
+---
+import { allRepos } from "../lib/repos";
+
+const reposJson = JSON.stringify(allRepos);
+---
+
+<div class="relative" id="global-search-container">
+    <div class="relative flex items-center">
+        <svg
+            class="absolute left-2.5 w-3.5 h-3.5 text-slate-400 pointer-events-none"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+            stroke-width="2"
+        >
+            <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path>
+        </svg>
+        <input
+            type="text"
+            id="global-search-input"
+            placeholder="Search repos..."
+            autocomplete="off"
+            spellcheck="false"
+            class="w-40 sm:w-52 pl-8 pr-9 py-1.5 text-sm bg-slate-800 text-slate-200 placeholder-slate-500 rounded-lg border border-slate-700 focus:outline-none focus:ring-2 focus:ring-slate-500 focus:border-slate-600 transition-all"
+        />
+        <kbd
+            class="absolute right-2.5 text-slate-500 text-xs pointer-events-none select-none hidden sm:block"
+            >⌘K</kbd
+        >
+    </div>
+
+    <div
+        id="global-search-dropdown"
+        class="absolute top-full right-0 mt-2 w-[30rem] max-w-[calc(100vw-1rem)] bg-white rounded-xl border border-slate-200 shadow-2xl z-50 hidden"
+    >
+        <ul
+            id="global-search-list"
+            class="divide-y divide-slate-100 max-h-[32rem] overflow-y-auto rounded-t-xl"
+        >
+        </ul>
+        <div
+            id="global-search-empty"
+            class="px-4 py-10 text-center text-slate-400 text-sm hidden"
+        >
+            No repositories found
+        </div>
+        <div
+            id="global-search-footer"
+            class="px-4 py-2 border-t border-slate-100 text-xs text-slate-400 flex justify-between items-center hidden bg-slate-50 rounded-b-xl"
+        >
+            <span id="global-search-count"></span>
+            <span class="hidden sm:block"
+                >↵ open &nbsp;·&nbsp; ↑↓ navigate &nbsp;·&nbsp; Esc close</span
+            >
+        </div>
+    </div>
+</div>
+
+<script type="application/json" id="search-repos" set:html={reposJson} />
+
+<script>
+    import Fuse from "fuse.js";
+
+    interface Repo {
+        id: number;
+        name: string;
+        owner: string;
+        url: string;
+        description: string;
+        language: string;
+        stars: number;
+        topics: string[];
+        updatedAt: string;
+        category: string;
+        subcategory: string;
+    }
+
+    const repos: Repo[] = JSON.parse(
+        document.getElementById("search-repos")!.textContent!,
+    );
+
+    const fuse = new Fuse(repos, {
+        keys: [
+            { name: "name", weight: 3 },
+            { name: "description", weight: 2 },
+            { name: "owner", weight: 1 },
+            { name: "language", weight: 1 },
+            { name: "topics", weight: 1 },
+            { name: "category", weight: 0.5 },
+            { name: "subcategory", weight: 0.5 },
+        ],
+        threshold: 0.3,
+        includeScore: true,
+        minMatchCharLength: 2,
+    });
+
+    const container = document.getElementById("global-search-container")!;
+    const input = document.getElementById(
+        "global-search-input",
+    ) as HTMLInputElement;
+    const dropdown = document.getElementById("global-search-dropdown")!;
+    const list = document.getElementById("global-search-list")!;
+    const emptyEl = document.getElementById("global-search-empty")!;
+    const footer = document.getElementById("global-search-footer")!;
+    const countEl = document.getElementById("global-search-count")!;
+
+    let selectedIndex = -1;
+    let currentResults: Fuse.FuseResult<Repo>[] = [];
+
+    function formatStars(n: number): string {
+        if (n >= 1_000_000) return (n / 1_000_000).toFixed(1) + "M";
+        if (n >= 1_000) return (n / 1_000).toFixed(1) + "K";
+        return n.toString();
+    }
+
+    function escapeHtml(str: string): string {
+        return str
+            .replace(/&/g, "&amp;")
+            .replace(/</g, "&lt;")
+            .replace(/>/g, "&gt;")
+            .replace(/"/g, "&quot;");
+    }
+
+    const MAX_RESULTS = 8;
+
+    function renderResults(results: Fuse.FuseResult<Repo>[]) {
+        currentResults = results;
+        selectedIndex = -1;
+
+        if (results.length === 0) {
+            list.innerHTML = "";
+            emptyEl.classList.remove("hidden");
+            footer.classList.add("hidden");
+            return;
+        }
+
+        emptyEl.classList.add("hidden");
+        footer.classList.remove("hidden");
+
+        const shown = results.slice(0, MAX_RESULTS);
+        const total = results.length;
+
+        countEl.textContent =
+            total > MAX_RESULTS
+                ? `Showing ${MAX_RESULTS} of ${total} results`
+                : `${total} result${total === 1 ? "" : "s"}`;
+
+        list.innerHTML = shown
+            .map((r, i) => {
+                const repo = r.item;
+                const langHtml = repo.language
+                    ? `<span class="text-xs px-1.5 py-0.5 rounded bg-slate-100 text-slate-600 shrink-0">${escapeHtml(repo.language)}</span>`
+                    : "";
+                const descHtml = repo.description
+                    ? `<span class="text-xs text-slate-500 truncate block">${escapeHtml(repo.description)}</span>`
+                    : "";
+
+                return `<li data-index="${i}">
+          <a
+            href="${escapeHtml(repo.url)}"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="result-item flex flex-col gap-1 px-4 py-3 hover:bg-slate-50 transition-colors block"
+          >
+            <div class="flex items-center justify-between gap-2 min-w-0">
+              <span class="font-medium text-slate-900 text-sm truncate">${escapeHtml(repo.owner)}/<strong class="text-slate-900">${escapeHtml(repo.name)}</strong></span>
+              <span class="text-xs text-slate-500 shrink-0">⭐ ${formatStars(repo.stars)}</span>
+            </div>
+            ${descHtml}
+            <div class="flex items-center gap-2 min-w-0">
+              <span class="text-xs text-slate-400 truncate">${escapeHtml(repo.category)} › ${escapeHtml(repo.subcategory)}</span>
+              ${langHtml}
+            </div>
+          </a>
+        </li>`;
+            })
+            .join("");
+    }
+
+    function showDropdown() {
+        dropdown.classList.remove("hidden");
+    }
+
+    function hideDropdown() {
+        dropdown.classList.add("hidden");
+        selectedIndex = -1;
+    }
+
+    function updateSelection() {
+        list.querySelectorAll(".result-item").forEach((el, i) => {
+            el.classList.toggle("bg-slate-50", i === selectedIndex);
+        });
+        if (selectedIndex >= 0) {
+            const li = list.querySelectorAll("li")[selectedIndex];
+            li?.scrollIntoView({ block: "nearest" });
+        }
+    }
+
+    input.addEventListener("input", () => {
+        const q = input.value.trim();
+        if (q.length < 2) {
+            hideDropdown();
+            return;
+        }
+        renderResults(fuse.search(q));
+        showDropdown();
+    });
+
+    input.addEventListener("keydown", (e) => {
+        if (dropdown.classList.contains("hidden")) return;
+
+        const visibleCount = Math.min(currentResults.length, MAX_RESULTS);
+
+        if (e.key === "ArrowDown") {
+            e.preventDefault();
+            selectedIndex = Math.min(selectedIndex + 1, visibleCount - 1);
+            updateSelection();
+        } else if (e.key === "ArrowUp") {
+            e.preventDefault();
+            selectedIndex = Math.max(selectedIndex - 1, -1);
+            updateSelection();
+        } else if (e.key === "Enter" && selectedIndex >= 0) {
+            e.preventDefault();
+            const repo = currentResults[selectedIndex].item;
+            window.open(repo.url, "_blank", "noopener,noreferrer");
+        } else if (e.key === "Escape") {
+            input.value = "";
+            hideDropdown();
+            input.blur();
+        }
+    });
+
+    document.addEventListener("click", (e) => {
+        if (!container.contains(e.target as Node)) {
+            hideDropdown();
+        }
+    });
+
+    document.addEventListener("keydown", (e) => {
+        if ((e.metaKey || e.ctrlKey) && e.key === "k") {
+            e.preventDefault();
+            input.focus();
+            input.select();
+        }
+        if (e.key === "Escape" && document.activeElement !== input) {
+            hideDropdown();
+        }
+    });
+</script>
