@@ -26,7 +26,7 @@ There are no tests.
 
 Both call `getStaticPaths()` which drives Astro's static generation from `getCategories()`.
 
-**Base path:** The site is deployed to GitHub Pages at `/awesome-stars/`. The `base` in `astro.config.mjs` is set to `/awesome-stars/`. Every internal link must use `href()` from `src/lib/url.ts` — plain `href="/"` will break in production.
+**Base path:** The site is deployed to Netlify at the root path. Every internal link must use `href()` from `src/lib/url.ts` — plain `href="/"` will break if the base path ever changes.
 
 **Passing server data to client scripts:** Astro's `define:vars` does not support ES module `import` inside the same script block. When a client script needs both build-time data and a library import (e.g. `Search.astro` with Fuse.js), serialize the data as `<script type="application/json" id="...">` with `set:html={JSON.stringify(data)}` and read it with `document.getElementById(...).textContent` inside a normal `<script>` tag that can use `import`.
 
@@ -34,4 +34,4 @@ Both call `getStaticPaths()` which drives Astro's static generation from `getCat
 
 **Star sync (`src/github/`):** `npm run start` fetches all starred repos via the GitHub API, merges them into `classified_final.json` by id then name, and prints any new repos that need manual classification. Requires `GITHUB_TOKEN` and `GITHUB_USERNAME` in `.env`.
 
-**Deployment:** Pushing to `main` triggers the GitHub Actions workflow (`.github/workflows/deploy.yml`), which runs `npm install --legacy-peer-deps && npm run build` and deploys `dist/` to the `gh-pages` branch via `peaceiris/actions-gh-pages`.
+**Deployment:** Pushing to `main` triggers a Netlify build, which runs `npm install --legacy-peer-deps && npm run build` and publishes `dist/`.
