@@ -15,7 +15,6 @@ dist/
 *.d.ts
 
 # HUGO
-public/
 resources/
 
 # Generated data
