@@ -19,7 +19,7 @@
     ],
     "updatedAt": "2026-05-03T21:49:38Z",
     "category": "Standalone Tools & Apps",
-    "subcategory": "Developer Tools"
+    "subcategory": "Terminals & Shell"
   },
   {
     "id": 707551301,
@@ -136,7 +136,7 @@
     ],
     "updatedAt": "2026-05-03T21:25:30Z",
     "category": "Standalone Tools & Apps",
-    "subcategory": "Developer Tools"
+    "subcategory": "Terminals & Shell"
   },
   {
     "id": 292014229,
@@ -153,7 +153,7 @@
     ],
     "updatedAt": "2026-05-03T21:28:20Z",
     "category": "Standalone Tools & Apps",
-    "subcategory": "Developer Tools"
+    "subcategory": "Terminals & Shell"
   },
   {
     "id": 1580036,
@@ -166,7 +166,7 @@
     "topics": [],
     "updatedAt": "2026-05-03T19:02:41Z",
     "category": "Standalone Tools & Apps",
-    "subcategory": "Developer Tools"
+    "subcategory": "Terminals & Shell"
   },
   {
     "id": 237523442,
@@ -292,7 +292,7 @@
     ],
     "updatedAt": "2026-05-02T05:28:49Z",
     "category": "AI, LLMs & Data",
-    "subcategory": "Agent Harnesses"
+    "subcategory": "Agents"
   },
   {
     "id": 1007251296,
@@ -323,7 +323,7 @@
     ],
     "updatedAt": "2026-05-03T21:47:11Z",
     "category": "AI, LLMs & Data",
-    "subcategory": "Agent Harnesses"
+    "subcategory": "Agent Skills"
   },
   {
     "id": 965615190,
@@ -402,7 +402,7 @@
     ],
     "updatedAt": "2026-05-03T20:56:26Z",
     "category": "AI, LLMs & Data",
-    "subcategory": "Agent Harnesses"
+    "subcategory": "Agents"
   },
   {
     "id": 996329491,
@@ -423,7 +423,7 @@
     ],
     "updatedAt": "2026-05-03T21:15:21Z",
     "category": "AI, LLMs & Data",
-    "subcategory": "LLMs & GenAI"
+    "subcategory": "Agents"
   },
   {
     "id": 1061953414,
@@ -438,7 +438,7 @@
     ],
     "updatedAt": "2026-05-03T21:46:57Z",
     "category": "AI, LLMs & Data",
-    "subcategory": "Agent Harnesses"
+    "subcategory": "Agent Skills"
   },
   {
     "id": 1073224795,
@@ -451,7 +451,7 @@
     "topics": [],
     "updatedAt": "2026-05-03T21:49:24Z",
     "category": "AI, LLMs & Data",
-    "subcategory": "Agent Harnesses"
+    "subcategory": "Agent Skills"
   },
   {
     "id": 1035029907,
@@ -464,7 +464,7 @@
     "topics": [],
     "updatedAt": "2026-05-03T21:45:34Z",
     "category": "AI, LLMs & Data",
-    "subcategory": "Agent Harnesses"
+    "subcategory": "Agents"
   },
   {
     "id": 764287615,
@@ -490,7 +490,7 @@
     ],
     "updatedAt": "2026-05-03T18:55:57Z",
     "category": "AI, LLMs & Data",
-    "subcategory": "LLMs & GenAI"
+    "subcategory": "Agents"
   },
   {
     "id": 173228436,
@@ -603,7 +603,7 @@
     ],
     "updatedAt": "2026-05-03T19:59:30Z",
     "category": "AI, LLMs & Data",
-    "subcategory": "LLMs & GenAI"
+    "subcategory": "Agents"
   },
   {
     "id": 144407057,
@@ -711,7 +711,7 @@
     ],
     "updatedAt": "2026-05-03T21:12:25Z",
     "category": "AI, LLMs & Data",
-    "subcategory": "Agent Harnesses"
+    "subcategory": "Agents"
   },
   {
     "id": 1016323751,
@@ -808,8 +808,8 @@
     "stars": 3435,
     "topics": [],
     "updatedAt": "2026-05-03T21:47:20Z",
-    "category": "Standalone Tools & Apps",
-    "subcategory": "Developer Tools"
+    "category": "Infrastructure & Systems",
+    "subcategory": "Networking & P2P"
   },
   {
     "id": 71822014,
@@ -952,7 +952,7 @@
     ],
     "updatedAt": "2026-05-03T16:30:42Z",
     "category": "AI, LLMs & Data",
-    "subcategory": "LLMs & GenAI"
+    "subcategory": "Agents"
   },
   {
     "id": 892884163,
@@ -1084,7 +1084,7 @@
     ],
     "updatedAt": "2026-05-03T21:20:39Z",
     "category": "AI, LLMs & Data",
-    "subcategory": "Agent Harnesses"
+    "subcategory": "Agent Skills"
   },
   {
     "id": 1108837393,
@@ -1114,7 +1114,7 @@
     ],
     "updatedAt": "2026-05-03T21:44:47Z",
     "category": "AI, LLMs & Data",
-    "subcategory": "Agent Harnesses"
+    "subcategory": "Agents"
   },
   {
     "id": 1074561042,
@@ -1131,7 +1131,7 @@
     ],
     "updatedAt": "2026-05-03T21:42:27Z",
     "category": "AI, LLMs & Data",
-    "subcategory": "Agent Harnesses"
+    "subcategory": "Agents"
   },
   {
     "id": 970357908,
@@ -1961,8 +1961,8 @@
       "sql-server"
     ],
     "updatedAt": "2026-05-03T21:18:54Z",
-    "category": "Standalone Tools & Apps",
-    "subcategory": "User Applications"
+    "category": "Infrastructure & Systems",
+    "subcategory": "Security"
   },
   {
     "id": 53538899,
@@ -2374,7 +2374,7 @@
     ],
     "updatedAt": "2026-05-03T21:26:45Z",
     "category": "AI, LLMs & Data",
-    "subcategory": "Agent Harnesses"
+    "subcategory": "Agents"
   },
   {
     "id": 955620917,
@@ -2700,7 +2700,7 @@
     "topics": [],
     "updatedAt": "2026-05-03T21:49:12Z",
     "category": "AI, LLMs & Data",
-    "subcategory": "Agent Harnesses"
+    "subcategory": "Agents"
   },
   {
     "id": 900461318,
@@ -2730,7 +2730,7 @@
     ],
     "updatedAt": "2026-05-03T21:13:46Z",
     "category": "AI, LLMs & Data",
-    "subcategory": "Agent Harnesses"
+    "subcategory": "Agents"
   },
   {
     "id": 968197216,
@@ -2751,7 +2751,7 @@
     ],
     "updatedAt": "2026-05-03T21:46:58Z",
     "category": "AI, LLMs & Data",
-    "subcategory": "Agent Harnesses"
+    "subcategory": "Agents"
   },
   {
     "id": 937253475,
@@ -2764,7 +2764,7 @@
     "topics": [],
     "updatedAt": "2026-05-03T21:47:30Z",
     "category": "AI, LLMs & Data",
-    "subcategory": "Agent Harnesses"
+    "subcategory": "Agents"
   },
   {
     "id": 760683276,
@@ -2871,8 +2871,8 @@
       "slides"
     ],
     "updatedAt": "2026-05-03T16:40:39Z",
-    "category": "Web Development",
-    "subcategory": "CMS & Content"
+    "category": "Standalone Tools & Apps",
+    "subcategory": "Writing & Notes"
   },
   {
     "id": 890668799,
@@ -3061,7 +3061,7 @@
     "topics": [],
     "updatedAt": "2026-05-03T14:46:05Z",
     "category": "AI, LLMs & Data",
-    "subcategory": "Agent Harnesses"
+    "subcategory": "LLMs & GenAI"
   },
   {
     "id": 180328715,
@@ -4055,7 +4055,7 @@
     "topics": [],
     "updatedAt": "2026-05-02T12:34:06Z",
     "category": "AI, LLMs & Data",
-    "subcategory": "Agent Harnesses"
+    "subcategory": "Agents"
   },
   {
     "id": 12384349,
@@ -4288,8 +4288,8 @@
       "vibe-coding"
     ],
     "updatedAt": "2026-05-03T21:24:40Z",
-    "category": "Standalone Tools & Apps",
-    "subcategory": "User Applications"
+    "category": "AI, LLMs & Data",
+    "subcategory": "Agents"
   },
   {
     "id": 954152789,
@@ -4329,7 +4329,7 @@
     ],
     "updatedAt": "2026-05-03T21:47:58Z",
     "category": "AI, LLMs & Data",
-    "subcategory": "Agent Harnesses"
+    "subcategory": "Agents"
   },
   {
     "id": 965415649,
@@ -4342,7 +4342,7 @@
     "topics": [],
     "updatedAt": "2026-05-03T21:48:31Z",
     "category": "AI, LLMs & Data",
-    "subcategory": "Agent Harnesses"
+    "subcategory": "Agents"
   },
   {
     "id": 169975410,
@@ -4376,7 +4376,7 @@
     ],
     "updatedAt": "2026-05-03T19:17:30Z",
     "category": "AI, LLMs & Data",
-    "subcategory": "LLMs & GenAI"
+    "subcategory": "Agents"
   },
   {
     "id": 107784754,
@@ -5389,7 +5389,7 @@
     ],
     "updatedAt": "2026-05-03T21:46:36Z",
     "category": "AI, LLMs & Data",
-    "subcategory": "Agent Harnesses"
+    "subcategory": "Agents"
   },
   {
     "id": 854894542,
@@ -5525,7 +5525,7 @@
     ],
     "updatedAt": "2026-05-03T15:37:10Z",
     "category": "Standalone Tools & Apps",
-    "subcategory": "Developer Tools"
+    "subcategory": "Terminals & Shell"
   },
   {
     "id": 285092252,
@@ -5611,7 +5611,7 @@
     ],
     "updatedAt": "2026-03-07T06:01:56Z",
     "category": "AI, LLMs & Data",
-    "subcategory": "LLMs & GenAI"
+    "subcategory": "Agents"
   },
   {
     "id": 667019519,
@@ -6765,7 +6765,7 @@
     ],
     "updatedAt": "2026-05-03T21:47:51Z",
     "category": "AI, LLMs & Data",
-    "subcategory": "LLMs & GenAI"
+    "subcategory": "Agents"
   },
   {
     "id": 479657569,
@@ -6864,7 +6864,7 @@
     ],
     "updatedAt": "2026-05-03T20:34:17Z",
     "category": "Standalone Tools & Apps",
-    "subcategory": "User Applications"
+    "subcategory": "Writing & Notes"
   },
   {
     "id": 35017238,
@@ -6884,7 +6884,7 @@
     ],
     "updatedAt": "2026-05-03T19:44:33Z",
     "category": "Standalone Tools & Apps",
-    "subcategory": "User Applications"
+    "subcategory": "Writing & Notes"
   },
   {
     "id": 856372054,
@@ -8302,7 +8302,7 @@
     ],
     "updatedAt": "2026-04-29T20:55:29Z",
     "category": "AI, LLMs & Data",
-    "subcategory": "LLMs & GenAI"
+    "subcategory": "Agents"
   },
   {
     "id": 732459337,
@@ -8348,7 +8348,7 @@
     "topics": [],
     "updatedAt": "2026-04-28T18:18:05Z",
     "category": "Web Development",
-    "subcategory": "React Ecosystem"
+    "subcategory": "UI Components"
   },
   {
     "id": 728146855,
@@ -8419,7 +8419,7 @@
     ],
     "updatedAt": "2026-05-03T14:53:09Z",
     "category": "Web Development",
-    "subcategory": "React Ecosystem"
+    "subcategory": "CMS & Content"
   },
   {
     "id": 288528444,
@@ -8546,8 +8546,8 @@
       "vue"
     ],
     "updatedAt": "2026-05-03T01:42:22Z",
-    "category": "Knowledge & Inspiration",
-    "subcategory": "Educational & Awesome"
+    "category": "Infrastructure & Systems",
+    "subcategory": "Security"
   },
   {
     "id": 119162419,
@@ -8860,7 +8860,7 @@
     "topics": [],
     "updatedAt": "2026-03-17T12:48:10Z",
     "category": "Standalone Tools & Apps",
-    "subcategory": "User Applications"
+    "subcategory": "Writing & Notes"
   },
   {
     "id": 2851691,
@@ -8884,7 +8884,7 @@
     ],
     "updatedAt": "2026-04-25T02:06:54Z",
     "category": "Standalone Tools & Apps",
-    "subcategory": "User Applications"
+    "subcategory": "Writing & Notes"
   },
   {
     "id": 436658287,
@@ -9870,7 +9870,7 @@
     ],
     "updatedAt": "2026-04-30T01:43:00Z",
     "category": "Web Development",
-    "subcategory": "Frontend Frameworks"
+    "subcategory": "UI Components"
   },
   {
     "id": 2511505,
@@ -9992,7 +9992,7 @@
     ],
     "updatedAt": "2026-05-03T08:51:48Z",
     "category": "Web Development",
-    "subcategory": "React Ecosystem"
+    "subcategory": "UI Components"
   },
   {
     "id": 394089041,
@@ -10037,7 +10037,7 @@
     ],
     "updatedAt": "2026-05-03T21:24:50Z",
     "category": "AI, LLMs & Data",
-    "subcategory": "Agent Harnesses"
+    "subcategory": "Agents"
   },
   {
     "id": 331293626,
@@ -10093,7 +10093,7 @@
     ],
     "updatedAt": "2026-05-02T15:29:45Z",
     "category": "AI, LLMs & Data",
-    "subcategory": "Agent Harnesses"
+    "subcategory": "Agents"
   },
   {
     "id": 25121561,
@@ -10540,7 +10540,7 @@
     "topics": [],
     "updatedAt": "2026-05-03T18:08:33Z",
     "category": "Standalone Tools & Apps",
-    "subcategory": "User Applications"
+    "subcategory": "Writing & Notes"
   },
   {
     "id": 115446081,
@@ -10571,7 +10571,7 @@
     ],
     "updatedAt": "2026-05-03T18:53:38Z",
     "category": "Standalone Tools & Apps",
-    "subcategory": "User Applications"
+    "subcategory": "Writing & Notes"
   },
   {
     "id": 79162682,
@@ -10603,7 +10603,7 @@
     ],
     "updatedAt": "2026-05-03T21:22:35Z",
     "category": "Standalone Tools & Apps",
-    "subcategory": "User Applications"
+    "subcategory": "Writing & Notes"
   },
   {
     "id": 181738425,
@@ -10623,7 +10623,7 @@
     ],
     "updatedAt": "2026-04-27T12:25:58Z",
     "category": "Standalone Tools & Apps",
-    "subcategory": "User Applications"
+    "subcategory": "Writing & Notes"
   },
   {
     "id": 38558578,
@@ -12986,7 +12986,7 @@
     "topics": [],
     "updatedAt": "2026-05-03T00:39:09Z",
     "category": "AI, LLMs & Data",
-    "subcategory": "Machine Learning"
+    "subcategory": "LLMs & GenAI"
   },
   {
     "id": 63226588,
@@ -13025,7 +13025,7 @@
     "topics": [],
     "updatedAt": "2026-05-03T12:53:46Z",
     "category": "AI, LLMs & Data",
-    "subcategory": "LLMs & GenAI"
+    "subcategory": "Agents"
   },
   {
     "id": 186575075,
@@ -13232,7 +13232,7 @@
     ],
     "updatedAt": "2026-05-03T06:48:56Z",
     "category": "AI, LLMs & Data",
-    "subcategory": "Machine Learning"
+    "subcategory": "LLMs & GenAI"
   },
   {
     "id": 528152092,
@@ -13365,7 +13365,7 @@
     ],
     "updatedAt": "2026-05-03T21:39:21Z",
     "category": "AI, LLMs & Data",
-    "subcategory": "LLMs & GenAI"
+    "subcategory": "Agents"
   },
   {
     "id": 622737738,
@@ -13378,7 +13378,7 @@
     "topics": [],
     "updatedAt": "2026-05-03T13:48:11Z",
     "category": "AI, LLMs & Data",
-    "subcategory": "LLMs & GenAI"
+    "subcategory": "Agents"
   },
   {
     "id": 624987651,
@@ -13655,7 +13655,7 @@
     ],
     "updatedAt": "2026-05-03T08:20:16Z",
     "category": "Standalone Tools & Apps",
-    "subcategory": "User Applications"
+    "subcategory": "Writing & Notes"
   },
   {
     "id": 628065950,
@@ -14072,7 +14072,7 @@
     ],
     "updatedAt": "2026-05-03T15:37:17Z",
     "category": "AI, LLMs & Data",
-    "subcategory": "Agent Harnesses"
+    "subcategory": "Agents"
   },
   {
     "id": 96540810,
@@ -15051,7 +15051,7 @@
     ],
     "updatedAt": "2026-05-02T13:14:56Z",
     "category": "Standalone Tools & Apps",
-    "subcategory": "Game Development"
+    "subcategory": "User Applications"
   },
   {
     "id": 49976939,
@@ -15616,7 +15616,7 @@
     ],
     "updatedAt": "2026-05-03T11:15:31Z",
     "category": "Standalone Tools & Apps",
-    "subcategory": "User Applications"
+    "subcategory": "Writing & Notes"
   },
   {
     "id": 2056312,
@@ -15712,8 +15712,8 @@
       "webdav-server"
     ],
     "updatedAt": "2026-05-03T21:05:00Z",
-    "category": "Infrastructure & Systems",
-    "subcategory": "DevOps & Cloud"
+    "category": "Standalone Tools & Apps",
+    "subcategory": "User Applications"
   },
   {
     "id": 705774575,
@@ -15832,7 +15832,7 @@
     ],
     "updatedAt": "2026-05-03T13:50:48Z",
     "category": "Standalone Tools & Apps",
-    "subcategory": "User Applications"
+    "subcategory": "Writing & Notes"
   },
   {
     "id": 63465664,
@@ -15880,8 +15880,8 @@
       "web3"
     ],
     "updatedAt": "2026-05-03T20:00:07Z",
-    "category": "Web Development",
-    "subcategory": "Frontend Frameworks"
+    "category": "Standalone Tools & Apps",
+    "subcategory": "User Applications"
   },
   {
     "id": 57430512,
@@ -16016,7 +16016,7 @@
     ],
     "updatedAt": "2026-05-03T20:23:15Z",
     "category": "AI, LLMs & Data",
-    "subcategory": "Agent Harnesses"
+    "subcategory": "Agents"
   },
   {
     "id": 81751734,
@@ -17298,35 +17298,6 @@
     "subcategory": "Frontend Frameworks"
   },
   {
-    "id": 658928958,
-    "name": "ollama",
-    "owner": "ollama",
-    "url": "https://github.com/ollama/ollama",
-    "description": "Get up and running with Kimi-K2.5, GLM-5, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.",
-    "language": "Go",
-    "stars": 170618,
-    "topics": [
-      "deepseek",
-      "gemma",
-      "gemma3",
-      "glm",
-      "go",
-      "golang",
-      "gpt-oss",
-      "llama",
-      "llama3",
-      "llm",
-      "llms",
-      "minimax",
-      "mistral",
-      "ollama",
-      "qwen"
-    ],
-    "updatedAt": "2026-05-03T21:43:13Z",
-    "category": "AI, LLMs & Data",
-    "subcategory": "LLMs & GenAI"
-  },
-  {
     "id": 206121828,
     "name": "FreeRTOS",
     "owner": "FreeRTOS",
@@ -17901,7 +17872,7 @@
     ],
     "updatedAt": "2026-05-03T19:53:56Z",
     "category": "AI, LLMs & Data",
-    "subcategory": "LLMs & GenAI"
+    "subcategory": "Agents"
   },
   {
     "id": 683525671,
@@ -17968,7 +17939,7 @@
     ],
     "updatedAt": "2026-05-03T06:19:20Z",
     "category": "AI, LLMs & Data",
-    "subcategory": "LLMs & GenAI"
+    "subcategory": "Agents"
   },
   {
     "id": 17728164,
@@ -18333,7 +18304,7 @@
     "topics": [],
     "updatedAt": "2026-05-03T19:41:53Z",
     "category": "Standalone Tools & Apps",
-    "subcategory": "User Applications"
+    "subcategory": "Writing & Notes"
   },
   {
     "id": 418162859,
@@ -20934,8 +20905,8 @@
     "stars": 418,
     "topics": [],
     "updatedAt": "2026-04-29T15:30:33Z",
-    "category": "Standalone Tools & Apps",
-    "subcategory": "Multimedia"
+    "category": "AI, LLMs & Data",
+    "subcategory": "Speech & Audio AI"
   },
   {
     "id": 204434743,
@@ -22007,8 +21978,8 @@
       "ftpd-server"
     ],
     "updatedAt": "2026-05-03T18:36:35Z",
-    "category": "Infrastructure & Systems",
-    "subcategory": "Networking & P2P"
+    "category": "Standalone Tools & Apps",
+    "subcategory": "User Applications"
   },
   {
     "id": 206424,
@@ -23334,7 +23305,7 @@
     ],
     "updatedAt": "2026-05-03T20:39:56Z",
     "category": "Standalone Tools & Apps",
-    "subcategory": "Developer Tools"
+    "subcategory": "Terminals & Shell"
   },
   {
     "id": 315308864,
@@ -23415,7 +23386,7 @@
     ],
     "updatedAt": "2026-05-03T17:46:55Z",
     "category": "Standalone Tools & Apps",
-    "subcategory": "Developer Tools"
+    "subcategory": "User Applications"
   },
   {
     "id": 19416551,
@@ -24145,8 +24116,8 @@
       "puppeteer"
     ],
     "updatedAt": "2026-05-03T10:00:58Z",
-    "category": "Web Development",
-    "subcategory": "CMS & Content"
+    "category": "Libraries & Utilities",
+    "subcategory": "Documents & Data Formats"
   },
   {
     "id": 6756046,
@@ -27135,7 +27106,7 @@
     "topics": [],
     "updatedAt": "2026-05-05T05:48:03.258613Z",
     "category": "AI, LLMs & Data",
-    "subcategory": "Claws"
+    "subcategory": "Agents"
   },
   {
     "id": null,
@@ -27153,7 +27124,7 @@
     ],
     "updatedAt": "2026-05-05T05:48:03.258613Z",
     "category": "AI, LLMs & Data",
-    "subcategory": "Claws"
+    "subcategory": "Agents"
   },
   {
     "id": null,
@@ -27172,7 +27143,7 @@
     ],
     "updatedAt": "2026-05-05T05:48:03.258613Z",
     "category": "AI, LLMs & Data",
-    "subcategory": "Claws"
+    "subcategory": "Agents"
   },
   {
     "id": null,
@@ -27190,7 +27161,7 @@
     ],
     "updatedAt": "2026-05-05T05:48:03.258613Z",
     "category": "AI, LLMs & Data",
-    "subcategory": "Claws"
+    "subcategory": "Agents"
   },
   {
     "id": null,
@@ -27207,7 +27178,7 @@
     ],
     "updatedAt": "2026-05-05T05:48:03.258613Z",
     "category": "AI, LLMs & Data",
-    "subcategory": "Claws"
+    "subcategory": "Agents"
   },
   {
     "id": null,
@@ -27237,7 +27208,7 @@
     "topics": [],
     "updatedAt": "2026-05-05T05:48:03.258613Z",
     "category": "AI, LLMs & Data",
-    "subcategory": "Agent Harnesses"
+    "subcategory": "Agents"
   },
   {
     "id": null,
@@ -27250,7 +27221,7 @@
     "topics": [],
     "updatedAt": "2026-05-05T05:48:03.258613Z",
     "category": "AI, LLMs & Data",
-    "subcategory": "Agent Harnesses"
+    "subcategory": "Agents"
   },
   {
     "id": null,
@@ -27268,7 +27239,7 @@
     ],
     "updatedAt": "2026-05-05T05:48:03.258613Z",
     "category": "AI, LLMs & Data",
-    "subcategory": "Agent Harnesses"
+    "subcategory": "Agents"
   },
   {
     "id": 4537508,
@@ -27415,7 +27386,7 @@
     ],
     "updatedAt": "2026-05-17T07:07:46Z",
     "category": "Standalone Tools & Apps",
-    "subcategory": "User Applications"
+    "subcategory": "Writing & Notes"
   },
   {
     "id": 425837195,
@@ -27452,7 +27423,7 @@
     ],
     "updatedAt": "2026-05-17T15:58:46Z",
     "category": "AI, LLMs & Data",
-    "subcategory": "Agent Harnesses"
+    "subcategory": "Agent Skills"
   },
   {
     "id": 958531089,
@@ -27544,7 +27515,7 @@
     ],
     "updatedAt": "2026-05-17T19:37:53Z",
     "category": "AI, LLMs & Data",
-    "subcategory": "LLMs & GenAI"
+    "subcategory": "Agents"
   },
   {
     "id": 1160497244,
@@ -27614,8 +27585,8 @@
       "webui"
     ],
     "updatedAt": "2026-05-17T19:31:59Z",
-    "category": "Standalone Tools & Apps",
-    "subcategory": "User Applications"
+    "category": "AI, LLMs & Data",
+    "subcategory": "Agents"
   },
   {
     "id": 113593494,
@@ -27688,7 +27659,7 @@
     ],
     "updatedAt": "2026-05-17T20:46:06Z",
     "category": "AI, LLMs & Data",
-    "subcategory": "Claws"
+    "subcategory": "Agents"
   },
   {
     "id": 427542634,
@@ -27726,5 +27697,2085 @@
     "updatedAt": "2026-05-16T07:55:27Z",
     "category": "Knowledge & Inspiration",
     "subcategory": "Educational & Awesome"
+  },
+  {
+    "id": 975734319,
+    "name": "opencode",
+    "owner": "anomalyco",
+    "url": "https://github.com/anomalyco/opencode",
+    "description": "The open source coding agent.",
+    "language": "TypeScript",
+    "stars": 210397,
+    "topics": [],
+    "updatedAt": "2026-09-27T19:15:58Z",
+    "category": "AI, LLMs & Data",
+    "subcategory": "Agents"
+  },
+  {
+    "id": 1032459340,
+    "name": "OpenSpec",
+    "owner": "Fission-AI",
+    "url": "https://github.com/Fission-AI/OpenSpec",
+    "description": "Spec-driven development (SDD) for AI coding assistants.",
+    "language": "TypeScript",
+    "stars": 70489,
+    "topics": [
+      "ai",
+      "context-engineering",
+      "engineering",
+      "planning",
+      "prd",
+      "sdd",
+      "sdlc",
+      "spec",
+      "spec-driven-development",
+      "specification"
+    ],
+    "updatedAt": "2026-09-27T19:14:38Z",
+    "category": "AI, LLMs & Data",
+    "subcategory": "Agent Skills"
+  },
+  {
+    "id": 1142274728,
+    "name": "camofox-browser",
+    "owner": "jo-inc",
+    "url": "https://github.com/jo-inc/camofox-browser",
+    "description": "Stealth headless browser for AI agents — bypass Cloudflare, bot detection, and anti-scraping. Drop-in Puppeteer/Playwright replacement.",
+    "language": "JavaScript",
+    "stars": 11241,
+    "topics": [
+      "ai-agent",
+      "anti-bot",
+      "antidetect-browser",
+      "automation",
+      "bot-detection",
+      "browser-automation",
+      "cloudflare-bypass",
+      "headless-browser",
+      "javascript",
+      "nodejs",
+      "playwright",
+      "puppeteer",
+      "scraping",
+      "stealth-browser",
+      "web-scraping"
+    ],
+    "updatedAt": "2026-09-27T18:49:59Z",
+    "category": "AI, LLMs & Data",
+    "subcategory": "Agents"
+  },
+  {
+    "id": 177987738,
+    "name": "hedgedoc",
+    "owner": "hedgedoc",
+    "url": "https://github.com/hedgedoc/hedgedoc",
+    "description": "HedgeDoc - Ideas grow better together",
+    "language": "TypeScript",
+    "stars": 7445,
+    "topics": [
+      "codimd",
+      "collaboration",
+      "diagrams",
+      "editor",
+      "hackmd",
+      "hacktoberfest",
+      "hedgedoc",
+      "markdown",
+      "notes",
+      "real-time"
+    ],
+    "updatedAt": "2026-09-27T16:59:19Z",
+    "category": "Standalone Tools & Apps",
+    "subcategory": "Writing & Notes"
+  },
+  {
+    "id": 436297812,
+    "name": "memos",
+    "owner": "usememos",
+    "url": "https://github.com/usememos/memos",
+    "description": "Open-source, self-hosted note-taking tool built for quick capture. Markdown-native, lightweight, and fully yours.",
+    "language": "Go",
+    "stars": 63375,
+    "topics": [
+      "docker",
+      "foss",
+      "go",
+      "markdown",
+      "memo",
+      "microblog",
+      "note-taking",
+      "notecard",
+      "own-your-data",
+      "react",
+      "self-hosted",
+      "social-network",
+      "sqlite"
+    ],
+    "updatedAt": "2026-09-27T18:53:14Z",
+    "category": "Standalone Tools & Apps",
+    "subcategory": "Writing & Notes"
+  },
+  {
+    "id": 219616873,
+    "name": "glow",
+    "owner": "charmbracelet",
+    "url": "https://github.com/charmbracelet/glow",
+    "description": "Render markdown on the CLI, with pizzazz! 💅🏻",
+    "language": "Go",
+    "stars": 27486,
+    "topics": [
+      "cli",
+      "excitement",
+      "hacktoberfest",
+      "markdown"
+    ],
+    "updatedAt": "2026-09-27T17:50:08Z",
+    "category": "Standalone Tools & Apps",
+    "subcategory": "Writing & Notes"
+  },
+  {
+    "id": 930429452,
+    "name": "prompt-kit",
+    "owner": "ibelick",
+    "url": "https://github.com/ibelick/prompt-kit",
+    "description": "Core building blocks for AI apps.  High-quality, accessible, and customizable components for AI interfaces.",
+    "language": "TypeScript",
+    "stars": 3092,
+    "topics": [
+      "ai",
+      "components",
+      "nextjs",
+      "react",
+      "shadcn",
+      "shadcn-ui",
+      "tailwindcss",
+      "ui"
+    ],
+    "updatedAt": "2026-09-27T12:16:10Z",
+    "category": "AI, LLMs & Data",
+    "subcategory": "LLMs & GenAI"
+  },
+  {
+    "id": 66474729,
+    "name": "prowler",
+    "owner": "prowler-cloud",
+    "url": "https://github.com/prowler-cloud/prowler",
+    "description": "Prowler is the world’s most widely used open-source cloud security platform that automates security and compliance across any cloud environment.",
+    "language": "Python",
+    "stars": 14879,
+    "topics": [
+      "aws",
+      "azure",
+      "cis-benchmark",
+      "cloud",
+      "cloudsecurity",
+      "compliance",
+      "cspm",
+      "devsecops",
+      "forensics",
+      "gcp",
+      "gdpr",
+      "hacktoberfest",
+      "hardening",
+      "iam",
+      "multi-cloud",
+      "python",
+      "security",
+      "security-audit",
+      "security-hardening",
+      "security-tools"
+    ],
+    "updatedAt": "2026-09-27T15:29:42Z",
+    "category": "Infrastructure & Systems",
+    "subcategory": "Security"
+  },
+  {
+    "id": 374763231,
+    "name": "inngest",
+    "owner": "inngest",
+    "url": "https://github.com/inngest/inngest",
+    "description": "The leading workflow orchestration platform.  Run stateful step functions and AI workflows on serverless, servers, or the edge.",
+    "language": "Go",
+    "stars": 5894,
+    "topics": [
+      "cli",
+      "event-driven",
+      "event-driven-architecture",
+      "queues",
+      "serverless",
+      "serverless-functions",
+      "workflow-engine",
+      "workflows"
+    ],
+    "updatedAt": "2026-09-27T10:25:51Z",
+    "category": "Infrastructure & Systems",
+    "subcategory": "DevOps & Cloud"
+  },
+  {
+    "id": 501045649,
+    "name": "waveterm",
+    "owner": "wavetermdev",
+    "url": "https://github.com/wavetermdev/waveterm",
+    "description": "An open-source, AI-integrated, cross-platform terminal for seamless workflows",
+    "language": "Go",
+    "stars": 22373,
+    "topics": [
+      "command-line",
+      "developer-tools",
+      "linux",
+      "macos",
+      "productivity",
+      "terminal",
+      "terminal-emulators",
+      "windows"
+    ],
+    "updatedAt": "2026-09-27T15:27:07Z",
+    "category": "Standalone Tools & Apps",
+    "subcategory": "Terminals & Shell"
+  },
+  {
+    "id": 268163609,
+    "name": "qdrant",
+    "owner": "qdrant",
+    "url": "https://github.com/qdrant/qdrant",
+    "description": "Qdrant - High-performance, massive-scale Vector Database and Vector Search Engine for the next generation of AI. Also available in the cloud https://cloud.qdrant.io/",
+    "language": "Rust",
+    "stars": 34853,
+    "topics": [
+      "ai-search",
+      "ai-search-engine",
+      "embeddings-similarity",
+      "hnsw",
+      "hybrid-search",
+      "image-search",
+      "knn-algorithm",
+      "machine-learning",
+      "mlops",
+      "nearest-neighbor-search",
+      "neural-network",
+      "neural-search",
+      "recommender-system",
+      "search",
+      "search-engine",
+      "search-engines",
+      "similarity-search",
+      "vector-database",
+      "vector-search",
+      "vector-search-engine"
+    ],
+    "updatedAt": "2026-09-27T16:55:12Z",
+    "category": "Infrastructure & Systems",
+    "subcategory": "Databases & Storage"
+  },
+  {
+    "id": 607441698,
+    "name": "lancedb",
+    "owner": "lancedb",
+    "url": "https://github.com/lancedb/lancedb",
+    "description": "Developer-friendly OSS embedded retrieval library for multimodal AI. Search More; Manage Less.",
+    "language": "Rust",
+    "stars": 11540,
+    "topics": [
+      "approximate-nearest-neighbor-search",
+      "image-search",
+      "nearest-neighbor-search",
+      "recommender-system",
+      "search-engine",
+      "semantic-search",
+      "similarity-search",
+      "vector-database"
+    ],
+    "updatedAt": "2026-09-27T16:17:04Z",
+    "category": "Infrastructure & Systems",
+    "subcategory": "Databases & Storage"
+  },
+  {
+    "id": 579082810,
+    "name": "Prompt-Engineering-Guide",
+    "owner": "dair-ai",
+    "url": "https://github.com/dair-ai/Prompt-Engineering-Guide",
+    "description": "🐙 Guides, papers, lessons, notebooks and resources for prompt engineering, context engineering, RAG, and AI Agents.",
+    "language": "MDX",
+    "stars": 78673,
+    "topics": [
+      "agent",
+      "agents",
+      "ai-agents",
+      "chatgpt",
+      "deep-learning",
+      "generative-ai",
+      "language-model",
+      "llms",
+      "openai",
+      "prompt-engineering",
+      "rag"
+    ],
+    "updatedAt": "2026-09-27T18:54:47Z",
+    "category": "Knowledge & Inspiration",
+    "subcategory": "Educational & Awesome"
+  },
+  {
+    "id": 1127248221,
+    "name": "clawhub",
+    "owner": "openclaw",
+    "url": "https://github.com/openclaw/clawhub",
+    "description": "Skill + Plugin Registry for OpenClaw",
+    "language": "TypeScript",
+    "stars": 9461,
+    "topics": [
+      "directory",
+      "skill"
+    ],
+    "updatedAt": "2026-09-27T16:44:38Z",
+    "category": "AI, LLMs & Data",
+    "subcategory": "Agent Skills"
+  },
+  {
+    "id": 618296969,
+    "name": "Awesome-Minimal-JavaScript-Frameworks",
+    "owner": "n-ce",
+    "url": "https://github.com/n-ce/Awesome-Minimal-JavaScript-Frameworks",
+    "description": "A curated list of awesome Lightweight JavaScript Frameworks (CDN loadable)",
+    "language": "",
+    "stars": 30,
+    "topics": [
+      "awesome",
+      "awesome-list",
+      "client-side-rendering",
+      "javascript",
+      "javascript-framework",
+      "lightweight-javascript-framework"
+    ],
+    "updatedAt": "2026-08-24T17:30:48Z",
+    "category": "Knowledge & Inspiration",
+    "subcategory": "Educational & Awesome"
+  },
+  {
+    "id": 1024554267,
+    "name": "hermes-agent",
+    "owner": "NousResearch",
+    "url": "https://github.com/NousResearch/hermes-agent",
+    "description": "The agent that grows with you",
+    "language": "Python",
+    "stars": 249451,
+    "topics": [
+      "ai",
+      "ai-agent",
+      "ai-agents",
+      "anthropic",
+      "chatgpt",
+      "claude",
+      "claude-code",
+      "codex",
+      "hermes",
+      "hermes-agent",
+      "llm",
+      "nous-research",
+      "openai"
+    ],
+    "updatedAt": "2026-09-27T19:15:42Z",
+    "category": "AI, LLMs & Data",
+    "subcategory": "Agents"
+  },
+  {
+    "id": 947481827,
+    "name": "marmot",
+    "owner": "marmotdata",
+    "url": "https://github.com/marmotdata/marmot",
+    "description": "The open-source context layer for your AI. Catalog your tables, topics, queues and APIs then expose real metadata to your AI agents.",
+    "language": "Go",
+    "stars": 618,
+    "topics": [
+      "bigdata",
+      "data-catalog",
+      "data-collaboration",
+      "data-discovery",
+      "data-exploration",
+      "data-governance",
+      "data-lineage",
+      "data-observability",
+      "datacatalog",
+      "datadiscovery",
+      "dataengineering",
+      "lineage",
+      "mcp",
+      "mcp-server",
+      "metadata"
+    ],
+    "updatedAt": "2026-09-25T12:22:20Z",
+    "category": "AI, LLMs & Data",
+    "subcategory": "Agents"
+  },
+  {
+    "id": 1172374944,
+    "name": "arbor",
+    "owner": "penso",
+    "url": "https://github.com/penso/arbor",
+    "description": "Run agentic coding workflows in a fully native desktop app for Git worktrees, terminals, and diffs.",
+    "language": "Rust",
+    "stars": 830,
+    "topics": [],
+    "updatedAt": "2026-09-26T18:42:13Z",
+    "category": "AI, LLMs & Data",
+    "subcategory": "Agents"
+  },
+  {
+    "id": 1075381375,
+    "name": "paseo",
+    "owner": "getpaseo",
+    "url": "https://github.com/getpaseo/paseo",
+    "description": "Orchestrate multiple coding agents from desktop and mobile",
+    "language": "TypeScript",
+    "stars": 18691,
+    "topics": [
+      "ade",
+      "agents",
+      "android",
+      "claude-code",
+      "codex",
+      "copilot",
+      "developer-tools",
+      "hermes",
+      "ios",
+      "linux",
+      "mobile",
+      "opencode",
+      "orchestration",
+      "pi",
+      "windows"
+    ],
+    "updatedAt": "2026-09-27T18:45:17Z",
+    "category": "AI, LLMs & Data",
+    "subcategory": "Agents"
+  },
+  {
+    "id": 1046096502,
+    "name": "emdash",
+    "owner": "generalaction",
+    "url": "https://github.com/generalaction/emdash",
+    "description": "Emdash is the Open-Source Agentic Development Environment (🧡 YC W26). Run multiple coding agents in parallel. Use any provider.",
+    "language": "TypeScript",
+    "stars": 5850,
+    "topics": [
+      "agenticdevelopment",
+      "agenticdevelopmentenvironment",
+      "ai",
+      "claude-code",
+      "cli",
+      "coding-agents",
+      "codingagents",
+      "containerization",
+      "docker",
+      "gitworktrees",
+      "jira",
+      "linear",
+      "llm",
+      "openai",
+      "opensource",
+      "orchestration",
+      "parallel-agents",
+      "parallelexecution",
+      "terminal"
+    ],
+    "updatedAt": "2026-09-27T10:54:14Z",
+    "category": "AI, LLMs & Data",
+    "subcategory": "Agents"
+  },
+  {
+    "id": 1153130349,
+    "name": "t3code",
+    "owner": "pingdotgg",
+    "url": "https://github.com/pingdotgg/t3code",
+    "description": "",
+    "language": "TypeScript",
+    "stars": 23701,
+    "topics": [],
+    "updatedAt": "2026-09-27T19:06:10Z",
+    "category": "AI, LLMs & Data",
+    "subcategory": "Agents"
+  },
+  {
+    "id": 1084853233,
+    "name": "awesome-agent-skills",
+    "owner": "VoltAgent",
+    "url": "https://github.com/VoltAgent/awesome-agent-skills",
+    "description": "A curated collection of 1000+ agent skills from official dev teams and the community, compatible with Claude Code, Codex, Gemini CLI, Cursor, and more.",
+    "language": "",
+    "stars": 34933,
+    "topics": [
+      "agent-skills",
+      "ai-agents",
+      "awesome",
+      "awesome-list",
+      "claude-code",
+      "claude-code-skills",
+      "claude-skills",
+      "codex-skills",
+      "cursor-skills",
+      "gemini-skills",
+      "opencode-skills",
+      "skills"
+    ],
+    "updatedAt": "2026-09-27T19:11:36Z",
+    "category": "AI, LLMs & Data",
+    "subcategory": "Agent Skills"
+  },
+  {
+    "id": 1139971460,
+    "name": "rtk",
+    "owner": "rtk-ai",
+    "url": "https://github.com/rtk-ai/rtk",
+    "description": "CLI proxy that reduces LLM token consumption by 60-90% on common dev commands. Single Rust binary, zero dependencies",
+    "language": "Rust",
+    "stars": 81822,
+    "topics": [
+      "agentic-coding",
+      "ai-coding",
+      "anthropic",
+      "claude-code",
+      "cli",
+      "command-line-tool",
+      "cost-reduction",
+      "developer-tools",
+      "llm",
+      "open-source",
+      "productivity",
+      "rust",
+      "token-optimization"
+    ],
+    "updatedAt": "2026-09-27T19:12:47Z",
+    "category": "AI, LLMs & Data",
+    "subcategory": "Agents"
+  },
+  {
+    "id": 992755069,
+    "name": "ccusage",
+    "owner": "ccusage",
+    "url": "https://github.com/ccusage/ccusage",
+    "description": "npx ccusage",
+    "language": "Rust",
+    "stars": 18763,
+    "topics": [],
+    "updatedAt": "2026-09-27T19:15:07Z",
+    "category": "AI, LLMs & Data",
+    "subcategory": "Agents"
+  },
+  {
+    "id": 1128400700,
+    "name": "babysitter",
+    "owner": "a5c-ai",
+    "url": "https://github.com/a5c-ai/babysitter",
+    "description": "Babysitter enforces obedience on agentic workforces and enables them to manage extremely complex tasks and workflows through deterministic, hallucination-free self-orchestration",
+    "language": "JavaScript",
+    "stars": 1816,
+    "topics": [
+      "agent-orchestration",
+      "agent-skills",
+      "agentic-ai",
+      "agentic-workflow",
+      "ai-agents",
+      "ai-automation",
+      "babysitter",
+      "claude-code",
+      "claude-code-skills",
+      "claude-code-workflows",
+      "claude-skills",
+      "claude-workflows",
+      "codex-plugin",
+      "codex-skills",
+      "codex-workflow",
+      "hermes-plugin",
+      "pi-extension",
+      "trustworthy-ai",
+      "vibe-coding"
+    ],
+    "updatedAt": "2026-09-27T07:52:26Z",
+    "category": "AI, LLMs & Data",
+    "subcategory": "Agents"
+  },
+  {
+    "id": 1170158614,
+    "name": "education-agent-skills",
+    "owner": "GarethManning",
+    "url": "https://github.com/GarethManning/education-agent-skills",
+    "description": "165 evidence-grounded AI skills for teachers, school leaders and EdTech builders—pedagogy, learning science, curriculum, assessment and regeneration. Claude, Codex and Hermes.",
+    "language": "TypeScript",
+    "stars": 806,
+    "topics": [
+      "adaptive-learning",
+      "agentic-workflow",
+      "ai-education",
+      "ai-literacy",
+      "competency-based-education",
+      "curriculum-design",
+      "edtech",
+      "education",
+      "evidence-based-education",
+      "historical-thinking",
+      "inclusive-design",
+      "intelligent-tutoring-system",
+      "learning-science",
+      "open-educational-resources",
+      "pedagogy",
+      "project-based-learning",
+      "prompt-engineering",
+      "regenerative-education",
+      "retrieval-practice",
+      "systems-thinking"
+    ],
+    "updatedAt": "2026-09-27T12:07:50Z",
+    "category": "AI, LLMs & Data",
+    "subcategory": "Agent Skills"
+  },
+  {
+    "id": 1077940951,
+    "name": "tapestry-skills",
+    "owner": "michalparkola",
+    "url": "https://github.com/michalparkola/tapestry-skills",
+    "description": "Claude Code skills to download sources (articles, PDFs, YouTube video transcripts)",
+    "language": "Shell",
+    "stars": 550,
+    "topics": [],
+    "updatedAt": "2026-09-26T07:08:41Z",
+    "category": "AI, LLMs & Data",
+    "subcategory": "Agent Skills"
+  },
+  {
+    "id": 1246625636,
+    "name": "gsd-core",
+    "owner": "open-gsd",
+    "url": "https://github.com/open-gsd/gsd-core",
+    "description": "Git. Ship. Done - Core",
+    "language": "JavaScript",
+    "stars": 9897,
+    "topics": [
+      "claude-code",
+      "context-engineering",
+      "meta-prompting",
+      "spec-driven-development"
+    ],
+    "updatedAt": "2026-09-27T16:37:35Z",
+    "category": "AI, LLMs & Data",
+    "subcategory": "Agent Skills"
+  },
+  {
+    "id": 1080976138,
+    "name": "awesome-llm-skills",
+    "owner": "Prat011",
+    "url": "https://github.com/Prat011/awesome-llm-skills",
+    "description": "A curated list of awesome LLM and AI Agent Skills, resources and tools for customising AI Agent workflows - that works with Claude Code, Codex, Gemini CLI and your custom AI Agents",
+    "language": "Python",
+    "stars": 1764,
+    "topics": [
+      "anthropic",
+      "awesome-list",
+      "awesome-lists",
+      "claude-code",
+      "claude-skills",
+      "claude-skills-creator",
+      "codex",
+      "codex-cli",
+      "gemini",
+      "gemini-cli",
+      "llama",
+      "llms",
+      "openai",
+      "opencode",
+      "qwen",
+      "qwen-coder",
+      "skills"
+    ],
+    "updatedAt": "2026-09-27T08:53:05Z",
+    "category": "AI, LLMs & Data",
+    "subcategory": "Agent Skills"
+  },
+  {
+    "id": 545508308,
+    "name": "knip",
+    "owner": "webpro-nl",
+    "url": "https://github.com/webpro-nl/knip",
+    "description": "✂️  Find unused files, dependencies and exports in your JavaScript and TypeScript projects. Knip it before you ship it!",
+    "language": "TypeScript",
+    "stars": 12358,
+    "topics": [
+      "deadcode",
+      "dependency-analysis",
+      "dependency-management",
+      "javascript",
+      "lint",
+      "linter",
+      "maintenance",
+      "typescript",
+      "unused-code",
+      "unused-exports"
+    ],
+    "updatedAt": "2026-09-27T14:06:36Z",
+    "category": "Standalone Tools & Apps",
+    "subcategory": "Developer Tools"
+  },
+  {
+    "id": 1010618519,
+    "name": "difit",
+    "owner": "yoshiko-pg",
+    "url": "https://github.com/yoshiko-pg/difit",
+    "description": "A lightweight command-line tool that spins up a local web server to display Git commit diffs in a GitHub-like Files changed view",
+    "language": "TypeScript",
+    "stars": 3198,
+    "topics": [],
+    "updatedAt": "2026-09-27T05:48:54Z",
+    "category": "Standalone Tools & Apps",
+    "subcategory": "Developer Tools"
+  },
+  {
+    "id": 735981,
+    "name": "xapian",
+    "owner": "xapian",
+    "url": "https://github.com/xapian/xapian",
+    "description": "Mirror of the Xapian repository.  You're welcome to open pull requests on github (they'll just get merged indirectly).",
+    "language": "C++",
+    "stars": 874,
+    "topics": [],
+    "updatedAt": "2026-09-24T19:28:37Z",
+    "category": "Infrastructure & Systems",
+    "subcategory": "Databases & Storage"
+  },
+  {
+    "id": 475553026,
+    "name": "ghostty",
+    "owner": "ghostty-org",
+    "url": "https://github.com/ghostty-org/ghostty",
+    "description": "👻 Ghostty is a fast, feature-rich, and cross-platform terminal emulator that uses platform-native UI and GPU acceleration.",
+    "language": "Zig",
+    "stars": 61609,
+    "topics": [],
+    "updatedAt": "2026-09-27T19:15:16Z",
+    "category": "Standalone Tools & Apps",
+    "subcategory": "Terminals & Shell"
+  },
+  {
+    "id": 9301414,
+    "name": "hledger",
+    "owner": "hledgerorg",
+    "url": "https://github.com/hledgerorg/hledger",
+    "description": "Robust, fast, intuitive plain text accounting tool with CLI, TUI and web interfaces.",
+    "language": "Haskell",
+    "stars": 4732,
+    "topics": [
+      "accounting",
+      "command-line-tool",
+      "console-application",
+      "finance",
+      "haskell",
+      "haskell-applications",
+      "hledger",
+      "ledger",
+      "plaintext",
+      "plaintextaccounting",
+      "tui",
+      "web-application"
+    ],
+    "updatedAt": "2026-09-27T11:16:18Z",
+    "category": "Standalone Tools & Apps",
+    "subcategory": "User Applications"
+  },
+  {
+    "id": 572570113,
+    "name": "trigger.dev",
+    "owner": "triggerdotdev",
+    "url": "https://github.com/triggerdotdev/trigger.dev",
+    "description": "Trigger.dev – build and deploy durable AI agents and workflows",
+    "language": "TypeScript",
+    "stars": 16424,
+    "topics": [
+      "ai",
+      "ai-agent-framework",
+      "ai-agents",
+      "automation",
+      "background-jobs",
+      "mcp",
+      "mcp-server",
+      "nextjs",
+      "orchestration",
+      "scheduler",
+      "serverless",
+      "workflow-automation",
+      "workflows"
+    ],
+    "updatedAt": "2026-09-27T17:52:24Z",
+    "category": "AI, LLMs & Data",
+    "subcategory": "LLMs & GenAI"
+  },
+  {
+    "id": 1081770999,
+    "name": "workflow",
+    "owner": "vercel",
+    "url": "https://github.com/vercel/workflow",
+    "description": "Workflow SDK: Build durable, reliable, and observable apps and AI Agents in TypeScript",
+    "language": "TypeScript",
+    "stars": 2439,
+    "topics": [
+      "ai-agents",
+      "durable-execution",
+      "orchestration",
+      "serverless",
+      "vercel",
+      "workflow-engine",
+      "workflows"
+    ],
+    "updatedAt": "2026-09-27T19:12:08Z",
+    "category": "AI, LLMs & Data",
+    "subcategory": "LLMs & GenAI"
+  },
+  {
+    "id": 71056775,
+    "name": "kitty",
+    "owner": "kovidgoyal",
+    "url": "https://github.com/kovidgoyal/kitty",
+    "description": "If you live in the terminal, kitty is made for you! Cross-platform, fast, feature-rich, GPU based.",
+    "language": "Python",
+    "stars": 35094,
+    "topics": [
+      "c",
+      "go",
+      "golang",
+      "golang-application",
+      "kitty",
+      "kitty-terminal",
+      "opengl",
+      "python",
+      "terminal",
+      "terminal-emulators",
+      "terminfo",
+      "vt100"
+    ],
+    "updatedAt": "2026-09-27T19:07:31Z",
+    "category": "Standalone Tools & Apps",
+    "subcategory": "Terminals & Shell"
+  },
+  {
+    "id": 339301222,
+    "name": "meshtastic",
+    "owner": "meshtastic",
+    "url": "https://github.com/meshtastic/meshtastic",
+    "description": "Meshtastic project website and documentation",
+    "language": "MDX",
+    "stars": 2200,
+    "topics": [
+      "meshtastic"
+    ],
+    "updatedAt": "2026-09-27T10:18:03Z",
+    "category": "Languages & Engineering",
+    "subcategory": "Electronics & IoT"
+  },
+  {
+    "id": 1265265111,
+    "name": "skills",
+    "owner": "BuilderIO",
+    "url": "https://github.com/BuilderIO/skills",
+    "description": "Skills for agents",
+    "language": "JavaScript",
+    "stars": 4450,
+    "topics": [
+      "skills"
+    ],
+    "updatedAt": "2026-09-27T18:45:12Z",
+    "category": "AI, LLMs & Data",
+    "subcategory": "Agent Skills"
+  },
+  {
+    "id": 1143767804,
+    "name": "frontend-slides",
+    "owner": "zarazhangrui",
+    "url": "https://github.com/zarazhangrui/frontend-slides",
+    "description": "Create beautiful slides on the web using a coding agent's frontend skills",
+    "language": "JavaScript",
+    "stars": 29884,
+    "topics": [
+      "ai-slides",
+      "anthropic",
+      "claude",
+      "claude-code",
+      "claude-skill",
+      "generative-ui",
+      "html",
+      "presentation",
+      "slides",
+      "vibe-coding"
+    ],
+    "updatedAt": "2026-09-27T17:49:29Z",
+    "category": "Standalone Tools & Apps",
+    "subcategory": "Writing & Notes"
+  },
+  {
+    "id": 1182081931,
+    "name": "Understand-Anything",
+    "owner": "Egonex-AI",
+    "url": "https://github.com/Egonex-AI/Understand-Anything",
+    "description": "Graphs that teach > graphs that impress. Turn any code into an interactive knowledge graph you can explore, search, and ask questions about. Works with Claude Code, Codex, Cursor, Copilot, Gemini CLI, and more.",
+    "language": "TypeScript",
+    "stars": 84329,
+    "topics": [
+      "antigravity-skills",
+      "business-knowledge",
+      "claude-code",
+      "claude-skills",
+      "codebase-analysis",
+      "codex",
+      "codex-skills",
+      "developer-tools-ai-agent",
+      "gemini-cli-skills",
+      "karpathy-llm-wiki",
+      "knowledge-base",
+      "knowledge-graph",
+      "memory",
+      "opencode-skills",
+      "pi-agent",
+      "understandcode",
+      "vibe-coding"
+    ],
+    "updatedAt": "2026-09-27T18:51:47Z",
+    "category": "AI, LLMs & Data",
+    "subcategory": "Agents"
+  },
+  {
+    "id": 1201656210,
+    "name": "mempalace",
+    "owner": "MemPalace",
+    "url": "https://github.com/MemPalace/mempalace",
+    "description": "The best-benchmarked open-source AI memory system. And it's free.",
+    "language": "Python",
+    "stars": 59311,
+    "topics": [
+      "ai",
+      "chromadb",
+      "llm",
+      "mcp",
+      "memory",
+      "python"
+    ],
+    "updatedAt": "2026-09-27T18:14:14Z",
+    "category": "AI, LLMs & Data",
+    "subcategory": "Agents"
+  },
+  {
+    "id": 1120349776,
+    "name": "Agent-Skills-for-Context-Engineering",
+    "owner": "muratcankoylan",
+    "url": "https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering",
+    "description": "A comprehensive collection of Agent Skills for context engineering, multi-agent architectures, and production agent systems. Use when building, optimizing, or debugging agent systems that require effective context management.",
+    "language": "Python",
+    "stars": 18039,
+    "topics": [],
+    "updatedAt": "2026-09-27T18:51:23Z",
+    "category": "AI, LLMs & Data",
+    "subcategory": "Agent Skills"
+  },
+  {
+    "id": 897595329,
+    "name": "basic-memory",
+    "owner": "basicmachines-co",
+    "url": "https://github.com/basicmachines-co/basic-memory",
+    "description": "AI conversations that actually remember. Never re-explain your project to your AI again. Join our Discord: https://discord.gg/tyvKNccgqN",
+    "language": "Python",
+    "stars": 4048,
+    "topics": [
+      "ai",
+      "claude",
+      "knowledge-management",
+      "knowlege-graph",
+      "llm",
+      "local-first",
+      "markdown",
+      "mcp",
+      "obsidian",
+      "obsidian-md",
+      "open-source",
+      "privacy-first",
+      "privacy-first-ai",
+      "productivity",
+      "python"
+    ],
+    "updatedAt": "2026-09-27T15:55:33Z",
+    "category": "AI, LLMs & Data",
+    "subcategory": "Agents"
+  },
+  {
+    "id": 998428732,
+    "name": "pal-mcp-server",
+    "owner": "BeehiveInnovations",
+    "url": "https://github.com/BeehiveInnovations/pal-mcp-server",
+    "description": "The power of Claude Code / GeminiCLI / CodexCLI + [Gemini / OpenAI / OpenRouter / Azure / Grok / Ollama / Custom Model / All Of The Above] working as one.",
+    "language": "Python",
+    "stars": 11757,
+    "topics": [],
+    "updatedAt": "2026-09-27T13:07:17Z",
+    "category": "AI, LLMs & Data",
+    "subcategory": "Agents"
+  },
+  {
+    "id": 979115477,
+    "name": "deer-flow",
+    "owner": "bytedance",
+    "url": "https://github.com/bytedance/deer-flow",
+    "description": "An open-source long-horizon SuperAgent harness that researches, codes, and creates. With the help of sandboxes, memories, tools, skill, subagents and message gateway, it handles different levels of tasks that could take minutes to hours.",
+    "language": "Python",
+    "stars": 83050,
+    "topics": [
+      "agent",
+      "agentic",
+      "agentic-framework",
+      "agentic-workflow",
+      "ai",
+      "ai-agents",
+      "deep-research",
+      "harness",
+      "langchain",
+      "langgraph",
+      "langmanus",
+      "llm",
+      "multi-agent",
+      "nodejs",
+      "podcast",
+      "python",
+      "superagent",
+      "typescript"
+    ],
+    "updatedAt": "2026-09-27T17:52:31Z",
+    "category": "AI, LLMs & Data",
+    "subcategory": "Agents"
+  },
+  {
+    "id": 1122030229,
+    "name": "stax",
+    "owner": "cesarferreira",
+    "url": "https://github.com/cesarferreira/stax",
+    "description": "The fastest stacked-branch workflow for Git. Interactive TUI, smart PRs, safe undo. Written in Rust.",
+    "language": "Rust",
+    "stars": 126,
+    "topics": [
+      "freephite",
+      "git",
+      "graphite",
+      "prs",
+      "stack",
+      "stacked",
+      "stacks"
+    ],
+    "updatedAt": "2026-09-26T02:03:02Z",
+    "category": "Standalone Tools & Apps",
+    "subcategory": "Developer Tools"
+  },
+  {
+    "id": 1132001614,
+    "name": "agent-browser",
+    "owner": "vercel-labs",
+    "url": "https://github.com/vercel-labs/agent-browser",
+    "description": "Browser automation CLI for AI agents",
+    "language": "Rust",
+    "stars": 43265,
+    "topics": [],
+    "updatedAt": "2026-09-27T19:02:05Z",
+    "category": "AI, LLMs & Data",
+    "subcategory": "Agents"
+  },
+  {
+    "id": 36836475,
+    "name": "tmux",
+    "owner": "tmux",
+    "url": "https://github.com/tmux/tmux",
+    "description": "tmux source code",
+    "language": "C",
+    "stars": 49528,
+    "topics": [],
+    "updatedAt": "2026-09-27T19:13:01Z",
+    "category": "Standalone Tools & Apps",
+    "subcategory": "Terminals & Shell"
+  },
+  {
+    "id": 683347556,
+    "name": "turso",
+    "owner": "tursodatabase",
+    "url": "https://github.com/tursodatabase/turso",
+    "description": "A SQL database in Rust: SQLite-compatible, now also speaking Postgres (experimental). The LLVM of databases.",
+    "language": "Rust",
+    "stars": 24410,
+    "topics": [
+      "database",
+      "embedded-database",
+      "sql",
+      "sqlite3",
+      "webassembly"
+    ],
+    "updatedAt": "2026-09-27T17:57:05Z",
+    "category": "Infrastructure & Systems",
+    "subcategory": "Databases & Storage"
+  },
+  {
+    "id": 1234783,
+    "name": "mosh",
+    "owner": "mobile-shell",
+    "url": "https://github.com/mobile-shell/mosh",
+    "description": "Mobile Shell",
+    "language": "C++",
+    "stars": 14515,
+    "topics": [],
+    "updatedAt": "2026-09-26T00:06:23Z",
+    "category": "Standalone Tools & Apps",
+    "subcategory": "Terminals & Shell"
+  },
+  {
+    "id": 839238906,
+    "name": "moshi",
+    "owner": "kyutai-labs",
+    "url": "https://github.com/kyutai-labs/moshi",
+    "description": "Moshi is a speech-text foundation model and full-duplex spoken dialogue framework. It uses Mimi, a state-of-the-art streaming neural audio codec.",
+    "language": "Python",
+    "stars": 11153,
+    "topics": [],
+    "updatedAt": "2026-09-27T15:55:32Z",
+    "category": "AI, LLMs & Data",
+    "subcategory": "Speech & Audio AI"
+  },
+  {
+    "id": 1211752857,
+    "name": "lingbot-map",
+    "owner": "Robbyant",
+    "url": "https://github.com/Robbyant/lingbot-map",
+    "description": "(ECCV 2026 oral & best paper candidate) LingBot-Map: Geometric Context Transformer for Streaming 3D Reconstruction",
+    "language": "Python",
+    "stars": 17138,
+    "topics": [],
+    "updatedAt": "2026-09-27T15:26:54Z",
+    "category": "AI, LLMs & Data",
+    "subcategory": "Machine Learning"
+  },
+  {
+    "id": 1029036679,
+    "name": "awesome-claude-code-subagents",
+    "owner": "VoltAgent",
+    "url": "https://github.com/VoltAgent/awesome-claude-code-subagents",
+    "description": "A collection of 100+ specialized Claude Code subagents covering a wide range of development use cases",
+    "language": "Shell",
+    "stars": 25357,
+    "topics": [
+      "ai-agent-framework",
+      "ai-agent-tools",
+      "ai-agents",
+      "awesome",
+      "awesome-list",
+      "claude",
+      "claude-ai",
+      "claude-code-subagents",
+      "claude-subagents",
+      "subagents"
+    ],
+    "updatedAt": "2026-09-27T18:30:16Z",
+    "category": "AI, LLMs & Data",
+    "subcategory": "Agent Skills"
+  },
+  {
+    "id": 1029891354,
+    "name": "ClaudeCodeAgents",
+    "owner": "darcyegb",
+    "url": "https://github.com/darcyegb/ClaudeCodeAgents",
+    "description": "A set of useful QA agents for Claude Code.",
+    "language": "",
+    "stars": 768,
+    "topics": [],
+    "updatedAt": "2026-09-22T17:36:00Z",
+    "category": "AI, LLMs & Data",
+    "subcategory": "Agent Skills"
+  },
+  {
+    "id": 1041444133,
+    "name": "dmux",
+    "owner": "standardagents",
+    "url": "https://github.com/standardagents/dmux",
+    "description": "A dev agent multiplexer for git worktrees and coding agents.",
+    "language": "HTML",
+    "stars": 1787,
+    "topics": [
+      "agentic-workflow",
+      "ai",
+      "ai-agents",
+      "cli",
+      "coding-agents",
+      "coordinator",
+      "orchestration"
+    ],
+    "updatedAt": "2026-09-27T10:53:11Z",
+    "category": "AI, LLMs & Data",
+    "subcategory": "Agents"
+  },
+  {
+    "id": 1137798986,
+    "name": "threejs-skills",
+    "owner": "CloudAI-X",
+    "url": "https://github.com/CloudAI-X/threejs-skills",
+    "description": "",
+    "language": "",
+    "stars": 3396,
+    "topics": [],
+    "updatedAt": "2026-09-27T17:57:05Z",
+    "category": "AI, LLMs & Data",
+    "subcategory": "Agent Skills"
+  },
+  {
+    "id": 5722563,
+    "name": "password-store",
+    "owner": "rupa",
+    "url": "https://github.com/rupa/password-store",
+    "description": "Simple password manager using gpg and ordinary unix directories.",
+    "language": "Shell",
+    "stars": 23,
+    "topics": [],
+    "updatedAt": "2026-07-09T14:29:34Z",
+    "category": "Infrastructure & Systems",
+    "subcategory": "Security"
+  },
+  {
+    "id": 254141208,
+    "name": "piscina",
+    "owner": "piscinajs",
+    "url": "https://github.com/piscinajs/piscina",
+    "description": "A fast, efficient Node.js Worker Thread Pool implementation",
+    "language": "TypeScript",
+    "stars": 5211,
+    "topics": [
+      "multithreading",
+      "nearform-research",
+      "nodejs",
+      "performance",
+      "piscinajs",
+      "pooling",
+      "thread-pool",
+      "worker-pool",
+      "worker-threads"
+    ],
+    "updatedAt": "2026-09-27T06:31:37Z",
+    "category": "Libraries & Utilities",
+    "subcategory": "Core Utilities"
+  },
+  {
+    "id": 23163093,
+    "name": "inkscape",
+    "owner": "inkscape",
+    "url": "https://github.com/inkscape/inkscape",
+    "description": "Project Website: https://inkscape.org - Code Repository: https://gitlab.com/inkscape/inkscape - Draw freely. 🖌",
+    "language": "",
+    "stars": 3956,
+    "topics": [],
+    "updatedAt": "2026-09-26T21:33:40Z",
+    "category": "Standalone Tools & Apps",
+    "subcategory": "Multimedia"
+  },
+  {
+    "id": 1078528927,
+    "name": "worktrunk",
+    "owner": "max-sixty",
+    "url": "https://github.com/max-sixty/worktrunk",
+    "description": "Worktrunk is a CLI for Git worktree management, designed for parallel AI agent workflows",
+    "language": "Rust",
+    "stars": 8432,
+    "topics": [
+      "agents",
+      "claude-code",
+      "codex",
+      "developer-tools",
+      "git",
+      "worktrees"
+    ],
+    "updatedAt": "2026-09-27T18:11:47Z",
+    "category": "AI, LLMs & Data",
+    "subcategory": "Agents"
+  },
+  {
+    "id": 1050028909,
+    "name": "AgentMathOlympiadMedalist",
+    "owner": "MattJBorowski1991",
+    "url": "https://github.com/MattJBorowski1991/AgentMathOlympiadMedalist",
+    "description": "Math Olympiad Agent solves IMO-level problems with a self-verification pipeline, inspired by Huang & Yang’s 2025 paper. Built with LangGraph and A2A protocol for agent collaboration, it generates rigorous TeX proofs. Check it out!",
+    "language": "Python",
+    "stars": 8,
+    "topics": [],
+    "updatedAt": "2026-07-06T01:09:40Z",
+    "category": "AI, LLMs & Data",
+    "subcategory": "Agents"
+  },
+  {
+    "id": 871165869,
+    "name": "bon-jailbreaking",
+    "owner": "jplhughes",
+    "url": "https://github.com/jplhughes/bon-jailbreaking",
+    "description": "Code release for Best-of-N Jailbreaking",
+    "language": "Python",
+    "stars": 576,
+    "topics": [],
+    "updatedAt": "2026-09-11T14:21:05Z",
+    "category": "AI, LLMs & Data",
+    "subcategory": "LLMs & GenAI"
+  },
+  {
+    "id": 997737944,
+    "name": "RuView",
+    "owner": "ruvnet",
+    "url": "https://github.com/ruvnet/RuView",
+    "description": "π RuView turns commodity WiFi signals into real-time spatial intelligence, vital sign monitoring, and presence detection — all without a single pixel of video.",
+    "language": "Rust",
+    "stars": 95195,
+    "topics": [
+      "awesome",
+      "claude",
+      "densepose",
+      "esp32",
+      "firmware",
+      "home-assistant",
+      "home-automation",
+      "iot",
+      "monitoring",
+      "networking",
+      "npm",
+      "pose-estimation",
+      "react",
+      "rf",
+      "self-learning",
+      "skills",
+      "spatial-intelligence",
+      "typescript",
+      "wifi",
+      "wifi-security"
+    ],
+    "updatedAt": "2026-09-27T19:11:07Z",
+    "category": "Languages & Engineering",
+    "subcategory": "Electronics & IoT"
+  },
+  {
+    "id": 1155025406,
+    "name": "mesh-llm",
+    "owner": "Mesh-LLM",
+    "url": "https://github.com/Mesh-LLM/mesh-llm",
+    "description": "Distributed AI/LLM for the people. Share compute privately or publicly to power your agents and chat.",
+    "language": "Rust",
+    "stars": 3462,
+    "topics": [
+      "agents",
+      "ai",
+      "decentralized",
+      "distributed",
+      "llm"
+    ],
+    "updatedAt": "2026-09-27T19:03:44Z",
+    "category": "AI, LLMs & Data",
+    "subcategory": "LLMs & GenAI"
+  },
+  {
+    "id": 1190838993,
+    "name": "dream-skill",
+    "owner": "grandamenium",
+    "url": "https://github.com/grandamenium/dream-skill",
+    "description": "Memory consolidation skill for Claude Code - replicates Anthropic's unreleased auto-dream feature. 4-phase consolidation with 24hr auto-trigger.",
+    "language": "Shell",
+    "stars": 150,
+    "topics": [],
+    "updatedAt": "2026-09-26T06:18:35Z",
+    "category": "AI, LLMs & Data",
+    "subcategory": "Agent Skills"
+  },
+  {
+    "id": 736812439,
+    "name": "moondream",
+    "owner": "m87-labs",
+    "url": "https://github.com/m87-labs/moondream",
+    "description": "tiny vision language model",
+    "language": "Python",
+    "stars": 10063,
+    "topics": [],
+    "updatedAt": "2026-09-27T08:11:01Z",
+    "category": "AI, LLMs & Data",
+    "subcategory": "LLMs & GenAI"
+  },
+  {
+    "id": 1284008447,
+    "name": "LongCat-2.0",
+    "owner": "meituan-longcat",
+    "url": "https://github.com/meituan-longcat/LongCat-2.0",
+    "description": "",
+    "language": "",
+    "stars": 564,
+    "topics": [],
+    "updatedAt": "2026-09-23T12:31:52Z",
+    "category": "AI, LLMs & Data",
+    "subcategory": "LLMs & GenAI"
+  },
+  {
+    "id": 496605552,
+    "name": "dufs",
+    "owner": "sigoden",
+    "url": "https://github.com/sigoden/dufs",
+    "description": "A file server that supports static serving, uploading, searching, accessing control, webdav...",
+    "language": "Rust",
+    "stars": 10801,
+    "topics": [
+      "cloud-disk",
+      "command-line",
+      "file-sharing",
+      "file-upload-server",
+      "rust",
+      "static-server",
+      "webdav",
+      "webdav-server"
+    ],
+    "updatedAt": "2026-09-27T19:15:03Z",
+    "category": "Standalone Tools & Apps",
+    "subcategory": "User Applications"
+  },
+  {
+    "id": 131135585,
+    "name": "miniserve",
+    "owner": "svenstaro",
+    "url": "https://github.com/svenstaro/miniserve",
+    "description": "🌟 For when you really just want to serve some files over HTTP right now!",
+    "language": "Rust",
+    "stars": 7877,
+    "topics": [
+      "cli",
+      "command-line",
+      "command-line-tool",
+      "http-server",
+      "serve",
+      "server",
+      "static-files"
+    ],
+    "updatedAt": "2026-09-27T08:32:26Z",
+    "category": "Standalone Tools & Apps",
+    "subcategory": "User Applications"
+  },
+  {
+    "id": 53238813,
+    "name": "brew",
+    "owner": "Homebrew",
+    "url": "https://github.com/Homebrew/brew",
+    "description": "🍺 The Package Manager for Everywhere",
+    "language": "Ruby",
+    "stars": 49793,
+    "topics": [
+      "brew",
+      "homebrew",
+      "macos",
+      "package-manager",
+      "ruby"
+    ],
+    "updatedAt": "2026-09-27T18:45:56Z",
+    "category": "Standalone Tools & Apps",
+    "subcategory": "Developer Tools"
+  },
+  {
+    "id": 889784913,
+    "name": "xtool",
+    "owner": "xtool-org",
+    "url": "https://github.com/xtool-org/xtool",
+    "description": "Cross-platform Xcode replacement. Build and deploy iOS apps with SwiftPM on Linux, Windows, macOS.",
+    "language": "Swift",
+    "stars": 5505,
+    "topics": [
+      "ios",
+      "linux",
+      "swift",
+      "swift-package-manager",
+      "windows",
+      "xcode"
+    ],
+    "updatedAt": "2026-09-27T18:51:55Z",
+    "category": "Standalone Tools & Apps",
+    "subcategory": "Developer Tools"
+  },
+  {
+    "id": 1086419061,
+    "name": "hindsight",
+    "owner": "vectorize-io",
+    "url": "https://github.com/vectorize-io/hindsight",
+    "description": "Hindsight: Agent Memory That Learns",
+    "language": "Python",
+    "stars": 36900,
+    "topics": [
+      "agentic-ai",
+      "agents",
+      "ai-memory",
+      "memory"
+    ],
+    "updatedAt": "2026-09-27T19:16:16Z",
+    "category": "AI, LLMs & Data",
+    "subcategory": "Agents"
+  },
+  {
+    "id": 82002997,
+    "name": "pass-otp",
+    "owner": "pass-extension",
+    "url": "https://github.com/pass-extension/pass-otp",
+    "description": "A pass extension for managing one-time-password (OTP) tokens",
+    "language": "Shell",
+    "stars": 1499,
+    "topics": [
+      "otpauth",
+      "password-store"
+    ],
+    "updatedAt": "2026-09-26T09:25:32Z",
+    "category": "Infrastructure & Systems",
+    "subcategory": "Security"
+  },
+  {
+    "id": 1170266927,
+    "name": "pm-skills",
+    "owner": "phuryn",
+    "url": "https://github.com/phuryn/pm-skills",
+    "description": "PM Skills Marketplace: 100+ agentic skills, commands, and plugins — from discovery to strategy, execution, launch, and growth.",
+    "language": "",
+    "stars": 26617,
+    "topics": [
+      "agent-skill-repository",
+      "agent-skills",
+      "agentic-skills",
+      "claude-code-marketplace",
+      "claude-code-plugins",
+      "claude-cowork-plugin",
+      "product-management"
+    ],
+    "updatedAt": "2026-09-27T17:20:56Z",
+    "category": "AI, LLMs & Data",
+    "subcategory": "Agent Skills"
+  },
+  {
+    "id": 1306326204,
+    "name": "docx-editor",
+    "owner": "eigenpal",
+    "url": "https://github.com/eigenpal/docx-editor",
+    "description": "Open-source WYSIWYG .docx editor library for React and Vue with canonical OOXML, tracked changes, and real-time collaboration. Agent-ready.",
+    "language": "TypeScript",
+    "stars": 432,
+    "topics": [
+      "docx",
+      "docx-editor",
+      "editor",
+      "word",
+      "word-editor",
+      "word-editor-for-web-application"
+    ],
+    "updatedAt": "2026-09-27T17:30:09Z",
+    "category": "Standalone Tools & Apps",
+    "subcategory": "Writing & Notes"
+  },
+  {
+    "id": 798599836,
+    "name": "editor",
+    "owner": "umodoc",
+    "url": "https://github.com/umodoc/editor",
+    "description": "Umo Editor is an open-source document editor based on Vue3 and Tiptap3, providing an online editing experience similar to Microsoft Word.",
+    "language": "Vue",
+    "stars": 1607,
+    "topics": [
+      "docs-editor",
+      "document-editor",
+      "editor",
+      "office-edtior",
+      "online-office",
+      "richtext-editor",
+      "tiptap",
+      "umo-editor",
+      "vue3-editor",
+      "web-edtior",
+      "word-editor",
+      "wysiwyg-editor"
+    ],
+    "updatedAt": "2026-09-27T14:56:52Z",
+    "category": "Standalone Tools & Apps",
+    "subcategory": "Writing & Notes"
+  },
+  {
+    "id": 1240877896,
+    "name": "docs",
+    "owner": "CasualOffice",
+    "url": "https://github.com/CasualOffice/docs",
+    "description": "Open-source self-hosted web .docx editor with real-time co-editing — an alternative to Google Docs, Microsoft Word Online, and OnlyOffice Document Server you run on your own server.",
+    "language": "TypeScript",
+    "stars": 46,
+    "topics": [
+      "bun",
+      "co-editing",
+      "collaboration",
+      "docker",
+      "document-editor",
+      "docx",
+      "docx-editor",
+      "go",
+      "ooxml",
+      "open-source",
+      "prosemirror",
+      "react",
+      "real-time",
+      "self-hosted",
+      "typescript",
+      "wopi",
+      "word-processor",
+      "y-prosemirror",
+      "y-websocket",
+      "yjs"
+    ],
+    "updatedAt": "2026-09-24T10:29:02Z",
+    "category": "Standalone Tools & Apps",
+    "subcategory": "Writing & Notes"
+  },
+  {
+    "id": 1182212878,
+    "name": "OfficeCLI",
+    "owner": "iOfficeAI",
+    "url": "https://github.com/iOfficeAI/OfficeCLI",
+    "description": "OfficeCLI is the first and best Office suite  purpose-built for AI agents to read, edit, and automate Word, Excel, and PowerPoint files. Free, open-source, single binary, no Office installation required.",
+    "language": "C#",
+    "stars": 31296,
+    "topics": [
+      "agent",
+      "ai",
+      "claude-code",
+      "cli",
+      "codex",
+      "docx",
+      "excel",
+      "office",
+      "openclaw",
+      "pptx",
+      "presentation",
+      "skills",
+      "word",
+      "xlsx"
+    ],
+    "updatedAt": "2026-09-27T19:15:23Z",
+    "category": "AI, LLMs & Data",
+    "subcategory": "Agents"
+  },
+  {
+    "id": 72477752,
+    "name": "pulumi",
+    "owner": "pulumi",
+    "url": "https://github.com/pulumi/pulumi",
+    "description": "Pulumi - Infrastructure as Code in any programming language 🚀",
+    "language": "Go",
+    "stars": 25734,
+    "topics": [
+      "aws",
+      "azure",
+      "cloud",
+      "cloud-computing",
+      "containers",
+      "csharp",
+      "dotnet",
+      "fsharp",
+      "gcp",
+      "go",
+      "golang",
+      "iac",
+      "infrastructure-as-code",
+      "javascript",
+      "kubernetes",
+      "python",
+      "serverless",
+      "typescript"
+    ],
+    "updatedAt": "2026-09-27T18:19:48Z",
+    "category": "Infrastructure & Systems",
+    "subcategory": "DevOps & Cloud"
+  },
+  {
+    "id": 679421146,
+    "name": "opentofu",
+    "owner": "opentofu",
+    "url": "https://github.com/opentofu/opentofu",
+    "description": "OpenTofu lets you declaratively manage your cloud infrastructure.",
+    "language": "Go",
+    "stars": 30305,
+    "topics": [],
+    "updatedAt": "2026-09-27T19:11:18Z",
+    "category": "Infrastructure & Systems",
+    "subcategory": "DevOps & Cloud"
+  },
+  {
+    "id": 1062356571,
+    "name": "Mole",
+    "owner": "tw93",
+    "url": "https://github.com/tw93/Mole",
+    "description": "🐹 Clean, uninstall, analyze, optimize, and monitor your Mac. Free open-source CLI, plus a native Mac app.",
+    "language": "Shell",
+    "stars": 68575,
+    "topics": [
+      "analyzer",
+      "appcleaner",
+      "clean",
+      "cleaner",
+      "cleanmymac",
+      "command-line",
+      "daisydisk",
+      "istat",
+      "mac",
+      "macos",
+      "macos-app",
+      "native",
+      "optimize",
+      "pearcleaner",
+      "sensei",
+      "shell",
+      "swift",
+      "swiftui",
+      "uninstall"
+    ],
+    "updatedAt": "2026-09-27T18:58:02Z",
+    "category": "Standalone Tools & Apps",
+    "subcategory": "User Applications"
+  },
+  {
+    "id": 759893102,
+    "name": "pglite",
+    "owner": "electric-sql",
+    "url": "https://github.com/electric-sql/pglite",
+    "description": "Embeddable Postgres with real-time, reactive bindings.",
+    "language": "TypeScript",
+    "stars": 16076,
+    "topics": [
+      "database",
+      "postgres",
+      "wasm"
+    ],
+    "updatedAt": "2026-09-27T17:37:55Z",
+    "category": "Infrastructure & Systems",
+    "subcategory": "Databases & Storage"
+  },
+  {
+    "id": 191909407,
+    "name": "pizzip",
+    "owner": "open-xml-templating",
+    "url": "https://github.com/open-xml-templating/pizzip",
+    "description": "A synchronous zip module",
+    "language": "JavaScript",
+    "stars": 64,
+    "topics": [],
+    "updatedAt": "2026-09-21T13:57:20Z",
+    "category": "Libraries & Utilities",
+    "subcategory": "Documents & Data Formats"
+  },
+  {
+    "id": 702796244,
+    "name": "fish-speech",
+    "owner": "fishaudio",
+    "url": "https://github.com/fishaudio/fish-speech",
+    "description": "SOTA Open Source TTS",
+    "language": "Python",
+    "stars": 32863,
+    "topics": [
+      "llama",
+      "transformer",
+      "tts",
+      "valle",
+      "vits",
+      "vqgan",
+      "vqvae"
+    ],
+    "updatedAt": "2026-09-27T19:06:06Z",
+    "category": "AI, LLMs & Data",
+    "subcategory": "Speech & Audio AI"
+  },
+  {
+    "id": 736272311,
+    "name": "pipecat",
+    "owner": "pipecat-ai",
+    "url": "https://github.com/pipecat-ai/pipecat",
+    "description": "Open Source framework for voice agents, multimodal apps, and realtime AI. Maintained by Daily and the community.",
+    "language": "Python",
+    "stars": 15923,
+    "topics": [
+      "ai",
+      "chatbot-framework",
+      "chatbots",
+      "real-time",
+      "voice",
+      "voice-assistant"
+    ],
+    "updatedAt": "2026-09-27T18:36:52Z",
+    "category": "AI, LLMs & Data",
+    "subcategory": "LLMs & GenAI"
+  },
+  {
+    "id": 1008713177,
+    "name": "qwen-code",
+    "owner": "QwenLM",
+    "url": "https://github.com/QwenLM/qwen-code",
+    "description": "An open-source AI coding agent that lives in your terminal.",
+    "language": "TypeScript",
+    "stars": 28159,
+    "topics": [
+      "agentic",
+      "ai",
+      "ai-agent",
+      "ai-coding",
+      "cli",
+      "coding-agent",
+      "developer-tools",
+      "llm",
+      "mcp",
+      "qwen",
+      "terminal",
+      "typescript"
+    ],
+    "updatedAt": "2026-09-27T18:41:28Z",
+    "category": "AI, LLMs & Data",
+    "subcategory": "Agents"
+  },
+  {
+    "id": 1243889840,
+    "name": "Switchyard",
+    "owner": "NVIDIA-NeMo",
+    "url": "https://github.com/NVIDIA-NeMo/Switchyard",
+    "description": "Switchyard lets LLM applications route traffic across models and providers while preserving native OpenAI and Anthropic API compatibility - enabling flexible model selection, benchmarking, and cost/performance optimization.",
+    "language": "Rust",
+    "stars": 3232,
+    "topics": [],
+    "updatedAt": "2026-09-27T19:13:13Z",
+    "category": "AI, LLMs & Data",
+    "subcategory": "LLMs & GenAI"
+  },
+  {
+    "id": 725205304,
+    "name": "unsloth",
+    "owner": "unslothai",
+    "url": "https://github.com/unslothai/unsloth",
+    "description": "Local UI to run and train LLMs and diffusion models. Supports GGUF, MLX, Qwen3.8, DeepSeek-V4, MiniMax-H3, Gemma 4, FLUX and more.",
+    "language": "Python",
+    "stars": 76869,
+    "topics": [
+      "agent",
+      "ai",
+      "chatgpt",
+      "deepseek",
+      "fine-tuning",
+      "gemma",
+      "image-generation",
+      "llama",
+      "llm",
+      "llms",
+      "openai",
+      "python",
+      "qwen",
+      "reinforcement-learning",
+      "self-hosted",
+      "stable-diffusion",
+      "text-to-speech",
+      "tts",
+      "ui",
+      "unsloth"
+    ],
+    "updatedAt": "2026-09-27T19:12:28Z",
+    "category": "AI, LLMs & Data",
+    "subcategory": "LLMs & GenAI"
+  },
+  {
+    "id": 984341155,
+    "name": "lemonade",
+    "owner": "lemonade-sdk",
+    "url": "https://github.com/lemonade-sdk/lemonade",
+    "description": "Lemonade helps users discover and run local AI apps by serving optimized LLMs right from their own GPUs and NPUs. Join our discord: https://discord.gg/5xXzkMu8Zk",
+    "language": "C++",
+    "stars": 5790,
+    "topics": [
+      "ai",
+      "amd",
+      "genai",
+      "gpu",
+      "llama",
+      "llm",
+      "llm-inference",
+      "local-server",
+      "mcp",
+      "mcp-server",
+      "mistral",
+      "npu",
+      "onnxruntime",
+      "openai-api",
+      "qwen",
+      "radeon",
+      "rocm",
+      "ryzen",
+      "vulkan"
+    ],
+    "updatedAt": "2026-09-27T13:36:36Z",
+    "category": "AI, LLMs & Data",
+    "subcategory": "LLMs & GenAI"
+  },
+  {
+    "id": 1175588150,
+    "name": "best-of-Agent-Harnesses",
+    "owner": "RyanAlberts",
+    "url": "https://github.com/RyanAlberts/best-of-Agent-Harnesses",
+    "description": "🏆 Ranked list of 167 AI agent harnesses, plus copy-paste templates (AGENTS.md, safe Claude Code settings, a minimal harness) and step-by-step playbooks. MCP server, llms.txt & JSON. Rescored weekly.",
+    "language": "Python",
+    "stars": 989,
+    "topics": [
+      "agent-framework",
+      "agent-harness",
+      "agentic-ai",
+      "agents",
+      "ai-agent",
+      "ai-agent-framework",
+      "ai-agents",
+      "ai-tools",
+      "awesome-list",
+      "best-of-list",
+      "claude-code",
+      "coding-agents",
+      "harness",
+      "harness-engineering",
+      "llm",
+      "llm-agents",
+      "llm-framework",
+      "llm-tools",
+      "mcp",
+      "model-context-protocol"
+    ],
+    "updatedAt": "2026-09-27T18:57:56Z",
+    "category": "AI, LLMs & Data",
+    "subcategory": "Agents"
+  },
+  {
+    "id": 1195759722,
+    "name": "awesome-agent-harness",
+    "owner": "Picrew",
+    "url": "https://github.com/Picrew/awesome-agent-harness",
+    "description": "An awesome list of Agent Harness engineering resources, including GitHub projects, tools, benchmarks, and practical guides.",
+    "language": "Python",
+    "stars": 1809,
+    "topics": [
+      "agent-harness",
+      "context-engineering",
+      "harness-engineering"
+    ],
+    "updatedAt": "2026-09-27T09:44:09Z",
+    "category": "AI, LLMs & Data",
+    "subcategory": "Agents"
+  },
+  {
+    "id": 1129940957,
+    "name": "headroom",
+    "owner": "headroomlabs-ai",
+    "url": "https://github.com/headroomlabs-ai/headroom",
+    "description": "Compress tool outputs, logs, files, and RAG chunks before they reach the LLM. 20% fewer tokens for coding agents, 60-95% fewer tokens for JSON, same answers. Library, proxy, MCP server.",
+    "language": "Python",
+    "stars": 73948,
+    "topics": [
+      "agent",
+      "ai",
+      "anthropic",
+      "claude-code",
+      "compression",
+      "context-engineering",
+      "context-window",
+      "cursor",
+      "fastapi",
+      "langchain",
+      "llm",
+      "mcp",
+      "openai",
+      "prompt-engineering",
+      "proxy",
+      "python",
+      "rag",
+      "token-optimization",
+      "tokens",
+      "typescript"
+    ],
+    "updatedAt": "2026-09-27T19:12:52Z",
+    "category": "AI, LLMs & Data",
+    "subcategory": "Agents"
+  },
+  {
+    "id": 693831760,
+    "name": "DreamLLM",
+    "owner": "RunpeiDong",
+    "url": "https://github.com/RunpeiDong/DreamLLM",
+    "description": "[ICLR 2024 Spotlight] DreamLLM: Synergistic Multimodal Comprehension and Creation",
+    "language": "Python",
+    "stars": 462,
+    "topics": [],
+    "updatedAt": "2026-06-23T09:06:12Z",
+    "category": "AI, LLMs & Data",
+    "subcategory": "LLMs & GenAI"
+  },
+  {
+    "id": 297701481,
+    "name": "embassy",
+    "owner": "embassy-rs",
+    "url": "https://github.com/embassy-rs/embassy",
+    "description": "Modern embedded framework, using Rust and async.",
+    "language": "Rust",
+    "stars": 9888,
+    "topics": [
+      "async",
+      "drivers",
+      "embedded",
+      "executor",
+      "hal",
+      "rust"
+    ],
+    "updatedAt": "2026-09-27T19:06:25Z",
+    "category": "Languages & Engineering",
+    "subcategory": "Electronics & IoT"
+  },
+  {
+    "id": 896028068,
+    "name": "provekit",
+    "owner": "worldfnd",
+    "url": "https://github.com/worldfnd/provekit",
+    "description": "Client side zero-knowledge proving.",
+    "language": "Noir",
+    "stars": 141,
+    "topics": [],
+    "updatedAt": "2026-09-25T09:04:10Z",
+    "category": "Infrastructure & Systems",
+    "subcategory": "Security"
+  },
+  {
+    "id": 1174789082,
+    "name": "buzz",
+    "owner": "block",
+    "url": "https://github.com/block/buzz",
+    "description": "A hive mind communication platform",
+    "language": "Rust",
+    "stars": 35007,
+    "topics": [],
+    "updatedAt": "2026-09-27T19:16:21Z",
+    "category": "Standalone Tools & Apps",
+    "subcategory": "User Applications"
+  },
+  {
+    "id": 1375382253,
+    "name": "laya",
+    "owner": "NandhaKishorM",
+    "url": "https://github.com/NandhaKishorM/laya",
+    "description": "Non-autoregressive System 1 decision engine. Typed choice, score and yes/no decisions over any text in a single forward pass, in 100+ languages, with a router that picks the right checkpoint per request.",
+    "language": "Python",
+    "stars": 26585,
+    "topics": [
+      "calibration",
+      "classification",
+      "decision-model",
+      "huggingface",
+      "jev",
+      "modernbert",
+      "multilingual",
+      "nlp",
+      "python",
+      "pytorch",
+      "routing",
+      "typed-decisions",
+      "zero-shot"
+    ],
+    "updatedAt": "2026-09-27T19:15:28Z",
+    "category": "AI, LLMs & Data",
+    "subcategory": "LLMs & GenAI"
   }
 ]

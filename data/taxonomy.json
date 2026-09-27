@@ -2,19 +2,19 @@
   {
     "category": "AI, LLMs & Data",
     "subcategory": "LLMs & GenAI",
-    "covers": "Large language models and generative AI as technology: LLM weights and inference engines/servers, quantization, LLM SDKs and API gateways, agent frameworks and multi-agent libraries for building agents, browser-automation agents, RAG frameworks, memory layers for LLMs, prompt engineering and evaluation, MCP frameworks, image and video generation models, deepfakes.",
-    "not_for": "Coding agents, agent CLIs and their skills or plugins (Agent Harnesses). *claw personal assistant agents (Claws). Speech, voice and music models (Speech & Audio AI). Chat client apps for end users (User Applications). General ML frameworks and perception models (Machine Learning). Tutorials and curated lists about LLMs (Educational & Awesome). LLM guardrails (Security).",
+    "covers": "Large language models and generative AI as technology: LLM weights and inference engines/servers, local model runners, fine-tuning and training UIs for LLMs, quantization, LLM SDKs, API gateways and model routers, frameworks and libraries for building AI apps and agents, durable workflow engines for AI, RAG frameworks and document indexing for RAG, prompt engineering, evaluation, MCP frameworks, AI UI component kits, jailbreak prompts and research, multimodal and vision-language models, image and video generation models, deepfakes.",
+    "not_for": "Ready-to-run agents, coding agents, agent orchestrators and tools that support agents such as agent memory, agent browsers and token savers (Agents). Skills, plugins, subagents and methodologies for agents (Agent Skills). Speech, voice and music models (Speech & Audio AI). Chat client apps for end users (User Applications). General ML frameworks and perception models (Machine Learning). Tutorials and curated lists (Educational & Awesome). LLM guardrails (Security).",
     "examples": [
-      "ollama",
       "llama.cpp",
       "vllm",
+      "unsloth",
       "langchain",
+      "llama_index",
+      "mastra",
       "dify",
-      "AutoGPT",
       "ragflow",
-      "browser-use",
-      "Deep-Live-Cam",
-      "transformers.js"
+      "PageIndex",
+      "Deep-Live-Cam"
     ]
   },
   {
@@ -70,38 +70,6 @@
   },
   {
     "category": "AI, LLMs & Data",
-    "subcategory": "Agent Harnesses",
-    "covers": "Agent harnesses: programs that run an LLM in a loop with tools to do work on your code or computer, such as coding agents in the terminal, CLI agents and IDE agent extensions; orchestrators that run several coding agents; and the skills, plugins, subagents, prompts, context files and methodologies built for these harnesses.",
-    "not_for": "Editors, IDEs and terminals that are primarily apps even if AI-first (Developer Tools). Libraries for building your own agents (LLMs & GenAI). *claw personal assistant agents (Claws). Chat client apps (User Applications).",
-    "examples": [
-      "codex",
-      "gemini-cli",
-      "claude-code",
-      "aider",
-      "cline",
-      "opencode",
-      "continue",
-      "superpowers",
-      "skills",
-      "BMAD-METHOD"
-    ]
-  },
-  {
-    "category": "AI, LLMs & Data",
-    "subcategory": "Claws",
-    "covers": "The *claw family of personal AI assistant agents: openclaw and its forks, rewrites and alternatives (zeroclaw, picoclaw, nanoclaw, ironclaw, nullclaw and any other *claw), plus similar always-on self-hosted personal agents that act for you through chat apps and messaging channels.",
-    "not_for": "Coding agents and agent CLIs (Agent Harnesses). Agent-building frameworks (LLMs & GenAI). Chat client apps (User Applications).",
-    "examples": [
-      "openclaw",
-      "zeroclaw",
-      "picoclaw",
-      "nanoclaw",
-      "ironclaw",
-      "nullclaw"
-    ]
-  },
-  {
-    "category": "AI, LLMs & Data",
     "subcategory": "Speech & Audio AI",
     "covers": "AI models and toolkits for speech and audio: speech recognition and transcription, text-to-speech, voice cloning and voice conversion, speech-to-speech, speaker identification, AI music and sound generation, ML audio denoising.",
     "not_for": "Audio editors, players and music production apps (Multimedia). Non-AI audio libraries (Media Processing). Sound synthesis languages (Science & Algorithms).",
@@ -113,6 +81,45 @@
       "piper1-gpl",
       "Real-Time-Voice-Cloning",
       "tortoise-tts"
+    ]
+  },
+  {
+    "category": "AI, LLMs & Data",
+    "subcategory": "Agents",
+    "covers": "Ready-to-run AI agents and everything that runs or supports them: personal assistant agents (all *claw agents such as openclaw, and similar agents like hermes-agent), coding agents and agent harnesses in the terminal, IDE or desktop (codex, gemini-cli, claude-code, opencode, goose, aider, cline), general and research super-agents, orchestrators and multiplexers that run several coding agents in parallel or in git worktrees, agent task boards, and agent tooling: memory systems for agents, browsers built for agents, token and context savers, usage trackers, plan and diff review for agents, MCP servers that bridge agents.",
+    "not_for": "Skills, plugins, subagent collections, prompt packs and spec-driven methodologies that agents load (Agent Skills). Libraries and SDKs for building your own agents (LLMs & GenAI). AI-first editors and terminals that are primarily apps (Developer Tools, Terminals & Shell). Chat client apps (User Applications).",
+    "examples": [
+      "openclaw",
+      "zeroclaw",
+      "hermes-agent",
+      "codex",
+      "gemini-cli",
+      "claude-code",
+      "opencode",
+      "goose",
+      "aider",
+      "emdash",
+      "dmux",
+      "mempalace",
+      "rtk",
+      "agent-browser"
+    ]
+  },
+  {
+    "category": "AI, LLMs & Data",
+    "subcategory": "Agent Skills",
+    "covers": "Things AI agents load to gain abilities or follow a process: agent skills and skill collections, plugin and skill registries, subagent collections, prompt and command packs, context engineering and spec-driven development methodologies for coding agents, curated lists of skills or subagents.",
+    "not_for": "The agents and harnesses themselves, and tooling that runs alongside them (Agents). Libraries for building agents (LLMs & GenAI).",
+    "examples": [
+      "skills",
+      "superpowers",
+      "BMAD-METHOD",
+      "get-shit-done",
+      "OpenSpec",
+      "awesome-agent-skills",
+      "pm-skills",
+      "threejs-skills",
+      "clawhub"
     ]
   },
   {
@@ -187,7 +194,7 @@
   {
     "category": "Infrastructure & Systems",
     "subcategory": "Security",
-    "covers": "Security, identity and cryptography: penetration testing and exploitation tools, SQL injection tools, password cracking, network scanning, security static analysis, reverse engineering and binary analysis, hacking hardware toolkits, identity and access management, browser fingerprinting and visitor identification, code obfuscation, OAuth/OIDC servers, auth providers, cryptography libraries, secrets sharing, LLM guardrails and red teaming, malware and stealers.",
+    "covers": "Security, identity and cryptography: penetration testing and exploitation tools, SQL injection tools, password cracking, network scanning, security static analysis, reverse engineering and binary analysis, hacking hardware toolkits, identity and access management, browser fingerprinting and visitor identification, code obfuscation, OAuth/OIDC servers, auth providers, cryptography libraries, secrets sharing, password managers and their extensions, one-time password tools, cloud security posture and compliance scanning, LLM guardrails and red teaming, malware and stealers.",
     "not_for": "General developer tools without a security focus (Developer Tools). Auth middleware for a specific web framework (Backend & APIs).",
     "examples": [
       "metasploit-framework",
@@ -199,7 +206,9 @@
       "semgrep",
       "libsodium",
       "fingerprintjs",
-      "promptfoo"
+      "promptfoo",
+      "password-store",
+      "prowler"
     ]
   },
   {
@@ -455,40 +464,42 @@
   {
     "category": "Standalone Tools & Apps",
     "subcategory": "Developer Tools",
-    "covers": "Applications and frameworks developers use directly while working: code editors and IDEs (including AI-first editors), terminals (including AI-first terminals), git clients, version managers, API clients, test runners, benchmarking, browser and test automation frameworks, git hooks, process managers, env and config loaders.",
-    "not_for": "Coding agents, agent CLIs and IDE agent extensions (Agent Harnesses). Libraries imported into application code (Libraries & Utilities). Compilers, bundlers and monorepo build systems (Compilers & Tooling). Security and reverse engineering tools (Security). Apps for non-developers (User Applications).",
+    "covers": "Applications and frameworks developers use directly while working: code editors and IDEs (including AI-first editors), git clients and git workflow tools, version managers, package managers, API clients, database GUI clients, test runners, benchmarking, browser and test automation frameworks, dead-code finders, git hooks, process managers, env and config loaders, mobile build toolchains.",
+    "not_for": "Terminal emulators, multiplexers and shell tools (Terminals & Shell). Coding agents and agent orchestrators (Agents). Libraries imported into application code (Libraries & Utilities). Compilers, bundlers and monorepo build systems (Compilers & Tooling). Security tools (Security). Apps for non-developers (User Applications).",
     "examples": [
       "vscode",
       "neovim",
       "zed",
       "cursor",
-      "warp",
       "lazygit",
       "nvm",
+      "brew",
       "playwright",
-      "selenium",
       "insomnia",
-      "husky",
-      "pm2"
+      "yaak",
+      "sqlitebrowser",
+      "knip",
+      "husky"
     ]
   },
   {
     "category": "Standalone Tools & Apps",
     "subcategory": "User Applications",
-    "covers": "End-user applications for everyday work and life: note taking and markdown editor apps, whiteboards, knowledge bases, workflow automation, CRMs, BI and dashboards, AI chat client apps and chat UIs, ad blockers, file sharing, document management, torrent clients, screenshots.",
-    "not_for": "Media players, editors and downloaders (Multimedia). Games and game emulators (Game Development). Tools aimed at programmers (Developer Tools). LLM models and agent frameworks (LLMs & GenAI).",
+    "covers": "End-user applications for everyday work and life: whiteboards, knowledge bases, workflow automation, CRMs, BI and dashboards, AI chat client apps and chat UIs, accounting and finance, ad blockers, file sharing and file servers, document management, torrent clients, screenshots, system cleanup and monitoring apps.",
+    "not_for": "Note-taking, markdown and document editors, and slide tools (Writing & Notes). Terminal apps (Terminals & Shell). Media apps (Multimedia). Games (Game Development). Tools aimed at programmers (Developer Tools). AI agents (Agents).",
     "examples": [
       "n8n",
       "excalidraw",
       "AFFiNE",
-      "joplin",
-      "logseq",
       "metabase",
       "open-webui",
+      "LibreChat",
       "jan",
-      "chatbox",
+      "hledger",
       "uBlock",
-      "localsend"
+      "localsend",
+      "paperless-ngx",
+      "dufs"
     ]
   },
   {
@@ -522,6 +533,38 @@
       "lila",
       "kaboom",
       "Delta"
+    ]
+  },
+  {
+    "category": "Standalone Tools & Apps",
+    "subcategory": "Writing & Notes",
+    "covers": "Apps for writing, notes and documents: note-taking and personal knowledge apps, markdown editors and previewers, collaborative markdown and document editors, word processors and docx editors, slide and presentation tools such as markdown-to-slides.",
+    "not_for": "Publishing websites, CMS and static site generators (CMS & Content). Markdown parser libraries (CMS & Content). Document format conversion libraries (Documents & Data Formats). Whiteboards and knowledge bases (User Applications).",
+    "examples": [
+      "joplin",
+      "logseq",
+      "memos",
+      "stackedit",
+      "hedgedoc",
+      "marp",
+      "glow",
+      "ghostwriter",
+      "docx-editor"
+    ]
+  },
+  {
+    "category": "Standalone Tools & Apps",
+    "subcategory": "Terminals & Shell",
+    "covers": "Working in the terminal: terminal emulators (including AI-integrated and GPU-accelerated ones), terminal multiplexers, remote and mobile shells, shells and shell prompts, terminal environments.",
+    "not_for": "Libraries for building CLI programs (CLI & Logging). Git TUIs and other developer apps (Developer Tools). Coding agents that run in the terminal (Agents).",
+    "examples": [
+      "tmux",
+      "kitty",
+      "ghostty",
+      "warp",
+      "waveterm",
+      "tabby",
+      "mosh"
     ]
   },
   {
@@ -604,21 +647,19 @@
   {
     "category": "Web Development",
     "subcategory": "CMS & Content",
-    "covers": "Creating and publishing content on the web: headless and traditional CMS, static site generators, markdown parsers and front-matter parsers, template engines, syntax highlighting for code in pages and documents, wikis, presentation-from-markdown tools, community and social publishing platforms.",
-    "not_for": "Standalone note-taking and markdown editor apps (User Applications). General frontend frameworks (Frontend Frameworks).",
+    "covers": "Publishing content on the web: headless and traditional CMS, static site generators and digital gardens, wikis, blogging and community or social publishing platforms, markdown parsers and front-matter parsers used for rendering content, template engines, syntax highlighting for code in pages.",
+    "not_for": "Note-taking, markdown and document editors, and presentation tools (Writing & Notes). Frontend frameworks (Frontend Frameworks). Document conversion (Documents & Data Formats).",
     "examples": [
       "hugo",
       "strapi",
       "decap-cms",
+      "quartz",
+      "mediawiki",
       "marked",
       "markdown-it",
       "gray-matter",
-      "quartz",
-      "marp",
-      "mediawiki",
       "mustache.js",
-      "highlight.js",
-      "prism"
+      "highlight.js"
     ]
   }
 ]

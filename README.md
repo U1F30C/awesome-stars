@@ -1,8 +1,8 @@
 # awesome-stars
 
-A curated static site of 1,370 GitHub starred repositories, organized by category.
+A curated static site of 1,467 GitHub starred repositories, organized by category.
 
-**26M+ total stars · 58 languages · 8 categories · 36 subcategories**
+**28M+ total stars · 59 languages · 8 categories · 38 subcategories**
 
 Built with Astro + Tailwind. `data/classified_final.json` is the single source of truth — the site reads it directly at build time, no generation step.
 
@@ -12,13 +12,13 @@ Built with Astro + Tailwind. `data/classified_final.json` is the single source o
 
 | Category | Repos | What's in it |
 |----------|-------|--------------|
-| AI, LLMs & Data | 291 | LLMs, agent harnesses, claws, speech AI, ML, data engineering, science & algorithms |
-| Infrastructure & Systems | 259 | Databases, DevOps, networking, OS & runtimes, security |
-| Web Development | 222 | Frontend frameworks, UI components, React ecosystem, backend, CMS |
-| Standalone Tools & Apps | 181 | Developer tools, user apps, multimedia, games |
-| Libraries & Utilities | 138 | Core utilities, documents & data formats, media, CLI & logging, scraping |
-| Knowledge & Inspiration | 115 | Awesome lists, guides, design, history |
-| Languages & Engineering | 83 | Compilers & tooling, electronics & IoT |
+| AI, LLMs & Data | 349 | Agents, agent skills, LLMs, speech AI, ML, data engineering, science & algorithms |
+| Infrastructure & Systems | 272 | Databases, DevOps, networking, OS & runtimes, security |
+| Web Development | 219 | Frontend frameworks, UI components, React ecosystem, backend, CMS |
+| Standalone Tools & Apps | 203 | Developer tools, terminals, writing & notes, user apps, multimedia, games |
+| Libraries & Utilities | 141 | Core utilities, documents & data formats, media, CLI & logging, scraping |
+| Knowledge & Inspiration | 116 | Awesome lists, guides, design, history |
+| Languages & Engineering | 86 | Compilers & tooling, electronics & IoT |
 | Graphics & Visualization | 81 | Charts & diagrams, 2D, 3D & GPU, maps |
 
 Full table: [data/classification_final.md](data/classification_final.md)
