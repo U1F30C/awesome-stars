@@ -8,7 +8,7 @@ export interface Props {
   description?: string;
 }
 
-const { title, description = 'A curated collection of starred GitHub repositories' } = Astro.props;
+const { title, description = 'A curated collection of open-source repositories' } = Astro.props;
 
 const categories = getCategories();
 const totalStars = allRepos.reduce((sum, r) => sum + r.stars, 0);

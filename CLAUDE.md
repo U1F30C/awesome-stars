@@ -8,7 +8,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 npm install --legacy-peer-deps   # always use this flag — peer dep conflict between astro@6 and @astrojs/tailwind@6
 npm run dev                      # dev server at http://localhost:4321
 npm run build                    # build static site → dist/
-npm run start                    # sync GitHub stars → updates data/classified_final.json
+npm run start                    # sync GitHub stars → updates data/classified_final.json (one source; repos from any host can be added by hand)
 npm run md                       # regenerate data/classification_final.md from the JSON
 ```
 
@@ -16,7 +16,7 @@ There are no tests.
 
 ## Architecture
 
-**Single source of truth:** `data/classified_final.json` — a flat array of repo objects. The site reads it entirely at build time; there is no database or API at runtime. Classification (assigning `category` and `subcategory` to each repo) is done by editing this file.
+**Single source of truth:** `data/classified_final.json` — a flat array of repo objects. It's a compilation of repos from any host, not only GitHub: non-GitHub entries (GitLab, SourceForge…) have `id: null` and the host's URL and star count (or `0`). The site reads it entirely at build time; there is no database or API at runtime. Classification (assigning `category` and `subcategory` to each repo) is done by editing this file.
 
 **Taxonomy:** `data/taxonomy.json` is the canonical list of category/subcategory pairs, each with `covers`, `not_for` and `examples`. Classify by main purpose, not language, following the `not_for` rules. It also sets the category order in `classification_final.md`. Some manually added repos have `id: null`, so key repos by `url` when you need a unique id. Repos with an empty `category` are filtered out by `allRepos` in `src/lib/repos.ts` and never appear on the site.
 

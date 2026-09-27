@@ -1,7 +1,7 @@
 {
   "name": "awesome-stars",
   "version": "1.0.0",
-  "description": "A curated site of GitHub repos from your stars, built with TypeScript and HUGO",
+  "description": "A curated collection of open-source repositories from any host, built with Astro",
   "main": "dist/github/main.js",
   "scripts": {
     "dev": "astro dev",

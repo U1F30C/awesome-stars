@@ -1,6 +1,6 @@
 # awesome-stars
 
-A curated static site of 1,467 GitHub starred repositories, organized by category.
+A curated static site of 1,476 open-source repositories, organized by category. Repos can come from anywhere (GitHub, GitLab, SourceForge…); most started as GitHub stars.
 
 **28M+ total stars · 59 languages · 8 categories · 38 subcategories**
 
@@ -12,13 +12,13 @@ Built with Astro + Tailwind. `data/classified_final.json` is the single source o
 
 | Category | Repos | What's in it |
 |----------|-------|--------------|
-| AI, LLMs & Data | 349 | Agents, agent skills, LLMs, speech AI, ML, data engineering, science & algorithms |
+| AI, LLMs & Data | 354 | Agents, agent skills, LLMs, speech AI, ML, data engineering, science & algorithms |
 | Infrastructure & Systems | 272 | Databases, DevOps, networking, OS & runtimes, security |
 | Web Development | 219 | Frontend frameworks, UI components, React ecosystem, backend, CMS |
-| Standalone Tools & Apps | 203 | Developer tools, terminals, writing & notes, user apps, multimedia, games |
-| Libraries & Utilities | 141 | Core utilities, documents & data formats, media, CLI & logging, scraping |
-| Knowledge & Inspiration | 116 | Awesome lists, guides, design, history |
-| Languages & Engineering | 86 | Compilers & tooling, electronics & IoT |
+| Standalone Tools & Apps | 204 | Developer tools, terminals, writing & notes, user apps, multimedia, games |
+| Libraries & Utilities | 142 | Core utilities, documents & data formats, media, CLI & logging, scraping |
+| Knowledge & Inspiration | 117 | Awesome lists, guides, design, history |
+| Languages & Engineering | 87 | Compilers & tooling, electronics & IoT |
 | Graphics & Visualization | 81 | Charts & diagrams, 2D, 3D & GPU, maps |
 
 Full table: [data/classification_final.md](data/classification_final.md)
@@ -55,6 +55,8 @@ npm run start
 
 New stars are appended with an empty category and listed in the terminal. Classify them by editing `data/classified_final.json` (see below).
 
+The sync is only a convenience for GitHub stars. The collection isn't tied to GitHub: any repo can be added by hand (see below), and the sync never removes or overwrites entries that aren't among your stars.
+
 ---
 
 ## Contributing: Categories
@@ -64,6 +66,8 @@ The categories are defined in **[`data/taxonomy.json`](data/taxonomy.json)**. Ea
 - `covers`: what belongs in it
 - `not_for`: what looks similar but belongs elsewhere, and where it goes instead
 - `examples`: typical repos
+
+**Adding a repo by hand:** append an entry to `data/classified_final.json` with `name`, `owner`, `url`, `description`, `language`, `stars`, `topics`, `updatedAt`, `category` and `subcategory`. It can be hosted anywhere. Use `id: null` for repos that aren't on GitHub, and the host's star count (or `0` if it has none).
 
 **Classifying a repo:** set `category` and `subcategory` in `data/classified_final.json` to a pair from the taxonomy. Go by the repo's main purpose, not its language, and check the *Not for* rules of the groups you're choosing between. When two groups seem to fit, pick the more specific one.
 

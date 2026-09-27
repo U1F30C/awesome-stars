@@ -38,13 +38,22 @@ async function main() {
     }
 
     const byId = new Map(existing.map((r) => [r.id, r]));
-    const byName = new Map(existing.map((r) => [r.name.toLowerCase(), r]));
+    const byUrl = new Map(existing.map((r) => [r.url.toLowerCase(), r]));
+    // Name fallback only for manually added GitHub entries without an id. Names aren't
+    // unique (e.g. anthropics/skills vs BuilderIO/skills) and non-GitHub repos
+    // (SourceForge, GitLab) must never be overwritten by a starred GitHub repo.
+    const byName = new Map(
+      existing
+        .filter((r) => r.id === null && r.url.toLowerCase().startsWith("https://github.com/"))
+        .map((r) => [r.name.toLowerCase(), r])
+    );
 
     let updated = 0;
     const newRepos: ClassifiedRepo[] = [];
 
     for (const repo of fetched) {
-      const match = byId.get(repo.id) ?? byName.get(repo.name.toLowerCase());
+      const match =
+        byId.get(repo.id) ?? byUrl.get(repo.url.toLowerCase()) ?? byName.get(repo.name.toLowerCase());
 
       if (match) {
         match.id = repo.id;
