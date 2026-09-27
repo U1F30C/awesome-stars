@@ -95,6 +95,7 @@ const COLOR_MAP: Record<string, string> = {
   'Languages & Engineering': 'rose',
   'Standalone Tools & Apps': 'cyan',
   'Knowledge & Inspiration': 'amber',
+  'Graphics & Visualization': 'fuchsia',
 };
 
 export function categoryColor(name: string): {
@@ -163,6 +164,14 @@ export function categoryColor(name: string): {
       pillActive: 'bg-amber-600 text-white border-amber-600',
       border: 'border-amber-200',
       text: 'text-amber-700',
+    },
+    fuchsia: {
+      header: 'bg-fuchsia-600',
+      badge: 'bg-fuchsia-100 text-fuchsia-800',
+      pill: 'bg-fuchsia-50 text-fuchsia-700 border-fuchsia-200 hover:bg-fuchsia-100',
+      pillActive: 'bg-fuchsia-600 text-white border-fuchsia-600',
+      border: 'border-fuchsia-200',
+      text: 'text-fuchsia-700',
     },
     slate: {
       header: 'bg-slate-600',

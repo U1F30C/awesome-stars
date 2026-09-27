@@ -16,9 +16,11 @@ There are no tests.
 
 ## Architecture
 
-**Single source of truth:** `data/classified_final.json` — a flat array of repo objects. The site reads it entirely at build time; there is no database or API at runtime. Classification (assigning `category` and `subcategory` to each repo) is done manually by editing this file. Repos with an empty `category` are filtered out by `allRepos` in `src/lib/repos.ts` and never appear on the site.
+**Single source of truth:** `data/classified_final.json` — a flat array of repo objects. The site reads it entirely at build time; there is no database or API at runtime. Classification (assigning `category` and `subcategory` to each repo) is done by editing this file.
 
-**Data layer (`src/lib/repos.ts`):** All pages import from here. `allRepos` is the filtered flat list. `getCategories()` builds a nested `Map<slug, CategoryData>` (each containing `subcategories: Map<slug, SubcategoryData>`), sorted by stars. `categoryColor(name)` maps the 7 hardcoded category names to Tailwind color sets — adding a new category requires adding it to `COLOR_MAP` here. `slugify()` is the canonical slug function used for all URL segments.
+**Taxonomy:** `data/taxonomy.json` is the canonical list of category/subcategory pairs, each with `covers`, `not_for` and `examples`. Classify by main purpose, not language, following the `not_for` rules. It also sets the category order in `classification_final.md`. Some manually added repos have `id: null`, so key repos by `url` when you need a unique id. Repos with an empty `category` are filtered out by `allRepos` in `src/lib/repos.ts` and never appear on the site.
+
+**Data layer (`src/lib/repos.ts`):** All pages import from here. `allRepos` is the filtered flat list. `getCategories()` builds a nested `Map<slug, CategoryData>` (each containing `subcategories: Map<slug, SubcategoryData>`), sorted by stars. `categoryColor(name)` maps the 8 hardcoded category names to Tailwind color sets — adding a new category requires adding it to `COLOR_MAP` here. `slugify()` is the canonical slug function used for all URL segments.
 
 **Routing:** Two dynamic page templates:
 - `src/pages/[category].astro` → `/{categorySlug}/`

@@ -40,3 +40,9 @@ Thumbs.db
 # AI
 .planning
 .claude
+
+# Local-only category tooling (Jev audit, taxonomy doc)
+scripts/audit-categories.ts
+scripts/generate-taxonomy.ts
+data/category_audit.json
+TAXONOMY.md

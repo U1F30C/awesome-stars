@@ -1,0 +1,624 @@
+[
+  {
+    "category": "AI, LLMs & Data",
+    "subcategory": "LLMs & GenAI",
+    "covers": "Large language models and generative AI as technology: LLM weights and inference engines/servers, quantization, LLM SDKs and API gateways, agent frameworks and multi-agent libraries for building agents, browser-automation agents, RAG frameworks, memory layers for LLMs, prompt engineering and evaluation, MCP frameworks, image and video generation models, deepfakes.",
+    "not_for": "Coding agents, agent CLIs and their skills or plugins (Agent Harnesses). *claw personal assistant agents (Claws). Speech, voice and music models (Speech & Audio AI). Chat client apps for end users (User Applications). General ML frameworks and perception models (Machine Learning). Tutorials and curated lists about LLMs (Educational & Awesome). LLM guardrails (Security).",
+    "examples": [
+      "ollama",
+      "llama.cpp",
+      "vllm",
+      "langchain",
+      "dify",
+      "AutoGPT",
+      "ragflow",
+      "browser-use",
+      "Deep-Live-Cam",
+      "transformers.js"
+    ]
+  },
+  {
+    "category": "AI, LLMs & Data",
+    "subcategory": "Machine Learning",
+    "covers": "Machine learning and deep learning frameworks and runtimes (even when widely used for LLMs), model training and inference runtimes, and perception or analysis models: computer vision, OCR, classic NLP, time-series forecasting, embeddings and vector similarity search libraries, ML in the browser.",
+    "not_for": "LLM applications, agents and image/video generation (LLMs & GenAI). Speech recognition, text-to-speech and voice models (Speech & Audio AI). Dataframes and pipelines (Data Engineering). Math and algorithms that are not ML (Science & Algorithms). Robotics (Electronics & IoT).",
+    "examples": [
+      "pytorch",
+      "tensorflow",
+      "transformers",
+      "opencv",
+      "tesseract",
+      "spaCy",
+      "faiss",
+      "onnxruntime",
+      "tfjs",
+      "face-api.js"
+    ]
+  },
+  {
+    "category": "AI, LLMs & Data",
+    "subcategory": "Data Engineering",
+    "covers": "Working with data at the analysis and pipeline level: dataframe libraries, notebooks and notebook kernels, data pipeline orchestration, data versioning, dataset preparation, extracting structured data from documents and tables.",
+    "not_for": "Databases, search engines, ORMs and message brokers (Databases & Storage). BI dashboard apps (User Applications). Charts and data visualization libraries (Charts & Diagrams). General job schedulers (DevOps & Cloud).",
+    "examples": [
+      "pandas",
+      "polars",
+      "airflow",
+      "notebook",
+      "kedro",
+      "lakeFS",
+      "unstructured",
+      "img2table"
+    ]
+  },
+  {
+    "category": "AI, LLMs & Data",
+    "subcategory": "Science & Algorithms",
+    "covers": "Mathematics, science and algorithms in any language: math, statistics and numerical computing libraries, algorithm and data-structure libraries, full-text and fuzzy search algorithms, string similarity, random generators, physics simulation, theorem provers, chess engines, scientific models such as protein folding or weather forecasting, sound synthesis languages.",
+    "not_for": "Machine learning (Machine Learning). Geospatial processing and maps (Maps & Geo). Search servers and databases (Databases & Storage). Rendering and visualization (Graphics & Visualization).",
+    "examples": [
+      "mathjs",
+      "simple-statistics",
+      "Stockfish",
+      "mujoco",
+      "lean4",
+      "alphafold3",
+      "flexsearch",
+      "uFuzzy",
+      "sage"
+    ]
+  },
+  {
+    "category": "AI, LLMs & Data",
+    "subcategory": "Agent Harnesses",
+    "covers": "Agent harnesses: programs that run an LLM in a loop with tools to do work on your code or computer, such as coding agents in the terminal, CLI agents and IDE agent extensions; orchestrators that run several coding agents; and the skills, plugins, subagents, prompts, context files and methodologies built for these harnesses.",
+    "not_for": "Editors, IDEs and terminals that are primarily apps even if AI-first (Developer Tools). Libraries for building your own agents (LLMs & GenAI). *claw personal assistant agents (Claws). Chat client apps (User Applications).",
+    "examples": [
+      "codex",
+      "gemini-cli",
+      "claude-code",
+      "aider",
+      "cline",
+      "opencode",
+      "continue",
+      "superpowers",
+      "skills",
+      "BMAD-METHOD"
+    ]
+  },
+  {
+    "category": "AI, LLMs & Data",
+    "subcategory": "Claws",
+    "covers": "The *claw family of personal AI assistant agents: openclaw and its forks, rewrites and alternatives (zeroclaw, picoclaw, nanoclaw, ironclaw, nullclaw and any other *claw), plus similar always-on self-hosted personal agents that act for you through chat apps and messaging channels.",
+    "not_for": "Coding agents and agent CLIs (Agent Harnesses). Agent-building frameworks (LLMs & GenAI). Chat client apps (User Applications).",
+    "examples": [
+      "openclaw",
+      "zeroclaw",
+      "picoclaw",
+      "nanoclaw",
+      "ironclaw",
+      "nullclaw"
+    ]
+  },
+  {
+    "category": "AI, LLMs & Data",
+    "subcategory": "Speech & Audio AI",
+    "covers": "AI models and toolkits for speech and audio: speech recognition and transcription, text-to-speech, voice cloning and voice conversion, speech-to-speech, speaker identification, AI music and sound generation, ML audio denoising.",
+    "not_for": "Audio editors, players and music production apps (Multimedia). Non-AI audio libraries (Media Processing). Sound synthesis languages (Science & Algorithms).",
+    "examples": [
+      "whisper",
+      "DeepSpeech",
+      "TTS",
+      "chatterbox",
+      "piper1-gpl",
+      "Real-Time-Voice-Cloning",
+      "tortoise-tts"
+    ]
+  },
+  {
+    "category": "Infrastructure & Systems",
+    "subcategory": "Databases & Storage",
+    "covers": "Storing, querying and moving data: SQL and NoSQL databases, vector databases, search engine servers and their client libraries, key-value stores, embedded and local-first databases, object storage, ORMs and query builders, backend-as-a-service built on a database, event streaming and message brokers, big-data engines.",
+    "not_for": "Dataframe libraries and notebooks (Data Engineering). In-process search algorithms (Science & Algorithms). Web frameworks (Backend & APIs). Monitoring and tracing (DevOps & Cloud).",
+    "examples": [
+      "redis",
+      "duckdb",
+      "supabase",
+      "elasticsearch",
+      "minio",
+      "prisma",
+      "drizzle-orm",
+      "kafka",
+      "milvus",
+      "litefs"
+    ]
+  },
+  {
+    "category": "Infrastructure & Systems",
+    "subcategory": "DevOps & Cloud",
+    "covers": "Deploying, running and operating software: containers, dev containers and orchestration, infrastructure as code, CI/CD, PaaS and self-hosted deploy platforms, workload schedulers, monitoring, logging, tracing and observability, error tracking, product analytics and feature flags, integration frameworks, job queues, package registries, dev VMs.",
+    "not_for": "Operating systems and language runtimes (OS & Runtimes). Databases (Databases & Storage). Networking and proxies (Networking & P2P). Local developer apps (Developer Tools).",
+    "examples": [
+      "kubernetes",
+      "terraform",
+      "grafana",
+      "prometheus",
+      "jaeger",
+      "nomad",
+      "dokku",
+      "jenkins",
+      "posthog",
+      "bull"
+    ]
+  },
+  {
+    "category": "Infrastructure & Systems",
+    "subcategory": "Networking & P2P",
+    "covers": "Networks and protocols: VPNs, proxies and reverse proxies, low-level HTTP and network libraries, TLS certificates, peer-to-peer and CRDT sync, blockchain protocol implementations, decentralized social protocols, real-time media servers, chat servers, MCP protocol servers.",
+    "not_for": "Web application frameworks and web servers (Backend & APIs). Authentication (Security). End-user messaging or file sharing apps (User Applications). Network graph visualization (Charts & Diagrams).",
+    "examples": [
+      "tailscale",
+      "go-ethereum",
+      "certbot",
+      "pingora",
+      "yjs",
+      "hyper",
+      "atproto",
+      "srs"
+    ]
+  },
+  {
+    "category": "Infrastructure & Systems",
+    "subcategory": "OS & Runtimes",
+    "covers": "Operating systems, kernels, desktop environments, RTOS, and runtimes that execute code: JavaScript/TypeScript runtimes and executors, JS engines, language SDK runtimes, code sandboxes and online code runners, CPU and computer emulators and virtual machines, web-to-desktop app wrappers, terminal environments for mobile OSes.",
+    "not_for": "Compilers, parsers, bundlers and language implementations focused on the language (Compilers & Tooling). Game console emulators (Game Development). Device firmware and robotics (Electronics & IoT). Containers (DevOps & Cloud).",
+    "examples": [
+      "linux",
+      "node",
+      "deno",
+      "bun",
+      "quickjs",
+      "FreeRTOS",
+      "tsx",
+      "termux-app",
+      "8086-Emulator"
+    ]
+  },
+  {
+    "category": "Infrastructure & Systems",
+    "subcategory": "Security",
+    "covers": "Security, identity and cryptography: penetration testing and exploitation tools, SQL injection tools, password cracking, network scanning, security static analysis, reverse engineering and binary analysis, hacking hardware toolkits, identity and access management, browser fingerprinting and visitor identification, code obfuscation, OAuth/OIDC servers, auth providers, cryptography libraries, secrets sharing, LLM guardrails and red teaming, malware and stealers.",
+    "not_for": "General developer tools without a security focus (Developer Tools). Auth middleware for a specific web framework (Backend & APIs).",
+    "examples": [
+      "metasploit-framework",
+      "nmap",
+      "sqlmap",
+      "ghidra",
+      "hashcat",
+      "keycloak",
+      "semgrep",
+      "libsodium",
+      "fingerprintjs",
+      "promptfoo"
+    ]
+  },
+  {
+    "category": "Knowledge & Inspiration",
+    "subcategory": "Educational & Awesome",
+    "covers": "Learning material, references and examples: awesome lists, lists of APIs or tools, books, tutorials, exercises, best-practice guides, checklists, technique showcases, methodology frameworks described in docs, clone-a-product collections, starter templates, boilerplates and example or demo apps, websites of organizations and communities.",
+    "not_for": "Working software whose main purpose is to be used rather than learned from or copied. Historical source code releases (Inspiration & Historical). Fonts, icons, themes and jokes (Design & Fun).",
+    "examples": [
+      "build-your-own-x",
+      "awesome",
+      "public-apis",
+      "You-Dont-Know-JS",
+      "rustlings",
+      "nodebestpractices",
+      "Clone-Wars",
+      "skateshop",
+      "t3-app-template"
+    ]
+  },
+  {
+    "category": "Knowledge & Inspiration",
+    "subcategory": "Design & Fun",
+    "covers": "Design assets and playful projects: fonts, icon sets, emoji, color themes, ASCII art and text banners, identicons and visual hashes, novelty and joke code, OS recreations in the browser, resume builders.",
+    "not_for": "UI component libraries (UI Components). Charts and drawing libraries (Graphics & Visualization). Game engines (Game Development).",
+    "examples": [
+      "FiraCode",
+      "heroicons",
+      "catppuccin",
+      "openmoji",
+      "jsfuck",
+      "gitfiti",
+      "win11React",
+      "figlet.js"
+    ]
+  },
+  {
+    "category": "Knowledge & Inspiration",
+    "subcategory": "Inspiration & Historical",
+    "covers": "Historically significant source code kept for its historical or inspirational value, such as original source releases of famous software or historic machines.",
+    "not_for": "Classic games that are still actively developed or are game engines (Game Development). Tutorials and lists (Educational & Awesome).",
+    "examples": [
+      "Apollo-11",
+      "reddit",
+      "enigma"
+    ]
+  },
+  {
+    "category": "Languages & Engineering",
+    "subcategory": "Compilers & Tooling",
+    "covers": "Programming languages and their toolchains: language implementations, compilers and interpreters, transpilers, parsers and AST tools for code, bundlers, build systems and monorepo tools, cross-platform desktop and mobile app frameworks, packagers that produce executables, typesetting languages.",
+    "not_for": "Runtimes and engines that only execute code, emulators (OS & Runtimes). Editors, IDEs and terminals (Developer Tools). Web frontend frameworks (Frontend Frameworks). Diagram-as-code tools (Charts & Diagrams).",
+    "examples": [
+      "rust",
+      "TypeScript",
+      "cpython",
+      "zig",
+      "llvm-project",
+      "webpack",
+      "babel",
+      "esprima",
+      "electron",
+      "tauri",
+      "flutter",
+      "typst"
+    ]
+  },
+  {
+    "category": "Languages & Engineering",
+    "subcategory": "Electronics & IoT",
+    "covers": "Hardware, robotics and physical devices: microcontroller and keyboard firmware, gadget firmware, MQTT brokers and clients, hardware description languages and simulators, embedded device libraries, open hardware projects, robotics platforms, robot simulators and autonomous driving systems.",
+    "not_for": "Operating systems and RTOS kernels (OS & Runtimes). General networking (Networking & P2P). Hacking hardware toolkits (Security).",
+    "examples": [
+      "qmk_firmware",
+      "flipperzero-firmware",
+      "mosquitto",
+      "MQTT.js",
+      "iverilog",
+      "M5Unified",
+      "openpilot",
+      "apollo",
+      "webots"
+    ]
+  },
+  {
+    "category": "Graphics & Visualization",
+    "subcategory": "3D & GPU Rendering",
+    "covers": "3D graphics and GPU programming: 3D rendering libraries and engines for visuals, WebGL, WebGPU, Vulkan and OpenGL bindings and wrappers, shaders, renderers, ray tracing and global illumination, headless GL.",
+    "not_for": "Complete game engines and games (Game Development). 2D drawing (2D & Creative Coding). Charts (Charts & Diagrams).",
+    "examples": [
+      "three.js",
+      "Babylon.js",
+      "wgpu",
+      "glium",
+      "gfx",
+      "kajiya",
+      "headless-gl",
+      "nvk"
+    ]
+  },
+  {
+    "category": "Graphics & Visualization",
+    "subcategory": "2D & Creative Coding",
+    "covers": "2D graphics, drawing and creative code: 2D canvas and SVG drawing libraries, 2D rendering engines, creative coding frameworks, generative art, L-systems and procedural drawing, isometric graphics, 2D physics engines for visuals, framework-agnostic animation libraries, motion design.",
+    "not_for": "Charts, graphs and diagrams of data (Charts & Diagrams). Maps (Maps & Geo). 2D game frameworks (Game Development). Image editing apps (Multimedia).",
+    "examples": [
+      "pixijs",
+      "p5.js",
+      "two.js",
+      "fabric.js",
+      "matter-js",
+      "lindenmayer",
+      "isomer",
+      "chromata",
+      "pts"
+    ]
+  },
+  {
+    "category": "Graphics & Visualization",
+    "subcategory": "Charts & Diagrams",
+    "covers": "Visualizing data and structure: charting libraries, d3 and its modules, graph and network visualization, diagram-as-code and diagram generation, flowcharts, Sankey diagrams, plotting libraries, visualization tools for scientific data.",
+    "not_for": "Geographic maps (Maps & Geo). Node-based editor UI components (UI Components). Dashboards and BI apps (User Applications). Whiteboard apps (User Applications).",
+    "examples": [
+      "d3",
+      "Chart.js",
+      "echarts",
+      "sigma.js",
+      "vis-network",
+      "mermaid",
+      "d2",
+      "kroki",
+      "floweaver"
+    ]
+  },
+  {
+    "category": "Graphics & Visualization",
+    "subcategory": "Maps & Geo",
+    "covers": "Maps and geospatial data: web map libraries, map rendering and map art, map projections, geospatial analysis and processing, map data tools such as shapefile editing, geocoding.",
+    "not_for": "General charts (Charts & Diagrams). Navigation for robots or cars (Electronics & IoT).",
+    "examples": [
+      "Leaflet",
+      "prettymaps",
+      "turf",
+      "d3-geo-projection",
+      "mapshaper"
+    ]
+  },
+  {
+    "category": "Libraries & Utilities",
+    "subcategory": "Core Utilities",
+    "covers": "Everyday programming helpers in any language: utility belts, functional helpers, immutable data structures, date and time, IDs and UUIDs, schema and data validation, promises, async control and concurrency, job scheduling and cron, error handling, strings, URLs and query strings, money, currencies and unit conversion, fake and random data, HTTP client libraries, i18n helpers, reflection.",
+    "not_for": "Document and file format handling (Documents & Data Formats). Scraping (Web Scraping). CLI building and logging (CLI & Logging). Images, audio, colors and QR codes (Media Processing). Anything a more specific group covers.",
+    "examples": [
+      "lodash",
+      "dayjs",
+      "date-fns",
+      "zod",
+      "yup",
+      "immutable-js",
+      "uuid",
+      "bluebird",
+      "p-limit",
+      "neverthrow",
+      "axios",
+      "faker",
+      "dinero.js",
+      "toolz"
+    ]
+  },
+  {
+    "category": "Libraries & Utilities",
+    "subcategory": "Documents & Data Formats",
+    "covers": "Reading, writing and converting documents and file formats: PDF generation, reading, manipulation and text extraction, Office documents, document conversion, spreadsheets, CSV, JSON, XML, subtitles and playlists, bookmarks files, binary serialization, content and metadata extraction.",
+    "not_for": "Markdown parsers and template engines (CMS & Content). Extracting structured data for data analysis (Data Engineering). Scraping web pages (Web Scraping). Images and audio (Media Processing).",
+    "examples": [
+      "pdf.js",
+      "pdfkit",
+      "jsPDF",
+      "pandoc",
+      "mammoth.js",
+      "tika",
+      "sheetjs",
+      "node-csv",
+      "fast-xml-parser",
+      "json-2-csv",
+      "poppler"
+    ]
+  },
+  {
+    "category": "Libraries & Utilities",
+    "subcategory": "Web Scraping",
+    "covers": "Getting content out of websites: web scraping and crawling frameworks, HTML extraction, website and wiki downloaders and archivers, web-page-to-document tools, Open Graph and metadata fetchers, scraping APIs.",
+    "not_for": "Browser and test automation frameworks (Developer Tools). AI agents that browse (LLMs & GenAI).",
+    "examples": [
+      "scrapy",
+      "firecrawl",
+      "crawlee",
+      "node-crawler",
+      "x-ray",
+      "scrape-it",
+      "node-website-scraper",
+      "wikiteam",
+      "mwoffliner",
+      "percollate"
+    ]
+  },
+  {
+    "category": "Libraries & Utilities",
+    "subcategory": "CLI & Logging",
+    "covers": "Building command-line programs and logging: CLI argument parsers and frameworks, interactive prompts, terminal styling and colors, tables and trees in the terminal, shell command helpers, desktop notifications from scripts, loggers, small command-line system utilities.",
+    "not_for": "Terminal emulator apps and TUIs for developers (Developer Tools). Observability platforms (DevOps & Cloud). ASCII art (Design & Fun).",
+    "examples": [
+      "commander.js",
+      "chalk",
+      "Inquirer.js",
+      "prompts",
+      "meow",
+      "shelljs",
+      "winston",
+      "pino",
+      "ascii-table",
+      "neofetch"
+    ]
+  },
+  {
+    "category": "Libraries & Utilities",
+    "subcategory": "Media Processing",
+    "covers": "Libraries for images, audio and color used from code: image processing and conversion, screenshots of DOM elements, audio playback, recording and file formats, color manipulation and palettes, QR code generation, music composition libraries.",
+    "not_for": "Media applications for end users (Multimedia). AI speech and audio models (Speech & Audio AI). Drawing and rendering (Graphics & Visualization).",
+    "examples": [
+      "sharp",
+      "jimp",
+      "html2canvas",
+      "chroma.js",
+      "randomColor",
+      "node-qrcode",
+      "qrious",
+      "wavefile",
+      "node-speaker",
+      "scribbletune"
+    ]
+  },
+  {
+    "category": "Libraries & Utilities",
+    "subcategory": "Misc Utilities",
+    "covers": "Fallback for libraries and small tools whose purpose no other group covers.",
+    "not_for": "Anything that fits a more specific group; always prefer the specific group.",
+    "examples": [
+      "gf",
+      "tcping",
+      "nssm"
+    ]
+  },
+  {
+    "category": "Standalone Tools & Apps",
+    "subcategory": "Developer Tools",
+    "covers": "Applications and frameworks developers use directly while working: code editors and IDEs (including AI-first editors), terminals (including AI-first terminals), git clients, version managers, API clients, test runners, benchmarking, browser and test automation frameworks, git hooks, process managers, env and config loaders.",
+    "not_for": "Coding agents, agent CLIs and IDE agent extensions (Agent Harnesses). Libraries imported into application code (Libraries & Utilities). Compilers, bundlers and monorepo build systems (Compilers & Tooling). Security and reverse engineering tools (Security). Apps for non-developers (User Applications).",
+    "examples": [
+      "vscode",
+      "neovim",
+      "zed",
+      "cursor",
+      "warp",
+      "lazygit",
+      "nvm",
+      "playwright",
+      "selenium",
+      "insomnia",
+      "husky",
+      "pm2"
+    ]
+  },
+  {
+    "category": "Standalone Tools & Apps",
+    "subcategory": "User Applications",
+    "covers": "End-user applications for everyday work and life: note taking and markdown editor apps, whiteboards, knowledge bases, workflow automation, CRMs, BI and dashboards, AI chat client apps and chat UIs, ad blockers, file sharing, document management, torrent clients, screenshots.",
+    "not_for": "Media players, editors and downloaders (Multimedia). Games and game emulators (Game Development). Tools aimed at programmers (Developer Tools). LLM models and agent frameworks (LLMs & GenAI).",
+    "examples": [
+      "n8n",
+      "excalidraw",
+      "AFFiNE",
+      "joplin",
+      "logseq",
+      "metabase",
+      "open-webui",
+      "jan",
+      "chatbox",
+      "uBlock",
+      "localsend"
+    ]
+  },
+  {
+    "category": "Standalone Tools & Apps",
+    "subcategory": "Multimedia",
+    "covers": "Audio, video, image and music applications: media servers and streaming, audio and video editors, image editors, music notation and production, downloaders for videos or music, screen recorders, media players.",
+    "not_for": "Media processing libraries used from code (Libraries & Utilities). Speech recognition models (Machine Learning). Generative media models (LLMs & GenAI).",
+    "examples": [
+      "jellyfin",
+      "audacity",
+      "gimp",
+      "youtube-dl",
+      "MuseScore",
+      "shotcut",
+      "navidrome",
+      "ImageMagick"
+    ]
+  },
+  {
+    "category": "Standalone Tools & Apps",
+    "subcategory": "Game Development",
+    "covers": "Games and game making: game engines, game frameworks and libraries, game project templates, source code of games, game console emulators, online game servers such as chess sites.",
+    "not_for": "Rendering libraries not specific to games (Graphics & Visualization). Chess engines as algorithms (Science & Algorithms). CPU and computer emulators (OS & Runtimes).",
+    "examples": [
+      "godot",
+      "phaser",
+      "love",
+      "defold",
+      "DOOM",
+      "Quake",
+      "lila",
+      "kaboom",
+      "Delta"
+    ]
+  },
+  {
+    "category": "Web Development",
+    "subcategory": "Frontend Frameworks",
+    "covers": "Frameworks for building web frontends: UI frameworks and libraries (React, Vue, Svelte, Solid, Preact), meta-frameworks, CSS frameworks, frontend build tooling, documentation site frameworks, cross-framework component compilers, offline/PWA frameworks.",
+    "not_for": "Server-side frameworks and HTTP servers (Backend & APIs). Visual component libraries and widgets (UI Components). React-specific libraries (React Ecosystem). Content sites and CMS (CMS & Content). Starter templates and example apps (Educational & Awesome).",
+    "examples": [
+      "react",
+      "svelte",
+      "preact",
+      "next.js",
+      "astro",
+      "tailwindcss",
+      "bootstrap",
+      "vite",
+      "docusaurus",
+      "mitosis"
+    ]
+  },
+  {
+    "category": "Web Development",
+    "subcategory": "UI Components",
+    "covers": "Visual UI components in any framework (React, Vue, Svelte, Solid, React Native, web components or vanilla JS): component libraries, design systems, UI kits, copy-paste component collections, headless UI components, individual widgets such as modals, sheets, carousels, date pickers, data grids, tabs, rich text editors, code editors, math input, drag and drop, node-based editors, search UI widgets, admin UI templates.",
+    "not_for": "React libraries without their own visual components such as hooks, state, forms and data fetching (React Ecosystem). Full frameworks and CSS frameworks (Frontend Frameworks). Charts (Charts & Diagrams). Icons and fonts (Design & Fun).",
+    "examples": [
+      "ui",
+      "material-ui",
+      "ant-design",
+      "chakra-ui",
+      "magicui",
+      "vaul",
+      "embla-carousel",
+      "quill",
+      "monaco-editor",
+      "lexical",
+      "dragula",
+      "xyflow",
+      "react-native-ui-kitten"
+    ]
+  },
+  {
+    "category": "Web Development",
+    "subcategory": "React Ecosystem",
+    "covers": "React and React Native libraries that are not visual UI components: hooks, state management, data fetching, forms and validation for React, routing, React renderers (PDF, SVG, 3D, terminal), React Native styling and tooling, React animation, head management, i18n for React, React admin frameworks, React-only CSS-in-JS.",
+    "not_for": "Visual component libraries and widgets, even React ones (UI Components). React itself and React meta-frameworks (Frontend Frameworks).",
+    "examples": [
+      "zustand",
+      "swr",
+      "react-hook-form",
+      "formik",
+      "react-spring",
+      "react-helmet",
+      "nativewind",
+      "styled-components",
+      "react-admin",
+      "refine"
+    ]
+  },
+  {
+    "category": "Web Development",
+    "subcategory": "Backend & APIs",
+    "covers": "Tools for building backends, in any language: backend web frameworks, HTTP web servers, server middleware (file uploads, IP filtering, sessions), GraphQL servers and clients, realtime server frameworks, request batching, validation for backend code, mock API servers, API documentation generators, SDKs for building bots or integrations on messaging platforms.",
+    "not_for": "Security-specific tools, identity providers and auth servers (Security). Ready-built applications you deploy and use as-is (User Applications, Multimedia, CMS & Content or DevOps & Cloud, by purpose). Databases and ORMs (Databases & Storage). Proxies and low-level network libraries (Networking & P2P). HTTP client helpers (Core Utilities).",
+    "examples": [
+      "express",
+      "django",
+      "fastify",
+      "hono",
+      "laravel",
+      "nest",
+      "actix-web",
+      "caddy",
+      "nginx",
+      "multer",
+      "dataloader",
+      "whatsapp-web.js"
+    ]
+  },
+  {
+    "category": "Web Development",
+    "subcategory": "CMS & Content",
+    "covers": "Creating and publishing content on the web: headless and traditional CMS, static site generators, markdown parsers and front-matter parsers, template engines, syntax highlighting for code in pages and documents, wikis, presentation-from-markdown tools, community and social publishing platforms.",
+    "not_for": "Standalone note-taking and markdown editor apps (User Applications). General frontend frameworks (Frontend Frameworks).",
+    "examples": [
+      "hugo",
+      "strapi",
+      "decap-cms",
+      "marked",
+      "markdown-it",
+      "gray-matter",
+      "quartz",
+      "marp",
+      "mediawiki",
+      "mustache.js",
+      "highlight.js",
+      "prism"
+    ]
+  }
+]

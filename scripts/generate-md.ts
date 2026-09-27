@@ -5,6 +5,7 @@ import * as path from "path";
 const ROOT = path.resolve(__dirname, "..");
 const JSON_PATH = path.join(ROOT, "data", "classified_final.json");
 const MD_PATH = path.join(ROOT, "data", "classification_final.md");
+const TAXONOMY_PATH = path.join(ROOT, "data", "taxonomy.json");
 
 type Repo = {
   name: string;
@@ -16,17 +17,11 @@ type Repo = {
   subcategory: string;
 };
 
-const CAT_ORDER = [
-  "AI, LLMs & Data",
-  "Web Development",
-  "Infrastructure & Systems",
-  "Libraries & Utilities",
-  "Languages & Engineering",
-  "Standalone Tools & Apps",
-  "Knowledge & Inspiration",
-];
-
 const data: Repo[] = JSON.parse(fs.readFileSync(JSON_PATH, "utf8"));
+
+// Category order follows data/taxonomy.json; categories missing from it go last.
+const taxonomy: { category: string }[] = JSON.parse(fs.readFileSync(TAXONOMY_PATH, "utf8"));
+const CAT_ORDER = [...new Set([...taxonomy.map((g) => g.category), ...data.map((r) => r.category).filter(Boolean)])];
 
 const tree = new Map<string, Map<string, Repo[]>>();
 for (const r of data) {

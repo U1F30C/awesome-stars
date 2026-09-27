@@ -1,8 +1,8 @@
 # awesome-stars
 
-A curated static site of 1,350 GitHub starred repositories, organized by category.
+A curated static site of 1,370 GitHub starred repositories, organized by category.
 
-**25M+ total stars · 58 languages · 7 categories · 25 subcategories**
+**26M+ total stars · 58 languages · 8 categories · 36 subcategories**
 
 Built with Astro + Tailwind. `data/classified_final.json` is the single source of truth — the site reads it directly at build time, no generation step.
 
@@ -12,13 +12,14 @@ Built with Astro + Tailwind. `data/classified_final.json` is the single source o
 
 | Category | Repos | What's in it |
 |----------|-------|--------------|
-| AI, LLMs & Data | 243 | Models, ML frameworks, data engineering |
-| Web Development | 258 | Frontend, backend, CMS |
-| Infrastructure & Systems | 212 | Databases, DevOps, security |
-| Libraries & Utilities | 276 | JS/TS libraries, general utilities |
-| Languages & Engineering | 82 | Compilers, graphics, electronics |
-| Standalone Tools & Apps | 181 | IDEs, games, multimedia, user apps |
-| Knowledge & Inspiration | 98 | Awesome lists, guides, design |
+| AI, LLMs & Data | 291 | LLMs, agent harnesses, claws, speech AI, ML, data engineering, science & algorithms |
+| Infrastructure & Systems | 259 | Databases, DevOps, networking, OS & runtimes, security |
+| Web Development | 222 | Frontend frameworks, UI components, React ecosystem, backend, CMS |
+| Standalone Tools & Apps | 181 | Developer tools, user apps, multimedia, games |
+| Libraries & Utilities | 138 | Core utilities, documents & data formats, media, CLI & logging, scraping |
+| Knowledge & Inspiration | 115 | Awesome lists, guides, design, history |
+| Languages & Engineering | 83 | Compilers & tooling, electronics & IoT |
+| Graphics & Visualization | 81 | Charts & diagrams, 2D, 3D & GPU, maps |
 
 Full table: [data/classification_final.md](data/classification_final.md)
 
@@ -52,7 +53,21 @@ cp .env.example .env   # add GITHUB_TOKEN and GITHUB_USERNAME
 npm run start
 ```
 
-New stars are appended with an empty category and listed in the terminal. Classification is done manually by editing `data/classified_final.json`.
+New stars are appended with an empty category and listed in the terminal. Classify them by editing `data/classified_final.json` (see below).
+
+---
+
+## Contributing: Categories
+
+The categories are defined in **[`data/taxonomy.json`](data/taxonomy.json)**. Each subcategory has:
+
+- `covers`: what belongs in it
+- `not_for`: what looks similar but belongs elsewhere, and where it goes instead
+- `examples`: typical repos
+
+**Classifying a repo:** set `category` and `subcategory` in `data/classified_final.json` to a pair from the taxonomy. Go by the repo's main purpose, not its language, and check the *Not for* rules of the groups you're choosing between. When two groups seem to fit, pick the more specific one.
+
+**Changing the taxonomy:** edit `data/taxonomy.json`, keeping `not_for` pointing at the group that should get the excluded repos. If you add a new top-level category, also add it to `COLOR_MAP` in `src/lib/repos.ts`.
 
 ---
 
