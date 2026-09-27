@@ -46,3 +46,6 @@ scripts/audit-categories.ts
 scripts/generate-taxonomy.ts
 data/category_audit.json
 TAXONOMY.md
+
+# Astro generated cache
+.astro/
