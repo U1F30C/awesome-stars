@@ -1,5 +1,5 @@
 ---
-import { getCategories, slugify, formatStars, allRepos } from '../lib/repos';
+import { getCategories, formatStars, allRepos, categoryColor } from '../lib/repos';
 import { href } from '../lib/url';
 import Search from '../components/Search.astro';
 
@@ -11,6 +11,17 @@ export interface Props {
 const { title, description = 'A curated collection of open-source repositories' } = Astro.props;
 
 const categories = getCategories();
+const navItems = Array.from(categories.values()).map((cat) => {
+  const path = href(`/${cat.slug}/`);
+  return {
+    name: cat.name,
+    path,
+    count: cat.repos.length,
+    dot: categoryColor(cat.name).header,
+    current: Astro.url.pathname.startsWith(path),
+  };
+});
+const currentCategory = navItems.find((item) => item.current);
 const totalStars = allRepos.reduce((sum, r) => sum + r.stars, 0);
 ---
 
@@ -40,20 +51,52 @@ const totalStars = allRepos.reduce((sum, r) => sum + r.stars, 0);
           <Search />
         </div>
 
-        <!-- Category nav -->
-        <nav class="pb-3 overflow-x-auto">
-          <ul class="flex gap-1 min-w-max">
-            {Array.from(categories.values()).map((cat) => (
+        <!-- Category nav: wraps on desktop, collapses into a disclosure on phones -->
+        <nav aria-label="Categories" class="pb-3">
+          <ul class="hidden sm:flex flex-wrap gap-1.5 lg:grid lg:grid-cols-4 lg:gap-x-2 lg:gap-y-1">
+            {navItems.map((item) => (
               <li>
                 <a
-                  href={href(`/${cat.slug}/`)}
-                  class="text-xs px-3 py-1.5 rounded-full text-slate-300 hover:text-white hover:bg-slate-700 transition-colors whitespace-nowrap block"
+                  href={item.path}
+                  aria-current={item.current ? 'page' : undefined}
+                  class:list={[
+                    'inline-flex items-center gap-2 text-xs px-3 py-1.5 rounded-full whitespace-nowrap transition-colors',
+                    item.current
+                      ? 'bg-white text-slate-900 font-medium'
+                      : 'text-slate-300 hover:text-white hover:bg-slate-700',
+                  ]}
                 >
-                  {cat.name}
+                  <span class:list={['w-2 h-2 rounded-full shrink-0', item.dot]} aria-hidden="true"></span>
+                  {item.name}
                 </a>
               </li>
             ))}
           </ul>
+
+          <details class="sm:hidden group">
+            <summary class="flex items-center justify-between cursor-pointer list-none text-sm px-3 py-2 rounded-lg bg-slate-800 text-slate-200 [&::-webkit-details-marker]:hidden">
+              <span>{currentCategory ? currentCategory.name : 'Categories'}</span>
+              <span class="text-slate-400 transition-transform group-open:rotate-180" aria-hidden="true">▾</span>
+            </summary>
+            <ul class="grid grid-cols-2 gap-1 mt-2">
+              {navItems.map((item) => (
+                <li>
+                  <a
+                    href={item.path}
+                    aria-current={item.current ? 'page' : undefined}
+                    class:list={[
+                      'flex items-center gap-2 text-xs px-3 py-2 rounded-lg transition-colors',
+                      item.current ? 'bg-white text-slate-900 font-medium' : 'text-slate-300 hover:bg-slate-700',
+                    ]}
+                  >
+                    <span class:list={['w-2 h-2 rounded-full shrink-0', item.dot]} aria-hidden="true"></span>
+                    <span class="truncate">{item.name}</span>
+                    <span class="ml-auto text-slate-500">{item.count}</span>
+                  </a>
+                </li>
+              ))}
+            </ul>
+          </details>
         </nav>
       </div>
     </header>
