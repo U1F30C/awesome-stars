@@ -114,7 +114,7 @@
     ],
     "updatedAt": "2026-05-03T21:45:21Z",
     "category": "AI, LLMs & Data",
-    "subcategory": "LLMs & GenAI"
+    "subcategory": "Agents"
   },
   {
     "id": 1144115288,
@@ -29957,5 +29957,239 @@
     "updatedAt": "",
     "category": "Languages & Engineering",
     "subcategory": "Electronics & IoT"
+  },
+  {
+    "id": 1328358094,
+    "name": "herdr-annotate",
+    "owner": "plannotator",
+    "url": "https://github.com/plannotator/herdr-annotate",
+    "description": "Annotate terminal text, review documents and agent replies in Herdr, and send the feedback straight back to the agent.",
+    "language": "Rust",
+    "stars": 600,
+    "topics": [
+      "annotation",
+      "herdr",
+      "herdr-plugin",
+      "multiplexer"
+    ],
+    "updatedAt": "2026-09-29T19:07:00Z",
+    "category": "AI, LLMs & Data",
+    "subcategory": "Agents"
+  },
+  {
+    "id": 1075372545,
+    "name": "agency-agents",
+    "owner": "msitarzewski",
+    "url": "https://github.com/msitarzewski/agency-agents",
+    "description": "A complete AI agency at your fingertips - From frontend wizards to Reddit community ninjas, from whimsy injectors to reality checkers. Each agent is a specialized expert with personality, processes, and proven deliverables.",
+    "language": "Shell",
+    "stars": 155665,
+    "topics": [],
+    "updatedAt": "2026-10-01T19:35:40Z",
+    "category": "AI, LLMs & Data",
+    "subcategory": "Agent Skills"
+  },
+  {
+    "id": 1097346685,
+    "name": "impeccable",
+    "owner": "pbakaus",
+    "url": "https://github.com/pbakaus/impeccable",
+    "description": "The design language that makes your AI harness better at design.",
+    "language": "JavaScript",
+    "stars": 73825,
+    "topics": [],
+    "updatedAt": "2026-10-02T05:39:01Z",
+    "category": "AI, LLMs & Data",
+    "subcategory": "Agent Skills"
+  },
+  {
+    "id": 1128123594,
+    "name": "OpenViking",
+    "owner": "volcengine",
+    "url": "https://github.com/volcengine/OpenViking",
+    "description": "Self-evolving Context Database for AI Agents. Unify Agent Memory, Knowledge RAG and Skills.",
+    "language": "Python",
+    "stars": 39111,
+    "topics": [
+      "agent-memory",
+      "agent-plugins",
+      "agentic-rag",
+      "context-database",
+      "dsh-plugin",
+      "self-evolving"
+    ],
+    "updatedAt": "2026-10-02T02:50:44Z",
+    "category": "AI, LLMs & Data",
+    "subcategory": "Agents"
+  },
+  {
+    "id": 1338299113,
+    "name": "OpenAPPA",
+    "owner": "archestra-ai",
+    "url": "https://github.com/archestra-ai/OpenAPPA",
+    "description": "Deterministic guardrails that don't break agents",
+    "language": "Rust",
+    "stars": 1268,
+    "topics": [
+      "guardrails",
+      "guardrails-ai",
+      "security"
+    ],
+    "updatedAt": "2026-10-01T22:13:03Z",
+    "category": "AI, LLMs & Data",
+    "subcategory": "Agents"
+  },
+  {
+    "id": 265122478,
+    "name": "manim",
+    "owner": "ManimCommunity",
+    "url": "https://github.com/ManimCommunity/manim",
+    "description": "A community-maintained Python framework for creating mathematical animations. ",
+    "language": "Python",
+    "stars": 41184,
+    "topics": [
+      "animations",
+      "hacktoberfest",
+      "manim",
+      "math",
+      "python"
+    ],
+    "updatedAt": "2026-10-02T05:54:47Z",
+    "category": "Graphics & Visualization",
+    "subcategory": "2D & Creative Coding"
+  },
+  {
+    "id": 19606299,
+    "name": "platformio-core",
+    "owner": "platformio",
+    "url": "https://github.com/platformio/platformio-core",
+    "description": "Your Gateway to Embedded Software Development Excellence :alien:",
+    "language": "Python",
+    "stars": 9497,
+    "topics": [
+      "arduino",
+      "arm",
+      "avr",
+      "build-system",
+      "cmsis",
+      "debugging",
+      "embedded",
+      "esp32",
+      "esp8266",
+      "firmware",
+      "ide",
+      "iot",
+      "libraries",
+      "microcontroller",
+      "package-manager",
+      "platformio",
+      "risc-v",
+      "rtos",
+      "unit-testing",
+      "zephyr-rtos"
+    ],
+    "updatedAt": "2026-09-23T12:38:16Z",
+    "category": "Languages & Engineering",
+    "subcategory": "Electronics & IoT"
+  },
+  {
+    "id": 372172254,
+    "name": "axum",
+    "owner": "tokio-rs",
+    "url": "https://github.com/tokio-rs/axum",
+    "description": "HTTP routing and request-handling library for Rust that focuses on ergonomics and modularity",
+    "language": "Rust",
+    "stars": 27320,
+    "topics": [
+      "http",
+      "routing",
+      "rust"
+    ],
+    "updatedAt": "2026-09-30T06:04:41Z",
+    "category": "Web Development",
+    "subcategory": "Backend & APIs"
+  },
+  {
+    "id": 287203573,
+    "name": "SongRec",
+    "owner": "marin-m",
+    "url": "https://github.com/marin-m/SongRec",
+    "description": "An open-source Shazam client for Linux, written in Rust.",
+    "language": "Rust",
+    "stars": 1980,
+    "topics": [
+      "audio-fingerprinting",
+      "flatpak",
+      "rust",
+      "shazam",
+      "songrec"
+    ],
+    "updatedAt": "2026-09-05T21:38:38Z",
+    "category": "Standalone Tools & Apps",
+    "subcategory": "Multimedia"
+  },
+  {
+    "id": 4530533,
+    "name": "baobab",
+    "owner": "GNOME",
+    "url": "https://github.com/GNOME/baobab",
+    "description": "GNOME Disk Usage Analyzer: scans folders or volumes and shows a graphical breakdown of directory sizes.",
+    "language": "Vala",
+    "stars": 168,
+    "topics": [],
+    "updatedAt": "2026-09-28T20:06:15Z",
+    "category": "Standalone Tools & Apps",
+    "subcategory": "User Applications"
+  },
+  {
+    "id": 486815039,
+    "name": "actual",
+    "owner": "actualbudget",
+    "url": "https://github.com/actualbudget/actual",
+    "description": "A local-first personal finance app",
+    "language": "TypeScript",
+    "stars": 29253,
+    "topics": [
+      "budgeting",
+      "finance",
+      "money",
+      "personal-finance"
+    ],
+    "updatedAt": "2026-10-01T22:13:53Z",
+    "category": "Standalone Tools & Apps",
+    "subcategory": "User Applications"
+  },
+  {
+    "id": 657389598,
+    "name": "sdk-android",
+    "owner": "bridgefy",
+    "url": "https://github.com/bridgefy/sdk-android",
+    "description": "The Bridgefy Software Development Kit (SDK) is a state-of-the-art, plug-and-play package that will let people use your mobile app when they don’t have access to the Internet, by using Bluetooth mesh networks.",
+    "language": null,
+    "stars": 30,
+    "topics": [
+      "android-library",
+      "android-sdk",
+      "ble",
+      "mesh-networks",
+      "offline",
+      "offline-tool"
+    ],
+    "updatedAt": "2026-04-15T20:25:25Z",
+    "category": "Infrastructure & Systems",
+    "subcategory": "Networking & P2P"
+  },
+  {
+    "id": null,
+    "name": "briar",
+    "owner": "briar",
+    "url": "https://code.briarproject.org/briar/briar",
+    "description": "Secure peer-to-peer messaging for activists and journalists; syncs directly between devices without a central server.",
+    "language": "Java",
+    "stars": 7,
+    "topics": [],
+    "updatedAt": "2026-09-30T12:53:58Z",
+    "category": "Standalone Tools & Apps",
+    "subcategory": "User Applications"
   }
 ]
