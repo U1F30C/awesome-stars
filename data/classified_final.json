@@ -30474,5 +30474,35 @@
     "url": "https://github.com/tizonia/tizonia-openmax-il",
     "category": "Standalone Tools & Apps",
     "subcategory": "Multimedia"
+  },
+  {
+    "description": "Fully automatic censorship removal for language models",
+    "id": 1061041576,
+    "language": "Python",
+    "name": "heretic",
+    "owner": "p-e-w",
+    "stars": 35663,
+    "topics": [
+      "abliteration",
+      "llm",
+      "transformer"
+    ],
+    "updatedAt": "2026-10-17T12:59:38Z",
+    "url": "https://github.com/p-e-w/heretic",
+    "category": "AI, LLMs & Data",
+    "subcategory": "LLMs & GenAI"
+  },
+  {
+    "description": "The best ChatGPT that $100 can buy.",
+    "id": 1075431749,
+    "language": "Python",
+    "name": "nanochat",
+    "owner": "karpathy",
+    "stars": 58722,
+    "topics": [],
+    "updatedAt": "2026-09-07T20:06:43Z",
+    "url": "https://github.com/karpathy/nanochat",
+    "category": "AI, LLMs & Data",
+    "subcategory": "LLMs & GenAI"
   }
 ]
