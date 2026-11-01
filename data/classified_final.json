@@ -30644,5 +30644,133 @@
     "url": "https://github.com/TheAlgorithms/TypeScript",
     "category": "Knowledge & Inspiration",
     "subcategory": "Educational & Awesome"
+  },
+  {
+    "description": "DeepInfer: High-performance, large-scale inference framework for DeepSeek models",
+    "id": 1421825221,
+    "language": "Python",
+    "name": "DeepInfer",
+    "owner": "deepseek-ai",
+    "stars": 24706,
+    "topics": [],
+    "updatedAt": "2026-11-01T07:00:07Z",
+    "url": "https://github.com/deepseek-ai/DeepInfer",
+    "category": "AI, LLMs & Data",
+    "subcategory": "LLMs & GenAI"
+  },
+  {
+    "description": "Style React fast with 100% parity on React Native, an optional UI kit, and optimizing compiler.",
+    "id": 304740870,
+    "language": "TypeScript",
+    "name": "tamagui",
+    "owner": "tamagui",
+    "stars": 14292,
+    "topics": [
+      "atomic-css",
+      "css-in-js",
+      "optimizing-compiler",
+      "react",
+      "react-native",
+      "react-native-web",
+      "tailwind",
+      "typescript",
+      "ui",
+      "ui-components",
+      "vite",
+      "webpack"
+    ],
+    "updatedAt": "2026-10-31T21:46:28Z",
+    "url": "https://github.com/tamagui/tamagui",
+    "category": "Web Development",
+    "subcategory": "UI Components"
+  },
+  {
+    "description": "Lutris desktop client",
+    "id": 13419223,
+    "language": "Python",
+    "name": "lutris",
+    "owner": "lutris",
+    "stars": 10348,
+    "topics": [
+      "game-launcher",
+      "gaming"
+    ],
+    "updatedAt": "2026-11-01T02:46:24Z",
+    "url": "https://github.com/lutris/lutris",
+    "category": "Standalone Tools & Apps",
+    "subcategory": "Game Development"
+  },
+  {
+    "description": "A simple and lightweight app for running Windows games using UMU-Launcher",
+    "id": 810020712,
+    "language": "Python",
+    "name": "faugus-launcher",
+    "owner": "Faugus",
+    "stars": 2580,
+    "topics": [
+      "games",
+      "linux",
+      "proton"
+    ],
+    "updatedAt": "2026-11-01T05:49:12Z",
+    "url": "https://github.com/Faugus/faugus-launcher",
+    "category": "Standalone Tools & Apps",
+    "subcategory": "Game Development"
+  },
+  {
+    "description": "Compatibility tool for Steam Play based on Wine and additional components",
+    "id": 125098880,
+    "language": "C++",
+    "name": "Proton",
+    "owner": "ValveSoftware",
+    "stars": 33212,
+    "topics": [
+      "proton"
+    ],
+    "updatedAt": "2026-11-01T06:05:07Z",
+    "url": "https://github.com/ValveSoftware/Proton",
+    "category": "Standalone Tools & Apps",
+    "subcategory": "Game Development"
+  },
+  {
+    "description": "🛰️🚀A list of awesome space-related packages and resources maintained by The Orbital Index",
+    "id": 192268784,
+    "language": "Ruby",
+    "name": "awesome-space",
+    "owner": "orbitalindex",
+    "stars": 2238,
+    "topics": [
+      "astronomy-apis",
+      "awesome",
+      "awesome-list",
+      "space"
+    ],
+    "updatedAt": "2026-10-30T17:28:10Z",
+    "url": "https://github.com/orbitalindex/awesome-space",
+    "category": "Knowledge & Inspiration",
+    "subcategory": "Inspiration & Historical"
+  },
+  {
+    "description": "Multi functional app to find duplicates, empty folders, similar images etc.",
+    "id": 292065578,
+    "language": "Fluent",
+    "name": "czkawka",
+    "owner": "qarmin",
+    "stars": 34704,
+    "topics": [
+      "cleaner",
+      "duplicates",
+      "multiplatform",
+      "optimization",
+      "optimizer",
+      "rust",
+      "similar-images",
+      "similar-music",
+      "similar-videos"
+    ],
+    "updatedAt": "2026-11-01T06:18:07Z",
+    "url": "https://github.com/qarmin/czkawka",
+    "category": "Standalone Tools & Apps",
+    "subcategory": "User Applications"
   }
 ]
