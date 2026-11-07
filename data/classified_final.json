@@ -30886,5 +30886,21 @@
     "url": "https://github.com/coreutils/coreutils",
     "category": "Libraries & Utilities",
     "subcategory": "CLI & Logging"
+  },
+  {
+    "description": "Low-level unprivileged sandboxing tool used by Flatpak and similar projects",
+    "id": 51868010,
+    "language": "C",
+    "name": "bubblewrap",
+    "owner": "containers",
+    "stars": 9400,
+    "topics": [
+      "linux-containers",
+      "user-namespaces"
+    ],
+    "updatedAt": "2026-11-07T00:22:22Z",
+    "url": "https://github.com/containers/bubblewrap",
+    "category": "Infrastructure & Systems",
+    "subcategory": "Security"
   }
 ]
