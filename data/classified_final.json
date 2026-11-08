@@ -30902,5 +30902,18 @@
     "url": "https://github.com/containers/bubblewrap",
     "category": "Infrastructure & Systems",
     "subcategory": "Security"
+  },
+  {
+    "description": "TypeScript-to-Native Compiler",
+    "id": 1309331155,
+    "language": "TypeScript",
+    "name": "scriptc",
+    "owner": "vercel-labs",
+    "stars": 6521,
+    "topics": [],
+    "updatedAt": "2026-11-08T05:17:00Z",
+    "url": "https://github.com/vercel-labs/scriptc",
+    "category": "Languages & Engineering",
+    "subcategory": "Compilers & Tooling"
   }
 ]
