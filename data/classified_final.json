@@ -31106,5 +31106,28 @@
     "updatedAt": "2026-11-09T00:00:00Z",
     "category": "Libraries & Utilities",
     "subcategory": "CLI & Logging"
+  },
+  {
+    "id": null,
+    "name": "biome",
+    "owner": "biomejs",
+    "url": "https://github.com/biomejs/biome",
+    "description": "A toolchain for web projects, aimed to provide functionalities to maintain them. Biome offers formatter and linter, usable via CLI and LSP.",
+    "language": "Rust",
+    "stars": 26082,
+    "topics": [
+      "css",
+      "formatter",
+      "javascript",
+      "json",
+      "jsx",
+      "linter",
+      "static-code-analysis",
+      "typescript",
+      "web"
+    ],
+    "updatedAt": "2026-11-10T12:23:41Z",
+    "category": "Standalone Tools & Apps",
+    "subcategory": "Developer Tools"
   }
 ]
