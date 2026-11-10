@@ -14,9 +14,6 @@ dist/
 *.js.map
 *.d.ts
 
-# HUGO
-resources/
-
 # Generated data
 data/*.md
 
