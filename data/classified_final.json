@@ -31129,5 +31129,49 @@
     "updatedAt": "2026-11-10T12:23:41Z",
     "category": "Standalone Tools & Apps",
     "subcategory": "Developer Tools"
+  },
+  {
+    "description": "A refreshingly simple data-driven game engine built in Rust",
+    "id": 234798675,
+    "language": "Rust",
+    "name": "bevy",
+    "owner": "bevyengine",
+    "stars": 49671,
+    "topics": [
+      "bevy",
+      "game-development",
+      "game-engine",
+      "gamedev",
+      "open-source",
+      "rust"
+    ],
+    "updatedAt": "2026-11-10T17:56:45Z",
+    "url": "https://github.com/bevyengine/bevy",
+    "category": "Standalone Tools & Apps",
+    "subcategory": "Game Development"
+  },
+  {
+    "description": "3D and 2D game engine written in Rust",
+    "id": 178597005,
+    "language": "Rust",
+    "name": "Fyrox",
+    "owner": "FyroxEngine",
+    "stars": 9666,
+    "topics": [
+      "3d",
+      "3d-engine",
+      "engine",
+      "game-development",
+      "game-engine",
+      "gamedev",
+      "gui",
+      "rendering",
+      "rust",
+      "rust-lang"
+    ],
+    "updatedAt": "2026-11-10T17:53:57Z",
+    "url": "https://github.com/FyroxEngine/Fyrox",
+    "category": "Standalone Tools & Apps",
+    "subcategory": "Game Development"
   }
 ]
