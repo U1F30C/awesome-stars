@@ -31173,5 +31173,93 @@
     "url": "https://github.com/FyroxEngine/Fyrox",
     "category": "Standalone Tools & Apps",
     "subcategory": "Game Development"
+  },
+  {
+    "description": "A modular and open-ended toolkit for WebGPU, with advanced type inference and the ability to write shaders in TypeScript",
+    "id": 758923102,
+    "language": "TypeScript",
+    "name": "TypeGPU",
+    "owner": "software-mansion",
+    "stars": 3314,
+    "topics": [
+      "gpgpu",
+      "gpu",
+      "gpu-computing",
+      "gpu-programming",
+      "graphics",
+      "javascript",
+      "typesafe",
+      "typescript",
+      "webgpu",
+      "webgpu-api",
+      "wgsl",
+      "wgsl-shader"
+    ],
+    "updatedAt": "2026-11-11T05:37:08Z",
+    "url": "https://github.com/software-mansion/TypeGPU",
+    "category": "Graphics & Visualization",
+    "subcategory": "3D & GPU Rendering"
+  },
+  {
+    "description": "A Web Audio framework for making interactive music in the browser.",
+    "id": 17618901,
+    "language": "TypeScript",
+    "name": "Tone.js",
+    "owner": "Tonejs",
+    "stars": 14895,
+    "topics": [
+      "javascript",
+      "music",
+      "samples",
+      "scheduling",
+      "synthesis",
+      "tone",
+      "web-audio"
+    ],
+    "updatedAt": "2026-11-10T17:14:37Z",
+    "url": "https://github.com/Tonejs/Tone.js",
+    "category": "Libraries & Utilities",
+    "subcategory": "Media Processing"
+  },
+  {
+    "description": "Javascript audio library for the modern web.",
+    "id": 7874074,
+    "language": "JavaScript",
+    "name": "howler.js",
+    "owner": "goldfire",
+    "stars": 25441,
+    "topics": [
+      "audio",
+      "audio-library",
+      "howler",
+      "html5-audio",
+      "javascript",
+      "playback",
+      "volume",
+      "web-audio"
+    ],
+    "updatedAt": "2026-11-10T16:45:04Z",
+    "url": "https://github.com/goldfire/howler.js",
+    "category": "Libraries & Utilities",
+    "subcategory": "Media Processing"
+  },
+  {
+    "description": "The build system for coding agents.",
+    "id": 413918947,
+    "language": "Rust",
+    "name": "turborepo",
+    "owner": "vercel",
+    "stars": 31326,
+    "topics": [
+      "build-system",
+      "build-tool",
+      "javascript",
+      "monorepo",
+      "typescript"
+    ],
+    "updatedAt": "2026-11-11T04:53:49Z",
+    "url": "https://github.com/vercel/turborepo",
+    "category": "Languages & Engineering",
+    "subcategory": "Compilers & Tooling"
   }
 ]
