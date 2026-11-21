@@ -31384,5 +31384,101 @@
     "url": "https://github.com/ruvnet/ruflo",
     "category": "AI, LLMs & Data",
     "subcategory": "Agents"
+  },
+  {
+    "description": "A declarative, efficient, and flexible JavaScript library for building user interfaces.",
+    "id": 130884470,
+    "language": "TypeScript",
+    "name": "solid",
+    "owner": "solidjs",
+    "stars": 36887,
+    "topics": [
+      "declarative",
+      "fine-grained",
+      "javascript",
+      "jsx",
+      "performance",
+      "proxies",
+      "reactive",
+      "solid"
+    ],
+    "updatedAt": "2026-11-21T09:22:42Z",
+    "url": "https://github.com/solidjs/solid",
+    "category": "Web Development",
+    "subcategory": "Frontend Frameworks"
+  },
+  {
+    "description": "👨‍🚀 Turn API specifications into production-ready SDKs, validators, mocks, and more. 20+ plugins. Millions of weekly npm downloads. Used by Vercel, OpenCode, PayPal, AWS, Autodesk, and many more.",
+    "id": 741524414,
+    "language": "TypeScript",
+    "name": "hey-api",
+    "owner": "hey-api",
+    "stars": 5598,
+    "topics": [
+      "api-client",
+      "code-generation",
+      "codegen",
+      "developer-tools",
+      "openapi",
+      "python",
+      "sdk",
+      "sdk-generator",
+      "swagger",
+      "typescript"
+    ],
+    "updatedAt": "2026-11-21T05:23:48Z",
+    "url": "https://github.com/hey-api/hey-api",
+    "category": "Web Development",
+    "subcategory": "Backend & APIs"
+  },
+  {
+    "description": "SVG icons for popular brands",
+    "id": 6720403,
+    "language": "JavaScript",
+    "name": "simple-icons",
+    "owner": "simple-icons",
+    "stars": 26244,
+    "topics": [
+      "brand",
+      "brand-assets",
+      "brand-colors",
+      "branding",
+      "branding-assets",
+      "brands",
+      "company-brands",
+      "design",
+      "design-assets",
+      "icon-pack",
+      "icon-packs",
+      "icons",
+      "iconset",
+      "logo",
+      "logos",
+      "svg",
+      "svg-files",
+      "svg-icons",
+      "svg-images"
+    ],
+    "updatedAt": "2026-11-21T05:46:28Z",
+    "url": "https://github.com/simple-icons/simple-icons",
+    "category": "Knowledge & Inspiration",
+    "subcategory": "Design & Fun"
+  },
+  {
+    "description": "Accessibility engine for automated Web UI testing",
+    "id": 37205440,
+    "language": "HTML",
+    "name": "axe-core",
+    "owner": "dequelabs",
+    "stars": 7866,
+    "topics": [
+      "a11y",
+      "accessibility",
+      "axe"
+    ],
+    "updatedAt": "2026-11-21T07:39:45Z",
+    "url": "https://github.com/dequelabs/axe-core",
+    "category": "Standalone Tools & Apps",
+    "subcategory": "Developer Tools"
   }
 ]
