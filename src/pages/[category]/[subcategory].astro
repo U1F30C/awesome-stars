@@ -3,6 +3,7 @@ import Layout from '../../layouts/Layout.astro';
 import RepoTable from '../../components/RepoTable.astro';
 import { getCategories, categoryColor } from '../../lib/repos';
 import { href } from '../../lib/url';
+import { subMd, listJsonLd } from '../../lib/agent';
 
 export async function getStaticPaths() {
   const categories = getCategories();
@@ -28,6 +29,8 @@ const subcategories = Array.from(cat.subcategories.values());
 <Layout
   title={`${sub.name} — ${cat.name}`}
   description={`${sub.repos.length} repositories in ${sub.name} (${cat.name})`}
+  mdPath={subMd(cat, sub)}
+  jsonLd={listJsonLd(`${sub.name} — ${cat.name}`, sub.repos)}
 >
   <!-- Breadcrumb -->
   <nav class="text-sm text-slate-400 mb-6">

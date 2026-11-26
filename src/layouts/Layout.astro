@@ -6,9 +6,13 @@ import Search from '../components/Search.astro';
 export interface Props {
   title: string;
   description?: string;
+  /** Markdown twin of this page (advertised to agents). */
+  mdPath?: string;
+  /** Structured data emitted as JSON-LD. */
+  jsonLd?: Record<string, unknown>;
 }
 
-const { title, description = 'A curated collection of open-source repositories' } = Astro.props;
+const { title, description = 'A curated collection of open-source repositories', mdPath, jsonLd } = Astro.props;
 
 const categories = getCategories();
 const navItems = Array.from(categories.values()).map((cat) => {
@@ -33,6 +37,10 @@ const totalStars = allRepos.reduce((sum, r) => sum + r.stars, 0);
     <meta name="description" content={description} />
     <title>{title} | Awesome Stars</title>
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="alternate" type="text/plain" href={href('/llms.txt')} title="llms.txt" />
+    <link rel="alternate" type="application/json" href={href('/repos.json')} title="All repositories (JSON)" />
+    {mdPath && <link rel="alternate" type="text/markdown" href={mdPath} />}
+    {jsonLd && <script type="application/ld+json" set:html={JSON.stringify(jsonLd).replace(/</g, '\\u003c')} />}
   </head>
   <body class="bg-white text-slate-900 min-h-screen flex flex-col">
     <!-- Header -->

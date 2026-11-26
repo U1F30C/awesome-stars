@@ -36,4 +36,6 @@ Both call `getStaticPaths()` which drives Astro's static generation from `getCat
 
 **Star sync (`src/github/`):** `npm run start` fetches all starred repos via the GitHub API, merges them into `classified_final.json` by id then name, and prints any new repos that need manual classification. Requires `GITHUB_TOKEN` and `GITHUB_USERNAME` in `.env`.
 
+**Agent endpoints (`src/lib/agent.ts`):** `/llms.txt`, `/llms-full.txt`, `/repos.json`, `/taxonomy.json`, plus `/{category}.md` and `/{category}/{subcategory}.md` are all generated at build from `allRepos` + `data/taxonomy.json` — never hand-write or commit copies. Pages advertise them via `<link rel="alternate">` and JSON-LD in `Layout.astro`. New category/subcategory pages get their `.md` twin automatically.
+
 **Deployment:** Pushing to `main` triggers a Netlify build, which runs `npm install --legacy-peer-deps && npm run build` and publishes `dist/`.

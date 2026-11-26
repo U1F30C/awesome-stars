@@ -199,6 +199,14 @@ const reposJson = JSON.stringify(allRepos);
         }
     }
 
+    // /?q=<query> (or any page) opens the search prefilled — handy for deep links.
+    const initialQuery = new URLSearchParams(location.search).get("q")?.trim();
+    if (initialQuery && initialQuery.length >= 2) {
+        input.value = initialQuery;
+        renderResults(fuse.search(initialQuery));
+        showDropdown();
+    }
+
     input.addEventListener("input", () => {
         const q = input.value.trim();
         if (q.length < 2) {

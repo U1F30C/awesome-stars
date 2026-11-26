@@ -7,7 +7,7 @@ const categories = getCategories();
 const totalStars = allRepos.reduce((sum, r) => sum + r.stars, 0);
 ---
 
-<Layout title="Home" description="A curated collection of open-source repositories">
+<Layout title="Home" description="A curated collection of open-source repositories" mdPath={href('/llms.txt')}>
   <!-- Hero -->
   <section class="text-center py-12 border-b border-slate-100 mb-10">
     <h1 class="text-4xl font-bold text-slate-900 mb-3">Awesome Stars</h1>
