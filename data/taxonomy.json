@@ -221,9 +221,7 @@
       "You-Dont-Know-JS",
       "rustlings",
       "nodebestpractices",
-      "Clone-Wars",
-      "skateshop",
-      "t3-app-template"
+      "Clone-Wars"
     ]
   },
   {
@@ -447,7 +445,6 @@
     "not_for": "Anything that fits a more specific group; always prefer the specific group.",
     "examples": [
       "gf",
-      "tcping",
       "nssm"
     ]
   },
@@ -589,7 +586,6 @@
       "quill",
       "monaco-editor",
       "lexical",
-      "dragula",
       "xyflow",
       "react-native-ui-kitten"
     ]

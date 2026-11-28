@@ -1,8 +1,8 @@
 # awesome-stars
 
-A curated static site of 1,374 open-source repositories, organized by category. Repos can come from anywhere (GitHub, GitLab, SourceForge…); most started as GitHub stars. This repo is now the stars list itself: repos are added and removed here.
+A curated static site of 1,346 open-source repositories, organized by category. Repos can come from anywhere (GitHub, GitLab, SourceForge…); most started as GitHub stars. This repo is now the stars list itself: repos are added and removed here.
 
-**29M+ total stars · 60 languages · 8 categories · 38 subcategories**
+**29M+ total stars · 58 languages · 8 categories · 38 subcategories**
 
 Built with Astro + Tailwind. `data/classified_final.json` is the single source of truth — the site reads it directly at build time, no generation step.
 
@@ -12,14 +12,14 @@ Built with Astro + Tailwind. `data/classified_final.json` is the single source o
 
 | Category | Repos | What's in it |
 |----------|-------|--------------|
-| AI, LLMs & Data | 328 | Agents, agent skills, LLMs, speech AI, ML, data engineering, science & algorithms |
-| Infrastructure & Systems | 253 | Databases, DevOps, networking, OS & runtimes, security |
-| Web Development | 201 | Frontend frameworks, UI components, React ecosystem, backend, CMS |
-| Standalone Tools & Apps | 211 | Developer tools, terminals, writing & notes, user apps, multimedia, games |
-| Libraries & Utilities | 119 | Core utilities, documents & data formats, media, CLI & logging, scraping |
-| Knowledge & Inspiration | 111 | Awesome lists, guides, design, history |
+| AI, LLMs & Data | 325 | Agents, agent skills, LLMs, speech AI, ML, data engineering, science & algorithms |
+| Infrastructure & Systems | 247 | Databases, DevOps, networking, OS & runtimes, security |
+| Web Development | 197 | Frontend frameworks, UI components, React ecosystem, backend, CMS |
+| Standalone Tools & Apps | 208 | Developer tools, terminals, writing & notes, user apps, multimedia, games |
+| Libraries & Utilities | 116 | Core utilities, documents & data formats, media, CLI & logging, scraping |
+| Knowledge & Inspiration | 103 | Awesome lists, guides, design, history |
 | Languages & Engineering | 81 | Compilers & tooling, electronics & IoT |
-| Graphics & Visualization | 70 | Charts & diagrams, 2D, 3D & GPU, maps |
+| Graphics & Visualization | 69 | Charts & diagrams, 2D, 3D & GPU, maps |
 
 Full table: [data/classification_final.md](data/classification_final.md)
 
@@ -108,7 +108,7 @@ Nothing is removed automatically: propose removals for review first. To restore 
 - **Small but not irrelevant.** Few stars aren't enough: maintained small libraries such as `valid-filename` or `url-join` stay.
 - **Still the practical choice**, even with a partial native alternative: `nodemon`, `dotenv`.
 - **Too early to judge.** The "claw" agent variants and `AutoGPT` stay.
-- **Owner's picks.** The owner's call beats every rule above: `TinyJS`, `TinyAnimate`, `js13k-2021`, `AllAlgorithms/brainfuck`, `jailbreaking-experiments`, `continue`, `chatterbox`.
+- **Owner's picks.** The owner's call beats every rule above: `TinyJS`, `TinyAnimate`, `js13k-2021`, `AllAlgorithms/brainfuck`, `jailbreaking-experiments`, `continue`, `chatterbox`, `DeepSeek-LLM`, `Clone-Wars`, `brain.js`, `theatre`.
 
 ### Archive
 

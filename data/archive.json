@@ -5123,5 +5123,824 @@
         }
       ]
     }
+  },
+  {
+    "id": 370950446,
+    "name": "fixed-token-grabber",
+    "owner": "baum1810",
+    "url": "https://github.com/baum1810/fixed-token-grabber",
+    "description": "a discord token grabber wich is fully undetected by all antiviruses",
+    "language": "Batchfile",
+    "stars": 88,
+    "topics": [
+      "antiviruses",
+      "bat",
+      "batch",
+      "discord",
+      "discord-token-grabber",
+      "discord-webhook",
+      "grabber",
+      "installed-app",
+      "ip-grabber",
+      "ip-grabbers",
+      "powershell",
+      "powershell-script",
+      "programms",
+      "token",
+      "token-grabber",
+      "token-stealer",
+      "undetectable-token-grabber",
+      "undetected",
+      "webhook"
+    ],
+    "updatedAt": "2026-04-20T13:22:46Z",
+    "category": "Infrastructure & Systems",
+    "subcategory": "Security",
+    "archive": {
+      "date": "2026-11-28",
+      "reason": "malware",
+      "note": "Discord token grabber advertised as undetected by antivirus. Its README says it no longer works.",
+      "replacedBy": []
+    }
+  },
+  {
+    "id": 33895378,
+    "name": "dragula",
+    "owner": "bevacqua",
+    "url": "https://github.com/bevacqua/dragula",
+    "description": ":ok_hand: Drag and drop so simple it hurts",
+    "language": "JavaScript",
+    "stars": 22184,
+    "topics": [
+      "component",
+      "drag-and-drop",
+      "drag-drop",
+      "dragging",
+      "front-end",
+      "javascript",
+      "vanilla"
+    ],
+    "updatedAt": "2026-04-30T10:41:25Z",
+    "category": "Web Development",
+    "subcategory": "UI Components",
+    "archive": {
+      "date": "2026-11-28",
+      "reason": "unmaintained",
+      "note": "Quiet for 2+ years.",
+      "replacedBy": [
+        {
+          "name": "SortableJS/Sortable",
+          "url": "https://github.com/SortableJS/Sortable"
+        },
+        {
+          "name": "clauderic/dnd-kit",
+          "url": "https://github.com/clauderic/dnd-kit"
+        }
+      ]
+    }
+  },
+  {
+    "id": 98979720,
+    "name": "kafkajs",
+    "owner": "tulios",
+    "url": "https://github.com/tulios/kafkajs",
+    "description": "A modern Apache Kafka client for node.js",
+    "language": "JavaScript",
+    "stars": 3996,
+    "topics": [
+      "kafka",
+      "kafka-client",
+      "nodejs",
+      "npm-package"
+    ],
+    "updatedAt": "2026-04-29T05:04:50Z",
+    "category": "Infrastructure & Systems",
+    "subcategory": "Databases & Storage",
+    "archive": {
+      "date": "2026-11-28",
+      "reason": "unmaintained",
+      "note": "Quiet for 2+ years. Migrating takes work.",
+      "replacedBy": [
+        {
+          "name": "confluentinc/confluent-kafka-javascript",
+          "url": "https://github.com/confluentinc/confluent-kafka-javascript"
+        }
+      ]
+    }
+  },
+  {
+    "id": 22424133,
+    "name": "RecordRTC",
+    "owner": "muaz-khan",
+    "url": "https://github.com/muaz-khan/RecordRTC",
+    "description": "RecordRTC is WebRTC JavaScript library for audio/video as well as screen activity recording. It supports Chrome, Firefox, Opera, Android, and Microsoft Edge. Platforms: Linux, Mac and Windows.",
+    "language": "JavaScript",
+    "stars": 6893,
+    "topics": [
+      "mediarecorder",
+      "mediarecorder-api",
+      "mediastreamrecorder",
+      "record-audio",
+      "record-screen",
+      "record-video",
+      "recordrtc",
+      "webrtc",
+      "webrtc-recording"
+    ],
+    "updatedAt": "2026-05-03T03:53:48Z",
+    "category": "Libraries & Utilities",
+    "subcategory": "Media Processing",
+    "archive": {
+      "date": "2026-11-28",
+      "reason": "native-replacement",
+      "note": "Covers basic recording, not every format or feature.",
+      "replacedBy": [
+        {
+          "name": "native MediaRecorder"
+        }
+      ]
+    }
+  },
+  {
+    "id": 61499312,
+    "name": "ts-unused-exports",
+    "owner": "pzavolinsky",
+    "url": "https://github.com/pzavolinsky/ts-unused-exports",
+    "description": "ts-unused-exports finds unused exported symbols in your Typescript project",
+    "language": "TypeScript",
+    "stars": 801,
+    "topics": [],
+    "updatedAt": "2026-04-22T14:49:44Z",
+    "category": "Standalone Tools & Apps",
+    "subcategory": "Developer Tools",
+    "archive": {
+      "date": "2026-11-28",
+      "reason": "unmaintained",
+      "note": "Quiet for 2+ years.",
+      "replacedBy": [
+        {
+          "name": "webpro-nl/knip",
+          "url": "https://github.com/webpro-nl/knip"
+        }
+      ]
+    }
+  },
+  {
+    "id": 22524673,
+    "name": "AlertifyJS",
+    "owner": "MohammadYounes",
+    "url": "https://github.com/MohammadYounes/AlertifyJS",
+    "description": "A javascript framework for developing pretty browser dialogs and notifications.",
+    "language": "JavaScript",
+    "stars": 2089,
+    "topics": [
+      "alert",
+      "alertifyjs",
+      "confirm",
+      "dialog",
+      "modal",
+      "modal-dialogs",
+      "notifications",
+      "prompt"
+    ],
+    "updatedAt": "2026-05-01T08:00:15Z",
+    "category": "Web Development",
+    "subcategory": "UI Components",
+    "archive": {
+      "date": "2026-11-28",
+      "reason": "unmaintained",
+      "note": "Quiet for 2+ years.",
+      "replacedBy": [
+        {
+          "name": "native dialog element"
+        },
+        {
+          "name": "sweetalert2/sweetalert2",
+          "url": "https://github.com/sweetalert2/sweetalert2"
+        }
+      ]
+    }
+  },
+  {
+    "id": 2511505,
+    "name": "jsonform",
+    "owner": "jsonform",
+    "url": "https://github.com/jsonform/jsonform",
+    "description": "Build forms from JSON Schema. Easily template-able. Compatible with Bootstrap 3 out of the box.",
+    "language": "JavaScript",
+    "stars": 2821,
+    "topics": [
+      "forms",
+      "html5",
+      "javascript",
+      "json",
+      "json-form",
+      "json-schema"
+    ],
+    "updatedAt": "2026-04-30T03:57:17Z",
+    "category": "Web Development",
+    "subcategory": "UI Components",
+    "archive": {
+      "date": "2026-11-28",
+      "reason": "unmaintained",
+      "note": "Quiet for 2+ years. Replacements change the framework setup.",
+      "replacedBy": [
+        {
+          "name": "rjsf-team/react-jsonschema-form",
+          "url": "https://github.com/rjsf-team/react-jsonschema-form"
+        },
+        {
+          "name": "eclipsesource/jsonforms",
+          "url": "https://github.com/eclipsesource/jsonforms"
+        }
+      ]
+    }
+  },
+  {
+    "id": 142908872,
+    "name": "nlp.js",
+    "owner": "axa-group",
+    "url": "https://github.com/axa-group/nlp.js",
+    "description": "An NLP library for building bots, with entity extraction, sentiment analysis, automatic language identify, and so more",
+    "language": "JavaScript",
+    "stars": 6563,
+    "topics": [
+      "bot",
+      "bots",
+      "chatbot",
+      "classifier",
+      "conversational-ai",
+      "entity-extraction",
+      "hacktoberfest",
+      "javascript",
+      "natural-language-processing",
+      "nlp",
+      "nlu",
+      "nodejs",
+      "sentiment-analysis"
+    ],
+    "updatedAt": "2026-05-03T16:54:24Z",
+    "category": "AI, LLMs & Data",
+    "subcategory": "Machine Learning",
+    "archive": {
+      "date": "2026-11-28",
+      "reason": "unmaintained",
+      "note": "Quiet for 2+ years. Replacements do not cover all of its bot features.",
+      "replacedBy": [
+        {
+          "name": "spencermountain/compromise",
+          "url": "https://github.com/spencermountain/compromise"
+        },
+        {
+          "name": "NaturalNode/natural",
+          "url": "https://github.com/NaturalNode/natural"
+        }
+      ]
+    }
+  },
+  {
+    "id": 127569316,
+    "name": "mara-pipelines",
+    "owner": "mara",
+    "url": "https://github.com/mara/mara-pipelines",
+    "description": "A lightweight opinionated ETL framework, halfway between plain scripts and Apache Airflow",
+    "language": "Python",
+    "stars": 2085,
+    "topics": [
+      "data",
+      "data-integration",
+      "etl",
+      "pipeline",
+      "postgresql",
+      "python"
+    ],
+    "updatedAt": "2026-04-08T22:45:14Z",
+    "category": "AI, LLMs & Data",
+    "subcategory": "Data Engineering",
+    "archive": {
+      "date": "2026-11-28",
+      "reason": "unmaintained",
+      "note": "Quiet for 2+ years.",
+      "replacedBy": [
+        {
+          "name": "kedro-org/kedro",
+          "url": "https://github.com/kedro-org/kedro"
+        },
+        {
+          "name": "apache/airflow",
+          "url": "https://github.com/apache/airflow"
+        }
+      ]
+    }
+  },
+  {
+    "id": 822326951,
+    "name": "roundtable-js",
+    "owner": "ProofOfHumanPBC",
+    "url": "https://github.com/ProofOfHumanPBC/roundtable-js",
+    "description": "Open-source research-grade programmatic survey software",
+    "language": "JavaScript",
+    "stars": 267,
+    "topics": [
+      "behavioral",
+      "forms",
+      "javascript",
+      "open-source",
+      "research",
+      "surveys"
+    ],
+    "updatedAt": "2026-04-01T17:20:04Z",
+    "category": "Infrastructure & Systems",
+    "subcategory": "Databases & Storage",
+    "archive": {
+      "date": "2026-11-28",
+      "reason": "unmaintained",
+      "note": "Quiet for 2+ years.",
+      "replacedBy": [
+        {
+          "name": "surveyjs/survey-library",
+          "url": "https://github.com/surveyjs/survey-library"
+        }
+      ]
+    }
+  },
+  {
+    "id": 418162859,
+    "name": "remotely-save",
+    "owner": "remotely-save",
+    "url": "https://github.com/remotely-save/remotely-save",
+    "description": "Sync notes between local and cloud with smart conflict: S3 (Amazon S3/Cloudflare R2/Backblaze B2/...), Dropbox, webdav (NextCloud/InfiniCLOUD/Synology/...), OneDrive, Google Drive (GDrive), Box, pCloud, Yandex Disk, Koofr, Azure Blob Storage.",
+    "language": "TypeScript",
+    "stars": 7365,
+    "topics": [],
+    "updatedAt": "2026-05-03T21:28:26Z",
+    "category": "Standalone Tools & Apps",
+    "subcategory": "User Applications",
+    "archive": {
+      "date": "2026-11-28",
+      "reason": "unmaintained",
+      "note": "Quiet for 2+ years. The replacement syncs differently and supports different storage.",
+      "replacedBy": [
+        {
+          "name": "vrtmrz/obsidian-livesync",
+          "url": "https://github.com/vrtmrz/obsidian-livesync"
+        }
+      ]
+    }
+  },
+  {
+    "id": 1590408,
+    "name": "derby",
+    "owner": "derbyjs",
+    "url": "https://github.com/derbyjs/derby",
+    "description": "MVC framework making it easy to write realtime, collaborative applications that run in both Node.js and browsers",
+    "language": "TypeScript",
+    "stars": 4712,
+    "topics": [],
+    "updatedAt": "2026-05-02T15:51:29Z",
+    "category": "Web Development",
+    "subcategory": "Backend & APIs",
+    "archive": {
+      "date": "2026-11-28",
+      "reason": "too-minor",
+      "note": "Stale web framework.",
+      "replacedBy": []
+    }
+  },
+  {
+    "id": 4079048,
+    "name": "derby-examples",
+    "owner": "derbyjs",
+    "url": "https://github.com/derbyjs/derby-examples",
+    "description": "Example applications for the Derby framework",
+    "language": "CoffeeScript",
+    "stars": 282,
+    "topics": [],
+    "updatedAt": "2025-05-24T14:36:37Z",
+    "category": "Knowledge & Inspiration",
+    "subcategory": "Educational & Awesome",
+    "archive": {
+      "date": "2026-11-28",
+      "reason": "too-minor",
+      "note": "Examples for a stale framework.",
+      "replacedBy": []
+    }
+  },
+  {
+    "id": 6023016,
+    "name": "treeify",
+    "owner": "notatestuser",
+    "url": "https://github.com/notatestuser/treeify",
+    "description": "Pretty-print a javascript object as a tree",
+    "language": "JavaScript",
+    "stars": 260,
+    "topics": [
+      "console",
+      "javascript",
+      "pretty-print",
+      "terminal",
+      "tree",
+      "treeify"
+    ],
+    "updatedAt": "2026-03-22T05:56:32Z",
+    "category": "Libraries & Utilities",
+    "subcategory": "CLI & Logging",
+    "archive": {
+      "date": "2026-11-28",
+      "reason": "too-minor",
+      "note": "Tiny stale utility.",
+      "replacedBy": []
+    }
+  },
+  {
+    "id": 12384349,
+    "name": "fortune",
+    "owner": "fortunejs",
+    "url": "https://github.com/fortunejs/fortune",
+    "description": "Non-native graph database abstraction layer for Node.js and web browsers.",
+    "language": "JavaScript",
+    "stars": 1452,
+    "topics": [
+      "data-access-layer",
+      "database-abstraction",
+      "database-adapter",
+      "graph-database"
+    ],
+    "updatedAt": "2026-04-14T07:02:21Z",
+    "category": "Infrastructure & Systems",
+    "subcategory": "Databases & Storage",
+    "archive": {
+      "date": "2026-11-28",
+      "reason": "too-minor",
+      "note": "Stale database abstraction.",
+      "replacedBy": []
+    }
+  },
+  {
+    "id": 678589928,
+    "name": "client-vector-search",
+    "owner": "yusufhilmi",
+    "url": "https://github.com/yusufhilmi/client-vector-search",
+    "description": "A client side vector search library that can embed, store, search, and cache vectors. Works on the browser and node. It outperforms OpenAI's text-embedding-ada-002 and is way faster than Pinecone and other VectorDBs.",
+    "language": "TypeScript",
+    "stars": 231,
+    "topics": [
+      "embedding-models",
+      "embedding-vectors",
+      "embeddings",
+      "openai",
+      "search",
+      "text-embeddings",
+      "transformers",
+      "vector",
+      "vector-search"
+    ],
+    "updatedAt": "2026-04-13T10:30:04Z",
+    "category": "AI, LLMs & Data",
+    "subcategory": "Machine Learning",
+    "archive": {
+      "date": "2026-11-28",
+      "reason": "too-minor",
+      "note": "Small stale library.",
+      "replacedBy": []
+    }
+  },
+  {
+    "id": 602813978,
+    "name": "django-diagram",
+    "owner": "nick-solly",
+    "url": "https://github.com/nick-solly/django-diagram",
+    "description": "Generate an Entity Relationship Diagram for a Django project in Mermaid format",
+    "language": "Python",
+    "stars": 32,
+    "topics": [
+      "django",
+      "erdiagram",
+      "mermaid",
+      "mermaid-charting-language",
+      "mermaid-diagrams",
+      "mermaidjs",
+      "python"
+    ],
+    "updatedAt": "2026-03-11T22:01:57Z",
+    "category": "Graphics & Visualization",
+    "subcategory": "Charts & Diagrams",
+    "archive": {
+      "date": "2026-11-28",
+      "reason": "too-minor",
+      "note": "Small stale generator.",
+      "replacedBy": []
+    }
+  },
+  {
+    "id": 256033194,
+    "name": "console_engine",
+    "owner": "VincentFoulon80",
+    "url": "https://github.com/VincentFoulon80/console_engine",
+    "description": "A simple terminal framework to draw things and manage user input",
+    "language": "Rust",
+    "stars": 232,
+    "topics": [
+      "input",
+      "terminal",
+      "tui"
+    ],
+    "updatedAt": "2026-02-17T12:46:41Z",
+    "category": "Standalone Tools & Apps",
+    "subcategory": "Developer Tools",
+    "archive": {
+      "date": "2026-11-28",
+      "reason": "too-minor",
+      "note": "Small stale terminal framework.",
+      "replacedBy": []
+    }
+  },
+  {
+    "id": 566705059,
+    "name": "gitopper",
+    "owner": "miekg",
+    "url": "https://github.com/miekg/gitopper",
+    "description": "Gitops for non-Kubernetes folks",
+    "language": "Go",
+    "stars": 442,
+    "topics": [
+      "git",
+      "gitops",
+      "provisioning"
+    ],
+    "updatedAt": "2026-05-03T16:44:39Z",
+    "category": "Infrastructure & Systems",
+    "subcategory": "DevOps & Cloud",
+    "archive": {
+      "date": "2026-11-28",
+      "reason": "too-minor",
+      "note": "Niche stale GitOps tool.",
+      "replacedBy": []
+    }
+  },
+  {
+    "id": 430860260,
+    "name": "http-ping",
+    "owner": "fever-ch",
+    "url": "https://github.com/fever-ch/http-ping",
+    "description": "http-ping is similar to the usual ping networking utility but instead of working on top of ICMP, it works on top of HTTP/S.",
+    "language": "Go",
+    "stars": 26,
+    "topics": [
+      "http",
+      "http-ping",
+      "http2",
+      "http3",
+      "ipv4",
+      "ipv6",
+      "ping",
+      "quic"
+    ],
+    "updatedAt": "2026-03-17T13:45:40Z",
+    "category": "Infrastructure & Systems",
+    "subcategory": "Networking & P2P",
+    "archive": {
+      "date": "2026-11-28",
+      "reason": "too-minor",
+      "note": "Small stale CLI.",
+      "replacedBy": []
+    }
+  },
+  {
+    "id": 58729466,
+    "name": "tcping",
+    "owner": "mkirchner",
+    "url": "https://github.com/mkirchner/tcping",
+    "description": "Check if a desired port is reachable via TCP",
+    "language": "C",
+    "stars": 66,
+    "topics": [],
+    "updatedAt": "2026-03-25T03:52:16Z",
+    "category": "Libraries & Utilities",
+    "subcategory": "Misc Utilities",
+    "archive": {
+      "date": "2026-11-28",
+      "reason": "too-minor",
+      "note": "Small stale CLI.",
+      "replacedBy": []
+    }
+  },
+  {
+    "id": 728146855,
+    "name": "t3-app-template",
+    "owner": "gaofubin",
+    "url": "https://github.com/gaofubin/t3-app-template",
+    "description": "This is the admin template for T3 Stack and shadcn ui",
+    "language": "TypeScript",
+    "stars": 261,
+    "topics": [
+      "admin-dashboard",
+      "date-fns",
+      "headless",
+      "lucide-icons",
+      "mobile-sidebar",
+      "react-hook-form",
+      "react-hot-toast",
+      "react-icons",
+      "shadcn",
+      "shadcn-ui",
+      "sidebar",
+      "t3-stack",
+      "tanstack-query",
+      "tanstack-table",
+      "typescript"
+    ],
+    "updatedAt": "2026-04-17T18:49:38Z",
+    "category": "Knowledge & Inspiration",
+    "subcategory": "Educational & Awesome",
+    "archive": {
+      "date": "2026-11-28",
+      "reason": "too-minor",
+      "note": "Boilerplate template.",
+      "replacedBy": []
+    }
+  },
+  {
+    "id": 743140399,
+    "name": "drizzle-pg-notify-audit-table",
+    "owner": "grmkris",
+    "url": "https://github.com/grmkris/drizzle-pg-notify-audit-table",
+    "description": "example project of using pg-notify and custom trigger for audit table",
+    "language": "TypeScript",
+    "stars": 45,
+    "topics": [],
+    "updatedAt": "2026-03-23T15:16:13Z",
+    "category": "Knowledge & Inspiration",
+    "subcategory": "Educational & Awesome",
+    "archive": {
+      "date": "2026-11-28",
+      "reason": "too-minor",
+      "note": "Usage example.",
+      "replacedBy": []
+    }
+  },
+  {
+    "id": 581206469,
+    "name": "tutorials",
+    "owner": "aruberts",
+    "url": "https://github.com/aruberts/tutorials",
+    "description": "Notebooks/scripts for youtube tutorials",
+    "language": "Jupyter Notebook",
+    "stars": 69,
+    "topics": [],
+    "updatedAt": "2026-02-12T11:30:55Z",
+    "category": "Knowledge & Inspiration",
+    "subcategory": "Educational & Awesome",
+    "archive": {
+      "date": "2026-11-28",
+      "reason": "too-minor",
+      "note": "Tutorial notebooks.",
+      "replacedBy": []
+    }
+  },
+  {
+    "id": 635619860,
+    "name": "skateshop",
+    "owner": "sadmann7",
+    "url": "https://github.com/sadmann7/skateshop",
+    "description": "An open source e-commerce skateshop build with everything new in Next.js.",
+    "language": "TypeScript",
+    "stars": 5480,
+    "topics": [
+      "drizzle-orm",
+      "nextjs",
+      "open-source",
+      "shadcn-ui",
+      "stripe"
+    ],
+    "updatedAt": "2026-05-02T14:47:30Z",
+    "category": "Knowledge & Inspiration",
+    "subcategory": "Educational & Awesome",
+    "archive": {
+      "date": "2026-11-28",
+      "reason": "too-minor",
+      "note": "Example app built on Next.js 14.",
+      "replacedBy": []
+    }
+  },
+  {
+    "id": 1680336,
+    "name": "microjs.com",
+    "owner": "microjs",
+    "url": "https://github.com/microjs/microjs.com",
+    "description": "Fantastic Micro-Frameworks and Micro-Libraries for Fun and Profit!",
+    "language": "JavaScript",
+    "stars": 2038,
+    "topics": [
+      "fun",
+      "hacktoberfest",
+      "javascript",
+      "libraries",
+      "micro",
+      "micro-library",
+      "microjs",
+      "search"
+    ],
+    "updatedAt": "2026-04-30T06:23:16Z",
+    "category": "Knowledge & Inspiration",
+    "subcategory": "Educational & Awesome",
+    "archive": {
+      "date": "2026-11-28",
+      "reason": "too-minor",
+      "note": "Stale library directory.",
+      "replacedBy": []
+    }
+  },
+  {
+    "id": 538355550,
+    "name": "awesome-diagramming",
+    "owner": "shubhamgrg04",
+    "url": "https://github.com/shubhamgrg04/awesome-diagramming",
+    "description": "A curated collection of diagramming tools used by leading software engineering teams",
+    "language": null,
+    "stars": 3231,
+    "topics": [
+      "awesome-list",
+      "diagram",
+      "uml"
+    ],
+    "updatedAt": "2026-04-29T05:38:58Z",
+    "category": "Knowledge & Inspiration",
+    "subcategory": "Educational & Awesome",
+    "archive": {
+      "date": "2026-11-28",
+      "reason": "too-minor",
+      "note": "Stale list.",
+      "replacedBy": []
+    }
+  },
+  {
+    "id": 625793423,
+    "name": "LLMDataHub",
+    "owner": "Zjh-819",
+    "url": "https://github.com/Zjh-819/LLMDataHub",
+    "description": "A quick guide (especially) for trending instruction finetuning datasets ",
+    "language": null,
+    "stars": 3381,
+    "topics": [
+      "chatbot",
+      "chatgpt",
+      "dataset",
+      "llm"
+    ],
+    "updatedAt": "2026-04-30T22:54:51Z",
+    "category": "Knowledge & Inspiration",
+    "subcategory": "Educational & Awesome",
+    "archive": {
+      "date": "2026-11-28",
+      "reason": "faded",
+      "note": "Stale list from the early LLM wave.",
+      "replacedBy": []
+    }
+  },
+  {
+    "id": 6988020,
+    "name": "sheetjs",
+    "owner": "SheetJS",
+    "url": "https://github.com/SheetJS/sheetjs",
+    "description": "📗 SheetJS Spreadsheet Data Toolkit -- New home https://git.sheetjs.com/SheetJS/sheetjs",
+    "language": null,
+    "stars": 36241,
+    "topics": [
+      "angular",
+      "bun",
+      "csv",
+      "data",
+      "database",
+      "deno",
+      "excel",
+      "grid",
+      "html",
+      "html5",
+      "ios",
+      "javascript",
+      "json",
+      "nodejs",
+      "react",
+      "spreadsheet",
+      "table",
+      "vue",
+      "xlsx",
+      "xml"
+    ],
+    "updatedAt": "2026-05-03T09:26:52Z",
+    "category": "Libraries & Utilities",
+    "subcategory": "Documents & Data Formats",
+    "archive": {
+      "date": "2026-11-28",
+      "reason": "moved",
+      "note": "Still listed, under its new home.",
+      "replacedBy": [
+        {
+          "name": "git.sheetjs.com/sheetjs/sheetjs",
+          "url": "https://git.sheetjs.com/sheetjs/sheetjs"
+        }
+      ]
+    }
   }
 ]
