@@ -63,7 +63,21 @@ It skips repos in the archive (by id or URL), appends new stars with an empty ca
 
 Being listed means a repo is still worth finding: useful today, or worth keeping as history or reference. These rules decide what leaves.
 
-### Remove
+### Adding and classifying
+
+The categories are defined in **[`data/taxonomy.json`](data/taxonomy.json)**. Each subcategory has:
+
+- `covers`: what belongs in it
+- `not_for`: what looks similar but belongs elsewhere, and where it goes instead
+- `examples`: typical repos
+
+**Adding a repo by hand:** append an entry to `data/classified_final.json` with `name`, `owner`, `url`, `description`, `language`, `stars`, `topics`, `updatedAt`, `category` and `subcategory`. It can be hosted anywhere. Use `id: null` for repos that aren't on GitHub, and the host's star count (or `0` if it has none).
+
+**Classifying a repo:** set `category` and `subcategory` in `data/classified_final.json` to a pair from the taxonomy. Go by the repo's main purpose, not its language, and check the *Not for* rules of the groups you're choosing between. When two groups seem to fit, pick the more specific one.
+
+**Changing the taxonomy:** edit `data/taxonomy.json`, keeping `not_for` pointing at the group that should get the excluded repos. If you add a new top-level category, also add it to `COLOR_MAP` in `src/lib/repos.ts`.
+
+### Removing
 
 | When | Examples |
 |------|----------|
@@ -75,7 +89,9 @@ Being listed means a repo is still worth finding: useful today, or worth keeping
 | It was part of a hype wave that didn't last, or an early LLM-era project that went quiet | `JARVIS`, `dalai`, `gpt4all` |
 | It shipped malicious code, or the link is dead and the project isn't worth chasing | `gpt-pilot`, `Blank-Grabber` |
 
-### Keep
+Nothing is removed automatically: propose removals for review first. To restore a repo, move it back and drop its `archive` field.
+
+### Keeping
 
 - **Quiet repos.** Age alone is never a reason. Finished libraries are done, not dead.
 - **Slowing repos.** A drop in commit activity is too weak a signal on its own.
@@ -86,27 +102,9 @@ Being listed means a repo is still worth finding: useful today, or worth keeping
 - **Too early to judge.** The "claw" agent variants and `AutoGPT` stay.
 - **Personal picks.** The owner's call beats every rule above: `TinyJS`, `TinyAnimate`, `js13k-2021`, `AllAlgorithms/brainfuck`, `jailbreaking-experiments`, `continue`, `chatterbox`.
 
-### Moved and renamed repos
+### Archive
 
-An archived repo may only have moved, so check where it went before removing it.
-
-- **Renamed or transferred:** update `owner`, `name` and `url`. Check that the repo id is unchanged.
-- **Moved to a new repo or host:** point the entry at the new home and archive the old one as `moved`. Off GitHub, use `id: null` and the host's star count. For a package inside a monorepo, keep its own name and link to its folder (the star count is the monorepo's).
-- **Successor already listed:** just archive the old entry.
-
-### Auditing
-
-- Check live data with `gh`. The stored `updatedAt` isn't a maintenance signal; use the archived flag and the last commit date.
-- Many dead projects never press Archive, so read the top of the README too.
-- Check that a named successor exists and is active, and say when it isn't a drop-in replacement.
-- Record what replaced each removed repo whenever there is something.
-- Propose removals for review before applying them.
-
----
-
-## Archive
-
-Removed repos live in **[`data/archive.json`](data/archive.json)**, so there's a record of why they left and what replaced them. Each entry is the original repo object plus an `archive` field:
+Removed repos move from `classified_final.json` to **[`data/archive.json`](data/archive.json)**, so there's a record of why they left and what replaced them. The site never reads it. Each entry is the original repo object plus an `archive` field:
 
 ```json
 "archive": {
@@ -130,25 +128,20 @@ Removed repos live in **[`data/archive.json`](data/archive.json)**, so there's a
 | `malware` | Shipped or contained malicious code |
 | `unavailable` | The link no longer resolves |
 
-See [Curation](#curation) for when a repo moves here. Nothing is removed automatically.
+### Moved and renamed repos
 
-**Removing a repo:** move its entry from `classified_final.json` to `archive.json` and add the `archive` field. The site never reads the archive. **Restoring:** move it back and drop the `archive` field.
+An archived repo may only have moved, so check where it went before removing it.
 
----
+- **Renamed or transferred:** update `owner`, `name` and `url`. Check that the repo id is unchanged.
+- **Moved to a new repo or host:** point the entry at the new home and archive the old one as `moved`. Off GitHub, use `id: null` and the host's star count. For a package inside a monorepo, keep its own name and link to its folder (the star count is the monorepo's).
+- **Successor already listed:** just archive the old entry.
 
-## Contributing: Categories
+### Auditing
 
-The categories are defined in **[`data/taxonomy.json`](data/taxonomy.json)**. Each subcategory has:
-
-- `covers`: what belongs in it
-- `not_for`: what looks similar but belongs elsewhere, and where it goes instead
-- `examples`: typical repos
-
-**Adding a repo by hand:** append an entry to `data/classified_final.json` with `name`, `owner`, `url`, `description`, `language`, `stars`, `topics`, `updatedAt`, `category` and `subcategory`. It can be hosted anywhere. Use `id: null` for repos that aren't on GitHub, and the host's star count (or `0` if it has none).
-
-**Classifying a repo:** set `category` and `subcategory` in `data/classified_final.json` to a pair from the taxonomy. Go by the repo's main purpose, not its language, and check the *Not for* rules of the groups you're choosing between. When two groups seem to fit, pick the more specific one.
-
-**Changing the taxonomy:** edit `data/taxonomy.json`, keeping `not_for` pointing at the group that should get the excluded repos. If you add a new top-level category, also add it to `COLOR_MAP` in `src/lib/repos.ts`.
+- Check live data with `gh`. The stored `updatedAt` isn't a maintenance signal; use the archived flag and the last commit date.
+- Many dead projects never press Archive, so read the top of the README too.
+- Check that a named successor exists and is active, and say when it isn't a drop-in replacement.
+- Record what replaced each removed repo whenever there is something.
 
 ---
 

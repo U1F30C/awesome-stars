@@ -8,7 +8,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 npm install --legacy-peer-deps   # always use this flag — peer dep conflict between astro@6 and @astrojs/tailwind@6
 npm run dev                      # dev server at http://localhost:4321
 npm run build                    # build static site → dist/
-npm run start                    # sync GitHub stars → updates data/classified_final.json (one source; repos from any host can be added by hand)
+npm run start                    # GitHub star sync (no longer used)
 npm run md                       # regenerate data/classification_final.md from the JSON
 ```
 
@@ -18,9 +18,7 @@ There are no tests.
 
 **Single source of truth:** `data/classified_final.json` — a flat array of repo objects. It's a compilation of repos from any host, not only GitHub: non-GitHub entries (GitLab, SourceForge…) have `id: null` and the host's URL and star count (or `0`). The site reads it entirely at build time; there is no database or API at runtime. Classification (assigning `category` and `subcategory` to each repo) is done by editing this file.
 
-**Curation:** this repo is the owner's stars list, maintained by hand; the GitHub sync is no longer run. Follow the **Curation** rules in `README.md` before removing, keeping or relinking repos, and propose removals for review.
-
-**Archive:** `data/archive.json` (separate from the main data; the site never reads it) holds removed repos: the original object plus `archive: { date, reason, note, replacedBy }` (reasons are listed in `README.md`). To remove a repo, move it there rather than deleting it. The star sync skips archived ids and URLs, so when a repo moves off GitHub, also archive its old entry with reason `moved`. Don't archive a repo just for being quiet; finished, historical and reference projects stay.
+**Curation:** this repo is the owner's stars list, maintained by hand. Before adding, removing, keeping or relinking repos, follow the **Curation** section of `README.md`. Removed repos go to `data/archive.json`, which the site never reads.
 
 **Taxonomy:** `data/taxonomy.json` is the canonical list of category/subcategory pairs, each with `covers`, `not_for` and `examples`. Classify by main purpose, not language, following the `not_for` rules. It also sets the category order in `classification_final.md`. Some manually added repos have `id: null`, so key repos by `url` when you need a unique id. Repos with an empty `category` are filtered out by `allRepos` in `src/lib/repos.ts` and never appear on the site.
 
@@ -38,7 +36,7 @@ Both call `getStaticPaths()` which drives Astro's static generation from `getCat
 
 **Client script utilities:** Client `<script>` blocks cannot import from `src/lib/repos.ts` or any server-side module. Utilities like `formatStars` and `slugify` must be inlined/duplicated when needed in client scripts. Any client script that builds HTML via `innerHTML` must escape user-controlled strings — inline an `escapeHtml` helper (replace `&`, `<`, `>`, `"`) rather than relying on framework sanitization, since Astro does not sanitize innerHTML assignments.
 
-**Star sync (`src/github/`):** `npm run start` fetches all starred repos via the GitHub API, merges them into `classified_final.json` by id then name, and prints any new repos that need manual classification. Requires `GITHUB_TOKEN` and `GITHUB_USERNAME` in `.env`.
+**Star sync (`src/github/`):** no longer used. If run, it merges starred repos into `classified_final.json` by id, URL, then name, and skips anything in `data/archive.json`. Requires `GITHUB_TOKEN` and `GITHUB_USERNAME` in `.env`.
 
 **Agent endpoints (`src/lib/agent.ts`):** `/llms.txt`, `/llms-full.txt`, `/repos.json`, `/taxonomy.json`, plus `/{category}.md` and `/{category}/{subcategory}.md` are all generated at build from `allRepos` + `data/taxonomy.json` — never hand-write or commit copies. Pages advertise them via `<link rel="alternate">` and JSON-LD in `Layout.astro`. New category/subcategory pages get their `.md` twin automatically.
 
