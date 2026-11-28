@@ -266,7 +266,6 @@
       "llvm-project",
       "webpack",
       "babel",
-      "esprima",
       "electron",
       "tauri",
       "flutter",
@@ -300,10 +299,8 @@
       "Babylon.js",
       "wgpu",
       "glium",
-      "gfx",
       "kajiya",
-      "headless-gl",
-      "nvk"
+      "headless-gl"
     ]
   },
   {
@@ -403,7 +400,6 @@
       "firecrawl",
       "crawlee",
       "node-crawler",
-      "x-ray",
       "scrape-it",
       "node-website-scraper",
       "wikiteam",
@@ -436,11 +432,9 @@
     "examples": [
       "sharp",
       "jimp",
-      "html2canvas",
       "chroma.js",
       "randomColor",
       "node-qrcode",
-      "qrious",
       "wavefile",
       "node-speaker",
       "scribbletune"
@@ -540,7 +534,6 @@
       "joplin",
       "logseq",
       "memos",
-      "stackedit",
       "hedgedoc",
       "marp",
       "glow",

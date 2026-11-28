@@ -1061,153 +1061,6 @@
     }
   },
   {
-    "id": 192461512,
-    "name": "gradient-descent-js",
-    "owner": "Cereceres",
-    "url": "https://github.com/Cereceres/gradient-descent-js",
-    "description": "Gradient descent",
-    "language": "JavaScript",
-    "stars": 1,
-    "topics": [],
-    "updatedAt": "2021-03-26T15:08:37Z",
-    "category": "AI, LLMs & Data",
-    "subcategory": "Machine Learning",
-    "archive": {
-      "date": "2026-11-28",
-      "reason": "too-minor",
-      "note": "Small experiment.",
-      "replacedBy": []
-    }
-  },
-  {
-    "id": 27306839,
-    "name": "littlebrain",
-    "owner": "anthonyray",
-    "url": "https://github.com/anthonyray/littlebrain",
-    "description": "Multi-layer Neural Network in Javascript",
-    "language": "JavaScript",
-    "stars": 16,
-    "topics": [],
-    "updatedAt": "2023-05-07T18:06:29Z",
-    "category": "AI, LLMs & Data",
-    "subcategory": "Machine Learning",
-    "archive": {
-      "date": "2026-11-28",
-      "reason": "too-minor",
-      "note": "Small experiment.",
-      "replacedBy": []
-    }
-  },
-  {
-    "id": 110621696,
-    "name": "Search-and-Classification-With-Natural",
-    "owner": "johnsonj561",
-    "url": "https://github.com/johnsonj561/Search-and-Classification-With-Natural",
-    "description": "Text pre-processing, tf-idf, cosine similarity, and classification using Node package 'Natural'",
-    "language": "JavaScript",
-    "stars": 2,
-    "topics": [],
-    "updatedAt": "2023-12-08T07:56:24Z",
-    "category": "AI, LLMs & Data",
-    "subcategory": "Machine Learning",
-    "archive": {
-      "date": "2026-11-28",
-      "reason": "too-minor",
-      "note": "Small experiment.",
-      "replacedBy": []
-    }
-  },
-  {
-    "id": 25872812,
-    "name": "bruteforce",
-    "owner": "AjayMT",
-    "url": "https://github.com/AjayMT/bruteforce",
-    "description": "generate every possible permutation of characters",
-    "language": "JavaScript",
-    "stars": 10,
-    "topics": [],
-    "updatedAt": "2024-12-15T19:54:45Z",
-    "category": "AI, LLMs & Data",
-    "subcategory": "Science & Algorithms",
-    "archive": {
-      "date": "2026-11-28",
-      "reason": "too-minor",
-      "note": "Small experiment.",
-      "replacedBy": []
-    }
-  },
-  {
-    "id": 18619763,
-    "name": "LPF",
-    "owner": "astrolukasz",
-    "url": "https://github.com/astrolukasz/LPF",
-    "description": "Low Pass Filter for JavaScript",
-    "language": "JavaScript",
-    "stars": 27,
-    "topics": [],
-    "updatedAt": "2025-06-24T14:38:11Z",
-    "category": "AI, LLMs & Data",
-    "subcategory": "Science & Algorithms",
-    "archive": {
-      "date": "2026-11-28",
-      "reason": "too-minor",
-      "note": "Small experiment.",
-      "replacedBy": []
-    }
-  },
-  {
-    "id": 41260334,
-    "name": "geneticalgorithm",
-    "owner": "panchishin",
-    "url": "https://github.com/panchishin/geneticalgorithm",
-    "description": "A fully generalized implementation of the Genetic Algorithm usable on any json based Phenotype",
-    "language": "JavaScript",
-    "stars": 100,
-    "topics": [],
-    "updatedAt": "2025-10-06T09:20:41Z",
-    "category": "AI, LLMs & Data",
-    "subcategory": "Science & Algorithms",
-    "archive": {
-      "date": "2026-11-28",
-      "reason": "too-minor",
-      "note": "Small, stale library.",
-      "replacedBy": []
-    }
-  },
-  {
-    "id": 92423638,
-    "name": "js-graph-algorithms",
-    "owner": "chen0040",
-    "url": "https://github.com/chen0040/js-graph-algorithms",
-    "description": "Package provides javascript implementation of algorithms for graph processing",
-    "language": "JavaScript",
-    "stars": 154,
-    "topics": [
-      "bellman-ford-algorithm",
-      "breadth-first-search",
-      "connected-components",
-      "depth-first-search",
-      "dijkstra",
-      "dijkstra-shortest-path",
-      "kruskal-algorithm",
-      "maxflow",
-      "mincut",
-      "minimum-spanning-trees",
-      "prim-algorithm",
-      "strongly-connected-components",
-      "topological-sort"
-    ],
-    "updatedAt": "2026-04-10T19:11:00Z",
-    "category": "AI, LLMs & Data",
-    "subcategory": "Science & Algorithms",
-    "archive": {
-      "date": "2026-11-28",
-      "reason": "too-minor",
-      "note": "Small, stale library.",
-      "replacedBy": []
-    }
-  },
-  {
     "id": 98733218,
     "name": "richflow",
     "owner": "ominibyte",
@@ -3279,6 +3132,1994 @@
         {
           "name": "apache/airflow",
           "url": "https://github.com/apache/airflow"
+        }
+      ]
+    }
+  },
+  {
+    "id": 2833537,
+    "name": "esprima",
+    "owner": "jquery",
+    "url": "https://github.com/jquery/esprima",
+    "description": "ECMAScript parsing infrastructure for multipurpose analysis",
+    "language": "TypeScript",
+    "stars": 7137,
+    "topics": [
+      "ast",
+      "ecmascript",
+      "esprima",
+      "javascript",
+      "parser",
+      "parsing"
+    ],
+    "updatedAt": "2026-05-03T09:07:31Z",
+    "category": "Languages & Engineering",
+    "subcategory": "Compilers & Tooling",
+    "archive": {
+      "date": "2026-11-28",
+      "reason": "unmaintained",
+      "note": "No commit in 3+ years; easy to replace.",
+      "replacedBy": [
+        {
+          "name": "meriyah/meriyah",
+          "url": "https://github.com/meriyah/meriyah"
+        },
+        {
+          "name": "acornjs/acorn",
+          "url": "https://github.com/acornjs/acorn"
+        }
+      ]
+    }
+  },
+  {
+    "id": 602604,
+    "name": "pegjs",
+    "owner": "pegjs",
+    "url": "https://github.com/pegjs/pegjs",
+    "description": "PEG.js: Parser generator for JavaScript",
+    "language": "JavaScript",
+    "stars": 4913,
+    "topics": [
+      "javascript",
+      "parser-generator",
+      "peg",
+      "pegjs"
+    ],
+    "updatedAt": "2026-04-19T18:49:18Z",
+    "category": "Languages & Engineering",
+    "subcategory": "Compilers & Tooling",
+    "archive": {
+      "date": "2026-11-28",
+      "reason": "unmaintained",
+      "note": "No commit in 3+ years; easy to replace.",
+      "replacedBy": [
+        {
+          "name": "peggyjs/peggy",
+          "url": "https://github.com/peggyjs/peggy"
+        }
+      ]
+    }
+  },
+  {
+    "id": 13847975,
+    "name": "gfx",
+    "owner": "gfx-rs",
+    "url": "https://github.com/gfx-rs/gfx",
+    "description": "[maintenance mode] A low-overhead Vulkan-like GPU API for Rust.",
+    "language": "Rust",
+    "stars": 5399,
+    "topics": [
+      "dx11",
+      "dx12",
+      "gfx",
+      "gpu",
+      "graphics",
+      "graphics-apis",
+      "metal",
+      "opengl",
+      "rust",
+      "vulkan"
+    ],
+    "updatedAt": "2026-05-03T08:21:02Z",
+    "category": "Graphics & Visualization",
+    "subcategory": "3D & GPU Rendering",
+    "archive": {
+      "date": "2026-11-28",
+      "reason": "unmaintained",
+      "note": "No commit in 3+ years; easy to replace.",
+      "replacedBy": [
+        {
+          "name": "gfx-rs/wgpu",
+          "url": "https://github.com/gfx-rs/wgpu"
+        }
+      ]
+    }
+  },
+  {
+    "id": 146218451,
+    "name": "overnight",
+    "owner": "seanpmaxwell",
+    "url": "https://github.com/seanpmaxwell/overnight",
+    "description": "TypeScript decorators for the ExpressJS Server.",
+    "language": "TypeScript",
+    "stars": 872,
+    "topics": [],
+    "updatedAt": "2026-04-11T16:43:35Z",
+    "category": "Web Development",
+    "subcategory": "Backend & APIs",
+    "archive": {
+      "date": "2026-11-28",
+      "reason": "unmaintained",
+      "note": "No commit in 3+ years; easy to replace.",
+      "replacedBy": [
+        {
+          "name": "typestack/routing-controllers",
+          "url": "https://github.com/typestack/routing-controllers"
+        }
+      ]
+    }
+  },
+  {
+    "id": 36559620,
+    "name": "slack-bot-api",
+    "owner": "mishk0",
+    "url": "https://github.com/mishk0/slack-bot-api",
+    "description": ":rocket: Simple way to control your Slack Bot",
+    "language": "JavaScript",
+    "stars": 1345,
+    "topics": [],
+    "updatedAt": "2026-04-30T10:32:27Z",
+    "category": "Web Development",
+    "subcategory": "Backend & APIs",
+    "archive": {
+      "date": "2026-11-28",
+      "reason": "unmaintained",
+      "note": "No commit in 3+ years; easy to replace.",
+      "replacedBy": [
+        {
+          "name": "slackapi/bolt-js",
+          "url": "https://github.com/slackapi/bolt-js"
+        }
+      ]
+    }
+  },
+  {
+    "id": 37637797,
+    "name": "elasticlunr.js",
+    "owner": "weixsong",
+    "url": "https://github.com/weixsong/elasticlunr.js",
+    "description": "Based on lunr.js, but more flexible and customized.",
+    "language": "JavaScript",
+    "stars": 2070,
+    "topics": [],
+    "updatedAt": "2026-04-22T13:33:20Z",
+    "category": "AI, LLMs & Data",
+    "subcategory": "Science & Algorithms",
+    "archive": {
+      "date": "2026-11-28",
+      "reason": "unmaintained",
+      "note": "No commit in 3+ years; easy to replace. Replacement caveat: itself quiet for a year; quiet for a year.",
+      "replacedBy": [
+        {
+          "name": "lucaong/minisearch",
+          "url": "https://github.com/lucaong/minisearch"
+        }
+      ]
+    }
+  },
+  {
+    "id": 7334683,
+    "name": "fuzzyset.js",
+    "owner": "Glench",
+    "url": "https://github.com/Glench/fuzzyset.js",
+    "description": "fuzzyset.js - A fuzzy string set for javascript",
+    "language": "JavaScript",
+    "stars": 1377,
+    "topics": [],
+    "updatedAt": "2026-04-27T06:58:20Z",
+    "category": "AI, LLMs & Data",
+    "subcategory": "Science & Algorithms",
+    "archive": {
+      "date": "2026-11-28",
+      "reason": "unmaintained",
+      "note": "No commit in 3+ years; easy to replace. Replacement caveat: Matching behaves differently.",
+      "replacedBy": [
+        {
+          "name": "leeoniya/uFuzzy",
+          "url": "https://github.com/leeoniya/uFuzzy"
+        }
+      ]
+    }
+  },
+  {
+    "id": 54584318,
+    "name": "Algebrite",
+    "owner": "davidedc",
+    "url": "https://github.com/davidedc/Algebrite",
+    "description": "Computer Algebra System in Javascript (Typescript)",
+    "language": "TypeScript",
+    "stars": 997,
+    "topics": [
+      "algebra",
+      "algebraic",
+      "algebraic-computation",
+      "cas",
+      "coffeescript",
+      "computer-algebra",
+      "computer-algebra-system",
+      "javascript",
+      "javascript-cas",
+      "math",
+      "symbolic",
+      "symbolic-computation",
+      "symbolic-manipulation"
+    ],
+    "updatedAt": "2026-04-22T00:11:12Z",
+    "category": "AI, LLMs & Data",
+    "subcategory": "Science & Algorithms",
+    "archive": {
+      "date": "2026-11-28",
+      "reason": "unmaintained",
+      "note": "No commit in 3+ years; easy to replace.",
+      "replacedBy": [
+        {
+          "name": "jiggzson/nerdamer",
+          "url": "https://github.com/jiggzson/nerdamer"
+        }
+      ]
+    }
+  },
+  {
+    "id": 31506,
+    "name": "sylvester",
+    "owner": "jcoglan",
+    "url": "https://github.com/jcoglan/sylvester",
+    "description": "Vector, matrix and geometry math JavaScript",
+    "language": "JavaScript",
+    "stars": 1159,
+    "topics": [],
+    "updatedAt": "2026-04-30T17:30:51Z",
+    "category": "AI, LLMs & Data",
+    "subcategory": "Science & Algorithms",
+    "archive": {
+      "date": "2026-11-28",
+      "reason": "unmaintained",
+      "note": "No commit in 3+ years; easy to replace. Replacement caveat: Different API and scope.",
+      "replacedBy": [
+        {
+          "name": "toji/gl-matrix",
+          "url": "https://github.com/toji/gl-matrix"
+        }
+      ]
+    }
+  },
+  {
+    "id": 16903784,
+    "name": "random-js",
+    "owner": "ckknight",
+    "url": "https://github.com/ckknight/random-js",
+    "description": "A mathematically correct random number generator library for JavaScript.",
+    "language": "TypeScript",
+    "stars": 616,
+    "topics": [],
+    "updatedAt": "2026-05-01T09:47:57Z",
+    "category": "AI, LLMs & Data",
+    "subcategory": "Science & Algorithms",
+    "archive": {
+      "date": "2026-11-28",
+      "reason": "unmaintained",
+      "note": "No commit in 3+ years; easy to replace.",
+      "replacedBy": [
+        {
+          "name": "transitive-bullshit/random",
+          "url": "https://github.com/transitive-bullshit/random"
+        }
+      ]
+    }
+  },
+  {
+    "id": 33658802,
+    "name": "react-graph-vis",
+    "owner": "crubier",
+    "url": "https://github.com/crubier/react-graph-vis",
+    "description": "A react component to render nice graphs using vis.js",
+    "language": "JavaScript",
+    "stars": 993,
+    "topics": [
+      "graph",
+      "javascript",
+      "react",
+      "rendered-graphs",
+      "visualisation"
+    ],
+    "updatedAt": "2026-04-28T02:19:37Z",
+    "category": "Graphics & Visualization",
+    "subcategory": "Charts & Diagrams",
+    "archive": {
+      "date": "2026-11-28",
+      "reason": "unmaintained",
+      "note": "No commit in 3+ years; easy to replace.",
+      "replacedBy": [
+        {
+          "name": "visjs/vis-network",
+          "url": "https://github.com/visjs/vis-network"
+        }
+      ]
+    }
+  },
+  {
+    "id": 2185527,
+    "name": "qrious",
+    "owner": "airmrcr",
+    "url": "https://github.com/airmrcr/qrious",
+    "description": "Pure JavaScript library for QR code generation using canvas",
+    "language": "JavaScript",
+    "stars": 1626,
+    "topics": [
+      "browser",
+      "javascript",
+      "qr",
+      "qrcode",
+      "qrcode-generator"
+    ],
+    "updatedAt": "2026-05-03T10:36:42Z",
+    "category": "Libraries & Utilities",
+    "subcategory": "Media Processing",
+    "archive": {
+      "date": "2026-11-28",
+      "reason": "unmaintained",
+      "note": "No commit in 3+ years; easy to replace. Replacement caveat: quiet since 2024.",
+      "replacedBy": [
+        {
+          "name": "soldair/node-qrcode",
+          "url": "https://github.com/soldair/node-qrcode"
+        }
+      ]
+    }
+  },
+  {
+    "id": 9367940,
+    "name": "node-oauth2-server",
+    "owner": "oauthjs",
+    "url": "https://github.com/oauthjs/node-oauth2-server",
+    "description": "Complete, compliant and well tested module for implementing an OAuth2 Server/Provider with express in node.js",
+    "language": "JavaScript",
+    "stars": 4070,
+    "topics": [
+      "oauth2-server"
+    ],
+    "updatedAt": "2026-04-20T13:17:42Z",
+    "category": "Infrastructure & Systems",
+    "subcategory": "Security",
+    "archive": {
+      "date": "2026-11-28",
+      "reason": "unmaintained",
+      "note": "No commit in 3+ years; easy to replace.",
+      "replacedBy": [
+        {
+          "name": "node-oauth/node-oauth2-server",
+          "url": "https://github.com/node-oauth/node-oauth2-server"
+        }
+      ]
+    }
+  },
+  {
+    "id": 42272491,
+    "name": "node-jose",
+    "owner": "cisco",
+    "url": "https://github.com/cisco/node-jose",
+    "description": null,
+    "language": "JavaScript",
+    "stars": 723,
+    "topics": [],
+    "updatedAt": "2026-04-25T02:00:44Z",
+    "category": "Infrastructure & Systems",
+    "subcategory": "Security",
+    "archive": {
+      "date": "2026-11-28",
+      "reason": "unmaintained",
+      "note": "No commit in 3+ years; easy to replace.",
+      "replacedBy": [
+        {
+          "name": "panva/jose",
+          "url": "https://github.com/panva/jose"
+        }
+      ]
+    }
+  },
+  {
+    "id": 60664534,
+    "name": "react-sortable-hoc",
+    "owner": "clauderic",
+    "url": "https://github.com/clauderic/react-sortable-hoc",
+    "description": "A set of higher-order components to turn any list into an animated, accessible and touch-friendly sortable list✌️",
+    "language": "JavaScript",
+    "stars": 10898,
+    "topics": [
+      "drag-and-drop",
+      "dragging",
+      "front-end",
+      "grid",
+      "higher-order-component",
+      "javascript",
+      "react",
+      "sortable",
+      "sorting"
+    ],
+    "updatedAt": "2026-04-29T07:46:36Z",
+    "category": "Web Development",
+    "subcategory": "UI Components",
+    "archive": {
+      "date": "2026-11-28",
+      "reason": "unmaintained",
+      "note": "No commit in 3+ years; easy to replace.",
+      "replacedBy": [
+        {
+          "name": "clauderic/dnd-kit",
+          "url": "https://github.com/clauderic/dnd-kit"
+        }
+      ]
+    }
+  },
+  {
+    "id": 37743219,
+    "name": "simplemde-markdown-editor",
+    "owner": "sparksuite",
+    "url": "https://github.com/sparksuite/simplemde-markdown-editor",
+    "description": "A simple, beautiful, and embeddable JavaScript Markdown editor. Delightful editing for beginners and experts alike. Features built-in autosaving and spell checking.",
+    "language": "JavaScript",
+    "stars": 10159,
+    "topics": [],
+    "updatedAt": "2026-05-02T15:08:11Z",
+    "category": "Web Development",
+    "subcategory": "UI Components",
+    "archive": {
+      "date": "2026-11-28",
+      "reason": "unmaintained",
+      "note": "No commit in 3+ years; easy to replace.",
+      "replacedBy": [
+        {
+          "name": "Ionaru/easy-markdown-editor",
+          "url": "https://github.com/Ionaru/easy-markdown-editor"
+        }
+      ]
+    }
+  },
+  {
+    "id": 315976254,
+    "name": "react-spring-bottom-sheet",
+    "owner": "stipsan",
+    "url": "https://github.com/stipsan/react-spring-bottom-sheet",
+    "description": "Accessible ♿️, Delightful ✨, & Fast 🚀",
+    "language": "TypeScript",
+    "stars": 1070,
+    "topics": [
+      "animation",
+      "bottom-drawer",
+      "bottom-sheet",
+      "bottomsheet",
+      "dialog",
+      "drag-drop",
+      "draggableview",
+      "drawer",
+      "gesture-control",
+      "modal",
+      "overlay",
+      "popup",
+      "react",
+      "react-spring",
+      "sheet",
+      "tailwind-css",
+      "ux"
+    ],
+    "updatedAt": "2026-04-29T04:56:55Z",
+    "category": "Web Development",
+    "subcategory": "UI Components",
+    "archive": {
+      "date": "2026-11-28",
+      "reason": "unmaintained",
+      "note": "No commit in 3+ years; easy to replace.",
+      "replacedBy": [
+        {
+          "name": "Temzasse/react-modal-sheet",
+          "url": "https://github.com/Temzasse/react-modal-sheet"
+        }
+      ]
+    }
+  },
+  {
+    "id": 77329657,
+    "name": "rn-sliding-up-panel",
+    "owner": "octopitus",
+    "url": "https://github.com/octopitus/rn-sliding-up-panel",
+    "description": "Draggable sliding up panel implemented in React Native https://octopitus.github.io/rn-sliding-up-panel/",
+    "language": "JavaScript",
+    "stars": 926,
+    "topics": [],
+    "updatedAt": "2026-04-02T21:43:54Z",
+    "category": "Web Development",
+    "subcategory": "UI Components",
+    "archive": {
+      "date": "2026-11-28",
+      "reason": "unmaintained",
+      "note": "No commit in 3+ years; easy to replace.",
+      "replacedBy": [
+        {
+          "name": "gorhom/react-native-bottom-sheet",
+          "url": "https://github.com/gorhom/react-native-bottom-sheet"
+        }
+      ]
+    }
+  },
+  {
+    "id": 44462136,
+    "name": "react-native-animatable",
+    "owner": "oblador",
+    "url": "https://github.com/oblador/react-native-animatable",
+    "description": "Standard set of easy to use animations and declarative transitions for React Native",
+    "language": "JavaScript",
+    "stars": 9950,
+    "topics": [
+      "animation",
+      "react-native",
+      "transition"
+    ],
+    "updatedAt": "2026-05-03T00:19:02Z",
+    "category": "Web Development",
+    "subcategory": "React Ecosystem",
+    "archive": {
+      "date": "2026-11-28",
+      "reason": "unmaintained",
+      "note": "No commit in 3+ years; easy to replace. Replacement caveat: Not a drop-in.",
+      "replacedBy": [
+        {
+          "name": "software-mansion/react-native-reanimated",
+          "url": "https://github.com/software-mansion/react-native-reanimated"
+        }
+      ]
+    }
+  },
+  {
+    "id": 10411524,
+    "name": "chessboardjs",
+    "owner": "oakmac",
+    "url": "https://github.com/oakmac/chessboardjs",
+    "description": "JavaScript chessboard",
+    "language": "JavaScript",
+    "stars": 2130,
+    "topics": [],
+    "updatedAt": "2026-04-29T05:54:53Z",
+    "category": "Web Development",
+    "subcategory": "UI Components",
+    "archive": {
+      "date": "2026-11-28",
+      "reason": "unmaintained",
+      "note": "No commit in 3+ years; easy to replace. Replacement caveat: Check its GPL license.",
+      "replacedBy": [
+        {
+          "name": "lichess-org/chessground",
+          "url": "https://github.com/lichess-org/chessground"
+        }
+      ]
+    }
+  },
+  {
+    "id": 30329296,
+    "name": "x-ray",
+    "owner": "matthewmueller",
+    "url": "https://github.com/matthewmueller/x-ray",
+    "description": "The next web scraper. See through the <html> noise.",
+    "language": "JavaScript",
+    "stars": 5904,
+    "topics": [],
+    "updatedAt": "2026-05-03T09:47:52Z",
+    "category": "Libraries & Utilities",
+    "subcategory": "Web Scraping",
+    "archive": {
+      "date": "2026-11-28",
+      "reason": "unmaintained",
+      "note": "No commit in 3+ years; easy to replace.",
+      "replacedBy": [
+        {
+          "name": "cheeriojs/cheerio",
+          "url": "https://github.com/cheeriojs/cheerio"
+        },
+        {
+          "name": "apify/crawlee",
+          "url": "https://github.com/apify/crawlee"
+        }
+      ]
+    }
+  },
+  {
+    "id": 30442018,
+    "name": "node-osmosis",
+    "owner": "rchipka",
+    "url": "https://github.com/rchipka/node-osmosis",
+    "description": "Web scraper for NodeJS",
+    "language": "JavaScript",
+    "stars": 4114,
+    "topics": [],
+    "updatedAt": "2026-04-28T19:09:55Z",
+    "category": "Libraries & Utilities",
+    "subcategory": "Web Scraping",
+    "archive": {
+      "date": "2026-11-28",
+      "reason": "unmaintained",
+      "note": "No commit in 3+ years; easy to replace.",
+      "replacedBy": [
+        {
+          "name": "cheeriojs/cheerio",
+          "url": "https://github.com/cheeriojs/cheerio"
+        },
+        {
+          "name": "apify/crawlee",
+          "url": "https://github.com/apify/crawlee"
+        }
+      ]
+    }
+  },
+  {
+    "id": 152329128,
+    "name": "node-tesseract-ocr",
+    "owner": "zapolnoch",
+    "url": "https://github.com/zapolnoch/node-tesseract-ocr",
+    "description": "A Node.js wrapper for the Tesseract OCR API",
+    "language": "JavaScript",
+    "stars": 319,
+    "topics": [
+      "image-to-text",
+      "ocr",
+      "tesseract",
+      "text-recognition"
+    ],
+    "updatedAt": "2026-04-07T19:42:33Z",
+    "category": "AI, LLMs & Data",
+    "subcategory": "Machine Learning",
+    "archive": {
+      "date": "2026-11-28",
+      "reason": "unmaintained",
+      "note": "No commit in 3+ years; easy to replace. Replacement caveat: Runs without the native binary.",
+      "replacedBy": [
+        {
+          "name": "naptha/tesseract.js",
+          "url": "https://github.com/naptha/tesseract.js"
+        }
+      ]
+    }
+  },
+  {
+    "id": 17039436,
+    "name": "simplify-geojson",
+    "owner": "max-mapper",
+    "url": "https://github.com/max-mapper/simplify-geojson",
+    "description": "apply the ramer-douglas-peucker line simplification to geojson features or feature collections in JS or on the CLI",
+    "language": "JavaScript",
+    "stars": 183,
+    "topics": [],
+    "updatedAt": "2025-08-30T10:57:12Z",
+    "category": "Graphics & Visualization",
+    "subcategory": "Maps & Geo",
+    "archive": {
+      "date": "2026-11-28",
+      "reason": "unmaintained",
+      "note": "No commit in 3+ years; easy to replace.",
+      "replacedBy": [
+        {
+          "name": "Turfjs/turf",
+          "url": "https://github.com/Turfjs/turf"
+        }
+      ]
+    }
+  },
+  {
+    "id": 292921177,
+    "name": "GPT-3-Encoder",
+    "owner": "latitudegames",
+    "url": "https://github.com/latitudegames/GPT-3-Encoder",
+    "description": "Javascript BPE Encoder Decoder for GPT-2 / GPT-3",
+    "language": "JavaScript",
+    "stars": 722,
+    "topics": [],
+    "updatedAt": "2026-04-20T18:40:46Z",
+    "category": "AI, LLMs & Data",
+    "subcategory": "LLMs & GenAI",
+    "archive": {
+      "date": "2026-11-28",
+      "reason": "unmaintained",
+      "note": "No commit in 3+ years; easy to replace. Replacement caveat: Python; JS ports exist.",
+      "replacedBy": [
+        {
+          "name": "openai/tiktoken",
+          "url": "https://github.com/openai/tiktoken"
+        }
+      ]
+    }
+  },
+  {
+    "id": 60961783,
+    "name": "json-rust",
+    "owner": "maciejhirsz",
+    "url": "https://github.com/maciejhirsz/json-rust",
+    "description": "JSON implementation in Rust",
+    "language": "Rust",
+    "stars": 588,
+    "topics": [
+      "decoder",
+      "encoder",
+      "json",
+      "parser",
+      "rust"
+    ],
+    "updatedAt": "2026-05-02T17:00:38Z",
+    "category": "Libraries & Utilities",
+    "subcategory": "Documents & Data Formats",
+    "archive": {
+      "date": "2026-11-28",
+      "reason": "unmaintained",
+      "note": "No commit in 3+ years; easy to replace.",
+      "replacedBy": [
+        {
+          "name": "serde-rs/json",
+          "url": "https://github.com/serde-rs/json"
+        }
+      ]
+    }
+  },
+  {
+    "id": 9525219,
+    "name": "tingodb",
+    "owner": "sergeyksv",
+    "url": "https://github.com/sergeyksv/tingodb",
+    "description": "Embedded Node.js database upward compatible with MongoDB",
+    "language": "JavaScript",
+    "stars": 1161,
+    "topics": [],
+    "updatedAt": "2026-04-16T06:34:55Z",
+    "category": "Infrastructure & Systems",
+    "subcategory": "Databases & Storage",
+    "archive": {
+      "date": "2026-11-28",
+      "reason": "unmaintained",
+      "note": "No commit in 3+ years; easy to replace. Replacement caveat: Not MongoDB-compatible.",
+      "replacedBy": [
+        {
+          "name": "apache/pouchdb",
+          "url": "https://github.com/apache/pouchdb"
+        }
+      ]
+    }
+  },
+  {
+    "id": 10295923,
+    "name": "express-admin",
+    "owner": "simov",
+    "url": "https://github.com/simov/express-admin",
+    "description": "MySQL, MariaDB, PostgreSQL, SQLite admin for Node.js",
+    "language": "JavaScript",
+    "stars": 1199,
+    "topics": [],
+    "updatedAt": "2026-04-01T23:58:03Z",
+    "category": "Infrastructure & Systems",
+    "subcategory": "Databases & Storage",
+    "archive": {
+      "date": "2026-11-28",
+      "reason": "unmaintained",
+      "note": "No commit in 3+ years; easy to replace. Replacement caveat: quiet for a year.",
+      "replacedBy": [
+        {
+          "name": "SoftwareBrothers/adminjs",
+          "url": "https://github.com/SoftwareBrothers/adminjs"
+        }
+      ]
+    }
+  },
+  {
+    "id": 200090870,
+    "name": "nestjs-admin",
+    "owner": "Theodo-UK",
+    "url": "https://github.com/Theodo-UK/nestjs-admin",
+    "description": "A generic administration interface for TypeORM entities ",
+    "language": "TypeScript",
+    "stars": 555,
+    "topics": [],
+    "updatedAt": "2026-04-19T20:22:27Z",
+    "category": "Infrastructure & Systems",
+    "subcategory": "Databases & Storage",
+    "archive": {
+      "date": "2026-11-28",
+      "reason": "unmaintained",
+      "note": "No commit in 3+ years; easy to replace. Replacement caveat: quiet for a year.",
+      "replacedBy": [
+        {
+          "name": "SoftwareBrothers/adminjs",
+          "url": "https://github.com/SoftwareBrothers/adminjs"
+        }
+      ]
+    }
+  },
+  {
+    "id": 80246428,
+    "name": "codebox-npm",
+    "owner": "craftship",
+    "url": "https://github.com/craftship/codebox-npm",
+    "description": "Serverless private npm registry using https://serverless.com/",
+    "language": "JavaScript",
+    "stars": 355,
+    "topics": [
+      "github",
+      "github-enterprise",
+      "npm",
+      "registry",
+      "serverless"
+    ],
+    "updatedAt": "2026-04-28T17:04:31Z",
+    "category": "Infrastructure & Systems",
+    "subcategory": "DevOps & Cloud",
+    "archive": {
+      "date": "2026-11-28",
+      "reason": "unmaintained",
+      "note": "No commit in 3+ years; easy to replace.",
+      "replacedBy": [
+        {
+          "name": "verdaccio/verdaccio",
+          "url": "https://github.com/verdaccio/verdaccio"
+        }
+      ]
+    }
+  },
+  {
+    "id": 167690973,
+    "name": "phaser-project-template",
+    "owner": "yandeu",
+    "url": "https://github.com/yandeu/phaser-project-template",
+    "description": "🕹️ Phaser 3 - Starter Template with TypeScript and webpack.",
+    "language": "TypeScript",
+    "stars": 427,
+    "topics": [
+      "html5-game",
+      "phaser",
+      "project-template",
+      "pwa",
+      "starter-template",
+      "typescript",
+      "webpack"
+    ],
+    "updatedAt": "2026-04-30T09:12:06Z",
+    "category": "Standalone Tools & Apps",
+    "subcategory": "Game Development",
+    "archive": {
+      "date": "2026-11-28",
+      "reason": "unmaintained",
+      "note": "No commit in 3+ years; easy to replace.",
+      "replacedBy": [
+        {
+          "name": "phaserjs/template-webpack",
+          "url": "https://github.com/phaserjs/template-webpack"
+        }
+      ]
+    }
+  },
+  {
+    "id": 162815665,
+    "name": "notable",
+    "owner": "notable",
+    "url": "https://github.com/notable/notable",
+    "description": "The Markdown-based note-taking app that doesn't suck.",
+    "language": null,
+    "stars": 23502,
+    "topics": [
+      "cross-platform",
+      "electron",
+      "linux",
+      "mac",
+      "markdown",
+      "note",
+      "react",
+      "windows"
+    ],
+    "updatedAt": "2026-05-03T11:15:31Z",
+    "category": "Standalone Tools & Apps",
+    "subcategory": "Writing & Notes",
+    "archive": {
+      "date": "2026-11-28",
+      "reason": "unmaintained",
+      "note": "No commit in 3+ years; easy to replace.",
+      "replacedBy": [
+        {
+          "name": "laurent22/joplin",
+          "url": "https://github.com/laurent22/joplin"
+        }
+      ]
+    }
+  },
+  {
+    "id": 8986773,
+    "name": "stackedit",
+    "owner": "benweet",
+    "url": "https://github.com/benweet/stackedit",
+    "description": "In-browser Markdown editor",
+    "language": "JavaScript",
+    "stars": 22913,
+    "topics": [
+      "blogger",
+      "couchdb",
+      "dropbox",
+      "editor",
+      "gist",
+      "github",
+      "gitlab",
+      "google-drive",
+      "javascript",
+      "markdown",
+      "offline",
+      "stackedit",
+      "wordpress",
+      "zendesk"
+    ],
+    "updatedAt": "2026-05-03T13:50:48Z",
+    "category": "Standalone Tools & Apps",
+    "subcategory": "Writing & Notes",
+    "archive": {
+      "date": "2026-11-28",
+      "reason": "unmaintained",
+      "note": "No commit in 3+ years; easy to replace.",
+      "replacedBy": [
+        {
+          "name": "joemccann/dillinger",
+          "url": "https://github.com/joemccann/dillinger"
+        }
+      ]
+    }
+  },
+  {
+    "id": 181738425,
+    "name": "marcdown",
+    "owner": "liyasthomas",
+    "url": "https://github.com/liyasthomas/marcdown",
+    "description": "👻 Lightweight realtime markdown viewer and editor - Simple, clean and beautiful https://liyasthomas.github.io/marcdown",
+    "language": "JavaScript",
+    "stars": 430,
+    "topics": [
+      "javascript",
+      "liyasthomas",
+      "markdown",
+      "markdown-editor",
+      "markdown-parser",
+      "markdown-viewer"
+    ],
+    "updatedAt": "2026-04-27T12:25:58Z",
+    "category": "Standalone Tools & Apps",
+    "subcategory": "Writing & Notes",
+    "archive": {
+      "date": "2026-11-28",
+      "reason": "unmaintained",
+      "note": "No commit in 3+ years; easy to replace.",
+      "replacedBy": [
+        {
+          "name": "joemccann/dillinger",
+          "url": "https://github.com/joemccann/dillinger"
+        }
+      ]
+    }
+  },
+  {
+    "id": 211591832,
+    "name": "marktwo",
+    "owner": "anthonygarvan",
+    "url": "https://github.com/anthonygarvan/marktwo",
+    "description": "A seamless, speedy, syncing markdown editor",
+    "language": "JavaScript",
+    "stars": 102,
+    "topics": [],
+    "updatedAt": "2026-03-17T12:48:10Z",
+    "category": "Standalone Tools & Apps",
+    "subcategory": "Writing & Notes",
+    "archive": {
+      "date": "2026-11-28",
+      "reason": "unmaintained",
+      "note": "No commit in 3+ years; easy to replace.",
+      "replacedBy": [
+        {
+          "name": "joemccann/dillinger",
+          "url": "https://github.com/joemccann/dillinger"
+        }
+      ]
+    }
+  },
+  {
+    "id": 35042996,
+    "name": "graphql-sequelize",
+    "owner": "mickhansen",
+    "url": "https://github.com/mickhansen/graphql-sequelize",
+    "description": "GraphQL & Relay for MySQL & Postgres via Sequelize",
+    "language": "JavaScript",
+    "stars": 1887,
+    "topics": [],
+    "updatedAt": "2026-04-18T04:49:17Z",
+    "category": "Web Development",
+    "subcategory": "Backend & APIs",
+    "archive": {
+      "date": "2026-11-28",
+      "reason": "too-minor",
+      "note": "Stale integration library.",
+      "replacedBy": []
+    }
+  },
+  {
+    "id": 100232111,
+    "name": "nact",
+    "owner": "nactio",
+    "url": "https://github.com/nactio/nact",
+    "description": "nact ⇒ node.js + actors ⇒ your services have never been so µ",
+    "language": "TypeScript",
+    "stars": 1144,
+    "topics": [
+      "actor-model",
+      "actors",
+      "actorsystem",
+      "akka",
+      "distributed-systems",
+      "microservices",
+      "nact",
+      "nodejs"
+    ],
+    "updatedAt": "2026-04-10T19:11:04Z",
+    "category": "Web Development",
+    "subcategory": "Backend & APIs",
+    "archive": {
+      "date": "2026-11-28",
+      "reason": "too-minor",
+      "note": "Stale actor framework.",
+      "replacedBy": []
+    }
+  },
+  {
+    "id": 69839538,
+    "name": "comedy",
+    "owner": "untu",
+    "url": "https://github.com/untu/comedy",
+    "description": "Node.js actor framework.",
+    "language": "JavaScript",
+    "stars": 670,
+    "topics": [
+      "actors",
+      "framework",
+      "nodejs",
+      "nodejs-framework",
+      "scalability"
+    ],
+    "updatedAt": "2026-04-02T12:36:36Z",
+    "category": "Web Development",
+    "subcategory": "Backend & APIs",
+    "archive": {
+      "date": "2026-11-28",
+      "reason": "too-minor",
+      "note": "Stale actor framework.",
+      "replacedBy": []
+    }
+  },
+  {
+    "id": 55455647,
+    "name": "p5js-art",
+    "owner": "piratefsh",
+    "url": "https://github.com/piratefsh/p5js-art",
+    "description": null,
+    "language": "JavaScript",
+    "stars": 35,
+    "topics": [],
+    "updatedAt": "2025-10-25T07:13:48Z",
+    "category": "Graphics & Visualization",
+    "subcategory": "2D & Creative Coding",
+    "archive": {
+      "date": "2026-11-28",
+      "reason": "too-minor",
+      "note": "Small personal sketches.",
+      "replacedBy": []
+    }
+  },
+  {
+    "id": 146889623,
+    "name": "nvk",
+    "owner": "maierfelix",
+    "url": "https://github.com/maierfelix/nvk",
+    "description": "Vulkan API for JavaScript/TypeScript",
+    "language": "C++",
+    "stars": 945,
+    "topics": [
+      "bindings",
+      "javascript",
+      "vulkan"
+    ],
+    "updatedAt": "2026-04-14T17:14:39Z",
+    "category": "Graphics & Visualization",
+    "subcategory": "3D & GPU Rendering",
+    "archive": {
+      "date": "2026-11-28",
+      "reason": "too-minor",
+      "note": "Stale Vulkan bindings.",
+      "replacedBy": []
+    }
+  },
+  {
+    "id": 27039621,
+    "name": "Console-Graphics",
+    "owner": "interl0per",
+    "url": "https://github.com/interl0per/Console-Graphics",
+    "description": "A full blown 3D graphics engine that runs in a windows console window",
+    "language": "C#",
+    "stars": 308,
+    "topics": [],
+    "updatedAt": "2026-04-28T09:28:55Z",
+    "category": "Graphics & Visualization",
+    "subcategory": "3D & GPU Rendering",
+    "archive": {
+      "date": "2026-11-28",
+      "reason": "too-minor",
+      "note": "Small old engine.",
+      "replacedBy": []
+    }
+  },
+  {
+    "id": 149402291,
+    "name": "nodeplotlib",
+    "owner": "ngfelixl",
+    "url": "https://github.com/ngfelixl/nodeplotlib",
+    "description": "NodeJS plotting library for JavaScript and TypeScript. On top of plotly.js. Inspired by matplotlib.",
+    "language": "TypeScript",
+    "stars": 207,
+    "topics": [
+      "charts",
+      "javascript",
+      "matplotlib",
+      "nodejs",
+      "plot",
+      "plotly",
+      "typescript"
+    ],
+    "updatedAt": "2026-04-02T21:43:41Z",
+    "category": "Graphics & Visualization",
+    "subcategory": "Charts & Diagrams",
+    "archive": {
+      "date": "2026-11-28",
+      "reason": "too-minor",
+      "note": "Small, stale plotting wrapper.",
+      "replacedBy": []
+    }
+  },
+  {
+    "id": 243861761,
+    "name": "upsetjs",
+    "owner": "upsetjs",
+    "url": "https://github.com/upsetjs/upsetjs",
+    "description": "😠 UpSet.js - a set visualization library for rendering UpSet Plots (a JavaScript re-implementation of UpSet(R) by Lex et al), Euler Diagrams, Venn Diagrams, and Karnaugh Maps",
+    "language": "TypeScript",
+    "stars": 149,
+    "topics": [
+      "d3js",
+      "euler",
+      "euler-diagram",
+      "javascript",
+      "karnaugh-map",
+      "react",
+      "typescript",
+      "upset",
+      "upsetr",
+      "venn",
+      "venn-diagram",
+      "visualization"
+    ],
+    "updatedAt": "2026-04-13T12:17:52Z",
+    "category": "Graphics & Visualization",
+    "subcategory": "Charts & Diagrams",
+    "archive": {
+      "date": "2026-11-28",
+      "reason": "too-minor",
+      "note": "Small, stale niche chart library.",
+      "replacedBy": []
+    }
+  },
+  {
+    "id": 757109,
+    "name": "sibilant",
+    "owner": "jbr",
+    "url": "https://github.com/jbr/sibilant",
+    "description": "Just another compile-to-js LISP-like language",
+    "language": "JavaScript",
+    "stars": 392,
+    "topics": [],
+    "updatedAt": "2026-05-03T15:37:58Z",
+    "category": "Languages & Engineering",
+    "subcategory": "Compilers & Tooling",
+    "archive": {
+      "date": "2026-11-28",
+      "reason": "too-minor",
+      "note": "Small old language experiment.",
+      "replacedBy": []
+    }
+  },
+  {
+    "id": 36661790,
+    "name": "metaes",
+    "owner": "metaes",
+    "url": "https://github.com/metaes/metaes",
+    "description": "JavaScript in JavaScript interpreter for better tools.",
+    "language": "TypeScript",
+    "stars": 139,
+    "topics": [],
+    "updatedAt": "2026-01-02T08:38:17Z",
+    "category": "Languages & Engineering",
+    "subcategory": "Compilers & Tooling",
+    "archive": {
+      "date": "2026-11-28",
+      "reason": "too-minor",
+      "note": "Small old interpreter.",
+      "replacedBy": []
+    }
+  },
+  {
+    "id": 11623391,
+    "name": "llvm-hello-world",
+    "owner": "dfellis",
+    "url": "https://github.com/dfellis/llvm-hello-world",
+    "description": "LLVM's Hello World Assembly Code",
+    "language": "Assembly",
+    "stars": 47,
+    "topics": [],
+    "updatedAt": "2024-12-08T19:32:14Z",
+    "category": "Languages & Engineering",
+    "subcategory": "Compilers & Tooling",
+    "archive": {
+      "date": "2026-11-28",
+      "reason": "too-minor",
+      "note": "Hello-world example.",
+      "replacedBy": []
+    }
+  },
+  {
+    "id": 675817270,
+    "name": "doculite",
+    "owner": "stefanbielmeier",
+    "url": "https://github.com/stefanbielmeier/doculite",
+    "description": "Use SQLite as a Document Database",
+    "language": "TypeScript",
+    "stars": 360,
+    "topics": [],
+    "updatedAt": "2026-04-30T02:31:14Z",
+    "category": "Infrastructure & Systems",
+    "subcategory": "Databases & Storage",
+    "archive": {
+      "date": "2026-11-28",
+      "reason": "too-minor",
+      "note": "Small experiment.",
+      "replacedBy": []
+    }
+  },
+  {
+    "id": 119547735,
+    "name": "mongodb-grafana",
+    "owner": "JamesOsgood",
+    "url": "https://github.com/JamesOsgood/mongodb-grafana",
+    "description": "MongoDB plugin for Grafana",
+    "language": "JavaScript",
+    "stars": 485,
+    "topics": [],
+    "updatedAt": "2026-03-09T02:08:44Z",
+    "category": "Infrastructure & Systems",
+    "subcategory": "DevOps & Cloud",
+    "archive": {
+      "date": "2026-11-28",
+      "reason": "too-minor",
+      "note": "Stale 2018 plugin.",
+      "replacedBy": []
+    }
+  },
+  {
+    "id": 270440119,
+    "name": "nodejs-application-monitoring-with-prometheus-and-grafana",
+    "owner": "coder-society",
+    "url": "https://github.com/coder-society/nodejs-application-monitoring-with-prometheus-and-grafana",
+    "description": "Node.js Monitoring with Prometheus and Grafana",
+    "language": "JavaScript",
+    "stars": 79,
+    "topics": [
+      "grafana",
+      "metrics",
+      "monitoring",
+      "nodejs",
+      "prometheus"
+    ],
+    "updatedAt": "2025-10-18T14:30:31Z",
+    "category": "Infrastructure & Systems",
+    "subcategory": "DevOps & Cloud",
+    "archive": {
+      "date": "2026-11-28",
+      "reason": "too-minor",
+      "note": "2020 tutorial repo.",
+      "replacedBy": []
+    }
+  },
+  {
+    "id": 179593418,
+    "name": "pingg",
+    "owner": "Thann",
+    "url": "https://github.com/Thann/pingg",
+    "description": "Ping latency graphing CLI",
+    "language": "JavaScript",
+    "stars": 46,
+    "topics": [
+      "blessed",
+      "graph",
+      "ping",
+      "terminal",
+      "tui"
+    ],
+    "updatedAt": "2025-04-28T04:25:33Z",
+    "category": "Standalone Tools & Apps",
+    "subcategory": "Developer Tools",
+    "archive": {
+      "date": "2026-11-28",
+      "reason": "too-minor",
+      "note": "Tiny CLI.",
+      "replacedBy": []
+    }
+  },
+  {
+    "id": 588177893,
+    "name": "splatterjs",
+    "owner": "shie1",
+    "url": "https://github.com/shie1/splatterjs",
+    "description": "Spotify bot for farming streams using NodeJS and selenium",
+    "language": "TypeScript",
+    "stars": 12,
+    "topics": [
+      "spotify",
+      "spotify-bot"
+    ],
+    "updatedAt": "2025-11-28T03:53:43Z",
+    "category": "Standalone Tools & Apps",
+    "subcategory": "Developer Tools",
+    "archive": {
+      "date": "2026-11-28",
+      "reason": "too-minor",
+      "note": "Bot for farming Spotify streams. I would not list it.",
+      "replacedBy": []
+    }
+  },
+  {
+    "id": 175855667,
+    "name": "construct-js",
+    "owner": "francisrstokes",
+    "url": "https://github.com/francisrstokes/construct-js",
+    "description": "🛠️A library for creating byte level data structures.",
+    "language": "TypeScript",
+    "stars": 1372,
+    "topics": [
+      "binary",
+      "byte",
+      "construct",
+      "structure"
+    ],
+    "updatedAt": "2026-04-10T19:11:36Z",
+    "category": "Libraries & Utilities",
+    "subcategory": "Documents & Data Formats",
+    "archive": {
+      "date": "2026-11-28",
+      "reason": "too-minor",
+      "note": "Small, little used.",
+      "replacedBy": []
+    }
+  },
+  {
+    "id": 7479308,
+    "name": "node-netscape-bookmarks",
+    "owner": "bahamas10",
+    "url": "https://github.com/bahamas10/node-netscape-bookmarks",
+    "description": "Create a netscape format bookmarks file (works with Chrome)",
+    "language": "JavaScript",
+    "stars": 42,
+    "topics": [],
+    "updatedAt": "2025-02-08T13:06:06Z",
+    "category": "Libraries & Utilities",
+    "subcategory": "Documents & Data Formats",
+    "archive": {
+      "date": "2026-11-28",
+      "reason": "too-minor",
+      "note": "Tiny; netscape-bookmark-tree is also listed.",
+      "replacedBy": []
+    }
+  },
+  {
+    "id": 702464605,
+    "name": "Text2Matrix",
+    "owner": "TheSnowyxGIT",
+    "url": "https://github.com/TheSnowyxGIT/Text2Matrix",
+    "description": "Convert text strings into customizable pixel matrices with options for max height, letter spacing, and more. Ideal for LED displays and creative typographic applications.",
+    "language": "TypeScript",
+    "stars": 2,
+    "topics": [],
+    "updatedAt": "2025-01-11T05:45:25Z",
+    "category": "Knowledge & Inspiration",
+    "subcategory": "Design & Fun",
+    "archive": {
+      "date": "2026-11-28",
+      "reason": "too-minor",
+      "note": "1 star.",
+      "replacedBy": []
+    }
+  },
+  {
+    "id": 288528444,
+    "name": "sevastolink",
+    "owner": "paulopacitti",
+    "url": "https://github.com/paulopacitti/sevastolink",
+    "description": ":alien: A color theme based on Sevastolink, Sevastopol's desktop OS presented in SEGA's \"Alien: Isolation\" ",
+    "language": "Python",
+    "stars": 40,
+    "topics": [
+      "alien",
+      "alien-isolation",
+      "color-scheme",
+      "color-theme",
+      "iterm",
+      "iterm2-theme",
+      "sega",
+      "theme",
+      "vs-code-theme"
+    ],
+    "updatedAt": "2026-03-16T11:33:38Z",
+    "category": "Knowledge & Inspiration",
+    "subcategory": "Design & Fun",
+    "archive": {
+      "date": "2026-11-28",
+      "reason": "too-minor",
+      "note": "Old colour theme.",
+      "replacedBy": []
+    }
+  },
+  {
+    "id": 196971630,
+    "name": "awesome-visjs",
+    "owner": "visjs",
+    "url": "https://github.com/visjs/awesome-visjs",
+    "description": "🕶️ A curated list of resources around vis.js",
+    "language": null,
+    "stars": 165,
+    "topics": [
+      "awesome",
+      "awesome-list",
+      "hacktoberfest",
+      "vis",
+      "vis-js",
+      "vis-network",
+      "vis-timeline"
+    ],
+    "updatedAt": "2026-03-18T19:54:06Z",
+    "category": "Knowledge & Inspiration",
+    "subcategory": "Educational & Awesome",
+    "archive": {
+      "date": "2026-11-28",
+      "reason": "too-minor",
+      "note": "Stale list.",
+      "replacedBy": []
+    }
+  },
+  {
+    "id": 624987651,
+    "name": "llm-hub",
+    "owner": "mallahyari",
+    "url": "https://github.com/mallahyari/llm-hub",
+    "description": "A curated collection of interesting applications, repos, and tutorials using large language models (LLM) like GPT-3",
+    "language": null,
+    "stars": 154,
+    "topics": [
+      "chatgpt",
+      "deep-learning",
+      "gpt-3",
+      "gpt-4",
+      "language-model",
+      "llms",
+      "nlp",
+      "openai"
+    ],
+    "updatedAt": "2026-04-10T02:26:22Z",
+    "category": "Knowledge & Inspiration",
+    "subcategory": "Educational & Awesome",
+    "archive": {
+      "date": "2026-11-28",
+      "reason": "faded",
+      "note": "Early LLM list.",
+      "replacedBy": []
+    }
+  },
+  {
+    "id": 419536150,
+    "name": "long-doc-summarization",
+    "owner": "huankoh",
+    "url": "https://github.com/huankoh/long-doc-summarization",
+    "description": "Long Document Summarization Papers",
+    "language": null,
+    "stars": 155,
+    "topics": [
+      "long-document",
+      "long-document-summarization",
+      "natural-language-processing",
+      "nlp",
+      "summarization",
+      "text-generation"
+    ],
+    "updatedAt": "2026-04-16T19:47:19Z",
+    "category": "Knowledge & Inspiration",
+    "subcategory": "Educational & Awesome",
+    "archive": {
+      "date": "2026-11-28",
+      "reason": "faded",
+      "note": "Stale paper list from the early LLM wave.",
+      "replacedBy": []
+    }
+  },
+  {
+    "id": 77546955,
+    "name": "Flex",
+    "owner": "cmalven",
+    "url": "https://github.com/cmalven/Flex",
+    "description": "A minimal visual cheatsheet for Flexbox ",
+    "language": "SCSS",
+    "stars": 10,
+    "topics": [],
+    "updatedAt": "2025-02-25T14:04:03Z",
+    "category": "Knowledge & Inspiration",
+    "subcategory": "Educational & Awesome",
+    "archive": {
+      "date": "2026-11-28",
+      "reason": "too-minor",
+      "note": "Tiny cheatsheet.",
+      "replacedBy": []
+    }
+  },
+  {
+    "id": 2330994,
+    "name": "Markdown-CSS",
+    "owner": "simonlc",
+    "url": "https://github.com/simonlc/Markdown-CSS",
+    "description": "🗒️ A style sheet for Markdown",
+    "language": "HTML",
+    "stars": 259,
+    "topics": [
+      "css",
+      "markdow-css",
+      "markdown"
+    ],
+    "updatedAt": "2026-03-14T15:43:40Z",
+    "category": "Web Development",
+    "subcategory": "Frontend Frameworks",
+    "archive": {
+      "date": "2026-11-28",
+      "reason": "too-minor",
+      "note": "Old stylesheet.",
+      "replacedBy": []
+    }
+  },
+  {
+    "id": 143528739,
+    "name": "terminal-game-io",
+    "owner": "robertrypula",
+    "url": "https://github.com/robertrypula/terminal-game-io",
+    "description": "It has never been easier to start writing ASCII games in NodeJs or browser. This package handles for you basic input (keyboard events) and output (ASCII 'frame').",
+    "language": "TypeScript",
+    "stars": 31,
+    "topics": [
+      "angular",
+      "angular6",
+      "ascii-game",
+      "escape-codes",
+      "node-escape-codes",
+      "node-js",
+      "nodejs-game",
+      "terminal-game",
+      "terminal-keypress",
+      "terminal-render-frame"
+    ],
+    "updatedAt": "2026-04-18T01:39:47Z",
+    "category": "Standalone Tools & Apps",
+    "subcategory": "Game Development",
+    "archive": {
+      "date": "2026-11-28",
+      "reason": "too-minor",
+      "note": "Tiny library.",
+      "replacedBy": []
+    }
+  },
+  {
+    "id": 174762036,
+    "name": "hedwig",
+    "owner": "castorini",
+    "url": "https://github.com/castorini/hedwig",
+    "description": "PyTorch deep learning models for document classification",
+    "language": "Python",
+    "stars": 597,
+    "topics": [
+      "deep-learning",
+      "document-classification",
+      "pytorch"
+    ],
+    "updatedAt": "2026-04-14T04:09:41Z",
+    "category": "AI, LLMs & Data",
+    "subcategory": "Machine Learning",
+    "archive": {
+      "date": "2026-11-28",
+      "reason": "faded",
+      "note": "Old research models.",
+      "replacedBy": []
+    }
+  },
+  {
+    "id": 261008904,
+    "name": "Deep-SORT-YOLOv4",
+    "owner": "LeonLok",
+    "url": "https://github.com/LeonLok/Deep-SORT-YOLOv4",
+    "description": "People detection and optional tracking with Tensorflow backend.",
+    "language": "Python",
+    "stars": 501,
+    "topics": [
+      "asynchronous",
+      "asynchronous-io",
+      "asynchronous-processing",
+      "deep-sort",
+      "deep-sort-tracking",
+      "detection-algorithm",
+      "object-detection",
+      "object-tracking",
+      "people-tracker",
+      "people-tracking",
+      "tensorflow",
+      "tensorflow2",
+      "tracking-algorithm",
+      "yolo",
+      "yolov3",
+      "yolov4"
+    ],
+    "updatedAt": "2026-04-25T20:51:01Z",
+    "category": "AI, LLMs & Data",
+    "subcategory": "Machine Learning",
+    "archive": {
+      "date": "2026-11-28",
+      "reason": "faded",
+      "note": "Outdated model stack.",
+      "replacedBy": []
+    }
+  },
+  {
+    "id": 320848321,
+    "name": "chess-ai",
+    "owner": "zeyu2001",
+    "url": "https://github.com/zeyu2001/chess-ai",
+    "description": "Simple chess AI in JavaScript. Uses the chess.js and chessboard.js libraries.",
+    "language": "JavaScript",
+    "stars": 274,
+    "topics": [
+      "chess",
+      "chess-ai",
+      "chess-engine",
+      "chessboard",
+      "javascript"
+    ],
+    "updatedAt": "2026-03-19T23:46:56Z",
+    "category": "AI, LLMs & Data",
+    "subcategory": "Science & Algorithms",
+    "archive": {
+      "date": "2026-11-28",
+      "reason": "too-minor",
+      "note": "Small demo.",
+      "replacedBy": []
+    }
+  },
+  {
+    "id": 95359770,
+    "name": "tcping",
+    "owner": "cloverstd",
+    "url": "https://github.com/cloverstd/tcping",
+    "description": "ping over a tcp connection",
+    "language": "Go",
+    "stars": 857,
+    "topics": [
+      "command-line-tool",
+      "golang",
+      "network"
+    ],
+    "updatedAt": "2026-04-30T02:18:20Z",
+    "category": "Infrastructure & Systems",
+    "subcategory": "Networking & P2P",
+    "archive": {
+      "date": "2026-11-28",
+      "reason": "too-minor",
+      "note": "Small stale CLI.",
+      "replacedBy": []
+    }
+  },
+  {
+    "id": 427542634,
+    "name": "librarian",
+    "owner": "librarian-org",
+    "url": "https://github.com/librarian-org/librarian",
+    "description": "Just a free OpenSource library system",
+    "language": "TypeScript",
+    "stars": 8,
+    "topics": [
+      "electronjs",
+      "library",
+      "management",
+      "reactjs",
+      "system",
+      "typeorm",
+      "typescript"
+    ],
+    "updatedAt": "2025-10-25T21:08:35Z",
+    "category": "Standalone Tools & Apps",
+    "subcategory": "User Applications",
+    "archive": {
+      "date": "2026-11-28",
+      "reason": "too-minor",
+      "note": "8 stars.",
+      "replacedBy": []
+    }
+  },
+  {
+    "id": 2056312,
+    "name": "html2canvas",
+    "owner": "niklasvh",
+    "url": "https://github.com/niklasvh/html2canvas",
+    "description": "Screenshots with JavaScript",
+    "language": "TypeScript",
+    "stars": 31841,
+    "topics": [
+      "dom",
+      "javascript",
+      "screenshot"
+    ],
+    "updatedAt": "2026-05-03T21:16:45Z",
+    "category": "Libraries & Utilities",
+    "subcategory": "Media Processing",
+    "archive": {
+      "date": "2026-11-28",
+      "reason": "unmaintained",
+      "note": "Quiet since 2022.",
+      "replacedBy": [
+        {
+          "name": "zumerlab/snapdom",
+          "url": "https://github.com/zumerlab/snapdom"
+        },
+        {
+          "name": "bubkoo/html-to-image",
+          "url": "https://github.com/bubkoo/html-to-image"
+        }
+      ]
+    }
+  },
+  {
+    "id": 795421,
+    "name": "node-http-proxy",
+    "owner": "http-party",
+    "url": "https://github.com/http-party/node-http-proxy",
+    "description": "A full-featured http proxy for node.js",
+    "language": "JavaScript",
+    "stars": 14141,
+    "topics": [],
+    "updatedAt": "2026-05-03T15:16:28Z",
+    "category": "Infrastructure & Systems",
+    "subcategory": "Networking & P2P",
+    "archive": {
+      "date": "2026-11-28",
+      "reason": "unmaintained",
+      "note": "Quiet since 2020. Replacement is not a drop-in.",
+      "replacedBy": [
+        {
+          "name": "unjs/httpxy",
+          "url": "https://github.com/unjs/httpxy"
+        }
+      ]
+    }
+  },
+  {
+    "id": 50502690,
+    "name": "sequelize-typescript",
+    "owner": "sequelize",
+    "url": "https://github.com/sequelize/sequelize-typescript",
+    "description": "Decorators and some other features for sequelize",
+    "language": "TypeScript",
+    "stars": 2837,
+    "topics": [
+      "annotations",
+      "decorators",
+      "orm",
+      "sequelize",
+      "typescript"
+    ],
+    "updatedAt": "2026-04-29T11:36:24Z",
+    "category": "Infrastructure & Systems",
+    "subcategory": "Databases & Storage",
+    "archive": {
+      "date": "2026-11-28",
+      "reason": "unmaintained",
+      "note": "Quiet since 2023.",
+      "replacedBy": [
+        {
+          "name": "Sequelize's own decorators (newer versions)"
+        }
+      ]
+    }
+  },
+  {
+    "id": 61969625,
+    "name": "just",
+    "owner": "angus-c",
+    "url": "https://github.com/angus-c/just",
+    "description": "A library of dependency-free JavaScript utilities that do just one thing.",
+    "language": "JavaScript",
+    "stars": 6208,
+    "topics": [
+      "dependency-free",
+      "javascript",
+      "library",
+      "pwa",
+      "tiny",
+      "typescript",
+      "utilities",
+      "utils"
+    ],
+    "updatedAt": "2026-05-03T14:08:38Z",
+    "category": "Libraries & Utilities",
+    "subcategory": "Core Utilities",
+    "archive": {
+      "date": "2026-11-28",
+      "reason": "unmaintained",
+      "note": "Collection of tiny utilities, quiet since 2023.",
+      "replacedBy": [
+        {
+          "name": "toss/es-toolkit",
+          "url": "https://github.com/toss/es-toolkit"
+        },
+        {
+          "name": "native methods"
+        }
+      ]
+    }
+  },
+  {
+    "id": 51644554,
+    "name": "numjs",
+    "owner": "nicolaspanel",
+    "url": "https://github.com/nicolaspanel/numjs",
+    "description": "Like NumPy, in JavaScript",
+    "language": "JavaScript",
+    "stars": 2451,
+    "topics": [
+      "javascript",
+      "linear-algebra",
+      "ndarray",
+      "nodejs"
+    ],
+    "updatedAt": "2026-04-26T23:21:35Z",
+    "category": "AI, LLMs & Data",
+    "subcategory": "Science & Algorithms",
+    "archive": {
+      "date": "2026-11-28",
+      "reason": "unmaintained",
+      "note": "Quiet since 2021. No close replacement checked.",
+      "replacedBy": []
+    }
+  },
+  {
+    "id": 30194220,
+    "name": "ijavascript",
+    "owner": "n-riesco",
+    "url": "https://github.com/n-riesco/ijavascript",
+    "description": "IJavascript is a javascript kernel for the Jupyter notebook",
+    "language": "JavaScript",
+    "stars": 2257,
+    "topics": [],
+    "updatedAt": "2026-04-29T23:08:30Z",
+    "category": "AI, LLMs & Data",
+    "subcategory": "Data Engineering",
+    "archive": {
+      "date": "2026-11-28",
+      "reason": "unmaintained",
+      "note": "Quiet since 2022. The replacement changes the runtime.",
+      "replacedBy": [
+        {
+          "name": "Deno Jupyter kernel"
+        }
+      ]
+    }
+  },
+  {
+    "id": 23163093,
+    "name": "inkscape",
+    "owner": "inkscape",
+    "url": "https://github.com/inkscape/inkscape",
+    "description": "Project Website: https://inkscape.org - Code Repository: https://gitlab.com/inkscape/inkscape - Draw freely. 🖌",
+    "language": "",
+    "stars": 3956,
+    "topics": [],
+    "updatedAt": "2026-09-26T21:33:40Z",
+    "category": "Standalone Tools & Apps",
+    "subcategory": "Multimedia",
+    "archive": {
+      "date": "2026-11-28",
+      "reason": "moved",
+      "note": "Still listed, under its new home.",
+      "replacedBy": [
+        {
+          "name": "gitlab.com/inkscape/inkscape",
+          "url": "https://gitlab.com/inkscape/inkscape"
+        }
+      ]
+    }
+  },
+  {
+    "id": 273794227,
+    "name": "wiper",
+    "owner": "r3nt0n",
+    "url": "https://github.com/r3nt0n/wiper",
+    "description": "Secure destruction of sensitive virtual data, temporary files and swap partitions",
+    "language": "Python",
+    "stars": 77,
+    "topics": [
+      "cyber-security",
+      "cyberpunk",
+      "data",
+      "data-destruction",
+      "delete",
+      "delete-files",
+      "destruction",
+      "hacking-tool",
+      "python",
+      "python-script",
+      "python3",
+      "secure",
+      "secure-delete",
+      "shred",
+      "shredder",
+      "shredding-algorithms",
+      "shredding-files",
+      "wipe-disk",
+      "wipe-files",
+      "wipe-out"
+    ],
+    "updatedAt": "2026-04-24T02:45:55Z",
+    "category": "Infrastructure & Systems",
+    "subcategory": "Security",
+    "archive": {
+      "date": "2026-11-28",
+      "reason": "unmaintained",
+      "note": "Small wiping script, last changed January 2023.",
+      "replacedBy": [
+        {
+          "name": "shred (covers basic file overwriting only)"
+        }
+      ]
+    }
+  },
+  {
+    "id": 135478117,
+    "name": "poppler",
+    "owner": "innodatalabs",
+    "url": "https://github.com/innodatalabs/poppler",
+    "description": "",
+    "language": "C++",
+    "stars": 30,
+    "topics": [],
+    "updatedAt": "2026-05-07T08:33:50Z",
+    "category": "Libraries & Utilities",
+    "subcategory": "Documents & Data Formats",
+    "archive": {
+      "date": "2026-11-28",
+      "reason": "superseded",
+      "note": "Third-party copy of Poppler, last updated 2021. The original is listed instead.",
+      "replacedBy": [
+        {
+          "name": "poppler/poppler",
+          "url": "https://gitlab.freedesktop.org/poppler/poppler"
         }
       ]
     }
