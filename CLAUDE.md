@@ -18,6 +18,10 @@ There are no tests.
 
 **Single source of truth:** `data/classified_final.json` — a flat array of repo objects. It's a compilation of repos from any host, not only GitHub: non-GitHub entries (GitLab, SourceForge…) have `id: null` and the host's URL and star count (or `0`). The site reads it entirely at build time; there is no database or API at runtime. Classification (assigning `category` and `subcategory` to each repo) is done by editing this file.
 
+**Curation:** this repo is the owner's stars list, maintained by hand; the GitHub sync is no longer run. Follow the **Curation** rules in `README.md` before removing, keeping or relinking repos, and propose removals for review.
+
+**Archive:** `data/archive.json` (separate from the main data; the site never reads it) holds removed repos: the original object plus `archive: { date, reason, note, replacedBy }` (reasons are listed in `README.md`). To remove a repo, move it there rather than deleting it. The star sync skips archived ids and URLs, so when a repo moves off GitHub, also archive its old entry with reason `moved`. Don't archive a repo just for being quiet; finished, historical and reference projects stay.
+
 **Taxonomy:** `data/taxonomy.json` is the canonical list of category/subcategory pairs, each with `covers`, `not_for` and `examples`. Classify by main purpose, not language, following the `not_for` rules. It also sets the category order in `classification_final.md`. Some manually added repos have `id: null`, so key repos by `url` when you need a unique id. Repos with an empty `category` are filtered out by `allRepos` in `src/lib/repos.ts` and never appear on the site.
 
 **Data layer (`src/lib/repos.ts`):** All pages import from here. `allRepos` is the filtered flat list. `getCategories()` builds a nested `Map<slug, CategoryData>` (each containing `subcategories: Map<slug, SubcategoryData>`), sorted by stars. `categoryColor(name)` maps the 8 hardcoded category names to Tailwind color sets — adding a new category requires adding it to `COLOR_MAP` here. `slugify()` is the canonical slug function used for all URL segments.

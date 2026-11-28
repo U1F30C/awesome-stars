@@ -4,6 +4,7 @@ import { GitHubClient } from "./client";
 import { loadEnvironment } from "./auth";
 
 const CLASSIFIED_PATH = path.join(process.cwd(), "data", "classified_final.json");
+const ARCHIVE_PATH = path.join(process.cwd(), "data", "archive.json");
 
 type ClassifiedRepo = {
   id: number | null;
@@ -48,10 +49,24 @@ async function main() {
         .map((r) => [r.name.toLowerCase(), r])
     );
 
+    // Archived repos may still be starred. Skip them so they aren't re-added, and so
+    // the name fallback can't match them to another entry.
+    const archived: ClassifiedRepo[] = fs.existsSync(ARCHIVE_PATH)
+      ? JSON.parse(fs.readFileSync(ARCHIVE_PATH, "utf8"))
+      : [];
+    const archivedIds = new Set(archived.flatMap((r) => (r.id === null ? [] : [r.id])));
+    const archivedUrls = new Set(archived.map((r) => r.url.toLowerCase()));
+
     let updated = 0;
+    let skipped = 0;
     const newRepos: ClassifiedRepo[] = [];
 
     for (const repo of fetched) {
+      if (archivedIds.has(repo.id) || archivedUrls.has(repo.url.toLowerCase())) {
+        skipped++;
+        continue;
+      }
+
       const match =
         byId.get(repo.id) ?? byUrl.get(repo.url.toLowerCase()) ?? byName.get(repo.name.toLowerCase());
 
@@ -72,10 +87,10 @@ async function main() {
     }
 
     existing.push(...newRepos);
-    fs.writeFileSync(CLASSIFIED_PATH, JSON.stringify(existing, null, 2));
+    fs.writeFileSync(CLASSIFIED_PATH, JSON.stringify(existing, null, 2) + "\n");
 
     console.log(`\n💾 Saved to data/classified_final.json`);
-    console.log(`   ${updated} updated · ${newRepos.length} new`);
+    console.log(`   ${updated} updated · ${newRepos.length} new · ${skipped} archived (skipped)`);
 
     if (newRepos.length > 0) {
       console.log("\nNew repos to classify:");

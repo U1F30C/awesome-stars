@@ -308,24 +308,6 @@
     "subcategory": "Networking & P2P"
   },
   {
-    "id": 1116260703,
-    "name": "get-shit-done",
-    "owner": "gsd-build",
-    "url": "https://github.com/gsd-build/get-shit-done",
-    "description": "A light-weight and powerful meta-prompting, context engineering and spec-driven development system for Claude Code by TÂCHES.",
-    "language": "JavaScript",
-    "stars": 59671,
-    "topics": [
-      "claude-code",
-      "context-engineering",
-      "meta-prompting",
-      "spec-driven-development"
-    ],
-    "updatedAt": "2026-05-03T21:47:11Z",
-    "category": "AI, LLMs & Data",
-    "subcategory": "Agent Skills"
-  },
-  {
     "id": 965615190,
     "name": "BMAD-METHOD",
     "owner": "bmad-code-org",
@@ -455,9 +437,9 @@
   },
   {
     "id": 1035029907,
-    "name": "pi-mono",
-    "owner": "badlogic",
-    "url": "https://github.com/badlogic/pi-mono",
+    "name": "pi",
+    "owner": "earendil-works",
+    "url": "https://github.com/earendil-works/pi",
     "description": "AI agent toolkit: coding agent CLI, unified LLM API, TUI & web UI libraries, Slack bot, vLLM pods",
     "language": "TypeScript",
     "stars": 44162,
@@ -922,9 +904,9 @@
   },
   {
     "id": 1079345325,
-    "name": "OpenMemory",
+    "name": "LongMemory",
     "owner": "CaviraOSS",
-    "url": "https://github.com/CaviraOSS/OpenMemory",
+    "url": "https://github.com/CaviraOSS/LongMemory",
     "description": "Local persistent memory store for LLM applications including claude desktop, github copilot, codex, antigravity, etc.",
     "language": "TypeScript",
     "stars": 4055,
@@ -1201,13 +1183,13 @@
     "subcategory": "Electronics & IoT"
   },
   {
-    "id": 450927247,
+    "id": null,
     "name": "strudel",
-    "owner": "tidalcycles",
-    "url": "https://github.com/tidalcycles/strudel",
-    "description": "MOVED TO CODEBERG - Web-based environment for live coding algorithmic patterns, incorporating a faithful port of TidalCycles to JavaScript",
+    "owner": "uzu",
+    "url": "https://codeberg.org/uzu/strudel",
+    "description": "Web-based environment for live coding algorithmic patterns, incorporating a faithful port of TidalCycles to JavaScript",
     "language": null,
-    "stars": 2933,
+    "stars": 1310,
     "topics": [
       "algorave",
       "algorithmic-patterns",
@@ -1220,7 +1202,7 @@
       "web-audio",
       "webaudio"
     ],
-    "updatedAt": "2026-05-03T14:13:53Z",
+    "updatedAt": "2026-11-27T22:24:45Z",
     "category": "AI, LLMs & Data",
     "subcategory": "Science & Algorithms"
   },
@@ -1741,8 +1723,8 @@
   {
     "id": 318341089,
     "name": "lexical",
-    "owner": "facebook",
-    "url": "https://github.com/facebook/lexical",
+    "owner": "meta",
+    "url": "https://github.com/meta/lexical",
     "description": "Lexical is an extensible text editor framework that provides excellent reliability, accessibility and performance.",
     "language": "TypeScript",
     "stars": 23359,
@@ -1752,15 +1734,15 @@
     "subcategory": "UI Components"
   },
   {
-    "id": 12711522,
+    "id": null,
     "name": "sanitize-html",
     "owner": "apostrophecms",
-    "url": "https://github.com/apostrophecms/sanitize-html",
+    "url": "https://github.com/apostrophecms/apostrophe/tree/main/packages/sanitize-html",
     "description": "Clean up user-submitted HTML, preserving whitelisted elements and whitelisted attributes on a per-element basis. Built on htmlparser2 for speed and tolerance",
     "language": "JavaScript",
-    "stars": 4133,
+    "stars": 4675,
     "topics": [],
-    "updatedAt": "2026-04-24T01:05:54Z",
+    "updatedAt": "2026-11-26T21:55:06Z",
     "category": "Languages & Engineering",
     "subcategory": "Compilers & Tooling"
   },
@@ -1832,8 +1814,8 @@
   {
     "id": 533087958,
     "name": "d2",
-    "owner": "terrastruct",
-    "url": "https://github.com/terrastruct/d2",
+    "owner": "d2lang",
+    "url": "https://github.com/d2lang/d2",
     "description": "D2 is a modern diagram scripting language that turns text to diagrams.",
     "language": "Go",
     "stars": 23613,
@@ -2319,8 +2301,8 @@
   {
     "id": 1010380782,
     "name": "Context-Engineering",
-    "owner": "davidkimai",
-    "url": "https://github.com/davidkimai/Context-Engineering",
+    "owner": "jasontang-ai",
+    "url": "https://github.com/jasontang-ai/Context-Engineering",
     "description": "\"Context engineering is the delicate art and science of filling the context window with just the right information for the next step.\" — Andrej Karpathy. A frontier, first-principles handbook inspired by Karpathy and 3Blue1Brown for moving beyond prompt engineering to the wider discipline of context design, orchestration, and optimization.",
     "language": "Python",
     "stars": 8801,
@@ -2391,24 +2373,6 @@
       "vibe-coding"
     ],
     "updatedAt": "2026-05-03T21:41:03Z",
-    "category": "AI, LLMs & Data",
-    "subcategory": "LLMs & GenAI"
-  },
-  {
-    "id": 573631261,
-    "name": "agentic",
-    "owner": "transitive-bullshit",
-    "url": "https://github.com/transitive-bullshit/agentic",
-    "description": "Your API ⇒ Paid MCP. Instantly.",
-    "language": "TypeScript",
-    "stars": 18122,
-    "topics": [
-      "agents",
-      "ai",
-      "llms",
-      "openai"
-    ],
-    "updatedAt": "2026-05-03T15:37:14Z",
     "category": "AI, LLMs & Data",
     "subcategory": "LLMs & GenAI"
   },
@@ -2505,8 +2469,8 @@
   {
     "id": 926685631,
     "name": "ollama-ai-provider-v2",
-    "owner": "nordwestt",
-    "url": "https://github.com/nordwestt/ollama-ai-provider-v2",
+    "owner": "opencomp-eu",
+    "url": "https://github.com/opencomp-eu/ollama-ai-provider-v2",
     "description": "Vercel AI Provider for running LLMs locally using Ollama ",
     "language": "TypeScript",
     "stars": 100,
@@ -2804,30 +2768,6 @@
     "updatedAt": "2026-05-03T16:26:16Z",
     "category": "AI, LLMs & Data",
     "subcategory": "Speech & Audio AI"
-  },
-  {
-    "id": 382114726,
-    "name": "vue-flow",
-    "owner": "bcakmakoglu",
-    "url": "https://github.com/bcakmakoglu/vue-flow",
-    "description": "A highly customizable Flowchart component for Vue 3. Features seamless zoom & pan 🔎, additional components like a Minimap 🗺 and utilities to interact with state and graph.",
-    "language": "TypeScript",
-    "stars": 6549,
-    "topics": [
-      "diagrams",
-      "flow",
-      "flowchart",
-      "javascript",
-      "turborepo",
-      "typescript",
-      "vite",
-      "vitepress",
-      "vue",
-      "vue3"
-    ],
-    "updatedAt": "2026-05-03T16:02:35Z",
-    "category": "Web Development",
-    "subcategory": "Frontend Frameworks"
   },
   {
     "id": 1027643050,
@@ -3317,39 +3257,6 @@
     "subcategory": "Security"
   },
   {
-    "id": 265612440,
-    "name": "TTS",
-    "owner": "coqui-ai",
-    "url": "https://github.com/coqui-ai/TTS",
-    "description": "🐸💬 - a deep learning toolkit for Text-to-Speech, battle-tested in research and production",
-    "language": "Python",
-    "stars": 45212,
-    "topics": [
-      "deep-learning",
-      "glow-tts",
-      "hifigan",
-      "melgan",
-      "multi-speaker-tts",
-      "python",
-      "pytorch",
-      "speaker-encoder",
-      "speaker-encodings",
-      "speech",
-      "speech-synthesis",
-      "tacotron",
-      "text-to-speech",
-      "tts",
-      "tts-model",
-      "vocoder",
-      "voice-cloning",
-      "voice-conversion",
-      "voice-synthesis"
-    ],
-    "updatedAt": "2026-05-03T19:07:22Z",
-    "category": "AI, LLMs & Data",
-    "subcategory": "Speech & Audio AI"
-  },
-  {
     "id": 581656211,
     "name": "prompt-layer-library",
     "owner": "MagnivOrg",
@@ -3423,24 +3330,6 @@
     "updatedAt": "2026-05-03T20:26:57Z",
     "category": "Standalone Tools & Apps",
     "subcategory": "User Applications"
-  },
-  {
-    "id": 689858385,
-    "name": "cortex.cpp",
-    "owner": "janhq",
-    "url": "https://github.com/janhq/cortex.cpp",
-    "description": "Local AI API Platform",
-    "language": "C++",
-    "stars": 2760,
-    "topics": [
-      "gguf",
-      "llamacpp",
-      "onnx",
-      "onnxruntime"
-    ],
-    "updatedAt": "2026-05-01T16:39:17Z",
-    "category": "AI, LLMs & Data",
-    "subcategory": "LLMs & GenAI"
   },
   {
     "id": 528582593,
@@ -3547,30 +3436,6 @@
       "safety"
     ],
     "updatedAt": "2026-05-03T21:20:00Z",
-    "category": "Infrastructure & Systems",
-    "subcategory": "Security"
-  },
-  {
-    "id": 671629770,
-    "name": "llm-guard",
-    "owner": "protectai",
-    "url": "https://github.com/protectai/llm-guard",
-    "description": "The Security Toolkit for LLM Interactions",
-    "language": "Python",
-    "stars": 2905,
-    "topics": [
-      "adversarial-machine-learning",
-      "chatgpt",
-      "large-language-models",
-      "llm",
-      "llm-security",
-      "llmops",
-      "prompt-engineering",
-      "prompt-injection",
-      "security-tools",
-      "transformers"
-    ],
-    "updatedAt": "2026-05-03T17:05:33Z",
     "category": "Infrastructure & Systems",
     "subcategory": "Security"
   },
@@ -3753,27 +3618,6 @@
     "subcategory": "LLMs & GenAI"
   },
   {
-    "id": 907425333,
-    "name": "meilisearch-mcp",
-    "owner": "meilisearch",
-    "url": "https://github.com/meilisearch/meilisearch-mcp",
-    "description": "A Model Context Protocol (MCP) server for interacting with Meilisearch through LLM interfaces.",
-    "language": "Python",
-    "stars": 185,
-    "topics": [
-      "agent",
-      "mcp",
-      "meilisearch",
-      "modelcontextprotocol",
-      "rag",
-      "search",
-      "search-api"
-    ],
-    "updatedAt": "2026-04-11T11:53:21Z",
-    "category": "AI, LLMs & Data",
-    "subcategory": "LLMs & GenAI"
-  },
-  {
     "id": 56342508,
     "name": "jaeger",
     "owner": "jaegertracing",
@@ -3921,27 +3765,6 @@
     "subcategory": "Networking & P2P"
   },
   {
-    "id": 42332863,
-    "name": "filebrowser",
-    "owner": "filebrowser",
-    "url": "https://github.com/filebrowser/filebrowser",
-    "description": "📂 Web File Browser",
-    "language": "Go",
-    "stars": 34553,
-    "topics": [
-      "file-browser",
-      "file-manager",
-      "file-sharing",
-      "go",
-      "material-design",
-      "self-hosted",
-      "vue"
-    ],
-    "updatedAt": "2026-05-03T21:21:46Z",
-    "category": "Standalone Tools & Apps",
-    "subcategory": "User Applications"
-  },
-  {
     "id": 4999959,
     "name": "seafile",
     "owner": "haiwen",
@@ -4040,32 +3863,6 @@
     "updatedAt": "2026-05-03T18:15:24Z",
     "category": "Standalone Tools & Apps",
     "subcategory": "User Applications"
-  },
-  {
-    "id": 40622448,
-    "name": "pongo-db",
-    "owner": "drewc",
-    "url": "https://github.com/drewc/pongo-db",
-    "description": "PongoDB : A JSON interface to PostgreSQL databases",
-    "language": "PLpgSQL",
-    "stars": 4,
-    "topics": [],
-    "updatedAt": "2025-05-20T19:45:44Z",
-    "category": "Infrastructure & Systems",
-    "subcategory": "Databases & Storage"
-  },
-  {
-    "id": 967742949,
-    "name": "open-codex",
-    "owner": "ymichael",
-    "url": "https://github.com/ymichael/open-codex",
-    "description": "Lightweight coding agent that runs in your terminal",
-    "language": "TypeScript",
-    "stars": 2195,
-    "topics": [],
-    "updatedAt": "2026-05-02T12:34:06Z",
-    "category": "AI, LLMs & Data",
-    "subcategory": "Agents"
   },
   {
     "id": 12384349,
@@ -4402,30 +4199,6 @@
     "subcategory": "Speech & Audio AI"
   },
   {
-    "id": 344354127,
-    "name": "STT",
-    "owner": "coqui-ai",
-    "url": "https://github.com/coqui-ai/STT",
-    "description": "🐸STT - The deep learning toolkit for Speech-to-Text. Training and deploying STT models has never been so easy.",
-    "language": "C++",
-    "stars": 2583,
-    "topics": [
-      "asr",
-      "automatic-speech-recognition",
-      "deep-learning",
-      "speech-recognition",
-      "speech-recognition-api",
-      "speech-recognizer",
-      "speech-to-text",
-      "stt",
-      "tensorflow",
-      "voice-recognition"
-    ],
-    "updatedAt": "2026-05-02T01:48:59Z",
-    "category": "AI, LLMs & Data",
-    "subcategory": "Speech & Audio AI"
-  },
-  {
     "id": 776854298,
     "name": "storm",
     "owner": "stanford-oval",
@@ -4500,24 +4273,6 @@
     "updatedAt": "2026-05-03T21:26:28Z",
     "category": "Languages & Engineering",
     "subcategory": "Electronics & IoT"
-  },
-  {
-    "id": 5710341,
-    "name": "bower",
-    "owner": "bower",
-    "url": "https://github.com/bower/bower",
-    "description": "A package manager for the web",
-    "language": "JavaScript",
-    "stars": 14924,
-    "topics": [
-      "bower",
-      "front-end",
-      "javascript",
-      "package-manager"
-    ],
-    "updatedAt": "2026-05-02T21:56:36Z",
-    "category": "Standalone Tools & Apps",
-    "subcategory": "Developer Tools"
   },
   {
     "id": 103633984,
@@ -4993,25 +4748,24 @@
     "subcategory": "Science & Algorithms"
   },
   {
-    "id": 232151602,
-    "name": "papermerge",
-    "owner": "ciur",
-    "url": "https://github.com/ciur/papermerge",
-    "description": "Open Source Document Management System for Digital Archives (Scanned Documents)",
+    "id": 323846389,
+    "name": "papermerge-core",
+    "owner": "papermerge",
+    "url": "https://github.com/papermerge/papermerge-core",
+    "description": "Papermerge OSS",
     "language": "Python",
-    "stars": 2884,
+    "stars": 556,
     "topics": [
-      "archives",
-      "django",
+      "digital-archives",
       "dms",
-      "document-management",
+      "document-management-system",
+      "documents",
       "ocr",
-      "paperless",
       "pdf",
-      "scan",
+      "records-management",
       "scanned-documents"
     ],
-    "updatedAt": "2026-05-03T04:29:26Z",
+    "updatedAt": "2026-11-24T18:57:27Z",
     "category": "Standalone Tools & Apps",
     "subcategory": "User Applications"
   },
@@ -5110,8 +4864,8 @@
   {
     "id": 600596928,
     "name": "LibreChat",
-    "owner": "danny-avila",
-    "url": "https://github.com/danny-avila/LibreChat",
+    "owner": "LibreChat-AI",
+    "url": "https://github.com/LibreChat-AI/LibreChat",
     "description": "Enhanced ChatGPT Clone: Features Agents, MCP, DeepSeek, Anthropic, AWS, OpenAI, Responses API, Azure, Groq, o1, GPT-5, Mistral, OpenRouter, Vertex AI, Gemini, Artifacts, AI model switching, message search, Code Interpreter, langchain, DALL-E-3, OpenAPI Actions, Functions, Secure Multi-User Auth, Presets, open-source for self-hosting. Active.",
     "language": "TypeScript",
     "stars": 36499,
@@ -5302,34 +5056,6 @@
     "subcategory": "User Applications"
   },
   {
-    "id": 618613272,
-    "name": "h2ogpt",
-    "owner": "h2oai",
-    "url": "https://github.com/h2oai/h2ogpt",
-    "description": "Private chat with local GPT with document, images, video, etc. 100% private, Apache 2.0. Supports oLLaMa, Mixtral, llama.cpp, and more. Demo: https://gpt.h2o.ai/ https://gpt-docs.h2o.ai/",
-    "language": "Python",
-    "stars": 11987,
-    "topics": [
-      "ai",
-      "chatgpt",
-      "embeddings",
-      "fedramp",
-      "generative",
-      "gpt",
-      "gpt4all",
-      "llama2",
-      "llm",
-      "mixtral",
-      "pdf",
-      "private",
-      "privategpt",
-      "vectorstore"
-    ],
-    "updatedAt": "2026-05-03T17:10:49Z",
-    "category": "AI, LLMs & Data",
-    "subcategory": "LLMs & GenAI"
-  },
-  {
     "id": 753271457,
     "name": "awesome-shadcn-ui",
     "owner": "birobirobiro",
@@ -5485,9 +5211,9 @@
   },
   {
     "id": 542185751,
-    "name": "manifest",
+    "name": "llm-gateway",
     "owner": "mnfst",
-    "url": "https://github.com/mnfst/manifest",
+    "url": "https://github.com/mnfst/llm-gateway",
     "description": "Smart Model Routing for Agents. Cut Costs up to 70% 🦚",
     "language": "TypeScript",
     "stars": 5997,
@@ -5622,38 +5348,6 @@
     "updatedAt": "2026-03-07T06:01:56Z",
     "category": "AI, LLMs & Data",
     "subcategory": "Agents"
-  },
-  {
-    "id": 667019519,
-    "name": "vaul",
-    "owner": "emilkowalski",
-    "url": "https://github.com/emilkowalski/vaul",
-    "description": "A drawer component for React.",
-    "language": "TypeScript",
-    "stars": 8332,
-    "topics": [
-      "dialog",
-      "drawer",
-      "react"
-    ],
-    "updatedAt": "2026-05-03T13:24:37Z",
-    "category": "Web Development",
-    "subcategory": "UI Components"
-  },
-  {
-    "id": 881625901,
-    "name": "trpc-ui",
-    "owner": "aidansunbury",
-    "url": "https://github.com/aidansunbury/trpc-ui",
-    "description": "Generate testing ui for tRPC procedures in seconds. Fork of trpc-panel",
-    "language": "TypeScript",
-    "stars": 176,
-    "topics": [
-      "trpc"
-    ],
-    "updatedAt": "2026-04-21T08:46:59Z",
-    "category": "Standalone Tools & Apps",
-    "subcategory": "Developer Tools"
   },
   {
     "id": 106017343,
@@ -6276,31 +5970,6 @@
     "subcategory": "LLMs & GenAI"
   },
   {
-    "id": 746181527,
-    "name": "shadcn-chat",
-    "owner": "jakobhoeg",
-    "url": "https://github.com/jakobhoeg/shadcn-chat",
-    "description": "CLI for adding customizable and re-usable chat components to your applications. Build beautiful chat interfaces in minutes.",
-    "language": "TypeScript",
-    "stars": 1615,
-    "topics": [
-      "cli",
-      "nextjs",
-      "nextjs14",
-      "npm",
-      "npm-package",
-      "npx",
-      "react",
-      "react-component",
-      "shadcn",
-      "shadcn-ui",
-      "ui-library"
-    ],
-    "updatedAt": "2026-05-03T02:35:57Z",
-    "category": "Web Development",
-    "subcategory": "UI Components"
-  },
-  {
     "id": 197018189,
     "name": "xyflow",
     "owner": "xyflow",
@@ -6347,8 +6016,8 @@
   {
     "id": 822326951,
     "name": "roundtable-js",
-    "owner": "roundtableAI",
-    "url": "https://github.com/roundtableAI/roundtable-js",
+    "owner": "ProofOfHumanPBC",
+    "url": "https://github.com/ProofOfHumanPBC/roundtable-js",
     "description": "Open-source research-grade programmatic survey software",
     "language": "JavaScript",
     "stars": 267,
@@ -6383,27 +6052,6 @@
     "subcategory": "Electronics & IoT"
   },
   {
-    "id": 552880581,
-    "name": "markdown-it-link-to-card",
-    "owner": "luckrya",
-    "url": "https://github.com/luckrya/markdown-it-link-to-card",
-    "description": "🔗 A markdown-it plugin that converts links to cards. Preview simple URL information more intuitively",
-    "language": "TypeScript",
-    "stars": 25,
-    "topics": [
-      "link-to-card",
-      "markdown",
-      "markdown-it",
-      "markdown-it-plugin",
-      "vitepress",
-      "vitepress-blog",
-      "vitepress-theme"
-    ],
-    "updatedAt": "2026-01-17T13:47:19Z",
-    "category": "Web Development",
-    "subcategory": "CMS & Content"
-  },
-  {
     "id": 820145382,
     "name": "ogx",
     "owner": "ogx-ai",
@@ -6413,19 +6061,6 @@
     "stars": 8363,
     "topics": [],
     "updatedAt": "2026-05-03T12:54:56Z",
-    "category": "AI, LLMs & Data",
-    "subcategory": "LLMs & GenAI"
-  },
-  {
-    "id": 820144632,
-    "name": "llama-stack-apps",
-    "owner": "ogx-ai",
-    "url": "https://github.com/ogx-ai/llama-stack-apps",
-    "description": "Agentic components of the Llama Stack APIs",
-    "language": null,
-    "stars": 4302,
-    "topics": [],
-    "updatedAt": "2026-05-03T19:35:51Z",
     "category": "AI, LLMs & Data",
     "subcategory": "LLMs & GenAI"
   },
@@ -6586,9 +6221,9 @@
   },
   {
     "id": 633250537,
-    "name": "stdf",
+    "name": "any-tdf",
     "owner": "any-tdf",
-    "url": "https://github.com/any-tdf/stdf",
+    "url": "https://github.com/any-tdf/any-tdf",
     "description": "Mobile web component library based on Svelte and Tailwind",
     "language": "Svelte",
     "stars": 767,
@@ -7061,28 +6696,6 @@
     "subcategory": "Frontend Frameworks"
   },
   {
-    "id": 178938810,
-    "name": "next-pwa",
-    "owner": "shadowwalker",
-    "url": "https://github.com/shadowwalker/next-pwa",
-    "description": "Zero config PWA plugin for Next.js, with workbox 🧰",
-    "language": "JavaScript",
-    "stars": 4085,
-    "topics": [
-      "cache",
-      "nextjs",
-      "pwa",
-      "service-worker",
-      "web",
-      "webapp",
-      "website",
-      "workbox"
-    ],
-    "updatedAt": "2026-04-28T13:37:47Z",
-    "category": "Web Development",
-    "subcategory": "Frontend Frameworks"
-  },
-  {
     "id": 334909828,
     "name": "biology-for-ai",
     "owner": "AstraZeneca",
@@ -7149,8 +6762,8 @@
   {
     "id": 769023213,
     "name": "convex-backend",
-    "owner": "get-convex",
-    "url": "https://github.com/get-convex/convex-backend",
+    "owner": "convex",
+    "url": "https://github.com/convex/convex-backend",
     "description": "The open-source reactive database for app developers",
     "language": "TypeScript",
     "stars": 11483,
@@ -7417,9 +7030,9 @@
   },
   {
     "id": 684776900,
-    "name": "Bend",
-    "owner": "HigherOrderCO",
-    "url": "https://github.com/HigherOrderCO/Bend",
+    "name": "bend",
+    "owner": "bendlang",
+    "url": "https://github.com/bendlang/bend",
     "description": "A massively parallel, high-level programming language",
     "language": "Rust",
     "stars": 19340,
@@ -7517,32 +7130,6 @@
     "updatedAt": "2026-05-03T13:17:13Z",
     "category": "Infrastructure & Systems",
     "subcategory": "DevOps & Cloud"
-  },
-  {
-    "id": 18619763,
-    "name": "LPF",
-    "owner": "astrolukasz",
-    "url": "https://github.com/astrolukasz/LPF",
-    "description": "Low Pass Filter for JavaScript",
-    "language": "JavaScript",
-    "stars": 27,
-    "topics": [],
-    "updatedAt": "2025-06-24T14:38:11Z",
-    "category": "AI, LLMs & Data",
-    "subcategory": "Science & Algorithms"
-  },
-  {
-    "id": 68363545,
-    "name": "tcp-base",
-    "owner": "node-modules",
-    "url": "https://github.com/node-modules/tcp-base",
-    "description": "TCP client base",
-    "language": "JavaScript",
-    "stars": 27,
-    "topics": [],
-    "updatedAt": "2025-03-22T09:37:35Z",
-    "category": "Infrastructure & Systems",
-    "subcategory": "Networking & P2P"
   },
   {
     "id": 53614190,
@@ -8624,19 +8211,6 @@
     "subcategory": "Compilers & Tooling"
   },
   {
-    "id": 342154229,
-    "name": "lesser",
-    "owner": "WuTheFWasThat",
-    "url": "https://github.com/WuTheFWasThat/lesser",
-    "description": "A lightweight version of pandas",
-    "language": "Python",
-    "stars": 6,
-    "topics": [],
-    "updatedAt": "2024-07-26T17:07:50Z",
-    "category": "AI, LLMs & Data",
-    "subcategory": "Data Engineering"
-  },
-  {
     "id": 12799539,
     "name": "toolz",
     "owner": "pytoolz",
@@ -8779,27 +8353,6 @@
       "scheduler"
     ],
     "updatedAt": "2026-04-15T09:38:41Z",
-    "category": "Web Development",
-    "subcategory": "UI Components"
-  },
-  {
-    "id": 248295170,
-    "name": "geist-ui",
-    "owner": "geist-org",
-    "url": "https://github.com/geist-org/geist-ui",
-    "description": "A design system for building modern websites and applications.",
-    "language": "TypeScript",
-    "stars": 4545,
-    "topics": [
-      "design-system",
-      "design-systems",
-      "geist",
-      "geist-ui",
-      "hacktoberfest",
-      "react",
-      "react-components"
-    ],
-    "updatedAt": "2026-05-03T21:23:49Z",
     "category": "Web Development",
     "subcategory": "UI Components"
   },
@@ -8987,8 +8540,8 @@
   {
     "id": 6934395,
     "name": "rocksdb",
-    "owner": "facebook",
-    "url": "https://github.com/facebook/rocksdb",
+    "owner": "meta",
+    "url": "https://github.com/meta/rocksdb",
     "description": "A library that provides an embeddable, persistent key-value store for fast storage.",
     "language": "C++",
     "stars": 31666,
@@ -9318,31 +8871,6 @@
     "subcategory": "UI Components"
   },
   {
-    "id": 231741618,
-    "name": "django-dashboards",
-    "owner": "app-generator",
-    "url": "https://github.com/app-generator/django-dashboards",
-    "description": "Django Dashboards - Admin Panels coded in Django | App-Generator.dev",
-    "language": null,
-    "stars": 429,
-    "topics": [
-      "django-application",
-      "django-dashboards",
-      "django-free-starters",
-      "django-project",
-      "django-resources",
-      "django-starter",
-      "django-starter-template",
-      "django-template",
-      "django-template-project",
-      "django-web-application",
-      "django-website"
-    ],
-    "updatedAt": "2026-04-26T21:41:20Z",
-    "category": "Knowledge & Inspiration",
-    "subcategory": "Educational & Awesome"
-  },
-  {
     "id": 310456670,
     "name": "mitosis",
     "owner": "BuilderIO",
@@ -9388,26 +8916,6 @@
       "m5stack"
     ],
     "updatedAt": "2026-05-03T12:45:26Z",
-    "category": "Languages & Engineering",
-    "subcategory": "Electronics & IoT"
-  },
-  {
-    "id": 579676275,
-    "name": "Xtreme-Firmware",
-    "owner": "Flipper-XFW",
-    "url": "https://github.com/Flipper-XFW/Xtreme-Firmware",
-    "description": "The Dom amongst the Flipper Zero Firmware. Give your Flipper the power and freedom it is really craving. Let it show you its true form. Dont delay, switch to the one and only true Master today!    ",
-    "language": "C",
-    "stars": 9888,
-    "topics": [
-      "cfw",
-      "custom-firmware",
-      "flipper-firmware",
-      "flipper-zero",
-      "flipper-zero-firmware",
-      "flipperzero"
-    ],
-    "updatedAt": "2026-05-03T02:06:27Z",
     "category": "Languages & Engineering",
     "subcategory": "Electronics & IoT"
   },
@@ -9522,19 +9030,6 @@
     "updatedAt": "2026-05-03T05:37:43Z",
     "category": "Knowledge & Inspiration",
     "subcategory": "Educational & Awesome"
-  },
-  {
-    "id": 12169151,
-    "name": "node-open-graph",
-    "owner": "samholmes",
-    "url": "https://github.com/samholmes/node-open-graph",
-    "description": "An Open Graph implementation for Node.js.",
-    "language": "JavaScript",
-    "stars": 80,
-    "topics": [],
-    "updatedAt": "2025-10-21T13:08:00Z",
-    "category": "Libraries & Utilities",
-    "subcategory": "Web Scraping"
   },
   {
     "id": 29207621,
@@ -10115,8 +9610,8 @@
   {
     "id": 94911145,
     "name": "docusaurus",
-    "owner": "facebook",
-    "url": "https://github.com/facebook/docusaurus",
+    "owner": "meta",
+    "url": "https://github.com/meta/docusaurus",
     "description": "Easy to maintain open source documentation websites.",
     "language": "TypeScript",
     "stars": 64802,
@@ -10292,28 +9787,6 @@
     "subcategory": "OS & Runtimes"
   },
   {
-    "id": 753490180,
-    "name": "daytona",
-    "owner": "daytonaio",
-    "url": "https://github.com/daytonaio/daytona",
-    "description": "Daytona is a Secure and Elastic Infrastructure for Running AI-Generated Code",
-    "language": "TypeScript",
-    "stars": 72371,
-    "topics": [
-      "agentic-workflow",
-      "ai",
-      "ai-agents",
-      "ai-runtime",
-      "ai-sandboxes",
-      "code-execution",
-      "code-interpreter",
-      "developer-tools"
-    ],
-    "updatedAt": "2026-05-03T19:07:23Z",
-    "category": "Infrastructure & Systems",
-    "subcategory": "OS & Runtimes"
-  },
-  {
     "id": 493635721,
     "name": "Broprint.js",
     "owner": "Rajesh-Royal",
@@ -10424,9 +9897,9 @@
   },
   {
     "id": 666376652,
-    "name": "graphcast",
+    "name": "weathernext",
     "owner": "google-deepmind",
-    "url": "https://github.com/google-deepmind/graphcast",
+    "url": "https://github.com/google-deepmind/weathernext",
     "description": null,
     "language": "Python",
     "stars": 6631,
@@ -10623,26 +10096,6 @@
     "subcategory": "Writing & Notes"
   },
   {
-    "id": 38558578,
-    "name": "nativefier",
-    "owner": "nativefier",
-    "url": "https://github.com/nativefier/nativefier",
-    "description": "Make any web page a desktop application",
-    "language": "TypeScript",
-    "stars": 35324,
-    "topics": [
-      "desktop-application",
-      "electron",
-      "linux",
-      "macos",
-      "nodejs",
-      "windows"
-    ],
-    "updatedAt": "2026-05-03T21:16:06Z",
-    "category": "Infrastructure & Systems",
-    "subcategory": "OS & Runtimes"
-  },
-  {
     "id": 395759391,
     "name": "js13k-2021",
     "owner": "felladrin",
@@ -10694,19 +10147,22 @@
     "subcategory": "User Applications"
   },
   {
-    "id": 88379309,
-    "name": "TortoiseGraphics",
+    "id": 1297156793,
+    "name": "TortoiseGraphics2",
     "owner": "temoki",
-    "url": "https://github.com/temoki/TortoiseGraphics",
-    "description": "A turtle graphics (a key feature of the Logo ) engine written in Swift.",
+    "url": "https://github.com/temoki/TortoiseGraphics2",
+    "description": "A turtle graphics engine — a key feature of the Logo programming language — written in Swift.",
     "language": "Swift",
-    "stars": 89,
+    "stars": 2,
     "topics": [
+      "education",
+      "graphics",
       "logo",
       "swift",
+      "swiftui",
       "turtle-graphics"
     ],
-    "updatedAt": "2025-12-19T17:23:47Z",
+    "updatedAt": "2026-09-21T23:32:03Z",
     "category": "Graphics & Visualization",
     "subcategory": "2D & Creative Coding"
   },
@@ -10766,29 +10222,6 @@
     "updatedAt": "2026-05-02T12:10:36Z",
     "category": "Web Development",
     "subcategory": "Backend & APIs"
-  },
-  {
-    "id": 94850605,
-    "name": "lightflow",
-    "owner": "AustralianSynchrotron",
-    "url": "https://github.com/AustralianSynchrotron/lightflow",
-    "description": "A lightweight, distributed workflow system",
-    "language": "Python",
-    "stars": 114,
-    "topics": [
-      "celery",
-      "networkx",
-      "pipeline",
-      "pipeline-framework",
-      "python",
-      "python3",
-      "workflow",
-      "workflow-automation",
-      "workflow-engine"
-    ],
-    "updatedAt": "2025-12-24T11:10:15Z",
-    "category": "AI, LLMs & Data",
-    "subcategory": "Data Engineering"
   },
   {
     "id": 10282042,
@@ -10966,8 +10399,8 @@
   {
     "id": 44867148,
     "name": "tabulator",
-    "owner": "olifolkerd",
-    "url": "https://github.com/olifolkerd/tabulator",
+    "owner": "tabulator-tables",
+    "url": "https://github.com/tabulator-tables/tabulator",
     "description": "Interactive Tables and Data Grids for JavaScript",
     "language": "JavaScript",
     "stars": 7637,
@@ -11657,20 +11090,24 @@
     "subcategory": "Backend & APIs"
   },
   {
-    "id": 323439605,
-    "name": "kaboom",
-    "owner": "replit",
-    "url": "https://github.com/replit/kaboom",
-    "description": "💥 JavaScript game library",
+    "id": 803898449,
+    "name": "kaplay",
+    "owner": "kaplayjs",
+    "url": "https://github.com/kaplayjs/kaplay",
+    "description": "🦖 A JavaScript/TypeScript Game Library that feels like a game.",
     "language": "TypeScript",
-    "stars": 2737,
+    "stars": 1852,
     "topics": [
-      "fun",
-      "game",
-      "gamedev",
-      "javascript"
+      "game-dev",
+      "game-development",
+      "game-engine",
+      "game-library",
+      "javascript",
+      "kaboom-js",
+      "kaboomjs",
+      "typescript"
     ],
-    "updatedAt": "2026-04-28T21:35:47Z",
+    "updatedAt": "2026-11-28T08:05:51Z",
     "category": "Standalone Tools & Apps",
     "subcategory": "Game Development"
   },
@@ -11859,19 +11296,6 @@
     "subcategory": "Design & Fun"
   },
   {
-    "id": 41260334,
-    "name": "geneticalgorithm",
-    "owner": "panchishin",
-    "url": "https://github.com/panchishin/geneticalgorithm",
-    "description": "A fully generalized implementation of the Genetic Algorithm usable on any json based Phenotype",
-    "language": "JavaScript",
-    "stars": 100,
-    "topics": [],
-    "updatedAt": "2025-10-06T09:20:41Z",
-    "category": "AI, LLMs & Data",
-    "subcategory": "Science & Algorithms"
-  },
-  {
     "id": 75115688,
     "name": "workflow-es",
     "owner": "danielgerlag",
@@ -11923,19 +11347,6 @@
     "updatedAt": "2026-04-14T02:02:02Z",
     "category": "Libraries & Utilities",
     "subcategory": "Documents & Data Formats"
-  },
-  {
-    "id": 58166186,
-    "name": "react-d3-library",
-    "owner": "react-d3-library",
-    "url": "https://github.com/react-d3-library/react-d3-library",
-    "description": "Open source library for using D3 in React",
-    "language": "JavaScript",
-    "stars": 1538,
-    "topics": [],
-    "updatedAt": "2026-05-03T12:02:38Z",
-    "category": "Graphics & Visualization",
-    "subcategory": "Charts & Diagrams"
   },
   {
     "id": 2833881,
@@ -12041,15 +11452,15 @@
     "subcategory": "Game Development"
   },
   {
-    "id": 146442061,
+    "id": null,
     "name": "dev",
     "owner": "codemirror",
-    "url": "https://github.com/codemirror/dev",
+    "url": "https://code.haverbeke.berlin/codemirror/dev",
     "description": "Development repository for the CodeMirror editor project",
     "language": "JavaScript",
-    "stars": 7832,
+    "stars": 17,
     "topics": [],
-    "updatedAt": "2026-05-02T22:41:15Z",
+    "updatedAt": "2026-10-07T11:12:42Z",
     "category": "Web Development",
     "subcategory": "UI Components"
   },
@@ -12236,29 +11647,6 @@
       "sound"
     ],
     "updatedAt": "2026-05-03T18:44:41Z",
-    "category": "Graphics & Visualization",
-    "subcategory": "2D & Creative Coding"
-  },
-  {
-    "id": 41897757,
-    "name": "origami.js",
-    "owner": "raphamorim",
-    "url": "https://github.com/raphamorim/origami.js",
-    "description": "Powerful and Lightweight Library to create using HTML5 Canvas",
-    "language": "JavaScript",
-    "stars": 765,
-    "topics": [
-      "animation",
-      "animation-engine",
-      "canary",
-      "canvas",
-      "canvas-game",
-      "css",
-      "html5-canvas",
-      "javascript",
-      "origami"
-    ],
-    "updatedAt": "2026-03-18T20:24:20Z",
     "category": "Graphics & Visualization",
     "subcategory": "2D & Creative Coding"
   },
@@ -13012,19 +12400,6 @@
     "subcategory": "React Ecosystem"
   },
   {
-    "id": 683353578,
-    "name": "RestGPT",
-    "owner": "Yifan-Song793",
-    "url": "https://github.com/Yifan-Song793/RestGPT",
-    "description": "An LLM-based autonomous agent controlling real-world applications via RESTful APIs",
-    "language": "Python",
-    "stars": 1395,
-    "topics": [],
-    "updatedAt": "2026-05-03T12:53:46Z",
-    "category": "AI, LLMs & Data",
-    "subcategory": "Agents"
-  },
-  {
     "id": 186575075,
     "name": "opendrop",
     "owner": "seemoo-lab",
@@ -13205,31 +12580,6 @@
     "updatedAt": "2025-02-25T14:04:03Z",
     "category": "Knowledge & Inspiration",
     "subcategory": "Educational & Awesome"
-  },
-  {
-    "id": 315289427,
-    "name": "ArtLine",
-    "owner": "vijishmadhavan",
-    "url": "https://github.com/vijishmadhavan/ArtLine",
-    "description": "A Deep Learning based project for creating line art portraits.",
-    "language": "Jupyter Notebook",
-    "stars": 3629,
-    "topics": [
-      "ai",
-      "art-portraits",
-      "colab",
-      "creative-coding",
-      "deep-learning",
-      "generative-art",
-      "machine-learning",
-      "movie-poster",
-      "nogan",
-      "nogan-training",
-      "portraits"
-    ],
-    "updatedAt": "2026-05-03T06:48:56Z",
-    "category": "AI, LLMs & Data",
-    "subcategory": "LLMs & GenAI"
   },
   {
     "id": 528152092,
@@ -13464,36 +12814,6 @@
     "subcategory": "Science & Algorithms"
   },
   {
-    "id": 76604510,
-    "name": "pandas-js",
-    "owner": "StratoDem",
-    "url": "https://github.com/StratoDem/pandas-js",
-    "description": "Pandas in JavaScript for data analysis and visualization",
-    "language": "JavaScript",
-    "stars": 467,
-    "topics": [
-      "analysis",
-      "analytics",
-      "pandas"
-    ],
-    "updatedAt": "2026-04-15T02:31:48Z",
-    "category": "AI, LLMs & Data",
-    "subcategory": "Data Engineering"
-  },
-  {
-    "id": 267446262,
-    "name": "biri",
-    "owner": "dashersw",
-    "url": "https://github.com/dashersw/biri",
-    "description": "A unique, static client ID generator for browser applications",
-    "language": "JavaScript",
-    "stars": 149,
-    "topics": [],
-    "updatedAt": "2025-10-10T09:11:38Z",
-    "category": "Libraries & Utilities",
-    "subcategory": "Core Utilities"
-  },
-  {
     "id": 11125589,
     "name": "keycloak",
     "owner": "keycloak",
@@ -13509,19 +12829,6 @@
     "updatedAt": "2026-05-03T19:58:20Z",
     "category": "Infrastructure & Systems",
     "subcategory": "Security"
-  },
-  {
-    "id": 672002598,
-    "name": "Verba",
-    "owner": "weaviate",
-    "url": "https://github.com/weaviate/Verba",
-    "description": "Retrieval Augmented Generation (RAG) chatbot powered by Weaviate",
-    "language": "Python",
-    "stars": 7676,
-    "topics": [],
-    "updatedAt": "2026-05-03T21:36:52Z",
-    "category": "AI, LLMs & Data",
-    "subcategory": "LLMs & GenAI"
   },
   {
     "id": 196701619,
@@ -13711,26 +13018,6 @@
     "subcategory": "Networking & P2P"
   },
   {
-    "id": 99761907,
-    "name": "react-beautiful-dnd",
-    "owner": "atlassian",
-    "url": "https://github.com/atlassian/react-beautiful-dnd",
-    "description": "Beautiful and accessible drag and drop for lists with React",
-    "language": "JavaScript",
-    "stars": 34012,
-    "topics": [
-      "dnd",
-      "drag",
-      "drag-and-drop",
-      "react",
-      "reordering",
-      "sortable"
-    ],
-    "updatedAt": "2026-05-03T14:42:11Z",
-    "category": "Web Development",
-    "subcategory": "UI Components"
-  },
-  {
     "id": 451691984,
     "name": "BLIP",
     "owner": "salesforce",
@@ -13750,83 +13037,6 @@
     "updatedAt": "2026-05-03T08:29:09Z",
     "category": "AI, LLMs & Data",
     "subcategory": "Machine Learning"
-  },
-  {
-    "id": 621118467,
-    "name": "JARVIS",
-    "owner": "microsoft",
-    "url": "https://github.com/microsoft/JARVIS",
-    "description": "JARVIS, a system to connect LLMs with ML community. Paper: https://arxiv.org/pdf/2303.17580.pdf",
-    "language": "Python",
-    "stars": 24690,
-    "topics": [
-      "deep-learning",
-      "platform",
-      "pytorch"
-    ],
-    "updatedAt": "2026-05-03T19:33:50Z",
-    "category": "AI, LLMs & Data",
-    "subcategory": "LLMs & GenAI"
-  },
-  {
-    "id": 630023030,
-    "name": "StableLM",
-    "owner": "Stability-AI",
-    "url": "https://github.com/Stability-AI/StableLM",
-    "description": "StableLM: Stability AI Language Models",
-    "language": "Jupyter Notebook",
-    "stars": 15714,
-    "topics": [],
-    "updatedAt": "2026-05-03T02:55:42Z",
-    "category": "AI, LLMs & Data",
-    "subcategory": "LLMs & GenAI"
-  },
-  {
-    "id": 110621696,
-    "name": "Search-and-Classification-With-Natural",
-    "owner": "johnsonj561",
-    "url": "https://github.com/johnsonj561/Search-and-Classification-With-Natural",
-    "description": "Text pre-processing, tf-idf, cosine similarity, and classification using Node package 'Natural'",
-    "language": "JavaScript",
-    "stars": 2,
-    "topics": [],
-    "updatedAt": "2023-12-08T07:56:24Z",
-    "category": "AI, LLMs & Data",
-    "subcategory": "Machine Learning"
-  },
-  {
-    "id": 518450852,
-    "name": "bloom-ai-simple-starter-nodejs",
-    "owner": "fboerncke",
-    "url": "https://github.com/fboerncke/bloom-ai-simple-starter-nodejs",
-    "description": "Simple starter BLOOM example showing how to access the web api to get something up and running in short time.",
-    "language": "JavaScript",
-    "stars": 31,
-    "topics": [
-      "ai",
-      "artificial-intelligence",
-      "bloom",
-      "primer"
-    ],
-    "updatedAt": "2026-02-20T16:51:57Z",
-    "category": "Knowledge & Inspiration",
-    "subcategory": "Educational & Awesome"
-  },
-  {
-    "id": 617798408,
-    "name": "chatgpt-retrieval-plugin",
-    "owner": "openai",
-    "url": "https://github.com/openai/chatgpt-retrieval-plugin",
-    "description": "The ChatGPT Retrieval Plugin lets you easily find personal or work documents by asking questions in natural language.",
-    "language": "Python",
-    "stars": 21206,
-    "topics": [
-      "chatgpt",
-      "chatgpt-plugins"
-    ],
-    "updatedAt": "2026-05-03T08:37:00Z",
-    "category": "AI, LLMs & Data",
-    "subcategory": "LLMs & GenAI"
   },
   {
     "id": 1203139,
@@ -13876,19 +13086,6 @@
     "subcategory": "Security"
   },
   {
-    "id": 382145926,
-    "name": "gpt-code-clippy",
-    "owner": "CodedotAl",
-    "url": "https://github.com/CodedotAl/gpt-code-clippy",
-    "description": "Full description can be found here: https://discuss.huggingface.co/t/pretrain-gpt-neo-for-open-source-github-copilot-model/7678?u=ncoop57",
-    "language": "Python",
-    "stars": 3275,
-    "topics": [],
-    "updatedAt": "2026-05-03T02:01:22Z",
-    "category": "AI, LLMs & Data",
-    "subcategory": "LLMs & GenAI"
-  },
-  {
     "id": 14440270,
     "name": "You-Dont-Know-JS",
     "owner": "getify",
@@ -13934,19 +13131,6 @@
     "subcategory": "Educational & Awesome"
   },
   {
-    "id": 615882673,
-    "name": "FastChat",
-    "owner": "lm-sys",
-    "url": "https://github.com/lm-sys/FastChat",
-    "description": "An open platform for training, serving, and evaluating large language models. Release repo for Vicuna and Chatbot Arena.",
-    "language": "Python",
-    "stars": 39461,
-    "topics": [],
-    "updatedAt": "2026-05-03T14:40:20Z",
-    "category": "AI, LLMs & Data",
-    "subcategory": "LLMs & GenAI"
-  },
-  {
     "id": 629142696,
     "name": "h2o-llmstudio",
     "owner": "h2oai",
@@ -13970,19 +13154,6 @@
       "llm-training"
     ],
     "updatedAt": "2026-05-02T04:23:35Z",
-    "category": "AI, LLMs & Data",
-    "subcategory": "LLMs & GenAI"
-  },
-  {
-    "id": 622196323,
-    "name": "LLMZoo",
-    "owner": "FreedomIntelligence",
-    "url": "https://github.com/FreedomIntelligence/LLMZoo",
-    "description": "⚡LLM Zoo is a project that provides data, models, and evaluation benchmark for large language models.⚡",
-    "language": "Python",
-    "stars": 2949,
-    "topics": [],
-    "updatedAt": "2026-05-02T13:34:33Z",
     "category": "AI, LLMs & Data",
     "subcategory": "LLMs & GenAI"
   },
@@ -14027,23 +13198,6 @@
     "stars": 553,
     "topics": [],
     "updatedAt": "2026-03-17T19:27:14Z",
-    "category": "AI, LLMs & Data",
-    "subcategory": "LLMs & GenAI"
-  },
-  {
-    "id": 613075789,
-    "name": "dalai",
-    "owner": "cocktailpeanut",
-    "url": "https://github.com/cocktailpeanut/dalai",
-    "description": "The simplest way to run LLaMA on your local machine",
-    "language": "CSS",
-    "stars": 12946,
-    "topics": [
-      "ai",
-      "llama",
-      "llm"
-    ],
-    "updatedAt": "2026-05-03T08:35:08Z",
     "category": "AI, LLMs & Data",
     "subcategory": "LLMs & GenAI"
   },
@@ -14358,27 +13512,6 @@
     "subcategory": "LLMs & GenAI"
   },
   {
-    "id": 618995145,
-    "name": "LlamaChat",
-    "owner": "alexrozanski",
-    "url": "https://github.com/alexrozanski/LlamaChat",
-    "description": "Chat with your favourite LLaMA models in a native macOS app",
-    "language": "Swift",
-    "stars": 1513,
-    "topics": [
-      "ai",
-      "llama",
-      "llamacpp",
-      "machine-learning",
-      "macos",
-      "swift",
-      "swiftui"
-    ],
-    "updatedAt": "2026-04-25T02:10:20Z",
-    "category": "Standalone Tools & Apps",
-    "subcategory": "User Applications"
-  },
-  {
     "id": 51273903,
     "name": "mwoffliner",
     "owner": "openzim",
@@ -14445,25 +13578,6 @@
     "updatedAt": "2026-05-03T16:20:33Z",
     "category": "AI, LLMs & Data",
     "subcategory": "Machine Learning"
-  },
-  {
-    "id": 27046827,
-    "name": "string-similarity",
-    "owner": "aceakash",
-    "url": "https://github.com/aceakash/string-similarity",
-    "description": "Finds degree of similarity between two strings, based on Dice's Coefficient, which is mostly better than Levenshtein distance.",
-    "language": "JavaScript",
-    "stars": 2534,
-    "topics": [
-      "dice-coefficient",
-      "javascript",
-      "string-comparison",
-      "string-similarity",
-      "strings"
-    ],
-    "updatedAt": "2026-05-02T23:16:55Z",
-    "category": "AI, LLMs & Data",
-    "subcategory": "Science & Algorithms"
   },
   {
     "id": 138196675,
@@ -14539,25 +13653,6 @@
     "subcategory": "Speech & Audio AI"
   },
   {
-    "id": 692656035,
-    "name": "fastembed-js",
-    "owner": "Anush008",
-    "url": "https://github.com/Anush008/fastembed-js",
-    "description": "Generate vector embeddings in NodeJS",
-    "language": "TypeScript",
-    "stars": 175,
-    "topics": [
-      "embeddings",
-      "rag",
-      "retrieval",
-      "retrieval-augmented-generation",
-      "vector-search"
-    ],
-    "updatedAt": "2026-04-22T03:51:39Z",
-    "category": "AI, LLMs & Data",
-    "subcategory": "LLMs & GenAI"
-  },
-  {
     "id": 22711503,
     "name": "gcc",
     "owner": "gcc-mirror",
@@ -14571,19 +13666,19 @@
     "subcategory": "Compilers & Tooling"
   },
   {
-    "id": 40276274,
+    "id": null,
     "name": "zig",
     "owner": "ziglang",
-    "url": "https://github.com/ziglang/zig",
-    "description": "Moved to Codeberg",
+    "url": "https://codeberg.org/ziglang/zig",
+    "description": "General-purpose programming language and toolchain for maintaining robust, optimal, and reusable software.",
     "language": "Zig",
-    "stars": 42891,
+    "stars": 7136,
     "topics": [
       "compiler",
       "language",
       "zig"
     ],
-    "updatedAt": "2026-05-03T18:45:09Z",
+    "updatedAt": "2026-11-28T00:33:58Z",
     "category": "Languages & Engineering",
     "subcategory": "Compilers & Tooling"
   },
@@ -14742,8 +13837,8 @@
   {
     "id": 10270250,
     "name": "react",
-    "owner": "facebook",
-    "url": "https://github.com/facebook/react",
+    "owner": "react",
+    "url": "https://github.com/react/react",
     "description": "The library for web and native user interfaces.",
     "language": "JavaScript",
     "stars": 244823,
@@ -15452,22 +14547,6 @@
     "subcategory": "LLMs & GenAI"
   },
   {
-    "id": 619959033,
-    "name": "gpt4all",
-    "owner": "nomic-ai",
-    "url": "https://github.com/nomic-ai/gpt4all",
-    "description": "GPT4All: Run Local LLMs on Any Device. Open-source and available for commercial use.",
-    "language": "C++",
-    "stars": 77363,
-    "topics": [
-      "ai-chat",
-      "llm-inference"
-    ],
-    "updatedAt": "2026-05-03T19:50:25Z",
-    "category": "AI, LLMs & Data",
-    "subcategory": "LLMs & GenAI"
-  },
-  {
     "id": 635240594,
     "name": "private-gpt",
     "owner": "zylon-ai",
@@ -15514,35 +14593,10 @@
     "subcategory": "Databases & Storage"
   },
   {
-    "id": 200653543,
-    "name": "Parsr",
-    "owner": "axa-group",
-    "url": "https://github.com/axa-group/Parsr",
-    "description": "Transforms PDF, Documents and Images into Enriched Structured Data",
-    "language": "JavaScript",
-    "stars": 6174,
-    "topics": [
-      "data",
-      "document",
-      "extraction",
-      "hacktoberfest",
-      "images",
-      "nlp",
-      "ocr",
-      "parsr",
-      "pdf",
-      "python",
-      "typescript"
-    ],
-    "updatedAt": "2026-05-01T15:40:34Z",
-    "category": "AI, LLMs & Data",
-    "subcategory": "Machine Learning"
-  },
-  {
     "id": 640079149,
     "name": "quivr",
-    "owner": "QuivrHQ",
-    "url": "https://github.com/QuivrHQ/quivr",
+    "owner": "The-Vibe-Company",
+    "url": "https://github.com/The-Vibe-Company/quivr",
     "description": "Opiniated RAG for integrating GenAI in your apps 🧠   Focus on your product rather than the RAG. Easy integration in existing products with customisation!  Any LLM: GPT4, Groq, Llama. Any Vectorstore: PGVector, Faiss. Any Files. Anyway you want.",
     "language": "Python",
     "stars": 39125,
@@ -15853,9 +14907,9 @@
   },
   {
     "id": 471728341,
-    "name": "hey",
-    "owner": "bigint",
-    "url": "https://github.com/bigint/hey",
+    "name": "hey.xyz",
+    "owner": "slymnoyann",
+    "url": "https://github.com/slymnoyann/hey.xyz",
     "description": "Hey is a decentralized and permissionless social media app built with Lens Protocol 🌿",
     "language": "TypeScript",
     "stars": 29432,
@@ -15892,19 +14946,6 @@
     "updatedAt": "2026-05-02T13:08:41Z",
     "category": "Knowledge & Inspiration",
     "subcategory": "Educational & Awesome"
-  },
-  {
-    "id": 612640604,
-    "name": "chatbot-ui",
-    "owner": "mckaywrigley",
-    "url": "https://github.com/mckaywrigley/chatbot-ui",
-    "description": "AI chat for any model.",
-    "language": "TypeScript",
-    "stars": 33195,
-    "topics": [],
-    "updatedAt": "2026-05-03T18:28:34Z",
-    "category": "Standalone Tools & Apps",
-    "subcategory": "User Applications"
   },
   {
     "id": 50904245,
@@ -15996,26 +15037,6 @@
     "subcategory": "LLMs & GenAI"
   },
   {
-    "id": 679237742,
-    "name": "gpt-pilot",
-    "owner": "Pythagora-io",
-    "url": "https://github.com/Pythagora-io/gpt-pilot",
-    "description": "The first real AI developer",
-    "language": "Python",
-    "stars": 33771,
-    "topics": [
-      "ai",
-      "codegen",
-      "coding-assistant",
-      "developer-tools",
-      "gpt-4",
-      "research-project"
-    ],
-    "updatedAt": "2026-05-03T20:23:15Z",
-    "category": "AI, LLMs & Data",
-    "subcategory": "Agents"
-  },
-  {
     "id": 81751734,
     "name": "musicode",
     "owner": "hlorenzi",
@@ -16047,38 +15068,6 @@
     "updatedAt": "2026-04-22T04:06:59Z",
     "category": "Libraries & Utilities",
     "subcategory": "Media Processing"
-  },
-  {
-    "id": 452259635,
-    "name": "Blank-Grabber",
-    "owner": "Blank-c",
-    "url": "https://github.com/Blank-c/Blank-Grabber",
-    "description": "The most powerful stealer written in Python 3 and packed with a lot of features.",
-    "language": "Python",
-    "stars": 1037,
-    "topics": [
-      "chrome-password-grabber",
-      "chrome-password-stealer",
-      "cookies-stealer",
-      "discord",
-      "discord-rat",
-      "discord-stealer",
-      "discord-token-grabber",
-      "discord-token-stealer",
-      "discord-webhook",
-      "generator-python",
-      "grabber",
-      "grabber-password",
-      "grabber-screenshots",
-      "keylogger-screenshot",
-      "obfuscation",
-      "password-stealer",
-      "startup",
-      "stealer"
-    ],
-    "updatedAt": "2026-05-02T15:01:50Z",
-    "category": "Infrastructure & Systems",
-    "subcategory": "Security"
   },
   {
     "id": 370950446,
@@ -16242,38 +15231,6 @@
     "updatedAt": "2026-05-01T00:41:43Z",
     "category": "Languages & Engineering",
     "subcategory": "Compilers & Tooling"
-  },
-  {
-    "id": 629313011,
-    "name": "vault-ai",
-    "owner": "pashpashpash",
-    "url": "https://github.com/pashpashpash/vault-ai",
-    "description": "OP Vault ChatGPT: Give ChatGPT long-term memory using the OP Stack (OpenAI + Pinecone Vector Database). Upload your own custom knowledge base files (PDF, txt, epub, etc) using a simple React frontend.",
-    "language": "JavaScript",
-    "stars": 3397,
-    "topics": [
-      "ai",
-      "artificial-intelligence",
-      "chatgpt",
-      "generative",
-      "go",
-      "golang",
-      "knowledge-base",
-      "long-term-memory",
-      "machine-learning",
-      "openai",
-      "openai-api",
-      "pdf-support",
-      "pinecone",
-      "qdrant-vector-database",
-      "question-answering",
-      "react",
-      "reactjs",
-      "vector-search"
-    ],
-    "updatedAt": "2026-04-29T13:46:45Z",
-    "category": "AI, LLMs & Data",
-    "subcategory": "LLMs & GenAI"
   },
   {
     "id": 7287136,
@@ -16537,32 +15494,6 @@
     "subcategory": "Machine Learning"
   },
   {
-    "id": 98733218,
-    "name": "richflow",
-    "owner": "ominibyte",
-    "url": "https://github.com/ominibyte/richflow",
-    "description": "A Node.js and JavaScript synchronous data pipeline processing, data sharing and stream processing library. Actionable & Transformable Pipeline data processing.",
-    "language": "JavaScript",
-    "stars": 22,
-    "topics": [
-      "data-flow",
-      "data-pipeline",
-      "data-processor",
-      "data-stream",
-      "data-transformation",
-      "flow",
-      "javascript",
-      "nodejs",
-      "pipe-data",
-      "pipeline-framework",
-      "streaming-data",
-      "synchronous"
-    ],
-    "updatedAt": "2024-10-17T00:49:40Z",
-    "category": "AI, LLMs & Data",
-    "subcategory": "Data Engineering"
-  },
-  {
     "id": 30367893,
     "name": "PyFunctional",
     "owner": "EntilZha",
@@ -16676,32 +15607,6 @@
       "snowflake"
     ],
     "updatedAt": "2026-05-03T20:16:26Z",
-    "category": "AI, LLMs & Data",
-    "subcategory": "Data Engineering"
-  },
-  {
-    "id": 235190220,
-    "name": "ploomber",
-    "owner": "ploomber",
-    "url": "https://github.com/ploomber/ploomber",
-    "description": "The fastest ⚡️ way to build data pipelines. Develop iteratively, deploy anywhere. ☁️",
-    "language": "Python",
-    "stars": 3626,
-    "topics": [
-      "data-engineering",
-      "data-science",
-      "jupyter",
-      "jupyter-notebooks",
-      "machine-learning",
-      "mlops",
-      "notebooks",
-      "papermill",
-      "pipelines",
-      "pycharm",
-      "vscode",
-      "workflow"
-    ],
-    "updatedAt": "2026-04-27T07:24:26Z",
     "category": "AI, LLMs & Data",
     "subcategory": "Data Engineering"
   },
@@ -17213,19 +16118,6 @@
     "subcategory": "Science & Algorithms"
   },
   {
-    "id": 102150240,
-    "name": "big-json",
-    "owner": "DonutEspresso",
-    "url": "https://github.com/DonutEspresso/big-json",
-    "description": "A stream based implementation of JSON.parse and JSON.stringify for big POJOs",
-    "language": "JavaScript",
-    "stars": 119,
-    "topics": [],
-    "updatedAt": "2026-04-28T18:37:18Z",
-    "category": "Libraries & Utilities",
-    "subcategory": "Documents & Data Formats"
-  },
-  {
     "id": 4467228,
     "name": "Fuse",
     "owner": "krisk",
@@ -17242,32 +16134,6 @@
     "updatedAt": "2026-05-03T14:34:06Z",
     "category": "AI, LLMs & Data",
     "subcategory": "Science & Algorithms"
-  },
-  {
-    "id": 184280284,
-    "name": "slow-json-stringify",
-    "owner": "lucagez",
-    "url": "https://github.com/lucagez/slow-json-stringify",
-    "description": "The slowest stringifier in the known universe. Just kidding, it's the fastest (:",
-    "language": "JavaScript",
-    "stars": 477,
-    "topics": [],
-    "updatedAt": "2026-04-15T17:22:19Z",
-    "category": "Libraries & Utilities",
-    "subcategory": "Documents & Data Formats"
-  },
-  {
-    "id": 58072405,
-    "name": "buffer-serializer",
-    "owner": "tests-always-included",
-    "url": "https://github.com/tests-always-included/buffer-serializer",
-    "description": "Convert JavaScript objects into Buffers and vice-versa.  Serializes objects using a compact storage mechanism.  Expandable to handle your own objects.",
-    "language": "JavaScript",
-    "stars": 8,
-    "topics": [],
-    "updatedAt": "2023-10-23T19:06:18Z",
-    "category": "Libraries & Utilities",
-    "subcategory": "Documents & Data Formats"
   },
   {
     "id": 348060227,
@@ -17385,62 +16251,17 @@
     "subcategory": "Game Development"
   },
   {
-    "id": 220304744,
-    "name": "tartufo",
-    "owner": "godaddy",
-    "url": "https://github.com/godaddy/tartufo",
-    "description": "Searches through git repositories for high entropy strings and secrets, digging deep into commit history",
-    "language": "Python",
-    "stars": 514,
-    "topics": [
-      "entropy",
-      "entropy-checking",
-      "git",
-      "hacktoberfest",
-      "secrets",
-      "secrets-detection",
-      "secrets-scan",
-      "security",
-      "security-scanner",
-      "security-tools"
-    ],
-    "updatedAt": "2026-04-25T22:01:13Z",
-    "category": "Infrastructure & Systems",
-    "subcategory": "Security"
-  },
-  {
-    "id": 291546634,
-    "name": "sia",
-    "owner": "pouya-eghbali",
-    "url": "https://github.com/pouya-eghbali/sia",
-    "description": "Sia - Binary serialisation and deserialisation",
+    "id": 902268474,
+    "name": "ts-sia",
+    "owner": "TimeleapLabs",
+    "url": "https://github.com/TimeleapLabs/ts-sia",
+    "description": "Sia serialization for JavaScript/TypeScript",
     "language": "TypeScript",
-    "stars": 139,
-    "topics": [
-      "binary",
-      "compiler",
-      "deserialisation",
-      "encoding",
-      "protocol-specification",
-      "serialization",
-      "sia"
-    ],
-    "updatedAt": "2026-04-10T19:12:01Z",
+    "stars": 28,
+    "topics": [],
+    "updatedAt": "2026-06-13T15:05:10Z",
     "category": "Libraries & Utilities",
     "subcategory": "Documents & Data Formats"
-  },
-  {
-    "id": 94763596,
-    "name": "partial-json-parser",
-    "owner": "indgov",
-    "url": "https://github.com/indgov/partial-json-parser",
-    "description": "Parse complete javascript objects from partial JSON strings. Useful for parsing responses that are transferred using chunked transfer encoding. ",
-    "language": "JavaScript",
-    "stars": 11,
-    "topics": [],
-    "updatedAt": "2025-07-24T13:14:34Z",
-    "category": "Languages & Engineering",
-    "subcategory": "Compilers & Tooling"
   },
   {
     "id": 507775,
@@ -17650,19 +16471,6 @@
     "subcategory": "Machine Learning"
   },
   {
-    "id": 634180704,
-    "name": "airoboros",
-    "owner": "jondurbin",
-    "url": "https://github.com/jondurbin/airoboros",
-    "description": "Customizable implementation of the self-instruct paper.",
-    "language": "Python",
-    "stars": 1053,
-    "topics": [],
-    "updatedAt": "2026-04-24T20:47:37Z",
-    "category": "AI, LLMs & Data",
-    "subcategory": "LLMs & GenAI"
-  },
-  {
     "id": 449091292,
     "name": "prql",
     "owner": "PRQL",
@@ -17870,24 +16678,6 @@
     "updatedAt": "2026-05-03T19:53:56Z",
     "category": "AI, LLMs & Data",
     "subcategory": "Agents"
-  },
-  {
-    "id": 683525671,
-    "name": "slowllama",
-    "owner": "okuvshynov",
-    "url": "https://github.com/okuvshynov/slowllama",
-    "description": "Finetune llama2-70b and codellama on MacBook Air without quantization",
-    "language": "Python",
-    "stars": 450,
-    "topics": [
-      "apple-silicon",
-      "fine-tuning",
-      "llama",
-      "llama2"
-    ],
-    "updatedAt": "2026-02-25T08:33:17Z",
-    "category": "AI, LLMs & Data",
-    "subcategory": "LLMs & GenAI"
   },
   {
     "id": 69380886,
@@ -18163,19 +16953,6 @@
     "subcategory": "UI Components"
   },
   {
-    "id": 25872812,
-    "name": "bruteforce",
-    "owner": "AjayMT",
-    "url": "https://github.com/AjayMT/bruteforce",
-    "description": "generate every possible permutation of characters",
-    "language": "JavaScript",
-    "stars": 10,
-    "topics": [],
-    "updatedAt": "2024-12-15T19:54:45Z",
-    "category": "AI, LLMs & Data",
-    "subcategory": "Science & Algorithms"
-  },
-  {
     "id": 70491053,
     "name": "openvidu",
     "owner": "OpenVidu",
@@ -18229,40 +17006,6 @@
     "updatedAt": "2026-05-03T21:12:57Z",
     "category": "Standalone Tools & Apps",
     "subcategory": "User Applications"
-  },
-  {
-    "id": 502482803,
-    "name": "petals",
-    "owner": "bigscience-workshop",
-    "url": "https://github.com/bigscience-workshop/petals",
-    "description": "🌸 Run LLMs at home, BitTorrent-style. Fine-tuning and inference up to 10x faster than offloading",
-    "language": "Python",
-    "stars": 10113,
-    "topics": [
-      "bloom",
-      "chatbot",
-      "deep-learning",
-      "distributed-systems",
-      "falcon",
-      "gpt",
-      "guanaco",
-      "language-models",
-      "large-language-models",
-      "llama",
-      "machine-learning",
-      "mixtral",
-      "neural-networks",
-      "nlp",
-      "pipeline-parallelism",
-      "pretrained-models",
-      "pytorch",
-      "tensor-parallelism",
-      "transformer",
-      "volunteer-computing"
-    ],
-    "updatedAt": "2026-05-03T20:31:13Z",
-    "category": "AI, LLMs & Data",
-    "subcategory": "LLMs & GenAI"
   },
   {
     "id": 639346169,
@@ -18335,34 +17078,6 @@
     "subcategory": "Educational & Awesome"
   },
   {
-    "id": 616414170,
-    "name": "llama-node",
-    "owner": "Atome-FE",
-    "url": "https://github.com/Atome-FE/llama-node",
-    "description": "Believe in AI democratization. llama for nodejs backed by llama-rs, llama.cpp and rwkv.cpp, work locally on your laptop CPU. support llama/alpaca/gpt4all/vicuna/rwkv model.",
-    "language": "Rust",
-    "stars": 865,
-    "topics": [
-      "ai",
-      "embeddings",
-      "gpt",
-      "langchain",
-      "large-language-models",
-      "llama",
-      "llama-node",
-      "llama-rs",
-      "llamacpp",
-      "llm",
-      "napi",
-      "napi-rs",
-      "nodejs",
-      "rwkv"
-    ],
-    "updatedAt": "2026-04-23T11:53:29Z",
-    "category": "AI, LLMs & Data",
-    "subcategory": "LLMs & GenAI"
-  },
-  {
     "id": 612354784,
     "name": "llama.cpp",
     "owner": "ggml-org",
@@ -18376,55 +17091,6 @@
     "updatedAt": "2026-05-03T21:42:41Z",
     "category": "AI, LLMs & Data",
     "subcategory": "LLMs & GenAI"
-  },
-  {
-    "id": 577603990,
-    "name": "Open-Assistant",
-    "owner": "LAION-AI",
-    "url": "https://github.com/LAION-AI/Open-Assistant",
-    "description": "OpenAssistant is a chat-based assistant that understands tasks, can interact with third-party systems, and retrieve information dynamically to do so.",
-    "language": "Python",
-    "stars": 37407,
-    "topics": [
-      "ai",
-      "assistant",
-      "chatgpt",
-      "discord-bot",
-      "language-model",
-      "machine-learning",
-      "nextjs",
-      "python",
-      "rlhf"
-    ],
-    "updatedAt": "2026-05-03T15:37:14Z",
-    "category": "AI, LLMs & Data",
-    "subcategory": "LLMs & GenAI"
-  },
-  {
-    "id": 29261473,
-    "name": "minio",
-    "owner": "minio",
-    "url": "https://github.com/minio/minio",
-    "description": "MinIO is a high-performance, S3 compatible object store, open sourced under GNU AGPLv3 license.",
-    "language": "Go",
-    "stars": 60850,
-    "topics": [
-      "amazon-s3",
-      "cloud",
-      "cloudnative",
-      "cloudstorage",
-      "go",
-      "k8s",
-      "kubernetes",
-      "multi-cloud",
-      "multi-cloud-kubernetes",
-      "objectstorage",
-      "s3",
-      "storage"
-    ],
-    "updatedAt": "2026-05-03T14:55:53Z",
-    "category": "Infrastructure & Systems",
-    "subcategory": "Databases & Storage"
   },
   {
     "id": 7479308,
@@ -18483,26 +17149,6 @@
     "stars": 72973,
     "topics": [],
     "updatedAt": "2026-05-03T20:12:43Z",
-    "category": "AI, LLMs & Data",
-    "subcategory": "LLMs & GenAI"
-  },
-  {
-    "id": 610043832,
-    "name": "web-stable-diffusion",
-    "owner": "mlc-ai",
-    "url": "https://github.com/mlc-ai/web-stable-diffusion",
-    "description": "Bringing stable diffusion models to web browsers. Everything runs inside the browser with no server support. ",
-    "language": "Jupyter Notebook",
-    "stars": 3721,
-    "topics": [
-      "deep-learning",
-      "stable-diffusion",
-      "tvm",
-      "web-assembly",
-      "webgpu",
-      "webml"
-    ],
-    "updatedAt": "2026-05-03T11:13:20Z",
     "category": "AI, LLMs & Data",
     "subcategory": "LLMs & GenAI"
   },
@@ -18747,19 +17393,6 @@
     "stars": 59385,
     "topics": [],
     "updatedAt": "2026-05-03T20:53:17Z",
-    "category": "AI, LLMs & Data",
-    "subcategory": "LLMs & GenAI"
-  },
-  {
-    "id": 634055064,
-    "name": "open_llama",
-    "owner": "openlm-research",
-    "url": "https://github.com/openlm-research/open_llama",
-    "description": "OpenLLaMA, a permissively licensed open source reproduction of Meta AI’s LLaMA 7B trained on the RedPajama dataset",
-    "language": null,
-    "stars": 7532,
-    "topics": [],
-    "updatedAt": "2026-05-01T21:32:54Z",
     "category": "AI, LLMs & Data",
     "subcategory": "LLMs & GenAI"
   },
@@ -19140,24 +17773,6 @@
     "subcategory": "Documents & Data Formats"
   },
   {
-    "id": 301033999,
-    "name": "fs-safe",
-    "owner": "bconnorwhite",
-    "url": "https://github.com/bconnorwhite/fs-safe",
-    "description": "A simple fs wrapper that doesn't throw",
-    "language": "TypeScript",
-    "stars": 3,
-    "topics": [
-      "filesystem",
-      "node",
-      "nodejs",
-      "typescript"
-    ],
-    "updatedAt": "2024-04-02T17:41:09Z",
-    "category": "Libraries & Utilities",
-    "subcategory": "Core Utilities"
-  },
-  {
     "id": 9631509,
     "name": "gitfiti",
     "owner": "gelstudios",
@@ -19178,19 +17793,6 @@
     "updatedAt": "2026-05-01T19:06:40Z",
     "category": "Knowledge & Inspiration",
     "subcategory": "Design & Fun"
-  },
-  {
-    "id": 24341273,
-    "name": "pdfjs-dist",
-    "owner": "mozilla",
-    "url": "https://github.com/mozilla/pdfjs-dist",
-    "description": "Generic build of PDF.js library. ",
-    "language": "JavaScript",
-    "stars": 1305,
-    "topics": [],
-    "updatedAt": "2026-04-27T10:58:46Z",
-    "category": "Libraries & Utilities",
-    "subcategory": "Documents & Data Formats"
   },
   {
     "id": 29228227,
@@ -19255,23 +17857,6 @@
     "updatedAt": "2026-05-03T09:48:12Z",
     "category": "AI, LLMs & Data",
     "subcategory": "Machine Learning"
-  },
-  {
-    "id": 37627792,
-    "name": "react-helmet",
-    "owner": "nfl",
-    "url": "https://github.com/nfl/react-helmet",
-    "description": "A document head manager for React",
-    "language": "JavaScript",
-    "stars": 17481,
-    "topics": [
-      "helmet",
-      "react",
-      "side-effect"
-    ],
-    "updatedAt": "2026-05-03T18:15:02Z",
-    "category": "Web Development",
-    "subcategory": "React Ecosystem"
   },
   {
     "id": 56333861,
@@ -19461,19 +18046,6 @@
     "stars": 4092,
     "topics": [],
     "updatedAt": "2026-05-03T02:28:01Z",
-    "category": "AI, LLMs & Data",
-    "subcategory": "Science & Algorithms"
-  },
-  {
-    "id": 18471630,
-    "name": "disjoint-set",
-    "owner": "andriiheonia",
-    "url": "https://github.com/andriiheonia/disjoint-set",
-    "description": "This repository is deprecated and no longer maintained.",
-    "language": "JavaScript",
-    "stars": 33,
-    "topics": [],
-    "updatedAt": "2025-02-11T01:15:38Z",
     "category": "AI, LLMs & Data",
     "subcategory": "Science & Algorithms"
   },
@@ -19781,32 +18353,6 @@
     "subcategory": "Core Utilities"
   },
   {
-    "id": 5376303,
-    "name": "short-id",
-    "owner": "UmbraEngineering",
-    "url": "https://github.com/UmbraEngineering/short-id",
-    "description": "Short ID String Generation for Node.js",
-    "language": "JavaScript",
-    "stars": 13,
-    "topics": [],
-    "updatedAt": "2023-01-29T14:19:07Z",
-    "category": "Libraries & Utilities",
-    "subcategory": "Core Utilities"
-  },
-  {
-    "id": 3009729,
-    "name": "shortid",
-    "owner": "dylang",
-    "url": "https://github.com/dylang/shortid",
-    "description": "Short id generator. Url-friendly. Non-predictable. Cluster-compatible.",
-    "language": "JavaScript",
-    "stars": 5717,
-    "topics": [],
-    "updatedAt": "2026-05-01T19:06:34Z",
-    "category": "Libraries & Utilities",
-    "subcategory": "Core Utilities"
-  },
-  {
     "id": 91221690,
     "name": "short-unique-id",
     "owner": "simplyhexagonal",
@@ -19825,19 +18371,6 @@
     "updatedAt": "2026-02-20T18:39:30Z",
     "category": "Libraries & Utilities",
     "subcategory": "Core Utilities"
-  },
-  {
-    "id": 1141441,
-    "name": "zombie",
-    "owner": "assaf",
-    "url": "https://github.com/assaf/zombie",
-    "description": "Insanely fast, full-stack, headless browser testing using node.js",
-    "language": "JavaScript",
-    "stars": 5634,
-    "topics": [],
-    "updatedAt": "2026-04-26T16:42:20Z",
-    "category": "Standalone Tools & Apps",
-    "subcategory": "Developer Tools"
   },
   {
     "id": 221981891,
@@ -19891,25 +18424,6 @@
     "updatedAt": "2026-05-03T16:41:22Z",
     "category": "Libraries & Utilities",
     "subcategory": "Web Scraping"
-  },
-  {
-    "id": 59114705,
-    "name": "cleave.js",
-    "owner": "nosir",
-    "url": "https://github.com/nosir/cleave.js",
-    "description": "Format input text content when you are typing...",
-    "language": "JavaScript",
-    "stars": 17881,
-    "topics": [
-      "credit-card",
-      "creditcard",
-      "input",
-      "input-mask",
-      "telephone-number"
-    ],
-    "updatedAt": "2026-05-02T14:14:54Z",
-    "category": "Web Development",
-    "subcategory": "UI Components"
   },
   {
     "id": 216036819,
@@ -20295,29 +18809,6 @@
     "subcategory": "Documents & Data Formats"
   },
   {
-    "id": 39111193,
-    "name": "ts-node",
-    "owner": "TypeStrong",
-    "url": "https://github.com/TypeStrong/ts-node",
-    "description": "TypeScript execution and REPL for node.js",
-    "language": "TypeScript",
-    "stars": 13136,
-    "topics": [
-      "hacktoberfest",
-      "nodejs",
-      "repl",
-      "runtime",
-      "ts",
-      "ts-node",
-      "typescript",
-      "typescript-compiler",
-      "typescript-node"
-    ],
-    "updatedAt": "2026-05-01T23:10:04Z",
-    "category": "Infrastructure & Systems",
-    "subcategory": "OS & Runtimes"
-  },
-  {
     "id": 48117679,
     "name": "react-jsonschema-form",
     "owner": "rjsf-team",
@@ -20448,15 +18939,15 @@
     "subcategory": "Documents & Data Formats"
   },
   {
-    "id": 27553868,
+    "id": null,
     "name": "intl",
-    "owner": "dart-archive",
-    "url": "https://github.com/dart-archive/intl",
+    "owner": "dart-lang",
+    "url": "https://github.com/dart-lang/i18n/tree/main/pkgs/intl",
     "description": "Internationalization and localization support",
     "language": "Dart",
-    "stars": 518,
+    "stars": 85,
     "topics": [],
-    "updatedAt": "2026-03-22T08:21:22Z",
+    "updatedAt": "2026-10-31T01:49:35Z",
     "category": "Libraries & Utilities",
     "subcategory": "Core Utilities"
   },
@@ -20782,32 +19273,6 @@
     "subcategory": "Educational & Awesome"
   },
   {
-    "id": 108472835,
-    "name": "image-to-base64",
-    "owner": "renanbastos93",
-    "url": "https://github.com/renanbastos93/image-to-base64",
-    "description": "Generate a image to base64.",
-    "language": "JavaScript",
-    "stars": 133,
-    "topics": [],
-    "updatedAt": "2025-03-01T08:35:59Z",
-    "category": "Libraries & Utilities",
-    "subcategory": "Media Processing"
-  },
-  {
-    "id": 25040178,
-    "name": "react-hyperscript",
-    "owner": "mlmorg",
-    "url": "https://github.com/mlmorg/react-hyperscript",
-    "description": "Hyperscript syntax for React.js markup",
-    "language": "JavaScript",
-    "stars": 712,
-    "topics": [],
-    "updatedAt": "2026-03-05T15:04:25Z",
-    "category": "Web Development",
-    "subcategory": "React Ecosystem"
-  },
-  {
     "id": 191024066,
     "name": "vis-charts",
     "owner": "visjs",
@@ -20847,19 +19312,6 @@
     "subcategory": "Educational & Awesome"
   },
   {
-    "id": 1698947,
-    "name": "pjs",
-    "owner": "jneen",
-    "url": "https://github.com/jneen/pjs",
-    "description": "Classes for javascript that don't suck.",
-    "language": "JavaScript",
-    "stars": 197,
-    "topics": [],
-    "updatedAt": "2025-09-12T03:25:14Z",
-    "category": "Libraries & Utilities",
-    "subcategory": "Core Utilities"
-  },
-  {
     "id": 598343,
     "name": "mathquill",
     "owner": "mathquill",
@@ -20880,15 +19332,15 @@
     "subcategory": "UI Components"
   },
   {
-    "id": 13509108,
-    "name": "gecko-dev",
-    "owner": "mozilla",
-    "url": "https://github.com/mozilla/gecko-dev",
-    "description": "SUPERSEDED by https://github.com/mozilla-firefox/firefox.  Read-only Git mirror of the Mercurial gecko repositories at https://hg.mozilla.org",
+    "id": 835510315,
+    "name": "firefox",
+    "owner": "mozilla-firefox",
+    "url": "https://github.com/mozilla-firefox/firefox",
+    "description": "The official repository of Mozilla's Firefox web browser.",
     "language": "JavaScript",
-    "stars": 3687,
+    "stars": 13971,
     "topics": [],
-    "updatedAt": "2026-05-03T15:00:07Z",
+    "updatedAt": "2026-11-28T04:40:02Z",
     "category": "Knowledge & Inspiration",
     "subcategory": "Inspiration & Historical"
   },
@@ -21057,8 +19509,8 @@
   {
     "id": 2185527,
     "name": "qrious",
-    "owner": "neocotic",
-    "url": "https://github.com/neocotic/qrious",
+    "owner": "airmrcr",
+    "url": "https://github.com/airmrcr/qrious",
     "description": "Pure JavaScript library for QR code generation using canvas",
     "language": "JavaScript",
     "stars": 1626,
@@ -21157,19 +19609,6 @@
       "treeify"
     ],
     "updatedAt": "2026-03-22T05:56:32Z",
-    "category": "Libraries & Utilities",
-    "subcategory": "CLI & Logging"
-  },
-  {
-    "id": 97375537,
-    "name": "print-tree",
-    "owner": "alex-e-leon",
-    "url": "https://github.com/alex-e-leon/print-tree",
-    "description": null,
-    "language": "JavaScript",
-    "stars": 26,
-    "topics": [],
-    "updatedAt": "2025-07-21T03:35:52Z",
     "category": "Libraries & Utilities",
     "subcategory": "CLI & Logging"
   },
@@ -21588,19 +20027,6 @@
     "subcategory": "3D & GPU Rendering"
   },
   {
-    "id": 12871525,
-    "name": "ascii-table",
-    "owner": "sorensen",
-    "url": "https://github.com/sorensen/ascii-table",
-    "description": "Ascii Tables for JS",
-    "language": "JavaScript",
-    "stars": 183,
-    "topics": [],
-    "updatedAt": "2026-01-27T19:10:53Z",
-    "category": "Libraries & Utilities",
-    "subcategory": "CLI & Logging"
-  },
-  {
     "id": 256033194,
     "name": "console_engine",
     "owner": "VincentFoulon80",
@@ -21772,29 +20198,6 @@
     "updatedAt": "2026-04-24T16:59:46Z",
     "category": "Libraries & Utilities",
     "subcategory": "Core Utilities"
-  },
-  {
-    "id": 193393505,
-    "name": "react-nodegui",
-    "owner": "nodegui",
-    "url": "https://github.com/nodegui/react-nodegui",
-    "description": "Build performant, native and cross-platform desktop applications with native React + powerful CSS like styling.🚀",
-    "language": "TypeScript",
-    "stars": 6191,
-    "topics": [
-      "css",
-      "desktop",
-      "gui",
-      "native",
-      "nodejs",
-      "openlibrary",
-      "qt",
-      "react",
-      "react-desktop"
-    ],
-    "updatedAt": "2026-05-02T10:01:13Z",
-    "category": "Languages & Engineering",
-    "subcategory": "Compilers & Tooling"
   },
   {
     "id": 183928719,
@@ -22202,24 +20605,6 @@
     "updatedAt": "2026-05-03T19:35:21Z",
     "category": "Infrastructure & Systems",
     "subcategory": "Databases & Storage"
-  },
-  {
-    "id": 149231811,
-    "name": "javascript",
-    "owner": "AllAlgorithms",
-    "url": "https://github.com/AllAlgorithms/javascript",
-    "description": "Implementation of All ▲lgorithms in Javascript Programming Language",
-    "language": "JavaScript",
-    "stars": 90,
-    "topics": [
-      "algorithms",
-      "allalgorithms",
-      "hacktoberfest",
-      "javascript"
-    ],
-    "updatedAt": "2025-11-28T12:09:54Z",
-    "category": "Knowledge & Inspiration",
-    "subcategory": "Educational & Awesome"
   },
   {
     "id": 149235452,
@@ -22650,9 +21035,9 @@
   },
   {
     "id": 46582024,
-    "name": "prom-client",
-    "owner": "siimon",
-    "url": "https://github.com/siimon/prom-client",
+    "name": "client_js",
+    "owner": "prometheus",
+    "url": "https://github.com/prometheus/client_js",
     "description": "Prometheus client for node.js",
     "language": "JavaScript",
     "stars": 3442,
@@ -22687,19 +21072,6 @@
     "updatedAt": "2026-05-03T14:27:17Z",
     "category": "Infrastructure & Systems",
     "subcategory": "DevOps & Cloud"
-  },
-  {
-    "id": 31662782,
-    "name": "node-nxlog",
-    "owner": "avz",
-    "url": "https://github.com/avz/node-nxlog",
-    "description": "Yet another stderr logger for Node",
-    "language": "JavaScript",
-    "stars": 1,
-    "topics": [],
-    "updatedAt": "2021-12-31T04:43:06Z",
-    "category": "Libraries & Utilities",
-    "subcategory": "CLI & Logging"
   },
   {
     "id": 17578592,
@@ -22823,28 +21195,6 @@
     "updatedAt": "2026-05-03T01:27:32Z",
     "category": "Web Development",
     "subcategory": "CMS & Content"
-  },
-  {
-    "id": 13073056,
-    "name": "rainloop-webmail",
-    "owner": "RainLoop",
-    "url": "https://github.com/RainLoop/rainloop-webmail",
-    "description": "Simple, modern & fast web-based email client",
-    "language": "PHP",
-    "stars": 4129,
-    "topics": [
-      "imap",
-      "javascript",
-      "js",
-      "mail",
-      "php",
-      "rainloop",
-      "smtp",
-      "webmail"
-    ],
-    "updatedAt": "2026-05-03T00:29:10Z",
-    "category": "Standalone Tools & Apps",
-    "subcategory": "User Applications"
   },
   {
     "id": 4224042,
@@ -23016,9 +21366,9 @@
   },
   {
     "id": 192925833,
-    "name": "prisma",
+    "name": "orm",
     "owner": "prisma",
-    "url": "https://github.com/prisma/prisma",
+    "url": "https://github.com/prisma/orm",
     "description": "Next-generation ORM for Node.js & TypeScript | PostgreSQL, MySQL, MariaDB, SQL Server, SQLite, MongoDB and CockroachDB",
     "language": "TypeScript",
     "stars": 45875,
@@ -23453,42 +21803,6 @@
     "subcategory": "UI Components"
   },
   {
-    "id": 26817153,
-    "name": "jstransformer-scss",
-    "owner": "jstransformers",
-    "url": "https://github.com/jstransformers/jstransformer-scss",
-    "description": "SCSS support for JSTransformers.",
-    "language": "JavaScript",
-    "stars": 4,
-    "topics": [],
-    "updatedAt": "2022-08-09T15:02:12Z",
-    "category": "Languages & Engineering",
-    "subcategory": "Compilers & Tooling"
-  },
-  {
-    "id": 26820697,
-    "name": "jstransformer",
-    "owner": "jstransformers",
-    "url": "https://github.com/jstransformers/jstransformer",
-    "description": "Normalize the API of any JSTransformer.",
-    "language": "JavaScript",
-    "stars": 153,
-    "topics": [
-      "asynchronously",
-      "consolidate",
-      "engine",
-      "javascript",
-      "jstransformer",
-      "promise",
-      "templates",
-      "transform",
-      "unified"
-    ],
-    "updatedAt": "2026-02-01T13:50:54Z",
-    "category": "Web Development",
-    "subcategory": "CMS & Content"
-  },
-  {
     "id": 60961783,
     "name": "json-rust",
     "owner": "maciejhirsz",
@@ -23616,8 +21930,8 @@
   {
     "id": 114833639,
     "name": "react-native-chart-kit",
-    "owner": "indiespirit",
-    "url": "https://github.com/indiespirit/react-native-chart-kit",
+    "owner": "chart-kit",
+    "url": "https://github.com/chart-kit/react-native-chart-kit",
     "description": "📊React Native Chart Kit: Line Chart, Bezier Line Chart, Progress Ring, Bar chart, Pie chart, Contribution graph (heatmap)",
     "language": "TypeScript",
     "stars": 3086,
@@ -23632,19 +21946,6 @@
     "updatedAt": "2026-05-03T08:11:04Z",
     "category": "Graphics & Visualization",
     "subcategory": "Charts & Diagrams"
-  },
-  {
-    "id": 1979533,
-    "name": "node-xml2json",
-    "owner": "buglabs",
-    "url": "https://github.com/buglabs/node-xml2json",
-    "description": "Converts XML to JSON using node-expat",
-    "language": "JavaScript",
-    "stars": 810,
-    "topics": [],
-    "updatedAt": "2026-02-16T11:42:58Z",
-    "category": "Libraries & Utilities",
-    "subcategory": "Documents & Data Formats"
   },
   {
     "id": 18997270,
@@ -23690,8 +21991,8 @@
   {
     "id": 4664482,
     "name": "markdown-css-themes",
-    "owner": "jasonm23",
-    "url": "https://github.com/jasonm23/markdown-css-themes",
+    "owner": "ocodo",
+    "url": "https://github.com/ocodo/markdown-css-themes",
     "description": "A collection of css themes for Markdown",
     "language": "CSS",
     "stars": 941,
@@ -23777,19 +22078,6 @@
     "subcategory": "CLI & Logging"
   },
   {
-    "id": 66097348,
-    "name": "runes",
-    "owner": "dotcypress",
-    "url": "https://github.com/dotcypress/runes",
-    "description": "✂️  Unicode-aware JS string splitting",
-    "language": "JavaScript",
-    "stars": 240,
-    "topics": [],
-    "updatedAt": "2026-03-13T07:29:50Z",
-    "category": "Libraries & Utilities",
-    "subcategory": "Core Utilities"
-  },
-  {
     "id": 10105419,
     "name": "currency.js",
     "owner": "scurker",
@@ -23820,19 +22108,6 @@
     "updatedAt": "2026-05-01T15:40:00Z",
     "category": "Web Development",
     "subcategory": "CMS & Content"
-  },
-  {
-    "id": 18308864,
-    "name": "express-react-views",
-    "owner": "reactjs",
-    "url": "https://github.com/reactjs/express-react-views",
-    "description": "This is an Express view engine which renders React components on server. It renders static markup and *does not* support mounting those views on the client.",
-    "language": "JavaScript",
-    "stars": 2717,
-    "topics": [],
-    "updatedAt": "2026-04-26T14:46:42Z",
-    "category": "Web Development",
-    "subcategory": "React Ecosystem"
   },
   {
     "id": 106891753,
@@ -24074,24 +22349,6 @@
     "subcategory": "CLI & Logging"
   },
   {
-    "id": 1200050,
-    "name": "phantomjs",
-    "owner": "ariya",
-    "url": "https://github.com/ariya/phantomjs",
-    "description": "Scriptable Headless Browser",
-    "language": "C++",
-    "stars": 29477,
-    "topics": [
-      "automation",
-      "headless",
-      "headless-browser",
-      "phantomjs"
-    ],
-    "updatedAt": "2026-05-03T09:46:53Z",
-    "category": "Standalone Tools & Apps",
-    "subcategory": "Developer Tools"
-  },
-  {
     "id": 90373772,
     "name": "md-to-pdf",
     "owner": "simonhaenisch",
@@ -24115,74 +22372,6 @@
     "updatedAt": "2026-05-03T10:00:58Z",
     "category": "Libraries & Utilities",
     "subcategory": "Documents & Data Formats"
-  },
-  {
-    "id": 6756046,
-    "name": "scissors",
-    "owner": "tcr",
-    "url": "https://github.com/tcr/scissors",
-    "description": "PDF manipulation in Node.js! Split, join, crop, read, extract, boil, mash, stick them in a stew. ",
-    "language": "JavaScript",
-    "stars": 288,
-    "topics": [],
-    "updatedAt": "2026-02-23T11:17:18Z",
-    "category": "Libraries & Utilities",
-    "subcategory": "Documents & Data Formats"
-  },
-  {
-    "id": 14859402,
-    "name": "requireg",
-    "owner": "h2non",
-    "url": "https://github.com/h2non/requireg",
-    "description": "Resolve and require local & global modules in node.js like a boss",
-    "language": "JavaScript",
-    "stars": 45,
-    "topics": [
-      "global",
-      "import",
-      "modules",
-      "node",
-      "path",
-      "require",
-      "resolve"
-    ],
-    "updatedAt": "2023-03-17T14:35:18Z",
-    "category": "Libraries & Utilities",
-    "subcategory": "Core Utilities"
-  },
-  {
-    "id": 3413500,
-    "name": "inflect",
-    "owner": "pksunkara",
-    "url": "https://github.com/pksunkara/inflect",
-    "description": "custom inflections for nodejs",
-    "language": "JavaScript",
-    "stars": 225,
-    "topics": [
-      "camelize",
-      "inflection",
-      "inflector",
-      "javascript",
-      "nodejs",
-      "pluralize",
-      "singularize"
-    ],
-    "updatedAt": "2026-03-17T07:53:12Z",
-    "category": "Libraries & Utilities",
-    "subcategory": "Core Utilities"
-  },
-  {
-    "id": 441854,
-    "name": "markdown-js",
-    "owner": "evilstreak",
-    "url": "https://github.com/evilstreak/markdown-js",
-    "description": "A Markdown parser for javascript",
-    "language": "JavaScript",
-    "stars": 7679,
-    "topics": [],
-    "updatedAt": "2026-04-30T05:40:19Z",
-    "category": "Web Development",
-    "subcategory": "CMS & Content"
   },
   {
     "id": 256611814,
@@ -24233,19 +22422,6 @@
     "updatedAt": "2026-04-30T21:57:43Z",
     "category": "Web Development",
     "subcategory": "CMS & Content"
-  },
-  {
-    "id": 9305860,
-    "name": "crypto-js",
-    "owner": "brix",
-    "url": "https://github.com/brix/crypto-js",
-    "description": "JavaScript library of crypto standards.",
-    "language": "JavaScript",
-    "stars": 16391,
-    "topics": [],
-    "updatedAt": "2026-05-03T03:53:46Z",
-    "category": "Infrastructure & Systems",
-    "subcategory": "Security"
   },
   {
     "id": 32921736,
@@ -24398,23 +22574,6 @@
     "subcategory": "DevOps & Cloud"
   },
   {
-    "id": 5263633,
-    "name": "sweet-core",
-    "owner": "sweet-js",
-    "url": "https://github.com/sweet-js/sweet-core",
-    "description": "Sweeten your JavaScript.",
-    "language": "JavaScript",
-    "stars": 4561,
-    "topics": [
-      "javascript",
-      "macros",
-      "parser"
-    ],
-    "updatedAt": "2026-05-01T20:07:16Z",
-    "category": "Languages & Engineering",
-    "subcategory": "Compilers & Tooling"
-  },
-  {
     "id": 14363379,
     "name": "web",
     "owner": "FFmpeg",
@@ -24426,19 +22585,6 @@
     "updatedAt": "2026-05-02T23:18:09Z",
     "category": "Standalone Tools & Apps",
     "subcategory": "Multimedia"
-  },
-  {
-    "id": 1367055,
-    "name": "node-sqlite3",
-    "owner": "TryGhost",
-    "url": "https://github.com/TryGhost/node-sqlite3",
-    "description": "SQLite3 bindings for Node.js",
-    "language": "PLpgSQL",
-    "stars": 6420,
-    "topics": [],
-    "updatedAt": "2026-05-02T12:51:48Z",
-    "category": "Infrastructure & Systems",
-    "subcategory": "Databases & Storage"
   },
   {
     "id": 7904864,
@@ -24655,41 +22801,6 @@
     "subcategory": "Maps & Geo"
   },
   {
-    "id": 119696417,
-    "name": "node-chartjs",
-    "owner": "jacktuck",
-    "url": "https://github.com/jacktuck/node-chartjs",
-    "description": "Chart.js on the server in Node.js",
-    "language": "JavaScript",
-    "stars": 25,
-    "topics": [
-      "canvas",
-      "chartjs",
-      "chartsjs",
-      "nodejs",
-      "serverside"
-    ],
-    "updatedAt": "2023-05-12T19:10:28Z",
-    "category": "Graphics & Visualization",
-    "subcategory": "Charts & Diagrams"
-  },
-  {
-    "id": 69470208,
-    "name": "chartjs-node",
-    "owner": "vmpowerio",
-    "url": "https://github.com/vmpowerio/chartjs-node",
-    "description": "Create Chart.js Charts Server-side",
-    "language": "JavaScript",
-    "stars": 226,
-    "topics": [
-      "chartjs",
-      "chartjs-node"
-    ],
-    "updatedAt": "2025-08-14T17:40:23Z",
-    "category": "Graphics & Visualization",
-    "subcategory": "Charts & Diagrams"
-  },
-  {
     "id": 478584,
     "name": "jsdom",
     "owner": "jsdom",
@@ -24861,19 +22972,6 @@
     "subcategory": "Media Processing"
   },
   {
-    "id": 276480664,
-    "name": "nextjs-chartjs",
-    "owner": "hadnazzar",
-    "url": "https://github.com/hadnazzar/nextjs-chartjs",
-    "description": "Usage of chartjs in next.js",
-    "language": "JavaScript",
-    "stars": 38,
-    "topics": [],
-    "updatedAt": "2025-02-24T16:29:50Z",
-    "category": "Graphics & Visualization",
-    "subcategory": "Charts & Diagrams"
-  },
-  {
     "id": 58237167,
     "name": "react-chartjs-2",
     "owner": "reactchartjs",
@@ -25005,19 +23103,6 @@
     "updatedAt": "2026-03-12T09:28:10Z",
     "category": "AI, LLMs & Data",
     "subcategory": "Machine Learning"
-  },
-  {
-    "id": 16871752,
-    "name": "plotly-nodejs",
-    "owner": "plotly",
-    "url": "https://github.com/plotly/plotly-nodejs",
-    "description": "node.js wrapper for Plotly's Chart Studio Streaming and REST APIs",
-    "language": "JavaScript",
-    "stars": 168,
-    "topics": [],
-    "updatedAt": "2026-01-30T09:55:37Z",
-    "category": "Graphics & Visualization",
-    "subcategory": "Charts & Diagrams"
   },
   {
     "id": 142177378,
@@ -25726,19 +23811,6 @@
     "subcategory": "Backend & APIs"
   },
   {
-    "id": 15167762,
-    "name": "measurement",
-    "owner": "jfelsinger",
-    "url": "https://github.com/jfelsinger/measurement",
-    "description": "A flexible library for handling unit conversions",
-    "language": "TypeScript",
-    "stars": 3,
-    "topics": [],
-    "updatedAt": "2022-03-14T20:10:27Z",
-    "category": "Libraries & Utilities",
-    "subcategory": "Core Utilities"
-  },
-  {
     "id": 14483693,
     "name": "convert-units",
     "owner": "convert-units",
@@ -25774,19 +23846,6 @@
     "updatedAt": "2026-05-03T01:04:34Z",
     "category": "Graphics & Visualization",
     "subcategory": "Charts & Diagrams"
-  },
-  {
-    "id": 192461512,
-    "name": "gradient-descent-js",
-    "owner": "Cereceres",
-    "url": "https://github.com/Cereceres/gradient-descent-js",
-    "description": "Gradient descent",
-    "language": "JavaScript",
-    "stars": 1,
-    "topics": [],
-    "updatedAt": "2021-03-26T15:08:37Z",
-    "category": "AI, LLMs & Data",
-    "subcategory": "Machine Learning"
   },
   {
     "id": 69495170,
@@ -25960,19 +24019,6 @@
     "stars": 9211,
     "topics": [],
     "updatedAt": "2026-05-02T12:51:55Z",
-    "category": "Libraries & Utilities",
-    "subcategory": "Core Utilities"
-  },
-  {
-    "id": 164889100,
-    "name": "bthreads",
-    "owner": "chjj",
-    "url": "https://github.com/chjj/bthreads",
-    "description": "worker threads for javascript",
-    "language": "JavaScript",
-    "stars": 48,
-    "topics": [],
-    "updatedAt": "2023-12-07T13:15:10Z",
     "category": "Libraries & Utilities",
     "subcategory": "Core Utilities"
   },
@@ -26194,19 +24240,6 @@
     "subcategory": "Design & Fun"
   },
   {
-    "id": 30508719,
-    "name": "timetravel",
-    "owner": "pbock",
-    "url": "https://github.com/pbock/timetravel",
-    "description": "A tiny module that simulates time in JavaScript.",
-    "language": "JavaScript",
-    "stars": 2,
-    "topics": [],
-    "updatedAt": "2024-10-28T13:14:57Z",
-    "category": "Libraries & Utilities",
-    "subcategory": "Core Utilities"
-  },
-  {
     "id": 175855667,
     "name": "construct-js",
     "owner": "francisrstokes",
@@ -26296,46 +24329,6 @@
     "updatedAt": "2026-05-03T09:23:43Z",
     "category": "AI, LLMs & Data",
     "subcategory": "Machine Learning"
-  },
-  {
-    "id": 17618901,
-    "name": "Tone.js",
-    "owner": "Tonejs",
-    "url": "https://github.com/Tonejs/Tone.js",
-    "description": "A Web Audio framework for making interactive music in the browser.",
-    "language": "TypeScript",
-    "stars": 14620,
-    "topics": [
-      "javascript",
-      "music",
-      "samples",
-      "scheduling",
-      "synthesis",
-      "tone",
-      "web-audio"
-    ],
-    "updatedAt": "2026-05-02T22:49:24Z",
-    "category": "Libraries & Utilities",
-    "subcategory": "Media Processing"
-  },
-  {
-    "id": 202082065,
-    "name": "vector",
-    "owner": "vector-js",
-    "url": "https://github.com/vector-js/vector",
-    "description": "A javascript library for creating interactive graphics.",
-    "language": "JavaScript",
-    "stars": 199,
-    "topics": [
-      "animation",
-      "interactive",
-      "vector",
-      "vector-graphics",
-      "visualization"
-    ],
-    "updatedAt": "2026-02-09T23:37:50Z",
-    "category": "Graphics & Visualization",
-    "subcategory": "2D & Creative Coding"
   },
   {
     "id": 28671602,
@@ -26604,46 +24597,6 @@
     "subcategory": "Science & Algorithms"
   },
   {
-    "id": 12670444,
-    "name": "bluebird",
-    "owner": "petkaantonov",
-    "url": "https://github.com/petkaantonov/bluebird",
-    "description": ":bird: :zap: Bluebird is a full featured promise library with unmatched performance.",
-    "language": "JavaScript",
-    "stars": 20567,
-    "topics": [],
-    "updatedAt": "2026-05-02T21:56:42Z",
-    "category": "Libraries & Utilities",
-    "subcategory": "Core Utilities"
-  },
-  {
-    "id": 92423638,
-    "name": "js-graph-algorithms",
-    "owner": "chen0040",
-    "url": "https://github.com/chen0040/js-graph-algorithms",
-    "description": "Package provides javascript implementation of algorithms for graph processing",
-    "language": "JavaScript",
-    "stars": 154,
-    "topics": [
-      "bellman-ford-algorithm",
-      "breadth-first-search",
-      "connected-components",
-      "depth-first-search",
-      "dijkstra",
-      "dijkstra-shortest-path",
-      "kruskal-algorithm",
-      "maxflow",
-      "mincut",
-      "minimum-spanning-trees",
-      "prim-algorithm",
-      "strongly-connected-components",
-      "topological-sort"
-    ],
-    "updatedAt": "2026-04-10T19:11:00Z",
-    "category": "AI, LLMs & Data",
-    "subcategory": "Science & Algorithms"
-  },
-  {
     "id": 790359,
     "name": "sequelize",
     "owner": "sequelize",
@@ -26884,19 +24837,6 @@
     "subcategory": "Game Development"
   },
   {
-    "id": 27306839,
-    "name": "littlebrain",
-    "owner": "anthonyray",
-    "url": "https://github.com/anthonyray/littlebrain",
-    "description": "Multi-layer Neural Network in Javascript",
-    "language": "JavaScript",
-    "stars": 16,
-    "topics": [],
-    "updatedAt": "2023-05-07T18:06:29Z",
-    "category": "AI, LLMs & Data",
-    "subcategory": "Machine Learning"
-  },
-  {
     "id": 132305133,
     "name": "odata-sequelize",
     "owner": "Vicnovais",
@@ -27008,24 +24948,6 @@
     "stars": 1252,
     "topics": [],
     "updatedAt": "2026-04-30T03:54:56Z",
-    "category": "Languages & Engineering",
-    "subcategory": "Compilers & Tooling"
-  },
-  {
-    "id": 65233633,
-    "name": "pkg",
-    "owner": "vercel",
-    "url": "https://github.com/vercel/pkg",
-    "description": "Package your Node.js project into an executable",
-    "language": "JavaScript",
-    "stars": 24380,
-    "topics": [
-      "binaries",
-      "cli",
-      "compiler",
-      "nodejs"
-    ],
-    "updatedAt": "2026-05-03T13:47:36Z",
     "category": "Languages & Engineering",
     "subcategory": "Compilers & Tooling"
   },
@@ -27145,8 +25067,8 @@
   {
     "id": null,
     "name": "nanoclaw",
-    "owner": "qwibitai",
-    "url": "https://github.com/qwibitai/nanoclaw",
+    "owner": "nanocoai",
+    "url": "https://github.com/nanocoai/nanoclaw",
     "description": "A lightweight alternative to OpenClaw that runs in containers for security",
     "language": "TypeScript",
     "stars": 28577,
@@ -27388,8 +25310,8 @@
   {
     "id": 425837195,
     "name": "sourcegit",
-    "owner": "sourcegit-scm",
-    "url": "https://github.com/sourcegit-scm/sourcegit",
+    "owner": "sourcegit-org",
+    "url": "https://github.com/sourcegit-org/sourcegit",
     "description": "Windows/macOS/Linux GUI client for GIT users",
     "language": "C#",
     "stars": 5185,
@@ -27584,24 +25506,6 @@
     "updatedAt": "2026-05-17T19:31:59Z",
     "category": "AI, LLMs & Data",
     "subcategory": "Agents"
-  },
-  {
-    "id": 113593494,
-    "name": "node-audiorecorder",
-    "owner": "RedKenrok",
-    "url": "https://github.com/RedKenrok/node-audiorecorder",
-    "description": "Audio recorder for Node.js, delivers a 16-bit signed-integer linear pulse modulation WAV stream.",
-    "language": "JavaScript",
-    "stars": 103,
-    "topics": [
-      "arecord",
-      "audio-recording",
-      "rec",
-      "sox"
-    ],
-    "updatedAt": "2025-12-09T13:08:19Z",
-    "category": "Libraries & Utilities",
-    "subcategory": "Media Processing"
   },
   {
     "id": 109113211,
@@ -29777,9 +27681,9 @@
   },
   {
     "id": 1080370450,
-    "name": "superset",
-    "owner": "superset-sh",
-    "url": "https://github.com/superset-sh/superset",
+    "name": "Paradev",
+    "owner": "ParadevAI",
+    "url": "https://github.com/ParadevAI/Paradev",
     "description": "Superset is an agentic IDE to orchestrate 100+ coding agents in parallel. Run any agent with your own subscription.",
     "language": "TypeScript",
     "stars": 14673,
