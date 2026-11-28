@@ -384,7 +384,6 @@
       "sheetjs",
       "node-csv",
       "fast-xml-parser",
-      "json-2-csv",
       "poppler"
     ]
   },
@@ -574,7 +573,7 @@
   {
     "category": "Web Development",
     "subcategory": "UI Components",
-    "covers": "Visual UI components in any framework (React, Vue, Svelte, Solid, React Native, web components or vanilla JS): component libraries, design systems, UI kits, copy-paste component collections, headless UI components, individual widgets such as modals, sheets, carousels, date pickers, data grids, tabs, rich text editors, code editors, math input, drag and drop, node-based editors, search UI widgets, admin UI templates.",
+    "covers": "Visual UI components in any framework (React, Vue, Svelte, Solid, React Native, web components or vanilla JS): component libraries, design systems, UI kits, copy-paste component collections, headless UI components, individual widgets such as modals, sheets, carousels, date pickers, data grids, tabs, rich text editors, code editors, math input, drag and drop, node-based editors, search UI widgets.",
     "not_for": "React libraries without their own visual components such as hooks, state, forms and data fetching (React Ecosystem). Full frameworks and CSS frameworks (Frontend Frameworks). Charts (Charts & Diagrams). Icons and fonts (Design & Fun).",
     "examples": [
       "ui",
@@ -593,7 +592,7 @@
   {
     "category": "Web Development",
     "subcategory": "React Ecosystem",
-    "covers": "React and React Native libraries that are not visual UI components: hooks, state management, data fetching, forms and validation for React, routing, React renderers (PDF, SVG, 3D, terminal), React Native styling and tooling, React animation, head management, i18n for React, React admin frameworks, React-only CSS-in-JS.",
+    "covers": "React and React Native libraries that are not visual UI components: hooks, state management, data fetching, forms and validation for React, routing, React renderers (PDF, SVG, 3D, terminal), React Native styling and tooling, React animation, head management, i18n for React, React-only CSS-in-JS.",
     "not_for": "Visual component libraries and widgets, even React ones (UI Components). React itself and React meta-frameworks (Frontend Frameworks).",
     "examples": [
       "zustand",
@@ -602,9 +601,7 @@
       "formik",
       "react-spring",
       "nativewind",
-      "styled-components",
-      "react-admin",
-      "refine"
+      "styled-components"
     ]
   },
   {

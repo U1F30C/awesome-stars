@@ -1,8 +1,8 @@
 # awesome-stars
 
-A curated static site of 1,346 open-source repositories, organized by category. Repos can come from anywhere (GitHub, GitLab, SourceForge…); most started as GitHub stars. This repo is now the stars list itself: repos are added and removed here.
+A curated static site of 1,290 open-source repositories, organized by category. Repos can come from anywhere (GitHub, GitLab, SourceForge…); most started as GitHub stars. This repo is now the stars list itself: repos are added and removed here.
 
-**29M+ total stars · 58 languages · 8 categories · 38 subcategories**
+**29M+ total stars · 57 languages · 8 categories · 38 subcategories**
 
 Built with Astro + Tailwind. `data/classified_final.json` is the single source of truth — the site reads it directly at build time, no generation step.
 
@@ -12,14 +12,14 @@ Built with Astro + Tailwind. `data/classified_final.json` is the single source o
 
 | Category | Repos | What's in it |
 |----------|-------|--------------|
-| AI, LLMs & Data | 325 | Agents, agent skills, LLMs, speech AI, ML, data engineering, science & algorithms |
-| Infrastructure & Systems | 247 | Databases, DevOps, networking, OS & runtimes, security |
-| Web Development | 197 | Frontend frameworks, UI components, React ecosystem, backend, CMS |
-| Standalone Tools & Apps | 208 | Developer tools, terminals, writing & notes, user apps, multimedia, games |
-| Libraries & Utilities | 116 | Core utilities, documents & data formats, media, CLI & logging, scraping |
+| AI, LLMs & Data | 323 | Agents, agent skills, LLMs, speech AI, ML, data engineering, science & algorithms |
+| Infrastructure & Systems | 237 | Databases, DevOps, networking, OS & runtimes, security |
+| Web Development | 175 | Frontend frameworks, UI components, React ecosystem, backend, CMS |
+| Standalone Tools & Apps | 203 | Developer tools, terminals, writing & notes, user apps, multimedia, games |
+| Libraries & Utilities | 100 | Core utilities, documents & data formats, media, CLI & logging, scraping |
 | Knowledge & Inspiration | 103 | Awesome lists, guides, design, history |
 | Languages & Engineering | 81 | Compilers & tooling, electronics & IoT |
-| Graphics & Visualization | 69 | Charts & diagrams, 2D, 3D & GPU, maps |
+| Graphics & Visualization | 68 | Charts & diagrams, 2D, 3D & GPU, maps |
 
 Full table: [data/classification_final.md](data/classification_final.md)
 
@@ -66,6 +66,8 @@ Being listed means a repo is still worth finding. The deciding question is **wha
 - **Something you'd depend on** (a library, tool or service) has to earn its place by being usable today. If it's stale and something else does the job, it goes. Heavy downloads or many stars don't save it.
 - **Something interesting in itself** (an idea, technique, experiment, puzzle solution, artwork, toy, joke, hobby OS or piece of history) stays. Age, size and low stars don't matter, because there's nothing to replace.
 
+For libraries and components there's a second question in the AI era: **would you install it, or ask an agent to write just the part you need?** If a package does one narrow job with little hidden difficulty, it isn't worth listing, even if it's maintained. Code with hard-won edge cases stays, because AI can write it but checking it is real work: security, parsing, standards, numerics, concurrency, browser quirks and maintained data.
+
 When a small repo could be either, ask what someone gets from reading it. If there's something to learn or enjoy, keep it. If it's only plumbing, a boilerplate example or one more stale list, it can go. The tables below apply this question.
 
 **No personal repos.** This is a list of other people's work worth finding. Personal projects, such as coursework or games made with friends, aren't added, and any that slip in are deleted outright without an archive record.
@@ -93,7 +95,10 @@ The categories are defined in **[`data/taxonomy.json`](data/taxonomy.json)**. Ea
 | The language, runtime or platform now covers most of what a small library did. This applies to bigger libraries too | `bthreads`, `bluebird`, `ts-node` |
 | Another tool or approach took its place | `bower`, `next-pwa` |
 | It's a tiny, niche **and** stale dependency or plumbing, such as a small utility, plugin, usage example or tutorial repo | `ascii-table`, `terminal-game-io`, `nextjs-chartjs` |
+| It's a thin dependency an agent can write on demand: a single component, helper or wrapper | `json-viewer`, `react-tabs`, `p-lazy`, `md-to-pdf` |
+| It belongs to a category whose era has passed, such as admin panel and internal-tool builders | `adminjs`, `react-admin`, `appsmith` |
 | It was part of a hype wave that didn't last, or an early LLM-era project that went quiet | `JARVIS`, `dalai`, `gpt4all` |
+| It's built to be used against other people, such as flooding or ready-made phishing kits, whatever its disclaimer says. Security testing tools and genuinely educational demos stay (`metasploit`, `sqlmap`, `maskphish`) | `Impulse`, `CyberPhish` |
 | It shipped malicious code, or the link is dead and the project isn't worth chasing | `gpt-pilot`, `Blank-Grabber` |
 
 Nothing is removed automatically: propose removals for review first. To restore a repo, move it back and drop its `archive` field.
@@ -105,10 +110,10 @@ Nothing is removed automatically: propose removals for review first. To restore 
 - **Interesting in itself**, however small or old: algorithm and signal-processing experiments (`DeadReckoning`, `HoughRectangle`, `noise_reduction`), puzzle solutions and language exercises (`cheryls-birthday-prolog`, `id3-prolog`), visual and creative code (`hashicon`, `Mosaic-Visual-Hash`, `FlowerJS`, `musicode`), toys and jokes (`favicon-dino-game`, `thanos-js`), hobby systems and niche domains (`IsolatedOS`, `libsathelper`), and classics (`node-elizabot`, `password-store`).
 - **Historical and reference projects**, even when archived or unmaintained: `atom`, `reddit`, `bert`, `DALL-E`, `llama`, `DeepSpeech`, `neofetch`, `mozilla/TTS`, `ml5`, `face-api.js`, `node-opencv`, `opencv4nodejs`, `three-rs/three`.
 - **Markers of a period**, even from a hype wave: `babyagi`, `gpt-engineer`.
-- **Small but not irrelevant.** Few stars aren't enough: maintained small libraries such as `valid-filename` or `url-join` stay.
+- **Small but not irrelevant.** Few stars aren't enough on their own to remove something. Small libraries with edge cases or data worth trusting stay (`p-limit`, `async-mutex`, `convert-units`, `node-webvtt`), as do the earlier keeps `valid-filename`, `url-join`, `js-levenshtein` and `string-similarity-js`.
 - **Still the practical choice**, even with a partial native alternative: `nodemon`, `dotenv`.
 - **Too early to judge.** The "claw" agent variants and `AutoGPT` stay.
-- **Owner's picks.** The owner's call beats every rule above: `TinyJS`, `TinyAnimate`, `js13k-2021`, `AllAlgorithms/brainfuck`, `jailbreaking-experiments`, `continue`, `chatterbox`, `DeepSeek-LLM`, `Clone-Wars`, `brain.js`, `theatre`.
+- **Owner's picks.** The owner's call beats every rule above: `TinyJS`, `TinyAnimate`, `js13k-2021`, `AllAlgorithms/brainfuck`, `jailbreaking-experiments`, `continue`, `chatterbox`, `DeepSeek-LLM`, `Clone-Wars`, `brain.js`, `theatre`, `randomColor`, `random`, `kalman`.
 
 ### Archive
 
@@ -131,8 +136,9 @@ Removed repos move from `classified_final.json` to **[`data/archive.json`](data/
 | `superseded` | Another tool or approach took its place |
 | `unmaintained` | No longer maintained |
 | `faded` | Its moment passed |
-| `too-minor` | Too small or niche to list |
+| `too-minor` | Too small, niche or thin to list |
 | `moved` | The old address of a repo that moved. The project may still be listed under its new one |
+| `abuse` | Built to be used against other people |
 | `malware` | Shipped or contained malicious code |
 | `unavailable` | The link no longer resolves |
 

@@ -1668,36 +1668,6 @@
     "subcategory": "Machine Learning"
   },
   {
-    "id": 21871245,
-    "name": "react-tabs",
-    "owner": "reactjs",
-    "url": "https://github.com/reactjs/react-tabs",
-    "description": "An accessible and easy tab component for ReactJS.",
-    "language": "JavaScript",
-    "stars": 3147,
-    "topics": [],
-    "updatedAt": "2026-05-01T22:29:41Z",
-    "category": "Web Development",
-    "subcategory": "UI Components"
-  },
-  {
-    "id": 246398697,
-    "name": "whatpwacando.today",
-    "owner": "DannyMoerkerke",
-    "url": "https://github.com/DannyMoerkerke/whatpwacando.today",
-    "description": "Repo to collect bugs for https://whatpwacando.today/",
-    "language": null,
-    "stars": 685,
-    "topics": [
-      "javascript",
-      "progressive-web-app",
-      "pwa"
-    ],
-    "updatedAt": "2026-05-02T04:34:34Z",
-    "category": "Web Development",
-    "subcategory": "Frontend Frameworks"
-  },
-  {
     "id": 318341089,
     "name": "lexical",
     "owner": "meta",
@@ -2354,30 +2324,6 @@
     "subcategory": "LLMs & GenAI"
   },
   {
-    "id": 76130102,
-    "name": "iohook",
-    "owner": "wilix-team",
-    "url": "https://github.com/wilix-team/iohook",
-    "description": "Node.js global keyboard and mouse listener.",
-    "language": "C",
-    "stars": 1266,
-    "topics": [
-      "electron",
-      "hacktoberfest",
-      "iohook",
-      "keyboard-listeners",
-      "linux",
-      "macos",
-      "mouse-listener",
-      "nodejs",
-      "nwjs",
-      "windows"
-    ],
-    "updatedAt": "2026-04-20T16:36:03Z",
-    "category": "Libraries & Utilities",
-    "subcategory": "Misc Utilities"
-  },
-  {
     "id": 16299156,
     "name": "gray-matter",
     "owner": "jonschlinkert",
@@ -2407,26 +2353,6 @@
       "yaml"
     ],
     "updatedAt": "2026-05-03T05:03:20Z",
-    "category": "Web Development",
-    "subcategory": "CMS & Content"
-  },
-  {
-    "id": 75551963,
-    "name": "markdown-yaml-metadata-parser",
-    "owner": "ilterra",
-    "url": "https://github.com/ilterra/markdown-yaml-metadata-parser",
-    "description": "Parse YAML metadata (front matter) in a markdown document",
-    "language": "JavaScript",
-    "stars": 37,
-    "topics": [
-      "frontmatter",
-      "javascript",
-      "markdown",
-      "metadata",
-      "parser",
-      "yaml"
-    ],
-    "updatedAt": "2025-08-25T06:11:54Z",
     "category": "Web Development",
     "subcategory": "CMS & Content"
   },
@@ -2507,33 +2433,6 @@
     "updatedAt": "2026-05-03T21:35:07Z",
     "category": "AI, LLMs & Data",
     "subcategory": "Speech & Audio AI"
-  },
-  {
-    "id": 132737562,
-    "name": "react-media-recorder",
-    "owner": "DeltaCircuit",
-    "url": "https://github.com/DeltaCircuit/react-media-recorder",
-    "description": "react-media-recorder is a react component with render prop that can be used to record audio/video streams using MediaRecorder API.",
-    "language": "TypeScript",
-    "stars": 590,
-    "topics": [
-      "audio-recorder",
-      "getdisplaymedia",
-      "getusermedia",
-      "media-recording",
-      "mediarecorder",
-      "react",
-      "record-audio",
-      "record-video",
-      "recorder",
-      "screen-recorder",
-      "video-recorder",
-      "video-recording",
-      "voice-recording"
-    ],
-    "updatedAt": "2026-04-13T16:51:36Z",
-    "category": "Web Development",
-    "subcategory": "React Ecosystem"
   },
   {
     "id": 871373324,
@@ -2802,25 +2701,6 @@
     "subcategory": "UI Components"
   },
   {
-    "id": 628117132,
-    "name": "ZeQLplus",
-    "owner": "ZetloStudio",
-    "url": "https://github.com/ZetloStudio/ZeQLplus",
-    "description": "Open Source Terminal SQLite Database Browser",
-    "language": "V",
-    "stars": 339,
-    "topics": [
-      "database-gui",
-      "sqlite",
-      "terminal",
-      "v",
-      "vlang"
-    ],
-    "updatedAt": "2026-03-06T21:02:31Z",
-    "category": "Infrastructure & Systems",
-    "subcategory": "Databases & Storage"
-  },
-  {
     "id": 87294724,
     "name": "zed-sdk",
     "owner": "stereolabs",
@@ -2864,33 +2744,6 @@
     "updatedAt": "2026-05-03T20:51:42Z",
     "category": "AI, LLMs & Data",
     "subcategory": "Speech & Audio AI"
-  },
-  {
-    "id": 112163978,
-    "name": "react-loader-spinner",
-    "owner": "mhnpd",
-    "url": "https://github.com/mhnpd/react-loader-spinner",
-    "description": "Collection sets of a spinners for async operations for ReactJS",
-    "language": "TypeScript",
-    "stars": 1035,
-    "topics": [
-      "loader",
-      "react",
-      "react-component",
-      "react-spinners",
-      "spinner",
-      "spinner-animations",
-      "spinner-components",
-      "spinner-hint",
-      "spinner-icon",
-      "spinners",
-      "spinners-react",
-      "svg-loader",
-      "svg-spinner"
-    ],
-    "updatedAt": "2026-04-30T07:18:20Z",
-    "category": "Web Development",
-    "subcategory": "UI Components"
   },
   {
     "id": 97627474,
@@ -3176,19 +3029,6 @@
     "updatedAt": "2026-05-03T19:37:21Z",
     "category": "Languages & Engineering",
     "subcategory": "Compilers & Tooling"
-  },
-  {
-    "id": 887503379,
-    "name": "openauth",
-    "owner": "anomalyco",
-    "url": "https://github.com/anomalyco/openauth",
-    "description": "▦ Universal, standards-based auth provider.",
-    "language": "TypeScript",
-    "stars": 6911,
-    "topics": [],
-    "updatedAt": "2026-05-03T19:06:47Z",
-    "category": "Infrastructure & Systems",
-    "subcategory": "Security"
   },
   {
     "id": 581656211,
@@ -4201,74 +4041,6 @@
     "subcategory": "Educational & Awesome"
   },
   {
-    "id": 442083308,
-    "name": "CyberPhish",
-    "owner": "Cyber-Dioxide",
-    "url": "https://github.com/Cyber-Dioxide/CyberPhish",
-    "description": "A heavily armed customizable phishing tool for educational purpose only",
-    "language": "Python",
-    "stars": 716,
-    "topics": [
-      "bugbounty",
-      "bugbounty-python",
-      "cyber",
-      "cyber-dioxide",
-      "cyberd",
-      "github-hacking",
-      "hack",
-      "hacker",
-      "hacking",
-      "hacking-toolkit",
-      "hak-python",
-      "kali-linux",
-      "kali-linux-hacking",
-      "phish",
-      "phishing-sites",
-      "python",
-      "python-ethical-hacking",
-      "python-ha",
-      "python-hack",
-      "termux-tools"
-    ],
-    "updatedAt": "2026-03-30T01:55:09Z",
-    "category": "Infrastructure & Systems",
-    "subcategory": "Security"
-  },
-  {
-    "id": 237292237,
-    "name": "Impulse",
-    "owner": "LimerBoy",
-    "url": "https://github.com/LimerBoy/Impulse",
-    "description": ":bomb: Impulse Denial-of-service ToolKit",
-    "language": "Python",
-    "stars": 2787,
-    "topics": [
-      "attack",
-      "calls",
-      "ddos",
-      "email-bomber",
-      "flood",
-      "hacking",
-      "hacking-tool",
-      "kali-linux",
-      "kali-linux-hacking",
-      "kali-nethunter",
-      "kali-scripts",
-      "sip-killer",
-      "sms",
-      "sms-bomber",
-      "sms-flooder",
-      "social-engeneering",
-      "social-engeneering-toolkit",
-      "tcp",
-      "termux",
-      "udp"
-    ],
-    "updatedAt": "2026-05-03T18:53:12Z",
-    "category": "Infrastructure & Systems",
-    "subcategory": "Security"
-  },
-  {
     "id": 283567650,
     "name": "maskphish",
     "owner": "jaykali",
@@ -4959,29 +4731,6 @@
     "subcategory": "Educational & Awesome"
   },
   {
-    "id": 816210374,
-    "name": "nativecn",
-    "owner": "unisol1020",
-    "url": "https://github.com/unisol1020/nativecn",
-    "description": "Universal shadcn/ui for React Native",
-    "language": "TypeScript",
-    "stars": 107,
-    "topics": [
-      "expo",
-      "nativecn",
-      "nativewind",
-      "radix-ui",
-      "react-native",
-      "shadcn",
-      "shadcn-ui",
-      "tailwindcss",
-      "ui"
-    ],
-    "updatedAt": "2026-04-05T07:58:01Z",
-    "category": "Web Development",
-    "subcategory": "UI Components"
-  },
-  {
     "id": 634938527,
     "name": "chatgpt-cli",
     "owner": "kardolus",
@@ -5290,21 +5039,6 @@
     "subcategory": "UI Components"
   },
   {
-    "id": 493896235,
-    "name": "react-sheet-slide",
-    "owner": "woofers",
-    "url": "https://github.com/woofers/react-sheet-slide",
-    "description": "🏞️ 🎢 🛝 A responsive React draggable sheet and dialog component ",
-    "language": "TypeScript",
-    "stars": 53,
-    "topics": [
-      "react"
-    ],
-    "updatedAt": "2026-02-19T18:55:11Z",
-    "category": "Web Development",
-    "subcategory": "UI Components"
-  },
-  {
     "id": 1111874,
     "name": "node-crawler",
     "owner": "bda-research",
@@ -5467,26 +5201,6 @@
     "subcategory": "Educational & Awesome"
   },
   {
-    "id": 620552483,
-    "name": "awesome-llm-json",
-    "owner": "imaurer",
-    "url": "https://github.com/imaurer/awesome-llm-json",
-    "description": "Resource list for generating JSON using LLMs via function calling, tools, CFG. Libraries, Models, Notebooks, etc.",
-    "language": null,
-    "stars": 2173,
-    "topics": [
-      "awesome-list",
-      "function-calling",
-      "gpt-actions",
-      "large-language-models",
-      "llm",
-      "structured-generation"
-    ],
-    "updatedAt": "2026-04-22T13:34:08Z",
-    "category": "Knowledge & Inspiration",
-    "subcategory": "Educational & Awesome"
-  },
-  {
     "id": 612781022,
     "name": "cursor",
     "owner": "cursor",
@@ -5614,22 +5328,6 @@
     "updatedAt": "2026-05-02T09:39:47Z",
     "category": "Infrastructure & Systems",
     "subcategory": "Databases & Storage"
-  },
-  {
-    "id": 313690922,
-    "name": "next-s3-upload",
-    "owner": "ryanto",
-    "url": "https://github.com/ryanto/next-s3-upload",
-    "description": "Upload files from your Next.js app to S3",
-    "language": "JavaScript",
-    "stars": 595,
-    "topics": [
-      "nextjs",
-      "s3"
-    ],
-    "updatedAt": "2026-04-29T22:59:58Z",
-    "category": "Web Development",
-    "subcategory": "Backend & APIs"
   },
   {
     "id": 445599288,
@@ -6224,19 +5922,6 @@
     "subcategory": "OS & Runtimes"
   },
   {
-    "id": 663504281,
-    "name": "jaqt",
-    "owner": "muze-nl",
-    "url": "https://github.com/muze-nl/jaqt",
-    "description": "GraphQL-style Array.select() and Array.where() for javascript",
-    "language": "JavaScript",
-    "stars": 259,
-    "topics": [],
-    "updatedAt": "2026-04-22T08:49:54Z",
-    "category": "Libraries & Utilities",
-    "subcategory": "Core Utilities"
-  },
-  {
     "id": 853134447,
     "name": "TinyJS",
     "owner": "victorqribeiro",
@@ -6271,26 +5956,6 @@
       "pkm"
     ],
     "updatedAt": "2026-05-03T20:34:17Z",
-    "category": "Standalone Tools & Apps",
-    "subcategory": "Writing & Notes"
-  },
-  {
-    "id": 35017238,
-    "name": "codimd",
-    "owner": "hackmdio",
-    "url": "https://github.com/hackmdio/codimd",
-    "description": "CodiMD - Realtime collaborative markdown notes on all platforms.",
-    "language": "JavaScript",
-    "stars": 10054,
-    "topics": [
-      "codimd",
-      "collaboration",
-      "hackmd",
-      "markdown",
-      "notes",
-      "realtime"
-    ],
-    "updatedAt": "2026-05-03T19:44:33Z",
     "category": "Standalone Tools & Apps",
     "subcategory": "Writing & Notes"
   },
@@ -6437,26 +6102,6 @@
     "updatedAt": "2026-05-03T20:59:32Z",
     "category": "Languages & Engineering",
     "subcategory": "Compilers & Tooling"
-  },
-  {
-    "id": 32018674,
-    "name": "UpUp",
-    "owner": "TalAter",
-    "url": "https://github.com/TalAter/UpUp",
-    "description": "✈️ Easily create sites that work offline as well as online",
-    "language": "JavaScript",
-    "stars": 4922,
-    "topics": [
-      "hacktoberfest",
-      "offline",
-      "offline-first",
-      "progressive-web-app",
-      "pwa",
-      "service-worker"
-    ],
-    "updatedAt": "2026-04-29T20:29:18Z",
-    "category": "Web Development",
-    "subcategory": "Frontend Frameworks"
   },
   {
     "id": 334909828,
@@ -6790,33 +6435,6 @@
     "updatedAt": "2026-05-03T21:29:25Z",
     "category": "Languages & Engineering",
     "subcategory": "Compilers & Tooling"
-  },
-  {
-    "id": 526497574,
-    "name": "django-unfold",
-    "owner": "unfoldadmin",
-    "url": "https://github.com/unfoldadmin/django-unfold",
-    "description": "Modern Django Admin",
-    "language": "Python",
-    "stars": 3436,
-    "topics": [
-      "admin",
-      "alpinejs",
-      "darkmode",
-      "dashboard",
-      "django",
-      "filters",
-      "htmx",
-      "python",
-      "responsive",
-      "tailwindcss",
-      "theme",
-      "ui",
-      "wysiwyg"
-    ],
-    "updatedAt": "2026-05-03T08:05:57Z",
-    "category": "Web Development",
-    "subcategory": "UI Components"
   },
   {
     "id": 165565988,
@@ -7721,29 +7339,6 @@
     "subcategory": "Data Engineering"
   },
   {
-    "id": 713376647,
-    "name": "next-shadcn-dashboard-starter",
-    "owner": "Kiranism",
-    "url": "https://github.com/Kiranism/next-shadcn-dashboard-starter",
-    "description": "Open source admin dashboard starter built with Next.js 16, shadcn/ui, Tailwind CSS, and TypeScript.",
-    "language": "TypeScript",
-    "stars": 6360,
-    "topics": [
-      "admin-dashboard",
-      "dashboard-template",
-      "nextjs",
-      "nextjs-admin",
-      "nextjs-dashboard",
-      "nextjs-starter",
-      "shadcn-admin",
-      "shadcn-ui",
-      "tailwindcss"
-    ],
-    "updatedAt": "2026-05-03T20:11:18Z",
-    "category": "Knowledge & Inspiration",
-    "subcategory": "Educational & Awesome"
-  },
-  {
     "id": 438331492,
     "name": "javascript",
     "owner": "clerk",
@@ -7980,24 +7575,6 @@
     "subcategory": "Data Engineering"
   },
   {
-    "id": 266633597,
-    "name": "react-js-cron",
-    "owner": "xrutayisire",
-    "url": "https://github.com/xrutayisire/react-js-cron",
-    "description": "A React cron editor built with antd",
-    "language": "TypeScript",
-    "stars": 281,
-    "topics": [
-      "antd",
-      "cron",
-      "react",
-      "scheduler"
-    ],
-    "updatedAt": "2026-04-15T09:38:41Z",
-    "category": "Web Development",
-    "subcategory": "UI Components"
-  },
-  {
     "id": 4979467,
     "name": "prism",
     "owner": "PrismJS",
@@ -8099,25 +7676,6 @@
     "updatedAt": "2026-05-03T00:07:43Z",
     "category": "Knowledge & Inspiration",
     "subcategory": "Educational & Awesome"
-  },
-  {
-    "id": 50623416,
-    "name": "parse-dashboard",
-    "owner": "parse-community",
-    "url": "https://github.com/parse-community/parse-dashboard",
-    "description": "A dashboard for managing Parse Server",
-    "language": "JavaScript",
-    "stars": 3812,
-    "topics": [
-      "dashboard",
-      "graphql",
-      "hacktoberfest",
-      "parse-platform",
-      "parse-server"
-    ],
-    "updatedAt": "2026-05-01T03:43:06Z",
-    "category": "Web Development",
-    "subcategory": "Backend & APIs"
   },
   {
     "id": 327089870,
@@ -9024,38 +8582,6 @@
     "subcategory": "Developer Tools"
   },
   {
-    "id": 85344269,
-    "name": "reactour",
-    "owner": "elrumordelaluz",
-    "url": "https://github.com/elrumordelaluz/reactour",
-    "description": "Tourist Guide into your React Components",
-    "language": "TypeScript",
-    "stars": 4075,
-    "topics": [
-      "getting-started",
-      "guide",
-      "guided-tours",
-      "hacktoberfest",
-      "intro",
-      "introduction",
-      "joyride",
-      "onboarding",
-      "presentation",
-      "product-intro",
-      "product-onboarding",
-      "react",
-      "react-components",
-      "reactjs",
-      "step-by-step",
-      "tour",
-      "tourist-guide",
-      "walkthrough"
-    ],
-    "updatedAt": "2026-05-03T08:51:48Z",
-    "category": "Web Development",
-    "subcategory": "UI Components"
-  },
-  {
     "id": 394089041,
     "name": "spiceai",
     "owner": "spiceai",
@@ -9099,40 +8625,6 @@
     "updatedAt": "2026-05-03T21:24:50Z",
     "category": "AI, LLMs & Data",
     "subcategory": "Agents"
-  },
-  {
-    "id": 331293626,
-    "name": "refine",
-    "owner": "refinedev",
-    "url": "https://github.com/refinedev/refine",
-    "description": "A React Framework for building  internal tools, admin panels, dashboards & B2B apps with unmatched flexibility.",
-    "language": "TypeScript",
-    "stars": 34586,
-    "topics": [
-      "admin",
-      "admin-ui",
-      "ant-design",
-      "crud",
-      "developer-tools",
-      "frontend-framework",
-      "good-first-issue",
-      "graphql",
-      "hacktoberfest",
-      "headless",
-      "internal-tools",
-      "javascript",
-      "low-code",
-      "nestjs",
-      "nextjs",
-      "open-source-project",
-      "react",
-      "react-framework",
-      "react-hooks",
-      "typescript"
-    ],
-    "updatedAt": "2026-05-03T17:02:50Z",
-    "category": "Web Development",
-    "subcategory": "React Ecosystem"
   },
   {
     "id": 757391957,
@@ -9356,33 +8848,6 @@
     "subcategory": "OS & Runtimes"
   },
   {
-    "id": 493635721,
-    "name": "Broprint.js",
-    "owner": "Rajesh-Royal",
-    "url": "https://github.com/Rajesh-Royal/Broprint.js",
-    "description": "The world's easiest, smallest and powerful visitor identifier for browsers.",
-    "language": "TypeScript",
-    "stars": 594,
-    "topics": [
-      "audio-fingerprinting",
-      "browserfingerprint",
-      "canvas-fingerprinting",
-      "cryptography",
-      "fingerprinting",
-      "frauddetection",
-      "identification",
-      "javascript",
-      "jsfingerprint",
-      "reactjs",
-      "typescript",
-      "uniquebrowserid",
-      "visitor-identifier"
-    ],
-    "updatedAt": "2026-05-02T01:11:16Z",
-    "category": "Infrastructure & Systems",
-    "subcategory": "Security"
-  },
-  {
     "id": 74627617,
     "name": "openpilot",
     "owner": "commaai",
@@ -9420,27 +8885,6 @@
     "updatedAt": "2026-05-03T20:24:36Z",
     "category": "Web Development",
     "subcategory": "UI Components"
-  },
-  {
-    "id": 310983037,
-    "name": "browser-signature",
-    "owner": "successtar",
-    "url": "https://github.com/successtar/browser-signature",
-    "description": "Browser unique signature (Fingerprint) generator. The package allow you to identify user online using their browser unique properties to generate ID",
-    "language": "JavaScript",
-    "stars": 33,
-    "topics": [
-      "browser-fingerprint",
-      "fingerprint",
-      "fraud-detection",
-      "identification",
-      "javascript",
-      "npm",
-      "signature"
-    ],
-    "updatedAt": "2025-08-29T13:47:55Z",
-    "category": "Infrastructure & Systems",
-    "subcategory": "Security"
   },
   {
     "id": 3320710,
@@ -9656,8 +9100,8 @@
       "game"
     ],
     "updatedAt": "2025-03-01T03:40:21Z",
-    "category": "Standalone Tools & Apps",
-    "subcategory": "Game Development"
+    "category": "Knowledge & Inspiration",
+    "subcategory": "Inspiration & Historical"
   },
   {
     "id": 315446786,
@@ -10517,29 +9961,6 @@
     "subcategory": "Science & Algorithms"
   },
   {
-    "id": 523772558,
-    "name": "json-viewer",
-    "owner": "TexteaInc",
-    "url": "https://github.com/TexteaInc/json-viewer",
-    "description": "not only a JSON viewer",
-    "language": "TypeScript",
-    "stars": 523,
-    "topics": [
-      "data-editor",
-      "data-viewer",
-      "json-editor",
-      "json-viewer",
-      "react",
-      "reactjs",
-      "tree-editor",
-      "tree-viewer",
-      "typescript"
-    ],
-    "updatedAt": "2026-04-13T17:51:12Z",
-    "category": "Web Development",
-    "subcategory": "UI Components"
-  },
-  {
     "id": 14747598,
     "name": "json-server",
     "owner": "typicode",
@@ -10749,22 +10170,6 @@
     "updatedAt": "2026-02-16T02:57:11Z",
     "category": "Knowledge & Inspiration",
     "subcategory": "Design & Fun"
-  },
-  {
-    "id": 75115688,
-    "name": "workflow-es",
-    "owner": "danielgerlag",
-    "url": "https://github.com/danielgerlag/workflow-es",
-    "description": "Workflow / durable task library for Node.js (or modern browsers)",
-    "language": "TypeScript",
-    "stars": 217,
-    "topics": [
-      "workflow",
-      "workflow-engine"
-    ],
-    "updatedAt": "2026-04-25T09:16:56Z",
-    "category": "Libraries & Utilities",
-    "subcategory": "Core Utilities"
   },
   {
     "id": 20093416,
@@ -11365,19 +10770,6 @@
     "subcategory": "Networking & P2P"
   },
   {
-    "id": 20251698,
-    "name": "express-http-proxy",
-    "owner": "villadora",
-    "url": "https://github.com/villadora/express-http-proxy",
-    "description": "Proxy middleware for express/connect",
-    "language": "JavaScript",
-    "stars": 1252,
-    "topics": [],
-    "updatedAt": "2026-04-15T13:04:40Z",
-    "category": "Infrastructure & Systems",
-    "subcategory": "Networking & P2P"
-  },
-  {
     "id": 924551,
     "name": "rabbitmq-server",
     "owner": "rabbitmq",
@@ -11673,23 +11065,6 @@
     "subcategory": "Security"
   },
   {
-    "id": 396007124,
-    "name": "react-json-form",
-    "owner": "bhch",
-    "url": "https://github.com/bhch/react-json-form",
-    "description": "JSON editing made easy using form inputs.",
-    "language": "JavaScript",
-    "stars": 101,
-    "topics": [
-      "json-schema-form",
-      "jsonform",
-      "react"
-    ],
-    "updatedAt": "2025-07-16T09:33:41Z",
-    "category": "Web Development",
-    "subcategory": "React Ecosystem"
-  },
-  {
     "id": 1103607,
     "name": "jenkins",
     "owner": "jenkinsci",
@@ -11770,32 +11145,6 @@
     "updatedAt": "2026-05-03T00:39:09Z",
     "category": "AI, LLMs & Data",
     "subcategory": "LLMs & GenAI"
-  },
-  {
-    "id": 63226588,
-    "name": "react-admin",
-    "owner": "marmelab",
-    "url": "https://github.com/marmelab/react-admin",
-    "description": "A frontend Framework for single-page applications on top of REST/GraphQL APIs, using TypeScript, React and Material Design",
-    "language": "TypeScript",
-    "stars": 26673,
-    "topics": [
-      "admin",
-      "admin-dashboard",
-      "admin-on-rest",
-      "admin-ui",
-      "frontend-framework",
-      "graphql",
-      "material-ui",
-      "react",
-      "react-admin",
-      "reactjs",
-      "rest",
-      "single-page-app"
-    ],
-    "updatedAt": "2026-05-03T08:41:27Z",
-    "category": "Web Development",
-    "subcategory": "React Ecosystem"
   },
   {
     "id": 186575075,
@@ -12098,19 +11447,6 @@
     "updatedAt": "2026-05-03T13:48:11Z",
     "category": "AI, LLMs & Data",
     "subcategory": "Agents"
-  },
-  {
-    "id": 148883215,
-    "name": "express-ipfilter",
-    "owner": "jetersen",
-    "url": "https://github.com/jetersen/express-ipfilter",
-    "description": "A light-weight IP address based connection filtering system",
-    "language": "JavaScript",
-    "stars": 67,
-    "topics": [],
-    "updatedAt": "2026-03-10T15:13:07Z",
-    "category": "Web Development",
-    "subcategory": "Backend & APIs"
   },
   {
     "id": 133028914,
@@ -12482,19 +11818,6 @@
     "subcategory": "Educational & Awesome"
   },
   {
-    "id": 603049672,
-    "name": "Awesome-LLM",
-    "owner": "Hannibal046",
-    "url": "https://github.com/Hannibal046/Awesome-LLM",
-    "description": "Awesome-LLM: a curated list of Large Language Model",
-    "language": null,
-    "stars": 26723,
-    "topics": [],
-    "updatedAt": "2026-05-03T15:18:49Z",
-    "category": "Knowledge & Inspiration",
-    "subcategory": "Educational & Awesome"
-  },
-  {
     "id": 649745283,
     "name": "SpQR",
     "owner": "Vahe1994",
@@ -12635,24 +11958,6 @@
     "updatedAt": "2026-04-22T16:56:18Z",
     "category": "Graphics & Visualization",
     "subcategory": "Maps & Geo"
-  },
-  {
-    "id": 209895143,
-    "name": "keras-ocr",
-    "owner": "faustomorales",
-    "url": "https://github.com/faustomorales/keras-ocr",
-    "description": "A packaged and flexible version of the CRAFT text detector and Keras CRNN recognition model.",
-    "language": "Python",
-    "stars": 1473,
-    "topics": [
-      "keras",
-      "keras-crnn",
-      "ocr",
-      "text-detection"
-    ],
-    "updatedAt": "2026-05-01T14:32:02Z",
-    "category": "AI, LLMs & Data",
-    "subcategory": "Machine Learning"
   },
   {
     "id": 64079945,
@@ -13775,40 +13080,6 @@
     "subcategory": "Machine Learning"
   },
   {
-    "id": 275993885,
-    "name": "appsmith",
-    "owner": "appsmithorg",
-    "url": "https://github.com/appsmithorg/appsmith",
-    "description": "Platform to build admin panels, internal tools, and dashboards. Integrates with 25+ databases and any API.",
-    "language": "TypeScript",
-    "stars": 39725,
-    "topics": [
-      "admin-dashboard",
-      "admin-panels",
-      "app-builder",
-      "automation",
-      "crud",
-      "custom-internal",
-      "developer-tools",
-      "gui",
-      "gui-application",
-      "hacktoberfest",
-      "internal-tools",
-      "java",
-      "javascript",
-      "low-code",
-      "low-code-framework",
-      "react",
-      "self-hosted",
-      "typescript",
-      "webdevelopment",
-      "workflows"
-    ],
-    "updatedAt": "2026-05-03T20:53:29Z",
-    "category": "Standalone Tools & Apps",
-    "subcategory": "User Applications"
-  },
-  {
     "id": 634244448,
     "name": "zep",
     "owner": "getzep",
@@ -14075,26 +13346,6 @@
       "supergraph"
     ],
     "updatedAt": "2026-05-01T19:07:17Z",
-    "category": "Web Development",
-    "subcategory": "Backend & APIs"
-  },
-  {
-    "id": 68319821,
-    "name": "join-monster",
-    "owner": "join-monster",
-    "url": "https://github.com/join-monster/join-monster",
-    "description": "A GraphQL to SQL query execution layer for query planning and batch data fetching.",
-    "language": "JavaScript",
-    "stars": 2701,
-    "topics": [
-      "graphql",
-      "graphql-js",
-      "join",
-      "nodejs",
-      "sql",
-      "sql-query"
-    ],
-    "updatedAt": "2026-04-19T10:40:03Z",
     "category": "Web Development",
     "subcategory": "Backend & APIs"
   },
@@ -15825,25 +15076,6 @@
     "subcategory": "CMS & Content"
   },
   {
-    "id": 158882433,
-    "name": "adminjs",
-    "owner": "SoftwareBrothers",
-    "url": "https://github.com/SoftwareBrothers/adminjs",
-    "description": "AdminJS is an admin panel for apps written in node.js",
-    "language": "TypeScript",
-    "stars": 8933,
-    "topics": [
-      "admin",
-      "admin-dashboard",
-      "admin-panel",
-      "mongodb",
-      "nodejs"
-    ],
-    "updatedAt": "2026-05-01T08:08:39Z",
-    "category": "Web Development",
-    "subcategory": "UI Components"
-  },
-  {
     "id": 389899003,
     "name": "pidgin",
     "owner": "pidgin",
@@ -16015,22 +15247,6 @@
     "updatedAt": "2026-05-03T21:42:41Z",
     "category": "AI, LLMs & Data",
     "subcategory": "LLMs & GenAI"
-  },
-  {
-    "id": 184062388,
-    "name": "netscape-bookmark-tree",
-    "owner": "zmyjs",
-    "url": "https://github.com/zmyjs/netscape-bookmark-tree",
-    "description": "Parse the NETSCAPE-Bookmark-file-1 format bookmarks exported by the browser, convert it into a tree structure, and also convert the tree structure back to bookmarks.",
-    "language": "HTML",
-    "stars": 18,
-    "topics": [
-      "bookmark",
-      "javascript"
-    ],
-    "updatedAt": "2026-01-12T09:26:38Z",
-    "category": "Libraries & Utilities",
-    "subcategory": "Documents & Data Formats"
   },
   {
     "id": 634081686,
@@ -16641,36 +15857,6 @@
     "subcategory": "Databases & Storage"
   },
   {
-    "id": 26548630,
-    "name": "trie-search",
-    "owner": "joshjung",
-    "url": "https://github.com/joshjung/trie-search",
-    "description": "A trie implementation that maps keys to objects. Most common use will be for typeahead searches.",
-    "language": "TypeScript",
-    "stars": 201,
-    "topics": [],
-    "updatedAt": "2026-04-10T19:10:17Z",
-    "category": "AI, LLMs & Data",
-    "subcategory": "Science & Algorithms"
-  },
-  {
-    "id": 234206522,
-    "name": "pdf-text-reader",
-    "owner": "electrovir",
-    "url": "https://github.com/electrovir/pdf-text-reader",
-    "description": "Dead simple pdf text reader",
-    "language": "TypeScript",
-    "stars": 44,
-    "topics": [
-      "npm",
-      "pdf",
-      "pdf-reader"
-    ],
-    "updatedAt": "2026-01-19T14:19:23Z",
-    "category": "Libraries & Utilities",
-    "subcategory": "Documents & Data Formats"
-  },
-  {
     "id": 9631509,
     "name": "gitfiti",
     "owner": "gelstudios",
@@ -16691,19 +15877,6 @@
     "updatedAt": "2026-05-01T19:06:40Z",
     "category": "Knowledge & Inspiration",
     "subcategory": "Design & Fun"
-  },
-  {
-    "id": 29228227,
-    "name": "filename-reserved-regex",
-    "owner": "sindresorhus",
-    "url": "https://github.com/sindresorhus/filename-reserved-regex",
-    "description": "Regular expression for matching reserved filename characters",
-    "language": "JavaScript",
-    "stars": 53,
-    "topics": [],
-    "updatedAt": "2026-02-07T06:27:47Z",
-    "category": "Libraries & Utilities",
-    "subcategory": "Core Utilities"
   },
   {
     "id": 38607895,
@@ -17018,38 +16191,6 @@
     "subcategory": "Developer Tools"
   },
   {
-    "id": 123142926,
-    "name": "react-archer",
-    "owner": "pierpo",
-    "url": "https://github.com/pierpo/react-archer",
-    "description": "🏹 Draw arrows between React elements 🖋",
-    "language": "TypeScript",
-    "stars": 1281,
-    "topics": [
-      "arrow",
-      "arrows",
-      "dom",
-      "draw-arrows",
-      "react"
-    ],
-    "updatedAt": "2026-04-30T06:23:05Z",
-    "category": "Web Development",
-    "subcategory": "UI Components"
-  },
-  {
-    "id": 252982277,
-    "name": "react-xarrows",
-    "owner": "Eliav2",
-    "url": "https://github.com/Eliav2/react-xarrows",
-    "description": "Draw arrows (or lines) between components in React!",
-    "language": "TypeScript",
-    "stars": 606,
-    "topics": [],
-    "updatedAt": "2026-05-02T04:37:39Z",
-    "category": "Web Development",
-    "subcategory": "UI Components"
-  },
-  {
     "id": 24349832,
     "name": "yup",
     "owner": "jquense",
@@ -17091,19 +16232,6 @@
     "updatedAt": "2026-03-29T18:44:04Z",
     "category": "Libraries & Utilities",
     "subcategory": "Core Utilities"
-  },
-  {
-    "id": 16623069,
-    "name": "pageres",
-    "owner": "sindresorhus",
-    "url": "https://github.com/sindresorhus/pageres",
-    "description": "Capture website screenshots",
-    "language": "TypeScript",
-    "stars": 9739,
-    "topics": [],
-    "updatedAt": "2026-05-01T06:34:25Z",
-    "category": "Libraries & Utilities",
-    "subcategory": "Media Processing"
   },
   {
     "id": 54173593,
@@ -17159,39 +16287,6 @@
     "updatedAt": "2026-05-03T12:44:48Z",
     "category": "Knowledge & Inspiration",
     "subcategory": "Design & Fun"
-  },
-  {
-    "id": 60438149,
-    "name": "short-uuid",
-    "owner": "oculus42",
-    "url": "https://github.com/oculus42/short-uuid",
-    "description": "Translate standard UUIDs into shorter formats and back.",
-    "language": "JavaScript",
-    "stars": 520,
-    "topics": [],
-    "updatedAt": "2026-04-16T07:23:47Z",
-    "category": "Libraries & Utilities",
-    "subcategory": "Core Utilities"
-  },
-  {
-    "id": 91221690,
-    "name": "short-unique-id",
-    "owner": "simplyhexagonal",
-    "url": "https://github.com/simplyhexagonal/short-unique-id",
-    "description": "Short Unique ID (UUID) generation library. Available in NPM.",
-    "language": "TypeScript",
-    "stars": 439,
-    "topics": [
-      "hacktoberfest",
-      "javascript",
-      "shortid",
-      "typescript",
-      "unique-id",
-      "uuid"
-    ],
-    "updatedAt": "2026-02-20T18:39:30Z",
-    "category": "Libraries & Utilities",
-    "subcategory": "Core Utilities"
   },
   {
     "id": 221981891,
@@ -17749,43 +16844,6 @@
     "subcategory": "Core Utilities"
   },
   {
-    "id": 14375002,
-    "name": "query-string",
-    "owner": "sindresorhus",
-    "url": "https://github.com/sindresorhus/query-string",
-    "description": "Parse and stringify URL query strings",
-    "language": "JavaScript",
-    "stars": 6903,
-    "topics": [
-      "npm-package",
-      "parse",
-      "query-string",
-      "stringify",
-      "url",
-      "urlsearchparams"
-    ],
-    "updatedAt": "2026-05-03T18:13:58Z",
-    "category": "Libraries & Utilities",
-    "subcategory": "Core Utilities"
-  },
-  {
-    "id": 81605799,
-    "name": "odata-query",
-    "owner": "techniq",
-    "url": "https://github.com/techniq/odata-query",
-    "description": "OData v4 query builder",
-    "language": "TypeScript",
-    "stars": 262,
-    "topics": [
-      "odata",
-      "query-builder",
-      "query-dsl"
-    ],
-    "updatedAt": "2026-03-12T10:30:40Z",
-    "category": "Infrastructure & Systems",
-    "subcategory": "Databases & Storage"
-  },
-  {
     "id": 94367677,
     "name": "formik",
     "owner": "jaredpalmer",
@@ -17820,25 +16878,6 @@
     "updatedAt": "2026-02-09T01:41:23Z",
     "category": "Standalone Tools & Apps",
     "subcategory": "Game Development"
-  },
-  {
-    "id": 1207300,
-    "name": "statsd",
-    "owner": "statsd",
-    "url": "https://github.com/statsd/statsd",
-    "description": "Daemon for easy but powerful stats aggregation",
-    "language": "JavaScript",
-    "stars": 18036,
-    "topics": [
-      "graphite",
-      "javascript",
-      "metrics",
-      "nodejs",
-      "statsd"
-    ],
-    "updatedAt": "2026-05-03T15:59:05Z",
-    "category": "Infrastructure & Systems",
-    "subcategory": "DevOps & Cloud"
   },
   {
     "id": 141720301,
@@ -17925,8 +16964,8 @@
     "stars": 18636,
     "topics": [],
     "updatedAt": "2026-05-03T18:36:02Z",
-    "category": "Standalone Tools & Apps",
-    "subcategory": "Game Development"
+    "category": "Knowledge & Inspiration",
+    "subcategory": "Inspiration & Historical"
   },
   {
     "id": 18408635,
@@ -19159,19 +18198,6 @@
     "subcategory": "Educational & Awesome"
   },
   {
-    "id": 216976307,
-    "name": "sound-play",
-    "owner": "nomadhoc",
-    "url": "https://github.com/nomadhoc/sound-play",
-    "description": "An native audio player for NodeJS.",
-    "language": "JavaScript",
-    "stars": 109,
-    "topics": [],
-    "updatedAt": "2025-11-28T06:42:20Z",
-    "category": "Libraries & Utilities",
-    "subcategory": "Media Processing"
-  },
-  {
     "id": 6362252,
     "name": "node-speaker",
     "owner": "TooTallNate",
@@ -19879,19 +18905,6 @@
     "subcategory": "Backend & APIs"
   },
   {
-    "id": 73060555,
-    "name": "p-lazy",
-    "owner": "sindresorhus",
-    "url": "https://github.com/sindresorhus/p-lazy",
-    "description": "Create a lazy promise that defers execution until it's awaited or when .then() or .catch() is called",
-    "language": "JavaScript",
-    "stars": 285,
-    "topics": [],
-    "updatedAt": "2026-04-23T11:51:22Z",
-    "category": "Libraries & Utilities",
-    "subcategory": "Core Utilities"
-  },
-  {
     "id": 56760633,
     "name": "apollo-server",
     "owner": "apollographql",
@@ -20381,30 +19394,6 @@
     "subcategory": "Charts & Diagrams"
   },
   {
-    "id": 18997270,
-    "name": "json-2-csv",
-    "owner": "mrodrig",
-    "url": "https://github.com/mrodrig/json-2-csv",
-    "description": "Convert JSON to CSV *or* CSV to JSON!",
-    "language": "TypeScript",
-    "stars": 459,
-    "topics": [
-      "cli",
-      "csv",
-      "csv2json",
-      "hacktoberfest",
-      "javascript",
-      "json",
-      "json2csv",
-      "node",
-      "node-module",
-      "rfc4180"
-    ],
-    "updatedAt": "2026-04-13T06:19:41Z",
-    "category": "Libraries & Utilities",
-    "subcategory": "Documents & Data Formats"
-  },
-  {
     "id": 4664482,
     "name": "markdown-css-themes",
     "owner": "ocodo",
@@ -20492,25 +19481,6 @@
     "updatedAt": "2026-05-03T13:46:22Z",
     "category": "Libraries & Utilities",
     "subcategory": "CLI & Logging"
-  },
-  {
-    "id": 10105419,
-    "name": "currency.js",
-    "owner": "scurker",
-    "url": "https://github.com/scurker/currency.js",
-    "description": "A javascript library for handling currencies",
-    "language": "JavaScript",
-    "stars": 3368,
-    "topics": [
-      "currency",
-      "currency-values",
-      "javascript",
-      "javascript-library",
-      "money"
-    ],
-    "updatedAt": "2026-04-27T19:51:43Z",
-    "category": "Libraries & Utilities",
-    "subcategory": "Core Utilities"
   },
   {
     "id": 734934,
@@ -20733,31 +19703,6 @@
     "updatedAt": "2026-05-01T06:39:13Z",
     "category": "Libraries & Utilities",
     "subcategory": "CLI & Logging"
-  },
-  {
-    "id": 90373772,
-    "name": "md-to-pdf",
-    "owner": "simonhaenisch",
-    "url": "https://github.com/simonhaenisch/md-to-pdf",
-    "description": "Hackable CLI tool for converting Markdown files to PDF using Node.js and headless Chrome.",
-    "language": "TypeScript",
-    "stars": 1785,
-    "topics": [
-      "assignments",
-      "cli",
-      "documentation",
-      "headless-chrome",
-      "homework",
-      "markdown",
-      "markdown-to-pdf",
-      "md",
-      "pdf",
-      "pdf-generation",
-      "puppeteer"
-    ],
-    "updatedAt": "2026-05-03T10:00:58Z",
-    "category": "Libraries & Utilities",
-    "subcategory": "Documents & Data Formats"
   },
   {
     "id": 256611814,
@@ -22144,23 +21089,6 @@
     "subcategory": "Core Utilities"
   },
   {
-    "id": 63279498,
-    "name": "d3-node",
-    "owner": "d3-node",
-    "url": "https://github.com/d3-node/d3-node",
-    "description": "Server-side D3 for static chart/map generation ✨📊",
-    "language": "JavaScript",
-    "stars": 684,
-    "topics": [
-      "d3",
-      "data-visualization",
-      "node"
-    ],
-    "updatedAt": "2026-05-03T01:04:34Z",
-    "category": "Graphics & Visualization",
-    "subcategory": "Charts & Diagrams"
-  },
-  {
     "id": 69495170,
     "name": "fastify",
     "owner": "fastify",
@@ -22252,19 +21180,6 @@
       "hacktoberfest"
     ],
     "updatedAt": "2026-05-03T08:43:16Z",
-    "category": "Libraries & Utilities",
-    "subcategory": "Core Utilities"
-  },
-  {
-    "id": 331120774,
-    "name": "toad-scheduler",
-    "owner": "kibertoad",
-    "url": "https://github.com/kibertoad/toad-scheduler",
-    "description": "In-memory Node.js and browser job scheduler",
-    "language": "TypeScript",
-    "stars": 608,
-    "topics": [],
-    "updatedAt": "2026-04-28T23:45:44Z",
     "category": "Libraries & Utilities",
     "subcategory": "Core Utilities"
   },
@@ -23058,25 +21973,8 @@
     "stars": 5745,
     "topics": [],
     "updatedAt": "2026-05-03T11:35:49Z",
-    "category": "Standalone Tools & Apps",
-    "subcategory": "Game Development"
-  },
-  {
-    "id": 132305133,
-    "name": "odata-sequelize",
-    "owner": "Vicnovais",
-    "url": "https://github.com/Vicnovais/odata-sequelize",
-    "description": "Parser library to transform an OData query string to a sequelize-compliant query",
-    "language": "JavaScript",
-    "stars": 29,
-    "topics": [
-      "odata",
-      "odata-sequelize",
-      "sequelize"
-    ],
-    "updatedAt": "2025-10-12T11:03:59Z",
-    "category": "Infrastructure & Systems",
-    "subcategory": "Databases & Storage"
+    "category": "Knowledge & Inspiration",
+    "subcategory": "Inspiration & Historical"
   },
   {
     "id": 11081405,
